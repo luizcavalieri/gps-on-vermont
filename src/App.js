@@ -1,25 +1,31 @@
 import React from 'react';
 import logo from './logo.svg';
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import './App.css';
+
+// styles for this kit
+import './assets/css/bootstrap.min.css';
+import './assets/scss/now-ui-kit.scss';
+import './assets/demo/demo.css';
+import './assets/demo/nucleo-icons-page-styles.css';
+
+// pages for this kit
+import Index from './views/Index'; 
+import LandingPage from './views/examples/LandingPage';
+import ContactUs from './views/examples/ContactUs';
+import ProfilePage from './views/examples/ProfilePage';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Switch>
+        <Route path="/" component={LandingPage} exact />
+        <Route path="/index" render={props => <Index {...props} />} />
+        <Route path='/landing-page' render={props => <LandingPage {...props} /> } />
+        <Route path='/contact-page' component={ContactUs} />
+        <Route path='/profile' component={ProfilePage} />
+      </Switch>
+    </Router>
   );
 }
 
