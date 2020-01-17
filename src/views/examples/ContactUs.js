@@ -1,14 +1,34 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState } from "react";
 
-import { Container, Row, Col } from "reactstrap";
+import {
+  Container,
+  Row,
+  Col,
+  Button,
+  Input,
+  InputGroupAddon,
+  InputGroupText,
+  InputGroup,
+  Card,
+  CardTitle,
+  CardSubtitle,
+  CardBody,
+  CardText,
+  CardGroup,
+  CardHeader,
+  ListGroup,
+  ListGroupItem
+} from "reactstrap";
 
-import NavbarWithoutScrolling from "../../components/NavBars/NavbarWithoutScrolling";
+import OtherNavbar from "../../components/NavBars/OtherNavbar";
 import OtherPageHeader from "../../components/Headers/OtherPageHeader";
 import DefaultFooter from "../../components/Footers/DefaultFooter.js";
 
 const ContactUs = () => {
   const [firstFocus, setFirstFocus] = React.useState(false);
   const [lastFocus, setLastFocus] = React.useState(false);
+
+  const contactMessage = "We'd love to hear from you!";
 
   useEffect(() => {
     document.body.classList.add("landing-page");
@@ -22,10 +42,10 @@ const ContactUs = () => {
 
   return (
     <>
-      <NavbarWithoutScrolling />
+      <OtherNavbar />
       <div className="wrapper">
-        <OtherPageHeader />
-        <div className="section section-about-us">
+        <OtherPageHeader message={contactMessage} />
+        {/* <div className="section section-about-us">
           <Container>
             <Row>
               <Col className="ml-auto mr-auto text-center" md="8">
@@ -110,6 +130,150 @@ const ContactUs = () => {
                 </Col>
               </Row>
             </div>
+          </Container>
+        </div> */}
+
+        <div className="section text-center">
+          <Container className="text-muted">
+            {/* <h2 className="title">Want to work with us?</h2> */}
+            {/* <p className="description">Your project is very important to us.</p> */}
+            <Row>
+              <Col className="text-center ml-auto mr-auto" lg="6" md="8">
+                <Card>
+                  <CardHeader >
+                    <h2 className="title">Come visit us</h2>
+                  </CardHeader>
+                  <CardBody className="boxDecorator-background">
+                    <CardTitle className="text-left boxDecorator-default">
+                      <Button
+                        className="btn-icon btn-round"
+                        color="info"
+                        href="#pablo"
+                        onClick={e => e.preventDefault()}
+                      >
+                        <i className="now-ui-icons location_pin"></i>
+                      </Button>
+                      <h3 className="boxDecorator-text ">Address</h3>
+                    </CardTitle>
+                    <CardText tag="h4" className=" btn-weight " >
+                      80 Vermont Street Wodonga VIC 3690
+                      <br></br>
+                      <br></br>
+                    </CardText>
+                  </CardBody>
+                </Card>
+              </Col>
+              <Col className="text-center ml-auto mr-auto" lg="6" md="8">
+                <Card>
+                  <CardHeader >
+                    <h2 className="title ">Booking</h2>
+                  </CardHeader>
+                  <CardBody className="boxDecorator-background">
+                    <CardTitle className="text-left boxDecorator-default">
+                      <Button
+                        className=" btn-icon btn-round "
+                        color="info"
+                        href="#pablo"
+                        onClick={e => e.preventDefault()}
+                      >
+                        <i className="now-ui-icons ui-1_calendar-60"></i>
+                      </Button>
+
+                      <h3 className="boxDecorator-text ">Schedule yours now</h3>
+                    </CardTitle>
+                    <div>
+                      <Button
+                        className="btn-font btn-weight"
+                        size="lg"
+                        color="primary"
+                        href="#pablo"
+                        onClick={e => e.preventDefault()}
+                      >
+                        Online Appointments
+                      </Button>
+                    </div>
+                  </CardBody>
+                </Card>
+              </Col>
+            </Row>
+
+            <Row>
+              <Col className="text-center ml-auto mr-auto" lg="6" md="8">
+                <Card>
+                  <CardHeader >
+                    <h2 className="title">Call us</h2>
+                  </CardHeader>
+                  <CardBody className="boxDecorator-background">
+                    <CardTitle className="text-left boxDecorator-default">
+                      <Button
+                        className="btn-icon btn-round"
+                        color="info"
+                        href="#pablo"
+                        onClick={e => e.preventDefault()}
+                      >
+                        <i class="fas fa-phone fa-icon-fix-center"></i>
+                      </Button>
+                      <h3 className="boxDecorator-text ">Lets Talk</h3>
+                    </CardTitle>
+
+                    <ListGroup flush>
+                      <ListGroupItem>
+                        <div className="btn-font btn-weight " >Call 02 60 56 ??????</div>
+                      </ListGroupItem>
+                      <ListGroupItem className="text-left btn-font ">
+                        <div>Press <b>1</b> for <b>Appointment</b> </div>
+                        <div>Press <b>2</b> for <b>Nurse</b> </div>
+                        <div>Press <b>3</b> for <b>Health Professionals</b> </div>
+                      </ListGroupItem>
+                      <br></br>
+                      <div>
+                        If our phones are busy, please leave a message and we
+                        will return your call
+                      </div>
+                    </ListGroup>
+                  </CardBody>
+                </Card>
+              </Col>
+
+              <Col className="text-center ml-auto mr-auto" lg="6" md="8">
+                <Card>
+                  <CardHeader >
+                    <h2 className="title">Drop us a line</h2>
+                  </CardHeader>
+                  <CardBody className="boxDecorator-background">
+                    <CardTitle className="text-left boxDecorator-default">
+                      <Button
+                        className="btn-icon btn-round"
+                        color="info"
+                        href="#pablo"
+                        onClick={e => e.preventDefault()}
+                      >
+                        <i className="now-ui-icons ui-1_email-85"></i>
+                      </Button>
+                      <h3 className="boxDecorator-text ">General Enquiries</h3>
+                    </CardTitle>
+
+                    <CardText>
+                      <br></br>
+                      <br></br>
+                      <a
+                      
+                        className="btn-font btn-weight "
+                        href="mailto: manager@gpsonvermont.com.au"
+                      >
+                        manager@gpsonvermont.com.au
+                      </a>
+                      <br></br>
+                      <br></br>
+                      <br></br>
+                      <br></br>
+                      <br></br>
+                      <br></br>
+                    </CardText>
+                  </CardBody>
+                </Card>
+              </Col>
+            </Row>
           </Container>
         </div>
       </div>

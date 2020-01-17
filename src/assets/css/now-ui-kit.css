@@ -4237,7 +4237,6 @@ img {
   .page-header.page-header-small {
     min-height: 60vh;
     max-height: 440px; }
-
   .page-header:before {
     background-color: rgba(0, 0, 0, 0.3); }
   .page-header > .container {
@@ -5953,6 +5952,10 @@ td.rdtYear:hover {
 
 .page-header.page-header-small {
   min-height: 60vh;
+  max-height: 640px; }
+
+.page-header.page-header-xsmall {
+  min-height: 20vh;
   max-height: 640px; }
 
 @media screen and (max-width: 991px) {

@@ -5,7 +5,9 @@ import { Button, Container } from "reactstrap";
 
 // core components
 
-function OtherPageHeader() {
+const OtherPageHeader = ({ message }) => {
+    
+
   let pageHeader = React.createRef();
 
   useEffect(() => {
@@ -21,7 +23,7 @@ function OtherPageHeader() {
       };
     }
   });
-  
+
   return (
     <>
       <div className="page-header page-header-xsmall">
@@ -34,7 +36,8 @@ function OtherPageHeader() {
         ></div>
         <div className="content-center">
           <Container>
-            <h1 className="title">This is our great company.</h1>
+        <h1 className="title">{message}</h1>
+{/*             
             <div className="text-center">
               <Button
                 className="btn-icon btn-round"
@@ -61,6 +64,7 @@ function OtherPageHeader() {
                 <i className="fab fa-google-plus"></i>
               </Button>
             </div>
+             */}
           </Container>
         </div>
       </div>

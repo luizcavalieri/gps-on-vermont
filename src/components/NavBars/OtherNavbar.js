@@ -16,7 +16,7 @@ import {
   UncontrolledTooltip
 } from "reactstrap";
 
-function NavbarWithoutScrolling() {
+function OtherNavbar() {
   const [navbarColor, setNavbarColor] = React.useState("navbar-transparent");
   const [collapseOpen, setCollapseOpen] = React.useState(false);
   React.useEffect(() => {
@@ -211,4 +211,4 @@ function NavbarWithoutScrolling() {
   );
 }
 
-export default NavbarWithoutScrolling;
+export default OtherNavbar;
