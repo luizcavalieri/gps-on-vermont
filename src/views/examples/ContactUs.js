@@ -138,38 +138,38 @@ const ContactUs = () => {
             {/* <h2 className="title">Want to work with us?</h2> */}
             {/* <p className="description">Your project is very important to us.</p> */}
             <Row>
-              <Col className="text-center ml-auto mr-auto" lg="6" md="8">
-                <Card>
-                  <CardHeader >
-                    <h2 className="title">Come visit us</h2>
-                  </CardHeader>
-                  <CardBody className="boxDecorator-background">
-                    <CardTitle className="text-left boxDecorator-default">
+              <Col lg="6" md="8">
+                <Card className="card-data">
+                  <CardHeader className="card-header">Come visit us</CardHeader>
+                  <CardBody className="card-body">
+                    <CardText className="card-title">
                       <Button
-                        className="btn-icon btn-round"
+                        className="btn-icon btn-round "
                         color="info"
                         href="#pablo"
                         onClick={e => e.preventDefault()}
                       >
                         <i className="now-ui-icons location_pin"></i>
                       </Button>
-                      <h3 className="boxDecorator-text ">Address</h3>
-                    </CardTitle>
-                    <CardText tag="h4" className=" btn-weight " >
-                      80 Vermont Street Wodonga VIC 3690
-                      <br></br>
-                      <br></br>
+                      <div className="text">Address</div>
                     </CardText>
+                    {/* <CardText className="content-bold">
+                      80 Vermont Street Wodonga VIC 3690
+                    </CardText> */}
+                    <div className="card-content">
+                      <div className="content-text">
+                        80 Vermont Street Wodonga VIC 3690
+                      </div>
+                    </div>
                   </CardBody>
                 </Card>
               </Col>
+
               <Col className="text-center ml-auto mr-auto" lg="6" md="8">
-                <Card>
-                  <CardHeader >
-                    <h2 className="title ">Booking</h2>
-                  </CardHeader>
-                  <CardBody className="boxDecorator-background">
-                    <CardTitle className="text-left boxDecorator-default">
+                <Card className="card-data">
+                  <CardHeader className="card-header">Booking</CardHeader>
+                  <CardBody className="card-body">
+                    <CardText className="card-title">
                       <Button
                         className=" btn-icon btn-round "
                         color="info"
@@ -179,9 +179,9 @@ const ContactUs = () => {
                         <i className="now-ui-icons ui-1_calendar-60"></i>
                       </Button>
 
-                      <h3 className="boxDecorator-text ">Schedule yours now</h3>
-                    </CardTitle>
-                    <div>
+                      <div className="text">Schedule yours now</div>
+                    </CardText>
+                    <div className="card-content">
                       <Button
                         className="btn-font btn-weight"
                         size="lg"
@@ -199,12 +199,10 @@ const ContactUs = () => {
 
             <Row>
               <Col className="text-center ml-auto mr-auto" lg="6" md="8">
-                <Card>
-                  <CardHeader >
-                    <h2 className="title">Call us</h2>
-                  </CardHeader>
-                  <CardBody className="boxDecorator-background">
-                    <CardTitle className="text-left boxDecorator-default">
+                <Card className="card-data">
+                  <CardHeader className="card-header">Call us</CardHeader>
+                  <CardBody className="card-body">
+                    <CardText className="card-title">
                       <Button
                         className="btn-icon btn-round"
                         color="info"
@@ -213,17 +211,25 @@ const ContactUs = () => {
                       >
                         <i class="fas fa-phone fa-icon-fix-center"></i>
                       </Button>
-                      <h3 className="boxDecorator-text ">Lets Talk</h3>
-                    </CardTitle>
+                      <div className="text ">Lets Talk</div>
+                    </CardText>
 
                     <ListGroup flush>
                       <ListGroupItem>
-                        <div className="btn-font btn-weight " >Call 02 60 56 ??????</div>
+                        <div className="btn-font btn-weight ">
+                          Call 02 60 56 ??????
+                        </div>
                       </ListGroupItem>
                       <ListGroupItem className="text-left btn-font ">
-                        <div>Press <b>1</b> for <b>Appointment</b> </div>
-                        <div>Press <b>2</b> for <b>Nurse</b> </div>
-                        <div>Press <b>3</b> for <b>Health Professionals</b> </div>
+                        <div>
+                          Press <b>1</b> for <b>Appointment</b>{" "}
+                        </div>
+                        <div>
+                          Press <b>2</b> for <b>Nurse</b>{" "}
+                        </div>
+                        <div>
+                          Press <b>3</b> for <b>Health Professionals</b>{" "}
+                        </div>
                       </ListGroupItem>
                       <br></br>
                       <div>
@@ -236,12 +242,12 @@ const ContactUs = () => {
               </Col>
 
               <Col className="text-center ml-auto mr-auto" lg="6" md="8">
-                <Card>
-                  <CardHeader >
-                    <h2 className="title">Drop us a line</h2>
+                <Card className="card-data">
+                  <CardHeader className="card-header">
+                    Drop us a line
                   </CardHeader>
-                  <CardBody className="boxDecorator-background">
-                    <CardTitle className="text-left boxDecorator-default">
+                  <CardBody className="card-body">
+                    <CardText className="card-title">
                       <Button
                         className="btn-icon btn-round"
                         color="info"
@@ -250,26 +256,16 @@ const ContactUs = () => {
                       >
                         <i className="now-ui-icons ui-1_email-85"></i>
                       </Button>
-                      <h3 className="boxDecorator-text ">General Enquiries</h3>
-                    </CardTitle>
-
-                    <CardText>
-                      <br></br>
-                      <br></br>
-                      <a
-                      
-                        className="btn-font btn-weight "
-                        href="mailto: manager@gpsonvermont.com.au"
-                      >
-                        manager@gpsonvermont.com.au
-                      </a>
-                      <br></br>
-                      <br></br>
-                      <br></br>
-                      <br></br>
-                      <br></br>
-                      <br></br>
+                      <div className="text">General Enquiries</div>
                     </CardText>
+
+                    <div className="card-content">
+                      <div className="content-text">
+                        <a href="mailto: manager@gpsonvermont.com.au">
+                          manager@gpsonvermont.com.au
+                        </a>
+                      </div>
+                    </div>
                   </CardBody>
                 </Card>
               </Col>

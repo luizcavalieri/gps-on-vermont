@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, createRef } from "react";
 
 // reactstrap components
 import { Button, Container } from "reactstrap";
@@ -8,7 +8,7 @@ import { Button, Container } from "reactstrap";
 const OtherPageHeader = ({ message }) => {
     
 
-  let pageHeader = React.createRef();
+  let pageHeader = createRef();
 
   useEffect(() => {
     if (window.innerWidth > 991) {

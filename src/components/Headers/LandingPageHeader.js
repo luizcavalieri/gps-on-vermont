@@ -1,14 +1,14 @@
-import React from "react";
+import React, { useEffect, createRef } from "react";
 
 // reactstrap components
 import { Button, Container } from "reactstrap";
 
 // core components
 
-function LandingPageHeader() {
-  let pageHeader = React.createRef();
+const LandingPageHeader = ({ title }) => {
+  let pageHeader = createRef();
 
-  React.useEffect(() => {
+  useEffect(() => {
     if (window.innerWidth > 991) {
       const updateScroll = () => {
         let windowScrollTop = window.pageYOffset / 3;
@@ -33,7 +33,7 @@ function LandingPageHeader() {
         ></div>
         <div className="content-center">
           <Container>
-            <h1 className="title">This is our great company.</h1>
+            <h1 className="title">{title}</h1>
             <div className="text-center">
               <Button
                 className="btn-icon btn-round"
@@ -65,6 +65,6 @@ function LandingPageHeader() {
       </div>
     </>
   );
-}
+};
 
 export default LandingPageHeader;

@@ -1,0 +1,65 @@
+$card-smoke-bg: #f2f2f2;
+
+.card-data {
+  box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.35);
+  .card-header {
+    font-size: xx-large;
+    // font-size: 2.5em;
+    color: white;
+    font-weight: 700;
+    padding: 25px;
+    margin: 0;
+    background-color: $blue-color;
+
+    &:first-child {
+      border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
+    }
+  }
+
+  .card-body {
+    background-color: $card-smoke-bg;
+    &:last-child {
+      border-radius: 0 0 calc(0.25rem - 1px) calc(0.25rem - 1px);
+    }
+    .card-title {
+      display: flex;
+      padding-left: 10px;
+      margin-bottom: 0;
+
+    //   .icon {
+    //     padding-left: 1.25rem;
+    //   }
+
+      .text {
+        font-size: 1.6em;
+        font-weight: 400;
+        line-height: 2;
+        padding-left: 10px;
+      }
+    }
+
+    .card-content {
+      height: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .content-text {
+        font-size: 1.4em;
+        font-weight: bold;
+      }
+
+      .content-button {
+        font-size: 1.4em;
+      }
+    }
+  }
+
+  .card-footer {
+    // margin-bottom: 10px;
+    margin-top: 24px;
+    padding: 24px 0;
+  }
+  // border-radius: .25rem;
+  // margin-bottom: 0px;
+}

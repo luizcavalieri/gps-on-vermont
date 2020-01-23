@@ -19,8 +19,10 @@ import LandingPageHeader from "../../components/Headers/LandingPageHeader.js";
 import DefaultFooter from "../../components/Footers/DefaultFooter.js";
 
 function LandingPage() {
-  const [firstFocus, setFirstFocus] = React.useState(false);
-  const [lastFocus, setLastFocus] = React.useState(false);
+  const [firstFocus, setFirstFocus] = useState(false);
+  const [lastFocus, setLastFocus] = useState(false);
+
+  const messageTitle = "GPs On Vermont Medical Centre";
   
   useEffect(() => {
     document.body.classList.add("landing-page");
@@ -31,13 +33,13 @@ function LandingPage() {
       document.body.classList.remove("sidebar-collapse");
     };
   });
-  
+
   return (
     <>
       <HomeNavbar />
       
       <div className="wrapper">
-        <LandingPageHeader />
+        <LandingPageHeader title={messageTitle}/>
         <div className="section section-about-us">
           <Container>
             <Row>
@@ -140,8 +142,7 @@ function LandingPage() {
                     <h4 className="title">Carmen Padilla</h4>
                     <p className="category text-info">Doctor</p>
                     <p className="description">
-                      MBBS, FRACGP
-                      You can write here details about one of your team members.
+                      FRACGP, MBBS, Diploma of Child Heath Dr Padilla has been a General Practitioner in the Wodonga area for 10 years. <br/> Carmen has a special interest in women’s health, child health, chronic disease management, men’s health. <br/>Dr Padilla speaks Spanish as well as English<br/>
                       You can give more details about what they do. Feel free to
                       add some{" "}
                       <a href="#pablo" onClick={e => e.preventDefault()}>
@@ -182,10 +183,10 @@ function LandingPage() {
                       className="rounded-circle img-fluid img-raised"
                       src={require("../../assets/img/ryan.jpg")}
                     ></img>
-                    <h4 className="title">Ryan Tompson</h4>
-                    <p className="category text-info">Designer</p>
+                    <h4 className="title">Annette Baumgarten</h4>
+                    <p className="category text-info">Practice Manager</p>
                     <p className="description">
-                      You can write here details about one of your team members.
+                    Our administration Team is managed by our Practice Manager Annette Baumgarten.  Annette has a vast background in Business Management and has been a Practice Manager in other Practices.  Annette has a Diploma of Business, a graduate of the Institute of company Directors Australia, and has a certificate of Community engagement with the Australian and International Participation<br/>
                       You can give more details about what they do. Feel free to
                       add some{" "}
                       <a href="#pablo" onClick={e => e.preventDefault()}>

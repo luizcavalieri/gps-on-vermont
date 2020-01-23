@@ -51,7 +51,6 @@ function HomeNavbar() {
       ) : null}
       <Navbar className={"fixed-top " + navbarColor} color="info" expand="lg">
         <Container>
-          
           {/* <UncontrolledDropdown className="button-dropdown">
             <DropdownToggle
               caret
@@ -129,10 +128,20 @@ function HomeNavbar() {
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#teamA">
-                  Staff
-                </NavLink>
+                <NavLink href="#teamA">Staff</NavLink>
               </NavItem>
+{/* 
+              <NavItem>
+                <NavLink href="#teamA">
+                  <img
+                    alt="..."
+                    // className="rounded-circle img-fluid img-raised "
+                    className="logo-menu"
+                    src={require("../../assets/img/GPV.png")}
+                  ></img>
+                </NavLink>
+              </NavItem> */}
+
               <NavItem>
                 <NavLink href="https://github.com/creativetimofficial/now-ui-kit-react/issues?ref=creativetim">
                   Our Services
@@ -159,9 +168,7 @@ function HomeNavbar() {
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink to="/index">
-                  After Hours care
-                </NavLink>
+                <NavLink to="/index">After Hours care</NavLink>
               </NavItem>
               {/* <NavItem>
                 <NavLink
@@ -202,7 +209,6 @@ function HomeNavbar() {
                   Follow us on Instagram
                 </UncontrolledTooltip>
               </NavItem> */}
-
             </Nav>
           </Collapse>
         </Container>
