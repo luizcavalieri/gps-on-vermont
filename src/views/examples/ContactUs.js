@@ -17,12 +17,14 @@ import {
   CardGroup,
   CardHeader,
   ListGroup,
-  ListGroupItem
+  ListGroupItem,
+  CardFooter
 } from "reactstrap";
 
 import OtherNavbar from "../../components/NavBars/OtherNavbar";
 import OtherPageHeader from "../../components/Headers/OtherPageHeader";
 import DefaultFooter from "../../components/Footers/DefaultFooter.js";
+import { headerScrolling } from "./commons";
 
 const ContactUs = () => {
   const [firstFocus, setFirstFocus] = React.useState(false);
@@ -31,13 +33,7 @@ const ContactUs = () => {
   const contactMessage = "We'd love to hear from you!";
 
   useEffect(() => {
-    document.body.classList.add("landing-page");
-    document.body.classList.add("sidebar-collapse");
-    document.documentElement.classList.remove("nav-open");
-    return function cleanup() {
-      document.body.classList.remove("landing-page");
-      document.body.classList.remove("sidebar-collapse");
-    };
+    headerScrolling();
   });
 
   return (
@@ -138,11 +134,11 @@ const ContactUs = () => {
             {/* <h2 className="title">Want to work with us?</h2> */}
             {/* <p className="description">Your project is very important to us.</p> */}
             <Row>
-              <Col lg="6" md="8">
+              <Col className="text-center ml-auto mr-auto" lg="6" md="8">
                 <Card className="card-data">
                   <CardHeader className="card-header">Come visit us</CardHeader>
                   <CardBody className="card-body">
-                    <CardText className="card-title">
+                    <CardText className="card-title-icon-text">
                       <Button
                         className="btn-icon btn-round "
                         color="info"
@@ -156,9 +152,9 @@ const ContactUs = () => {
                     {/* <CardText className="content-bold">
                       80 Vermont Street Wodonga VIC 3690
                     </CardText> */}
-                    <div className="card-content">
-                      <div className="content-text">
-                        80 Vermont Street Wodonga VIC 3690
+                    <div className="card-content height-size-1x">
+                      <div className="content-text center-in-fixed-height-1x">
+                        <p>80 Vermont Street Wodonga VIC 3690</p>
                       </div>
                     </div>
                   </CardBody>
@@ -169,7 +165,7 @@ const ContactUs = () => {
                 <Card className="card-data">
                   <CardHeader className="card-header">Booking</CardHeader>
                   <CardBody className="card-body">
-                    <CardText className="card-title">
+                    <CardText className="card-title-icon-text">
                       <Button
                         className=" btn-icon btn-round "
                         color="info"
@@ -181,7 +177,7 @@ const ContactUs = () => {
 
                       <div className="text">Schedule yours now</div>
                     </CardText>
-                    <div className="card-content">
+                    <div className="card-content height-size-1x">
                       <Button
                         className="btn-font btn-weight"
                         size="lg"
@@ -202,7 +198,7 @@ const ContactUs = () => {
                 <Card className="card-data">
                   <CardHeader className="card-header">Call us</CardHeader>
                   <CardBody className="card-body">
-                    <CardText className="card-title">
+                    <CardText className="card-title-icon-text">
                       <Button
                         className="btn-icon btn-round"
                         color="info"
@@ -213,8 +209,8 @@ const ContactUs = () => {
                       </Button>
                       <div className="text ">Lets Talk</div>
                     </CardText>
-
-                    <ListGroup flush>
+                    {/* <div className="card-content height-size-2x"></div> */}
+                    <ListGroup className="card-content height-size-2x">
                       <ListGroupItem>
                         <div className="btn-font btn-weight ">
                           Call 02 60 56 ??????
@@ -231,13 +227,13 @@ const ContactUs = () => {
                           Press <b>3</b> for <b>Health Professionals</b>{" "}
                         </div>
                       </ListGroupItem>
-                      <br></br>
-                      <div>
-                        If our phones are busy, please leave a message and we
-                        will return your call
-                      </div>
                     </ListGroup>
                   </CardBody>
+
+                  <div className="card-footer-padding">
+                    If our phones are busy, please leave a message and we will
+                    return your call
+                  </div>
                 </Card>
               </Col>
 
@@ -247,7 +243,7 @@ const ContactUs = () => {
                     Drop us a line
                   </CardHeader>
                   <CardBody className="card-body">
-                    <CardText className="card-title">
+                    <CardText className="card-title-icon-text">
                       <Button
                         className="btn-icon btn-round"
                         color="info"
@@ -259,14 +255,17 @@ const ContactUs = () => {
                       <div className="text">General Enquiries</div>
                     </CardText>
 
-                    <div className="card-content">
-                      <div className="content-text">
+                    <div className="card-content height-size-2x">
+                      <div className="content-text center-in-fixed-height-2x ">
                         <a href="mailto: manager@gpsonvermont.com.au">
                           manager@gpsonvermont.com.au
                         </a>
                       </div>
                     </div>
                   </CardBody>
+                  <div className="card-footer-padding">
+                    we will reply to you as soon as possible
+                  </div>
                 </Card>
               </Col>
             </Row>

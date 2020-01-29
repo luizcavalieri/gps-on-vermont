@@ -51,7 +51,6 @@ function OtherNavbar() {
       ) : null}
       <Navbar className={"fixed-top " + navbarColor} color="info" expand="lg">
         <Container>
-          
           {/* <UncontrolledDropdown className="button-dropdown">
             <DropdownToggle
               caret
@@ -129,12 +128,10 @@ function OtherNavbar() {
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#teamA">
-                  Staff
-                </NavLink>
+                <NavLink href="#teamA">Staff</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://github.com/creativetimofficial/now-ui-kit-react/issues?ref=creativetim">
+                <NavLink to="/our-services" tag={Link}>
                   Our Services
                 </NavLink>
               </NavItem>
@@ -159,9 +156,7 @@ function OtherNavbar() {
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink to="/index">
-                  After Hours care
-                </NavLink>
+                <NavLink to="/index">After Hours care</NavLink>
               </NavItem>
               {/* <NavItem>
                 <NavLink
@@ -202,7 +197,6 @@ function OtherNavbar() {
                   Follow us on Instagram
                 </UncontrolledTooltip>
               </NavItem> */}
-
             </Nav>
           </Collapse>
         </Container>

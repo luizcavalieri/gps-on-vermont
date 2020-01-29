@@ -18,10 +18,10 @@ function DefaultFooter() {
                   href="https://www.creative-tim.com?ref=nukr-default-footer"
                   target="_blank"
                 >
-                  Creative Tim
+                  GPs on vermont
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a
                   href="http://presentation.creative-tim.com?ref=nukr-default-footer"
                   target="_blank"
@@ -36,7 +36,7 @@ function DefaultFooter() {
                 >
                   Blog
                 </a>
-              </li>
+              </li> */}
             </ul>
           </nav>
           <div className="copyright" id="copyright">

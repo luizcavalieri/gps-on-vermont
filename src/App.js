@@ -14,6 +14,7 @@ import Index from './views/Index';
 import LandingPage from './views/examples/LandingPage';
 import ContactUs from './views/examples/ContactUs';
 import ProfilePage from './views/examples/ProfilePage';
+import OurServices from './views/examples/OurServices';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path="/index" render={props => <Index {...props} />} />
         <Route path='/landing-page' render={props => <LandingPage {...props} /> } />
         <Route path='/contact-page' component={ContactUs} />
+        <Route path='/our-services' component={OurServices} />
         <Route path='/profile' component={ProfilePage} />
       </Switch>
     </Router>

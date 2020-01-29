@@ -143,7 +143,7 @@ function HomeNavbar() {
               </NavItem> */}
 
               <NavItem>
-                <NavLink href="https://github.com/creativetimofficial/now-ui-kit-react/issues?ref=creativetim">
+                <NavLink to="/our-services" tag={Link}>
                   Our Services
                 </NavLink>
               </NavItem>
