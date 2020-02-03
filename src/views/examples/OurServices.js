@@ -5,8 +5,7 @@ import {
   Col,
   Card,
   CardHeader,
-  CardBody,
-  Badge
+  CardBody
 } from "reactstrap";
 import OtherNavbar from "../../components/NavBars/OtherNavbar";
 import OtherPageHeader from "../../components/Headers/OtherPageHeader";
