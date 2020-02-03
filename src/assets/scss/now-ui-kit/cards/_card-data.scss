@@ -80,6 +80,16 @@ $card-height-5x: 31.25rem;
       }
     }
 
+    .card-title-text {
+      
+        font-size: 1.6em;
+        // font-weight: 400;
+        font-weight: bold;
+        line-height: 2;
+        padding-left: 10px;
+      
+    }
+
     .card-content {
       &.height-size-1x {
         height: $card-height-1x;
