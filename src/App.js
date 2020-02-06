@@ -15,6 +15,7 @@ import LandingPage from './views/examples/LandingPage';
 import ContactUs from './views/examples/ContactUs';
 import ProfilePage from './views/examples/ProfilePage';
 import OurServices from './views/examples/OurServices';
+import PatientInfo from './views/examples/PatientInfo';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path='/landing-page' render={props => <LandingPage {...props} /> } />
         <Route path='/contact-page' component={ContactUs} />
         <Route path='/our-services' component={OurServices} />
+        <Route path='/patient-info' component={PatientInfo} />
         <Route path='/profile' component={ProfilePage} />
       </Switch>
     </Router>

@@ -148,7 +148,7 @@ function HomeNavbar() {
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://github.com/creativetimofficial/now-ui-kit-react/issues?ref=creativetim">
+                <NavLink to="/patient-info" tag={Link}>
                   Patient Information
                 </NavLink>
               </NavItem>
@@ -164,7 +164,7 @@ function HomeNavbar() {
               </NavItem>
               <NavItem>
                 <NavLink href="https://github.com/creativetimofficial/now-ui-kit-react/issues?ref=creativetim">
-                  Apointments
+                  Appointments
                 </NavLink>
               </NavItem>
               <NavItem>

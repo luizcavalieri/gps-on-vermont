@@ -23,6 +23,7 @@ import {
 import HomeNavbar from "../../components/NavBars/HomeNavbar";
 import LandingPageHeader from "../../components/Headers/LandingPageHeader.js";
 import DefaultFooter from "../../components/Footers/DefaultFooter.js";
+import { headerScrolling } from "./commons";
 
 function LandingPage() {
   const [firstFocus, setFirstFocus] = useState(false);
@@ -31,13 +32,7 @@ function LandingPage() {
   const messageTitle = "GPs On Vermont Medical Centre";
 
   useEffect(() => {
-    document.body.classList.add("landing-page");
-    document.body.classList.add("sidebar-collapse");
-    document.documentElement.classList.remove("nav-open");
-    return function cleanup() {
-      document.body.classList.remove("landing-page");
-      document.body.classList.remove("sidebar-collapse");
-    };
+    headerScrolling();
   });
 
   return (

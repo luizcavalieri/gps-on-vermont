@@ -169,7 +169,10 @@ $card-height-5x: 31.25rem;
   .card-footer-padding {
     padding-top: 0.4rem;
     padding-bottom: 0.4rem;
+    padding: 0.75rem 1.25rem;
   }
+
+  // .card-footer-padding
 
   .card-footer {
     margin-top: 0;
@@ -178,4 +181,7 @@ $card-height-5x: 31.25rem;
     background-color: $blue-color;
     color: $white-color;
   }
+  
+
+  
 }
