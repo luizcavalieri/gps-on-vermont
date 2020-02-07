@@ -258,7 +258,7 @@ const ContactUs = () => {
                     </div>
                   </CardBody>
                   <div className="card-footer-padding">
-                    we will reply to you as soon as possible
+                    We will reply to you as soon as possible
                   </div>
                 </Card>
               </Col>

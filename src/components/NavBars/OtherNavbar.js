@@ -128,7 +128,9 @@ function OtherNavbar() {
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#teamA">Staff</NavLink>
+                <NavLink to="/staff-page" tag={Link}>
+                  Staff
+                </NavLink>
               </NavItem>
               <NavItem>
                 <NavLink to="/our-services" tag={Link}>

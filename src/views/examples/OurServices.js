@@ -263,6 +263,156 @@ const OurServices = () => {
                 </Card>
               </Col>
             </Row>
+
+            <Row>
+            <Col className="text-center ml-auto mr-auto" >
+                <Card className="card-data">
+                  <CardHeader className="card-header">
+                    General Health
+                  </CardHeader>
+                  <CardBody className="card-body">
+                    <div className="card-content height-size-3x">
+                      <div className="text-justified">
+                        {/* Our doctors manage diabetes patients and those at high
+                        risk of developing diabetes through our Chronic Disease
+                        Management plans. <br />
+                        GPs on Vermont provide: */}
+                        <ul></ul>
+                        <ul className="fa-ul ">
+                          <li>
+                            <span class="fa-li">
+                              <i class="fa fa-check-circle fa-lg"></i>
+                            </span>
+                            Electrocardiogram (E.C.G)
+                          </li>
+                          <li>
+                            <span class="fa-li">
+                              <i class="fa fa-check-circle fa-lg"></i>
+                            </span>
+                            Spirometry (Lung Function testings)
+                          </li>
+                          <li>
+                            <span class="fa-li">
+                              <i class="fa fa-check-circle fa-lg"></i>
+                            </span>
+                            Family Planning
+                          </li>
+                           <li>
+                            <span class="fa-li">
+                              <i class="fa fa-check-circle fa-lg"></i>
+                            </span>
+                            Ceviral Screening Test (PAP) smear
+                          </li>
+                          <li>
+                            <span class="fa-li">
+                              <i class="fa fa-check-circle fa-lg"></i>
+                            </span>
+                            Counselling
+                          </li>
+                          <li>
+                            <span class="fa-li">
+                              <i class="fa fa-check-circle fa-lg"></i>
+                            </span>
+                            Children Vaccinations
+                          </li>
+                          <li>
+                            <span class="fa-li">
+                              <i class="fa fa-check-circle fa-lg"></i>
+                            </span>
+                            Care of aged or disabled
+                          </li> 
+                          <li>
+                            <span class="fa-li">
+                              <i class="fa fa-check-circle fa-lg"></i>
+                            </span>
+                            Heart checks 
+                          </li>
+                          <li>
+                            <span class="fa-li">
+                              <i class="fa fa-check-circle fa-lg"></i>
+                            </span>
+                            Skin checks, Liquid Nitrogen freezing for sunspots and warts, minor surgery
+                          </li>
+                          <li>
+                            <span class="fa-li">
+                              <i class="fa fa-check-circle fa-lg"></i>
+                            </span>
+                            Workcover (VIC and NSW) Comcare
+                          </li> 
+                          <li>
+                            <span class="fa-li">
+                              <i class="fa fa-check-circle fa-lg"></i>
+                            </span>
+                            TAC (motor vehicle)
+                          </li> 
+                        </ul>
+                      </div>
+                    </div>
+                  </CardBody>
+                </Card>
+              </Col>
+
+
+              <Col className="text-center ml-auto mr-auto"  >
+                <Card className="card-data">
+                  <CardHeader className="card-header">
+                    Dept. of Veteran Affairs
+                  </CardHeader>
+                  <CardBody className="card-body">
+                    <div className="card-content height-size-3x">
+                      <div className="text-justified">
+                        {/* GPs on Vermont cares for patients with: */}
+                        <ul></ul>
+                        <ul className="fa-ul ">
+                        <li>
+                            <span class="fa-li">
+                              <i class="fa fa-check-circle fa-lg"></i>
+                            </span>
+                            Refugee Health
+                          </li>
+                          <li>
+                            <span class="fa-li">
+                              <i class="fa fa-check-circle fa-lg"></i>
+                            </span>
+                            Ear Syringing
+                          </li>
+                          <li>
+                            <span class="fa-li">
+                              <i class="fa fa-check-circle fa-lg"></i>
+                            </span>
+                            CVC program
+                          </li>
+                          <li>
+                            <span class="fa-li">
+                              <i class="fa fa-check-circle fa-lg"></i>
+                            </span>
+                            General Medical, White and Gold card holders
+                          </li>
+                          <li>
+                            <span class="fa-li">
+                              <i class="fa fa-check-circle fa-lg"></i>
+                            </span>
+                            Pre-employment and general health medicals
+                          </li>
+                          <li>
+                            <span class="fa-li">
+                              <i class="fa fa-check-circle fa-lg"></i>
+                            </span>
+                            Weight Loss
+                          </li>
+                          <li>
+                            <span class="fa-li">
+                              <i class="fa fa-check-circle fa-lg"></i>
+                            </span>
+                            Travel Medicine and Vaccinations
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </CardBody>
+                </Card>
+              </Col>
+            </Row>
           </Container>
         </div>
       </div>

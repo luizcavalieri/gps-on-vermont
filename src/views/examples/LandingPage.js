@@ -63,9 +63,9 @@ function LandingPage() {
         </div>
 
         <div>
-          <Container>
-            <CardDeck className="card-deck-data">
-                <Card className="card-data">
+          <Container >
+            <CardDeck className="card-deck-data ml-auto mr-auto" >
+                <Card className="card-data " >
                   <CardHeader className="card-header">Booking</CardHeader>
                   <CardBody className="card-body">
                     <CardText className="card-title-image">
@@ -98,7 +98,7 @@ function LandingPage() {
               
 
               
-                <Card className="card-data">
+                <Card className="card-data" >
                   <CardHeader className="card-header">Latest News</CardHeader>
                   <CardBody className="card-body">
                     <CardText className="card-title-image-text">
@@ -106,34 +106,15 @@ function LandingPage() {
                         alt="..."
                         src={require("../../assets/img/gpv.png")}
                       ></img>
-
-                      <p className="text">Schedule yours now</p>
+                      Schedule yours now
                     </CardText>
                     
                       <div className="card-content">
                         <div className="content-text">
-                          {/* <div className="overflow-comp"> */}
-                            <p>
+                          
                               To achieve Smooth Scroll effect add a class
                               .smooth-scroll to the parent element of your links
-                            </p>
-                            {/* <p>
-                              To achieve Smooth Scroll effect add a class
-                              .smooth-scroll to the parent element of your links
-                            </p>
-                            <p>
-                              To achieve Smooth Scroll effect add a class
-                              .smooth-scroll to the parent element of your links
-                            </p>
-                            <p>
-                              To achieve Smooth Scroll effect add a class
-                              .smooth-scroll to the parent element of your links
-                            </p>
-                            <p>
-                              To achieve Smooth Scroll effect add a class
-                              .smooth-scroll to the parent element of your links
-                            </p> */}
-                          {/* </div> */}
+                            
                         </div>
                       </div>
                     
@@ -142,7 +123,7 @@ function LandingPage() {
               
 
               
-                <Card className="card-data">
+                <Card className="card-data" >
                   <CardHeader className="card-header">Opening Hours</CardHeader>
                   <CardBody className="card-body">
                     <div className="card-content ">
@@ -301,7 +282,7 @@ function LandingPage() {
             <h2 className="title">Here is our team</h2>
             <div className="team">
               <Row>
-                <Col md="4">
+                <Col md="6">
                   <div className="team-player">
                     <img
                       alt="..."
@@ -351,7 +332,7 @@ function LandingPage() {
                     </Button>
                   </div>
                 </Col>
-                <Col md="4">
+                <Col md="6">
                   <div className="team-player">
                     <img
                       alt="..."
@@ -394,7 +375,8 @@ function LandingPage() {
                     </Button>
                   </div>
                 </Col>
-                <Col md="4">
+
+                {/* <Col md="4">
                   <div className="team-player">
                     <img
                       alt="..."
@@ -437,12 +419,12 @@ function LandingPage() {
                       <i className="fab fa-twitter"></i>
                     </Button>
                   </div>
-                </Col>
+                </Col> */}
               </Row>
             </div>
           </Container>
         </div>
-        <div className="section section-contact-us text-center">
+        {/* <div className="section section-contact-us text-center">
           <Container>
             <h2 className="title">Want to work with us?</h2>
             <p className="description">Your project is very important to us.</p>
@@ -506,7 +488,7 @@ function LandingPage() {
               </Col>
             </Row>
           </Container>
-        </div>
+        </div> */}
         <DefaultFooter />
       </div>
     </>

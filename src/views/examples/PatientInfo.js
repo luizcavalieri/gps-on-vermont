@@ -155,7 +155,7 @@ const PatientInfo = () => {
             <Row>
               <Col>
                 <h2 className="title text-left">Fees</h2>
-                <Table striped>
+                <Table striped bordered>
                   <thead className="fees-table-row">
                     <tr>
                       <th></th>
