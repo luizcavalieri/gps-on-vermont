@@ -31,6 +31,61 @@ const staff = [
     booking: false,
     bookingDoctorId: "",
     socialMedia: ["facebook"]
+  },
+  {
+    titleAbr: "Pm",
+    title: "Nurse",
+    name: "bla ble",
+    image: "dr-carmen.png",
+    accreditations: [
+      "ABC",
+      "VVV",
+      "Certificate of YYY"
+    ],
+    descriptions: [
+      "No clue",
+      "Done"
+    ],
+    booking: false,
+    bookingDoctorId: "",
+    socialMedia: ["facebook"]
+  },
+  {
+    titleAbr: "Pm",
+    title: "Nurse",
+    name: "mooooo",
+    image: "dr-carmen.png",
+    accreditations: [
+      "ABC",
+      "VVV",
+      "Certificate of YYY"
+    ],
+    descriptions: [
+      "No clue",
+      "Done"
+    ],
+    booking: false,
+    bookingDoctorId: "",
+    socialMedia: ["facebook"]
+  }
+  ,
+  {
+    titleAbr: "Pm",
+    title: "Nurse",
+    name: "meeee",
+    image: "dr-carmen.png",
+    accreditations: [
+      "ABC",
+      "VVV",
+      "Certificate of YYY"
+    ],
+    descriptions: [
+      "No clue",
+      "Done"
+    ],
+    booking: false,
+    bookingDoctorId: "",
+    socialMedia: ["facebook"]
   }
 ];
 

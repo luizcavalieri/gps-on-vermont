@@ -1,12 +1,22 @@
 import React from "react";
-import BusinessCard from "./BusinessCard";
+import { Row } from "reactstrap";
+import { chunks } from "../../views/examples/commons";
+import StaffRow from "./StaffRow";
 
-const Staff = ({ staffData }) => (
-  <>
-    {staffData.map((emp, index) => (
-      <BusinessCard emp={emp} key={index} />
-    ))}
-  </>
-);
+const Staff = ({ staffData }) => {
+  if (!staffData) return null;
+  
+  const rows = chunks(staffData, 2);
+  return (
+    <>
+      {rows.map((row, index) => (
+        <Row key={index}> 
+          <StaffRow  row={row} />
+        </Row>
+      ))}
+
+    </>
+  );
+};
 
 export default Staff;

@@ -3,7 +3,6 @@ import IconCheckList from "./IconCheckList";
 import IconSocialMediaList from "./IconSocialMediaList";
 import DescriptionList from "./DescriptionList";
 import BookingButton from "./BookingButton";
-// import { imagePath } from '../../views/examples/commons';
 
 const BusinessCard = ({ emp }) => {
   
