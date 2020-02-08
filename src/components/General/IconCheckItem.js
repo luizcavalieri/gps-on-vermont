@@ -1,9 +1,9 @@
 import React from "react";
 
-const IconCheckItem = ({ item }) => {
+const IconCheckItem = ({ item, className:passedClasses }) => {
   return (
     <>
-      <li >
+      <li className={passedClasses} >
         <span className="fa-li">
           <i className="fa fa-check-circle fa-lg"></i>
         </span>

@@ -1,10 +1,10 @@
 import React from 'react';
 
-const DescriptionItem = ({ item }) => {
+const DescriptionItem = ({ item , className:passedClasses}) => {
 
     return (
         <>
-            <div>{item}</div>
+            <div className={passedClasses} >{item}</div>
         </>
     );
 }

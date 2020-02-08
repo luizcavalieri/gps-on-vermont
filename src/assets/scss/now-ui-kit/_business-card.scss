@@ -1,0 +1,38 @@
+.business-card-body {
+  padding-top: 0;
+  padding-bottom: 0;
+
+  &:last-child {
+    border-radius: 0 0 calc(0.25rem - 1px) calc(0.25rem - 1px);
+  }
+}
+
+.business-card-image {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.new-line {
+  white-space: pre-wrap;
+}
+
+.business-card-header {
+  background-color: $info-color;
+  background-image: linear-gradient($info-color, $light-blue);
+
+  &:first-child {
+    border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
+  }
+}
+
+.business-card-title{
+    font-weight: $font-weight-bold;
+    // padding-top: 30px;
+}
+
+.business-card-footer{
+    border-top: thin;
+    border-top-style: groove;
+    // border-style: groove;
+    border-color: red($color: #000000);
+}

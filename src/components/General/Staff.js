@@ -5,7 +5,7 @@ import StaffRow from "./StaffRow";
 
 const Staff = ({ staffData }) => {
   if (!staffData) return null;
-  
+  //2 is the number of columns in a row
   const rows = chunks(staffData, 2);
   return (
     <>

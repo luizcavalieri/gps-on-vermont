@@ -3,25 +3,52 @@ import IconCheckList from "./IconCheckList";
 import IconSocialMediaList from "./IconSocialMediaList";
 import DescriptionList from "./DescriptionList";
 import BookingButton from "./BookingButton";
+import {
+  Card,
+  CardBody,
+  CardImg,
+  CardHeader,
+  CardTitle,
+  CardText
+} from "reactstrap";
 
 const BusinessCard = ({ emp }) => {
-  
   let path = emp.image;
   return (
     <>
-      <div className="team-player">
-        <img
-          alt="..."
-          className="rounded-circle img-fluid img-raised"
-          src={require(`../../assets/img/${path}`)}
-        ></img>
-        <h4 className="title">{emp.name}</h4>
-        <p className="category text-info">{emp.title}</p>
-        <DescriptionList list={emp.descriptions} />
-        <IconCheckList list={emp.accreditations} />
-        <IconSocialMediaList list={emp.socialMedia} />
-        {emp.booking? <BookingButton doctorId={emp.bookingDoctorId}/> : null}
-      </div>
+      {/* color="warning" */}
+      <Card>
+        <div className="team-player">
+          <CardHeader className="business-card-header">
+            <CardImg
+              className="rounded-circle img-fluid img-raised
+              business-card-image"
+              alt="..."
+              src={require(`../../assets/img/${path}`)}
+              top
+            ></CardImg>
+          </CardHeader>
+
+          <CardBody className="business-card-body">
+            <CardTitle tag="h4" className="business-card-title">
+              {emp.name}
+            </CardTitle>
+            <CardText className="category text-info">{emp.title}</CardText>
+            <DescriptionList
+              list={emp.descriptions}
+              className="text-justified"
+            />
+            <dir className="new-line"></dir>
+            <IconCheckList list={emp.accreditations} className="text-left" />
+            <IconSocialMediaList list={emp.socialMedia} />
+            {emp.booking ? (
+              //   <div className="business-card-footer">
+              <BookingButton doctorId={emp.bookingDoctorId} />
+            ) : //   </div>
+            null}
+          </CardBody>
+        </div>
+      </Card>
     </>
   );
 };
