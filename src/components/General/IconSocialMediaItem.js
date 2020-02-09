@@ -1,18 +1,18 @@
 import React from "react";
 import { Button } from "reactstrap";
 
-const IconSocialMediaItem = ({media, index}) => {
+const IconSocialMediaItem = ({id, link, index}) => {
 
   return ( 
     <>
       <Button
         className="btn-icon btn-round"
         color="info"
-        href="#pablo"
-        onClick={e => e.preventDefault()}
+        href={link}
+        // onClick={e => e.preventDefault()}
       >
         {(function() {
-          switch (media) {
+          switch (id) {
             case "facebook":
               return <i className="fab fa-facebook-square"></i>;
             case "twitter":

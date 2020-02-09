@@ -30,62 +30,54 @@ const staff = [
     ],
     booking: false,
     bookingDoctorId: "",
-    socialMedia: ["facebook"]
+    socialMedia: [
+      {
+        id: "facebook",
+        link: "https://www.facebook.com"
+      }
+    ]
   },
   {
     titleAbr: "Pm",
     title: "Nurse",
     name: "bla ble",
     image: "dr-carmen.png",
-    accreditations: [
-      "ABC",
-      "VVV",
-      "Certificate of YYY"
-    ],
-    descriptions: [
-      "No clue",
-      "Done"
-    ],
+    accreditations: ["ABC", "VVV", "Certificate of YYY"],
+    descriptions: ["No clue", "Done"],
     booking: false,
     bookingDoctorId: "",
-    socialMedia: ["facebook"]
+    socialMedia: [{
+      id: "facebook",
+      link: "www.facebook.com"
+    }]
   },
   {
     titleAbr: "Pm",
     title: "Nurse",
     name: "mooooo",
     image: "dr-carmen.png",
-    accreditations: [
-      "ABC",
-      "VVV",
-      "Certificate of YYY"
-    ],
-    descriptions: [
-      "No clue",
-      "Done"
-    ],
+    accreditations: ["ABC", "VVV", "Certificate of YYY"],
+    descriptions: ["No clue", "Done"],
     booking: false,
     bookingDoctorId: "",
-    socialMedia: ["facebook"]
-  }
-  ,
+    socialMedia: [{
+      id: "facebook",
+      link: "www.facebook.com"
+    }]
+  },
   {
     titleAbr: "Pm",
     title: "Nurse",
     name: "meeee",
     image: "dr-carmen.png",
-    accreditations: [
-      "ABC",
-      "VVV",
-      "Certificate of YYY"
-    ],
-    descriptions: [
-      "No clue",
-      "Done"
-    ],
+    accreditations: ["ABC", "VVV", "Certificate of YYY"],
+    descriptions: ["No clue", "Done"],
     booking: false,
     bookingDoctorId: "",
-    socialMedia: ["facebook"]
+    socialMedia: [{
+      id: "facebook",
+      link: "www.facebook.com"
+    }]
   }
 ];
 

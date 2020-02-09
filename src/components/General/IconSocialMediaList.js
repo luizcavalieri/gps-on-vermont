@@ -7,7 +7,7 @@ const IconSocialMediaList = ({ list }) => {
   return (
     <>
       {list.map((item, index) => (
-        <IconSocialMediaItem media={item} key={index} />
+        <IconSocialMediaItem id={item.id} link={item.link} key={index} />
       ))}
     </>
   );
