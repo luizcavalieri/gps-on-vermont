@@ -1,14 +1,14 @@
 import React from "react";
 import IconCheckItem from "./IconCheckItem";
 
-const IconCheckList = ({ list, className:passedClasses }) => {
+const IconCheckList = ({ list, ulClassName, liClassName, iconClassName, className:passedClasses }) => {
   if (!list) return null;
   // console.log(list);
   return (
     <>
-      <ul className="fa-ul ">
+      <ul className={ulClassName}>
         {list.map((item, index) => (
-          <IconCheckItem key={index} item={item} className={passedClasses} />
+          <IconCheckItem key={index} item={item} liClassName={liClassName} iconClassName={iconClassName} className={passedClasses} />
         ))}
       </ul>
     </>

@@ -39,7 +39,13 @@ const BusinessCard = ({ emp }) => {
               className="text-justified"
             />
             <dir className="new-line"></dir>
-            <IconCheckList list={emp.accreditations} className="text-left" />
+            <IconCheckList
+              list={emp.accreditations}
+              className="text-left"
+              ulClassName="fa-ul"
+              liClassName="fa-li"
+              iconClassName="fa fa-check-circle fa-lg"
+            />
             <IconSocialMediaList list={emp.socialMedia} />
             {emp.booking ? (
               //   <div className="business-card-footer">
