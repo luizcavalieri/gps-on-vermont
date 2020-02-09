@@ -1,10 +1,10 @@
 import React from 'react';
 
-const DescriptionItem = ({ item , className:passedClasses}) => {
+const DescriptionItem = ({ desc , className:passedClasses}) => {
 
     return (
         <>
-            <div className={passedClasses} >{item}</div>
+            <div className={passedClasses} >{desc}</div>
         </>
     );
 }

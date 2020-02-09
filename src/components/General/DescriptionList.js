@@ -7,7 +7,7 @@ const DescriptionList = ({ list, className:passedClasses }) => {
     <>
       <div className="description">
         {list.map((item, index) => (
-          <DescriptionItem key={index} item={item} className={passedClasses}/>
+          <DescriptionItem key={index} desc={item} className={passedClasses}/>
         ))}
       </div>
     </>

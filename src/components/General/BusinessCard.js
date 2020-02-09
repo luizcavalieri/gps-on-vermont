@@ -16,7 +16,6 @@ const BusinessCard = ({ emp }) => {
   let path = emp.image;
   return (
     <>
-      {/* color="warning" */}
       <Card>
         <div className="team-player">
           <CardHeader className="business-card-header">
@@ -47,11 +46,7 @@ const BusinessCard = ({ emp }) => {
               iconClassName="fa fa-check-circle fa-lg"
             />
             <IconSocialMediaList list={emp.socialMedia} />
-            {emp.booking ? (
-              //   <div className="business-card-footer">
-              <BookingButton doctorId={emp.bookingDoctorId} />
-            ) : //   </div>
-            null}
+            {emp.booking ? <BookingButton doctorId={emp.bookingDoctorId} /> : null}
           </CardBody>
         </div>
       </Card>
