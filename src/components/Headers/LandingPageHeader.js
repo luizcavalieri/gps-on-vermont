@@ -1,7 +1,7 @@
 import React, { useEffect, createRef } from "react";
 
 // reactstrap components
-import { Button, Container } from "reactstrap";
+import { Container } from "reactstrap";
 import IconSocialMediaItem from "../General/IconSocialMediaItem";
 import BookingButton from "../General/BookingButton";
 // core components

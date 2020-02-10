@@ -8,7 +8,7 @@ const staff = [
     descriptions: [
       "Dr Padilla has been a General Practitioner in the Wodonga area for 10 years.",
       "Carmen has a special interest in women’s health, child health, chronic disease management, men’s health.",
-      "Dr Padilla speaks Spanish as well as English"
+      "Dr Padilla speaks Spanish as well as English."
     ],
     booking: true,
     bookingDoctorId: "dr-carmen-padilla-1",
@@ -25,8 +25,8 @@ const staff = [
       "Certificate of Community engagement with the Australian and International Participation"
     ],
     descriptions: [
-      "Our administration Team is managed by our Practice Manager Annette",
-      "Annette has a vast background in Business Management and has been a Practice Manager in other Practices"
+      "Our administration Team is managed by our Practice Manager Annette.",
+      "She has a vast background in Business Management and has been a Practice Manager in other Practices."
     ],
     booking: false,
     bookingDoctorId: "",

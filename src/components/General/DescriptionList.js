@@ -5,7 +5,8 @@ const DescriptionList = ({ list, className:passedClasses }) => {
   if (!list) return null;
   return (
     <>
-      <div className="description">
+      {/* <div className="description"> */}
+      <div>
         {list.map((item, index) => (
           <DescriptionItem key={index} desc={item} className={passedClasses}/>
         ))}

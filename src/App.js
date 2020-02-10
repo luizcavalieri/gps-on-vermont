@@ -16,7 +16,7 @@ import Index from './views/Index';
 import LandingPage from './views/examples/LandingPage';
 import ContactUs from './views/examples/ContactUs';
 import ProfilePage from './views/examples/ProfilePage';
-import OurServices from './views/examples/OurServices';
+import OurServices from './views/examples/OurServicesPage';
 import PatientInfo from './views/examples/PatientInfo';
 import StaffPage from './views/examples/StaffPage';
 

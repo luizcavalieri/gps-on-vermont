@@ -1,10 +1,9 @@
 import React, { useEffect, createRef } from "react";
 
 // reactstrap components
-import { Button, Container } from "reactstrap";
+import { Container } from "reactstrap";
 
 // core components
-
 
 const OtherPageHeader = ({ message }) => {
   let pageHeader = createRef();

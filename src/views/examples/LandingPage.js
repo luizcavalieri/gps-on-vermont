@@ -2,16 +2,10 @@ import React, { useEffect } from "react";
 
 // reactstrap components
 import {
-  Button,
   Container,
   Row,
   Col,
-  Card,
-  CardHeader,
-  CardBody,
-  CardText,
-  CardDeck,
-  CardFooter
+  Button
 } from "reactstrap";
 
 // core components
@@ -87,10 +81,10 @@ ml-auto mr-auto
               </Card> */}
 
             <Row>
-              <Col md="8">
+              <Col md="12" xl="8">
                 <News news={newsContent} />
               </Col>
-              <Col md="4">
+              <Col md="12" xl="4">
                 
                   <OpeningHours />
                 

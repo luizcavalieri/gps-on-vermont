@@ -35,12 +35,12 @@ const BusinessCard = ({ emp }) => {
             <CardText className="category text-info">{emp.title}</CardText>
             <DescriptionList
               list={emp.descriptions}
-              className="text-justified"
+              className="text-justified font-paragraph"
             />
             <dir className="new-line"></dir>
             <IconCheckList
               list={emp.accreditations}
-              className="text-left"
+              className="text-left font-paragraph"
               ulClassName="fa-ul"
               liClassName="fa-li"
               iconClassName="fa fa-check-circle fa-lg"

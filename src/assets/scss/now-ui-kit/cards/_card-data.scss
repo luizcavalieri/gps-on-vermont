@@ -231,4 +231,8 @@ $card-height-5x: 31.25rem;
   height: 300px; 
   position: relative;
 }
+
+.font-paragraph {
+  font-size: $font-paragraph;
+}
 //style={{ overflowY: "auto", height: "300px", position: "relative" }}

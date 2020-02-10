@@ -23,7 +23,6 @@ const News = ({ news }) => {
             <Card key={index}>
               <CardBody>
                 <CardTitle className="card-content-title">{item.title}</CardTitle>
-                {/* <CardSubtitle>{item.title}</CardSubtitle> */}
                 <CardText>{item.content}</CardText>
               </CardBody>
             </Card>
