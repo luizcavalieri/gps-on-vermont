@@ -48,7 +48,7 @@ const staff = [
     bookingDoctorId: "",
     socialMedia: [{
       id: "facebook",
-      link: "www.facebook.com"
+      link: "https://www.facebook.com"
     }]
   },
   {
@@ -62,7 +62,7 @@ const staff = [
     bookingDoctorId: "",
     socialMedia: [{
       id: "facebook",
-      link: "www.facebook.com"
+      link: "https://www.facebook.com"
     }]
   },
   {
@@ -76,7 +76,7 @@ const staff = [
     bookingDoctorId: "",
     socialMedia: [{
       id: "facebook",
-      link: "www.facebook.com"
+      link: "https://www.facebook.com"
     }]
   }
 ];

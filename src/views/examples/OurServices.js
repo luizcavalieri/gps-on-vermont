@@ -41,40 +41,40 @@ const OurServices = () => {
                         <ul></ul>
                         <ul className="fa-ul">
                           <li>
-                            <span class="fa-li">
-                              <i class="fa fa-check-circle fa-lg"></i>
+                            <span className="fa-li">
+                              <i className="fa fa-check-circle fa-lg"></i>
                             </span>
                             75+ Health Assessments
                           </li>
                           <li>
-                            <span class="fa-li">
-                              <i class="fa fa-check-circle fa-lg"></i>
+                            <span className="fa-li">
+                              <i className="fa fa-check-circle fa-lg"></i>
                             </span>
                             45-49 years old Health Assessments
                           </li>
                           <li>
-                            <span class="fa-li">
-                              <i class="fa fa-check-circle fa-lg"></i>
+                            <span className="fa-li">
+                              <i className="fa fa-check-circle fa-lg"></i>
                             </span>
                             40-49 years old at risk of Type 2 Diabetes
                           </li>
                           <li>
-                            <span class="fa-li">
-                              <i class="fa fa-check-circle fa-lg"></i>
+                            <span className="fa-li">
+                              <i className="fa fa-check-circle fa-lg"></i>
                             </span>
                             ATSI adult Health Assessments
                           </li>
                           <li>
-                            <span class="fa-li">
-                              <i class="fa fa-check-circle fa-lg"></i>
+                            <span className="fa-li">
+                              <i className="fa fa-check-circle fa-lg"></i>
                             </span>
                             ATSI children Health Assessments
                           </li>
                           <li>
-                            <span class="fa-li">
+                            <span className="fa-li">
                               {/* <Badge pill color="primary"> */}
                               <i
-                                class="fa fa-check-circle fa-lg"
+                                className="fa fa-check-circle fa-lg"
                                 tag="primary"
                               ></i>
                               {/* </Badge> */}
@@ -100,44 +100,44 @@ const OurServices = () => {
                         <ul></ul>
                         <ul className="fa-ul">
                           <li>
-                            <span class="fa-li">
-                              <i class="fa fa-check-circle fa-lg"></i>
+                            <span className="fa-li">
+                              <i className="fa fa-check-circle fa-lg"></i>
                             </span>
                             Asthma
                           </li>
                           <li>
-                            <span class="fa-li">
-                              <i class="fa fa-check-circle fa-lg"></i>
+                            <span className="fa-li">
+                              <i className="fa fa-check-circle fa-lg"></i>
                             </span>
                             Cancer
                           </li>
                           <li>
-                            <span class="fa-li">
-                              <i class="fa fa-check-circle fa-lg"></i>
+                            <span className="fa-li">
+                              <i className="fa fa-check-circle fa-lg"></i>
                             </span>
                             Cardiovascular disease
                           </li>
                           <li>
-                            <span class="fa-li">
-                              <i class="fa fa-check-circle fa-lg"></i>
+                            <span className="fa-li">
+                              <i className="fa fa-check-circle fa-lg"></i>
                             </span>
                             Diabetes
                           </li>
                           <li>
-                            <span class="fa-li">
-                              <i class="fa fa-check-circle fa-lg"></i>
+                            <span className="fa-li">
+                              <i className="fa fa-check-circle fa-lg"></i>
                             </span>
                             Musculoskeletal conditions
                           </li>
                           <li>
-                            <span class="fa-li">
-                              <i class="fa fa-check-circle fa-lg"></i>
+                            <span className="fa-li">
+                              <i className="fa fa-check-circle fa-lg"></i>
                             </span>
                             Stroke
                           </li>
                           <li>
-                            <span class="fa-li">
-                              <i class="fa fa-check-circle fa-lg"></i>
+                            <span className="fa-li">
+                              <i className="fa fa-check-circle fa-lg"></i>
                             </span>
                             Case conferencing
                           </li>
@@ -166,20 +166,20 @@ const OurServices = () => {
                         <ul></ul>
                         <ul className="fa-ul ">
                           <li>
-                            <span class="fa-li">
-                              <i class="fa fa-check-circle fa-lg"></i>
+                            <span className="fa-li">
+                              <i className="fa fa-check-circle fa-lg"></i>
                             </span>
                             Diet and lifstyle advice
                           </li>
                           <li>
-                            <span class="fa-li">
-                              <i class="fa fa-check-circle fa-lg"></i>
+                            <span className="fa-li">
+                              <i className="fa fa-check-circle fa-lg"></i>
                             </span>
                             Medication management
                           </li>
                           <li>
-                            <span class="fa-li">
-                              <i class="fa fa-check-circle fa-lg"></i>
+                            <span className="fa-li">
+                              <i className="fa fa-check-circle fa-lg"></i>
                             </span>
                             Health checks
                           </li>
@@ -227,32 +227,32 @@ const OurServices = () => {
                         <ul></ul>
                         <ul className="fa-ul ">
                           <li>
-                            <span class="fa-li">
-                              <i class="fa fa-check-circle fa-lg"></i>
+                            <span className="fa-li">
+                              <i className="fa fa-check-circle fa-lg"></i>
                             </span>
                             Heart failure
                           </li>
                           <li>
-                            <span class="fa-li">
-                              <i class="fa fa-check-circle fa-lg"></i>
+                            <span className="fa-li">
+                              <i className="fa fa-check-circle fa-lg"></i>
                             </span>
                             Hypertension
                           </li>
                           <li>
-                            <span class="fa-li">
-                              <i class="fa fa-check-circle fa-lg"></i>
+                            <span className="fa-li">
+                              <i className="fa fa-check-circle fa-lg"></i>
                             </span>
                             Ischaemic heart disease
                           </li>
                           <li>
-                            <span class="fa-li">
-                              <i class="fa fa-check-circle fa-lg"></i>
+                            <span className="fa-li">
+                              <i className="fa fa-check-circle fa-lg"></i>
                             </span>
                             Asthma management and action plan
                           </li>
                           <li>
-                            <span class="fa-li">
-                              <i class="fa fa-check-circle fa-lg"></i>
+                            <span className="fa-li">
+                              <i className="fa fa-check-circle fa-lg"></i>
                             </span>
                             COPD and emphysema
                           </li>
@@ -280,68 +280,68 @@ const OurServices = () => {
                         <ul></ul>
                         <ul className="fa-ul ">
                           <li>
-                            <span class="fa-li">
-                              <i class="fa fa-check-circle fa-lg"></i>
+                            <span className="fa-li">
+                              <i className="fa fa-check-circle fa-lg"></i>
                             </span>
                             Electrocardiogram (E.C.G)
                           </li>
                           <li>
-                            <span class="fa-li">
-                              <i class="fa fa-check-circle fa-lg"></i>
+                            <span className="fa-li">
+                              <i className="fa fa-check-circle fa-lg"></i>
                             </span>
                             Spirometry (Lung Function testings)
                           </li>
                           <li>
-                            <span class="fa-li">
-                              <i class="fa fa-check-circle fa-lg"></i>
+                            <span className="fa-li">
+                              <i className="fa fa-check-circle fa-lg"></i>
                             </span>
                             Family Planning
                           </li>
                            <li>
-                            <span class="fa-li">
-                              <i class="fa fa-check-circle fa-lg"></i>
+                            <span className="fa-li">
+                              <i className="fa fa-check-circle fa-lg"></i>
                             </span>
                             Ceviral Screening Test (PAP) smear
                           </li>
                           <li>
-                            <span class="fa-li">
-                              <i class="fa fa-check-circle fa-lg"></i>
+                            <span className="fa-li">
+                              <i className="fa fa-check-circle fa-lg"></i>
                             </span>
                             Counselling
                           </li>
                           <li>
-                            <span class="fa-li">
-                              <i class="fa fa-check-circle fa-lg"></i>
+                            <span className="fa-li">
+                              <i className="fa fa-check-circle fa-lg"></i>
                             </span>
                             Children Vaccinations
                           </li>
                           <li>
-                            <span class="fa-li">
-                              <i class="fa fa-check-circle fa-lg"></i>
+                            <span className="fa-li">
+                              <i className="fa fa-check-circle fa-lg"></i>
                             </span>
                             Care of aged or disabled
                           </li> 
                           <li>
-                            <span class="fa-li">
-                              <i class="fa fa-check-circle fa-lg"></i>
+                            <span className="fa-li">
+                              <i className="fa fa-check-circle fa-lg"></i>
                             </span>
                             Heart checks 
                           </li>
                           <li>
-                            <span class="fa-li">
-                              <i class="fa fa-check-circle fa-lg"></i>
+                            <span className="fa-li">
+                              <i className="fa fa-check-circle fa-lg"></i>
                             </span>
                             Skin checks, Liquid Nitrogen freezing for sunspots and warts, minor surgery
                           </li>
                           <li>
-                            <span class="fa-li">
-                              <i class="fa fa-check-circle fa-lg"></i>
+                            <span className="fa-li">
+                              <i className="fa fa-check-circle fa-lg"></i>
                             </span>
                             Workcover (VIC and NSW) Comcare
                           </li> 
                           <li>
-                            <span class="fa-li">
-                              <i class="fa fa-check-circle fa-lg"></i>
+                            <span className="fa-li">
+                              <i className="fa fa-check-circle fa-lg"></i>
                             </span>
                             TAC (motor vehicle)
                           </li> 
@@ -365,44 +365,44 @@ const OurServices = () => {
                         <ul></ul>
                         <ul className="fa-ul ">
                         <li>
-                            <span class="fa-li">
-                              <i class="fa fa-check-circle fa-lg"></i>
+                            <span className="fa-li">
+                              <i className="fa fa-check-circle fa-lg"></i>
                             </span>
                             Refugee Health
                           </li>
                           <li>
-                            <span class="fa-li">
-                              <i class="fa fa-check-circle fa-lg"></i>
+                            <span className="fa-li">
+                              <i className="fa fa-check-circle fa-lg"></i>
                             </span>
                             Ear Syringing
                           </li>
                           <li>
-                            <span class="fa-li">
-                              <i class="fa fa-check-circle fa-lg"></i>
+                            <span className="fa-li">
+                              <i className="fa fa-check-circle fa-lg"></i>
                             </span>
                             CVC program
                           </li>
                           <li>
-                            <span class="fa-li">
-                              <i class="fa fa-check-circle fa-lg"></i>
+                            <span className="fa-li">
+                              <i className="fa fa-check-circle fa-lg"></i>
                             </span>
                             General Medical, White and Gold card holders
                           </li>
                           <li>
-                            <span class="fa-li">
-                              <i class="fa fa-check-circle fa-lg"></i>
+                            <span className="fa-li">
+                              <i className="fa fa-check-circle fa-lg"></i>
                             </span>
                             Pre-employment and general health medicals
                           </li>
                           <li>
-                            <span class="fa-li">
-                              <i class="fa fa-check-circle fa-lg"></i>
+                            <span className="fa-li">
+                              <i className="fa fa-check-circle fa-lg"></i>
                             </span>
                             Weight Loss
                           </li>
                           <li>
-                            <span class="fa-li">
-                              <i class="fa fa-check-circle fa-lg"></i>
+                            <span className="fa-li">
+                              <i className="fa fa-check-circle fa-lg"></i>
                             </span>
                             Travel Medicine and Vaccinations
                           </li>

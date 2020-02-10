@@ -1,7 +1,7 @@
 import React from "react";
 import { Button } from "reactstrap";
 
-const IconSocialMediaItem = ({id, link, index}) => {
+const IconSocialMediaItem = ({id, link}) => {
 
   return ( 
     <>

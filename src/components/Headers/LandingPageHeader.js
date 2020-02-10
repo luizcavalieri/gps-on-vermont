@@ -2,7 +2,8 @@ import React, { useEffect, createRef } from "react";
 
 // reactstrap components
 import { Button, Container } from "reactstrap";
-
+import IconSocialMediaItem from "../General/IconSocialMediaItem";
+import BookingButton from "../General/BookingButton";
 // core components
 
 const LandingPageHeader = ({ title }) => {
@@ -35,30 +36,8 @@ const LandingPageHeader = ({ title }) => {
           <Container>
             <h1 className="title">{title}</h1>
             <div className="text-center">
-              <Button
-                className="btn-icon btn-round"
-                color="info"
-                href="#pablo"
-                onClick={e => e.preventDefault()}
-              >
-                <i className="fab fa-facebook-square"></i>
-              </Button>
-              <Button
-                className="btn-icon btn-round"
-                color="info"
-                href="#pablo"
-                onClick={e => e.preventDefault()}
-              >
-                <i className="fab fa-twitter"></i>
-              </Button>
-              <Button
-                className="btn-icon btn-round"
-                color="info"
-                href="#pablo"
-                onClick={e => e.preventDefault()}
-              >
-                <i className="fab fa-google-plus"></i>
-              </Button>
+              <IconSocialMediaItem id="facebook" link="https://www.facebook.com" />
+              <BookingButton doctorId="https://www.hotdoc.com.au/medical-centres/wodonga-VIC-3690/gps-on-vermont/doctors" />
             </div>
           </Container>
         </div>

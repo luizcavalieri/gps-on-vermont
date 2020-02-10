@@ -5,9 +5,8 @@ import { Button, Container } from "reactstrap";
 
 // core components
 
-const OtherPageHeader = ({ message }) => {
-    
 
+const OtherPageHeader = ({ message }) => {
   let pageHeader = createRef();
 
   useEffect(() => {

@@ -1,12 +1,8 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 
 // reactstrap components
 import {
   Button,
-  Input,
-  InputGroupAddon,
-  InputGroupText,
-  InputGroup,
   Container,
   Row,
   Col,
@@ -14,20 +10,22 @@ import {
   CardHeader,
   CardBody,
   CardText,
-  CardGroup,
-  CardDeck
+  CardDeck,
+  CardFooter
 } from "reactstrap";
 
 // core components
-// import ExamplesNavbar from '../../components/NavBars/ExamplesNavbar';
 import HomeNavbar from "../../components/NavBars/HomeNavbar";
 import LandingPageHeader from "../../components/Headers/LandingPageHeader.js";
 import DefaultFooter from "../../components/Footers/DefaultFooter.js";
 import { headerScrolling } from "./commons";
+import newsContent from "../../components/General/news-content";
+import News from "../../components/General/News";
+import OpeningHours from "../../components/General/OpeningHours";
 
 function LandingPage() {
-  const [firstFocus, setFirstFocus] = useState(false);
-  const [lastFocus, setLastFocus] = useState(false);
+  // const [firstFocus, setFirstFocus] = useState(false);
+  // const [lastFocus, setLastFocus] = useState(false);
 
   const messageTitle = "GPs On Vermont Medical Centre";
 
@@ -46,155 +44,61 @@ function LandingPage() {
             <Row>
               <Col className="ml-auto mr-auto text-center" md="8">
                 <h2 className="title">Who we are?</h2>
-                {/* <h5 className="description">
-                  According to the National Oceanic and Atmospheric
-                  Administration, Ted, Scambos, NSIDClead scentist, puts the
-                  potentially record low maximum sea ice extent tihs year down
-                  to low ice extent in the Pacific and a late drop in ice extent
-                  in the Barents Sea.
-                </h5> */}
                 <h5 className="description">
-                  At GPs on Vermont Medical Centre we are passionate about providing high quality primary and preventive health care to the community.  Health is important, but good health is optimal.  Having a comprehensive health management plan and a preventative approach to your health is the key to sustaining a long and fulfilling life of physical, emotional and social wellbeing.
+                  At GPs on Vermont Medical Centre we are passionate about
+                  providing high quality primary and preventive health care to
+                  the community. Health is important, but good health is
+                  optimal. Having a comprehensive health management plan and a
+                  preventative approach to your health is the key to sustaining
+                  a long and fulfilling life of physical, emotional and social
+                  wellbeing.
                 </h5>
-
               </Col>
             </Row>
           </Container>
         </div>
-
         <div>
-          <Container >
-            <CardDeck className="card-deck-data ml-auto mr-auto" >
-                <Card className="card-data " >
-                  <CardHeader className="card-header">Booking</CardHeader>
-                  <CardBody className="card-body">
-                    <CardText className="card-title-image">
-                      {/* <Button
-                        className="btn-icon btn-round "
-                        color="info"
-                        href="#pablo"
-                        onClick={e => e.preventDefault()}
-                      >
-                        <i className="now-ui-icons location_pin"></i>
-                      </Button>
-                      <div className="text">Address</div> */}
-                      {/* <div className="wrapper"> */}
-                      <img
-                        alt="..."
-                        src={require("../../assets/img/hotdoc-horz.png")}
-                      ></img>
-                      {/* </div> */}
-                    </CardText>
-                    {/* <CardText className="content-bold">
-                      80 Vermont Street Wodonga VIC 3690
-                    </CardText> */}
-                    <div className="card-content ">
-                      <div className="content-text ">
-                        <p>80 Vermont Street Wodonga VIC 3690</p>
-                      </div>
-                    </div>
-                  </CardBody>
-                </Card>
-              
-
-              
-                <Card className="card-data" >
-                  <CardHeader className="card-header">Latest News</CardHeader>
-                  <CardBody className="card-body">
-                    <CardText className="card-title-image-text">
-                      <img
-                        alt="..."
-                        src={require("../../assets/img/gpv.png")}
-                      ></img>
-                      Schedule yours now
-                    </CardText>
-                    
-                      <div className="card-content">
-                        <div className="content-text">
-                          
-                              To achieve Smooth Scroll effect add a class
-                              .smooth-scroll to the parent element of your links
-                            
-                        </div>
-                      </div>
-                    
-                  </CardBody>
-                </Card>
-              
-
-              
-                <Card className="card-data" >
-                  <CardHeader className="card-header">Opening Hours</CardHeader>
-                  <CardBody className="card-body">
-                    <div className="card-content ">
-                      <div className="content-text ">
-                        <div className="align-left">
-                          <p>Monday</p>
-                        </div>
-                        <div className="align-right">
-                          <p>8:00 am to 5:20 pm</p>
-                        </div>
-                        <div className="clear-both"></div>
-                      </div>
-                      <div className="  content-text">
-                        <div className="align-left">
-                          <p>Tuesday</p>
-                        </div>
-                        <div className="align-right">
-                          <p>8:00 am to 5:20 pm</p>
-                        </div>
-                        <div className="clear-both"></div>
-                      </div>
-                      <div className="  content-text">
-                        <div className="align-left">
-                          <p>Wednesday</p>
-                        </div>
-                        <div className="align-right">
-                          <p>8:00 am to 5:20 pm</p>
-                        </div>
-                        <div className="clear-both"></div>
-                      </div>
-                      <div className="  content-text">
-                        <div className="align-left">
-                          <p>Thursday</p>
-                        </div>
-                        <div className="align-right">
-                          <p>8:00 am to 5:20 pm</p>
-                        </div>
-                        <div className="clear-both"></div>
-                      </div>
-                      <div className="  content-text">
-                        <div className="align-left">
-                          <p>Friday</p>
-                        </div>
-                        <div className="align-right">
-                          <p>8:00 am to 5:20 pm</p>
-                        </div>
-                        <div className="clear-both"></div>
-                      </div>
-                      <div className="  content-text">
-                        <div className="align-left">
-                          <p>Saturday</p>
-                        </div>
-                        <div className="align-right">
-                          <p>9:00 am to 12:30 pm</p>
-                        </div>
-                        <div className="clear-both"></div>
-                      </div>
-                    </div>
-
-
-
-
-
-                    
-                  </CardBody>
-                </Card>
-            </CardDeck>  
-            </Container>
+          <Container>
+            <News news={newsContent} />
+          </Container>
         </div>
+        <div>
+          <Container>
+            {/* <CardDeck className="card-deck-data " > */}
+            {/* <Card className="card-data ">
 
+ml-auto mr-auto
 
+                <CardHeader className="card-header">Booking</CardHeader>
+                <CardBody className="card-body">
+                  <CardText className="card-title-image">
+                    <img
+                      alt="..."
+                      src={require("../../assets/img/hotdoc-horz.png")}
+                    ></img>
+                  </CardText>
+                  
+                  <div className="card-content ">
+                    <div className="content-text ">
+                      <p>80 Vermont Street Wodonga VIC 3690</p>
+                    </div>
+                  </div>
+                </CardBody>
+              </Card> */}
+
+            <Row>
+              <Col md="8">
+                <News news={newsContent} />
+              </Col>
+              <Col md="4">
+                
+                  <OpeningHours />
+                
+              </Col>
+            </Row>
+            {/* </CardDeck> */}
+          </Container>
+        </div>
 
         {/* <div>
           <Container>
@@ -271,11 +175,6 @@ function LandingPage() {
             </div>
           </Container>
         </div> */}
-
-
-
-
-
 
         <div id="teamA" className="section section-team text-center">
           <Container>

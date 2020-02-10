@@ -9,7 +9,7 @@ const BookingButton = ({ doctorId }) => {
     <>
       <Button
         className="btn-font btn-weight"
-        size="lg"
+        size="md"
         color="primary"
         href={`https://www.hotdoc.com.au/medical-centres/wodonga-VIC-3690/gps-on-vermont/doctors/${doctorId}`}
         // onClick={e => e.preventDefault()}
