@@ -37,7 +37,7 @@ const ContactUs = () => {
         <div className="section text-center">
           <Container className="text-muted">
             <Row>
-              <Col className="text-center ml-auto mr-auto" lg="6" md="8">
+              <Col className="text-center ml-auto mr-auto" lg="6" md="6">
                 <Card className="card-data ">
                   <CardHeader className="card-header">
                     <i className="fa fa-phone-square fa-lg fa-icon-card-header"></i>
@@ -90,7 +90,7 @@ const ContactUs = () => {
                 </Card>
               </Col>
 
-              <Col className="text-center ml-auto mr-auto" lg="6" md="8">
+              <Col className="text-center ml-auto mr-auto" lg="6" md="6">
                 <Card className="card-data ">
                   <CardHeader className="card-header">
                     <i className="far fa-calendar-alt fa-lg fa-icon-card-header"></i>
@@ -148,7 +148,7 @@ const ContactUs = () => {
             </Row>
 
             <Row>
-              <Col className="text-center ml-auto mr-auto" lg="6" md="8">
+              <Col className="text-center ml-auto mr-auto" lg="6" md="6">
                 <Card className="card-data ">
                   <CardHeader className="card-header">
                     <i className="far fa-envelope fa-lg fa-icon-card-header"></i>
