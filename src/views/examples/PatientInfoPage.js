@@ -1,16 +1,13 @@
 import React, { useEffect } from "react";
-import {
-  Container,
-  Row,
-  Col,
-  Table
-} from "reactstrap";
+import { Container, Row, Col, Table } from "reactstrap";
 import OtherNavbar from "../../components/NavBars/OtherNavbar";
 import OtherPageHeader from "../../components/Headers/OtherPageHeader";
 import DefaultFooter from "../../components/Footers/DefaultFooter";
 import { headerScrolling } from "./commons";
 import patientsInfo from "../../data/patientsInfo-content";
 import InfoCard from "../../components/General/InfoCard";
+import TableData from "../../components/General/TableData";
+import feeContent from "../../data/fees-content";
 
 const PatientInfoPage = () => {
   const message = "Patients Information";
@@ -27,7 +24,7 @@ const PatientInfoPage = () => {
         <div className="section section-team text-center">
           <Container className="text-muted">
             <Row>
-              <Col >
+              <Col>
                 <InfoCard
                   record={patientsInfo[0]}
                   iconClassName="far fa-calendar-alt fa-lg"
@@ -36,8 +33,8 @@ const PatientInfoPage = () => {
               </Col>
             </Row>
             <Row>
-              <Col >
-                <InfoCard 
+              <Col>
+                <InfoCard
                   record={patientsInfo[1]}
                   iconClassName="fas fa-ban fa-lg"
                   headerClassName="text-left"
@@ -46,7 +43,7 @@ const PatientInfoPage = () => {
             </Row>
 
             <Row>
-              <Col >
+              <Col>
                 <InfoCard
                   record={patientsInfo[2]}
                   iconClassName="fa fa-user-nurse fa-lg"
@@ -55,7 +52,7 @@ const PatientInfoPage = () => {
               </Col>
             </Row>
             <Row>
-              <Col >
+              <Col>
                 <InfoCard
                   record={patientsInfo[3]}
                   iconClassName="fa fa-notes-medical fa-lg"
@@ -64,10 +61,10 @@ const PatientInfoPage = () => {
               </Col>
             </Row>
 
-            <Row>
+            {/* <Row>
               <Col>
                 <h2 className="title text-left">Fees</h2>
-                <Table striped bordered responsive>
+                <Table striped bordered responsive >
                   <thead className="fees-table-row">
                     <tr>
                       <th></th>
@@ -121,6 +118,11 @@ const PatientInfoPage = () => {
                     </tr>
                   </tbody>
                 </Table>
+              </Col>
+            </Row> */}
+            <Row>
+              <Col>
+                <TableData feeData={feeContent} />
               </Col>
             </Row>
           </Container>

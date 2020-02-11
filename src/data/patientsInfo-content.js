@@ -30,7 +30,7 @@ const patientsInfo = [
     {
         title: "My Health - Record",
         descriptions: [
-            "Having a My Health record means your important health information like allergies, current conditions and treatments, medicine details, pathology reports or diagnosis imaging scan reports can be digitally stored inn one place. Healthcare providers like doctors, specialist and hospital staff can see these details online from anywhere at any time when they need to, such as in an accident or emergency. Please advise your doctor at your appointment if you want this information to be uploaded."
+            "Having a My Health record means your important health information like allergies, current conditions and treatments, medicine details, pathology reports or diagnosis imaging scan reports can be digitally stored in one place. Healthcare providers like doctors, specialist and hospital staff can see these details online from anywhere at any time when they need to, such as in an accident or emergency. Please advise your doctor at your appointment if you want this information to be uploaded."
         ],
         items: [
         ]
