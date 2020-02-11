@@ -3,8 +3,6 @@ import { Button } from "reactstrap";
 
 const BookingButton = ({ doctorId }) => {
 //   console.log(doctorId);
-  if (!doctorId) return null;
-
   return (
     <>
       <Button

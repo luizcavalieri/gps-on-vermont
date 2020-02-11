@@ -14,10 +14,10 @@ import './assets/demo/nucleo-icons-page-styles.css';
 // pages for this kit
 import Index from './views/Index'; 
 import LandingPage from './views/examples/LandingPage';
-import ContactUs from './views/examples/ContactUs';
+import ContactUsPage from './views/examples/ContactUsPage';
 import ProfilePage from './views/examples/ProfilePage';
-import OurServices from './views/examples/OurServicesPage';
-import PatientInfo from './views/examples/PatientInfo';
+import OurServicesPage from './views/examples/OurServicesPage';
+import PatientInfoPage from './views/examples/PatientInfo';
 import StaffPage from './views/examples/StaffPage';
 
 function App() {
@@ -27,10 +27,10 @@ function App() {
         <Route path="/" component={LandingPage} exact />
         <Route path="/index" render={props => <Index {...props} />} />
         <Route path='/landing-page' render={props => <LandingPage {...props} /> } />
-        <Route path='/contact-page' component={ContactUs} />
+        <Route path='/contact-page' component={ContactUsPage} />
         <Route path='/staff-page' component={StaffPage} />
-        <Route path='/our-services' component={OurServices} />
-        <Route path='/patient-info' component={PatientInfo} />
+        <Route path='/our-services' component={OurServicesPage} />
+        <Route path='/patient-info' component={PatientInfoPage} />
         <Route path='/profile' component={ProfilePage} />
       </Switch>
     </Router>

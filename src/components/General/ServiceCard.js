@@ -9,7 +9,6 @@ const ServiceCard = ({ service }) => {
       <Card className="card-data">
         <CardHeader className="card-header">
           <i className={service.icon.concat(" fa-icon-card-header")} ></i>
-        
           {service.title}
         </CardHeader>
         <CardBody>
