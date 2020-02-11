@@ -1,13 +1,13 @@
 import React from "react";
 import { Col } from "reactstrap";
-import ServiceCard from "./ServiceCard";
+import InfoCard from "./InfoCard";
 
 const ServicesRow = ({ row }) => {
   return (
     <>
       {row.map((col, index) => (
         <Col key={index} xs="12" xl="6">
-          <ServiceCard service={col} />
+          <InfoCard record={col} iconClassName={col.icon}/>
         </Col>
       ))}
     </>

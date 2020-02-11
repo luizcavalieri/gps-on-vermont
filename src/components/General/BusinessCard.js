@@ -35,6 +35,7 @@ const BusinessCard = ({ emp }) => {
             <CardText className="category text-info">{emp.title}</CardText>
             <DescriptionList
               list={emp.descriptions}
+              includeNewLine={ false }
               className="text-justified font-paragraph"
             />
             <dir className="new-line"></dir>

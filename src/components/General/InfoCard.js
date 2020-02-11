@@ -1,24 +1,26 @@
 import React from "react";
 import { Card, CardHeader, CardBody } from "reactstrap";
-import DescriptionItem from "./DescriptionItem";
 import IconCheckList from "./IconCheckList";
+import DescriptionList from "./DescriptionList";
 
-const ServiceCard = ({ service }) => {
+const InfoCard = ({ record , iconClassName, headerClassName}) => {
+  if(!record) return null;
   return (
     <>
       <Card className="card-data">
-        <CardHeader className="card-header">
-          <i className={service.icon.concat(" fa-icon-card-header")} ></i>
-          {service.title}
+        <CardHeader className={headerClassName}>
+          <i className={iconClassName.concat(" fa-icon-card-header")} ></i>
+          {record.title}
         </CardHeader>
         <CardBody>
-          <DescriptionItem
-            desc={service.description}
-            className="text-justified font-paragraph"
+          <DescriptionList
+            list={record.descriptions}
+            includeNewLine={ true }
+            className="text-justified font-paragraph "
           />
           <dir className="new-line"></dir>
           <IconCheckList
-            list={service.items}
+            list={record.items}
             className="text-left font-paragraph"
             ulClassName="fa-ul"
             liClassName="fa-li"
@@ -30,4 +32,4 @@ const ServiceCard = ({ service }) => {
   );
 };
 
-export default ServiceCard;
+export default InfoCard;

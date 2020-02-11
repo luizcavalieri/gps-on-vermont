@@ -5,7 +5,7 @@ import OtherPageHeader from "../../components/Headers/OtherPageHeader";
 import DefaultFooter from "../../components/Footers/DefaultFooter.js";
 import { headerScrolling } from "./commons";
 import Services from "../../components/General/Services";
-import servicesContent from "../../components/General/services-content";
+import servicesContent from "../../data/services-content";
 
 const OurServicesPage = () => {
   const ourServicesMessage = "Our Services";

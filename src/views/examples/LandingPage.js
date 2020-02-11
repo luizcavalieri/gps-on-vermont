@@ -13,7 +13,7 @@ import HomeNavbar from "../../components/NavBars/HomeNavbar";
 import LandingPageHeader from "../../components/Headers/LandingPageHeader.js";
 import DefaultFooter from "../../components/Footers/DefaultFooter.js";
 import { headerScrolling } from "./commons";
-import newsContent from "../../components/General/news-content";
+import newsContent from "../../data/news-content";
 import News from "../../components/General/News";
 import OpeningHours from "../../components/General/OpeningHours";
 

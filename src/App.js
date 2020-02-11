@@ -17,7 +17,7 @@ import LandingPage from './views/examples/LandingPage';
 import ContactUsPage from './views/examples/ContactUsPage';
 import ProfilePage from './views/examples/ProfilePage';
 import OurServicesPage from './views/examples/OurServicesPage';
-import PatientInfoPage from './views/examples/PatientInfo';
+import PatientInfoPage from './views/examples/PatientInfoPage';
 import StaffPage from './views/examples/StaffPage';
 
 function App() {

@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import staffContent from "../../components/General/staff-content";
+import staffContent from "../../data/staff-content";
 import Staff from "../../components/General/Staff";
 import OtherNavbar from "../../components/NavBars/OtherNavbar";
 import OtherPageHeader from "../../components/Headers/OtherPageHeader";

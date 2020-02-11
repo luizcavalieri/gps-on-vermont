@@ -2,7 +2,9 @@ const services = [
     {
         title: "Health Assessments",
         icon: "fa fa-user-nurse fa-lg",
-        description: "Medicare subsides a number of Health Assessments that you can take advantage of at our clinic:",
+        descriptions: [
+            "Medicare subsides a number of Health Assessments that you can take advantage of at our clinic:"
+        ],
         items: [
             "75+ Health Assessments",
             "45-49 years old Health Assessments",
@@ -15,7 +17,9 @@ const services = [
     {
         title: "Chronic Disease Management",
         icon: "fa fa-user-md fa-lg",
-        description: "Chronic disease Management Plans (GPMP) include conditions that are ongoing such as:",
+        descriptions: [
+            "Chronic disease Management Plans (GPMP) include conditions that are ongoing such as:"
+        ],
         items: [
             "Asthma",
             "Cancer",
@@ -29,7 +33,9 @@ const services = [
     {
         title: "Diabetes Management",
         icon: "fa fa-notes-medical fa-lg",
-        description: "Our doctors manage diabetes patients and those at high risk of developing diabetes through our Chronic Disease Management plans. GPs on Vermont provides: ",
+        descriptions: [
+            "Our doctors manage diabetes patients and those at high risk of developing diabetes through our Chronic Disease Management plans. GPs on Vermont provides: "
+        ],
         items: [
             "Diet and lifstyle advice",
             "Medication management",
@@ -39,7 +45,9 @@ const services = [
     {
         title: "Heart and Lung Conditions",
         icon: "fa fa-heartbeat fa-lg",
-        description: "GPs on Vermont cares for patients with:",
+        descriptions: [
+            "GPs on Vermont cares for patients with:"
+        ],
         items: [
             "Heart failure",
             "Hypertension",
@@ -51,7 +59,9 @@ const services = [
     {
         title: "General Health",
         icon: "fa fa-laptop-medical fa-lg",
-        description: "",
+        descriptions: [
+            ""
+        ],
         items: [
             "Electrocardiogram (E.C.G)",
             "Spirometry (Lung Function testings)",
@@ -69,7 +79,9 @@ const services = [
     {
         title: "Dept. of Veteran Affairs",
         icon: "fa fa-stethoscope fa-lg",
-        description: "",
+        descriptions: [
+            ""
+        ],
         items: [
             "Refugee Health",
             "Ear Syringing",
