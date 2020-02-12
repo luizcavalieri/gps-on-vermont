@@ -96,8 +96,8 @@ const ContactUs = () => {
                     <i className="far fa-calendar-alt fa-lg fa-icon-card-header"></i>
                     Booking
                   </CardHeader>
-                  <CardBody>
-                    <div className="p-2 text-center  font-paragraph">
+                  <CardBody style={{ height: 200}}>
+                    <div className="p-2 text-center  font-paragraph ">
                       Schedule yours now
                     </div>
                     <BookingButton doctorId="" />
@@ -108,7 +108,7 @@ const ContactUs = () => {
                         className="fa fa-info-circle fa-lg "
                         style={{ marginRight: 10 }}
                       ></i>
-                      We will reply to you as soon as possible
+                      
                     </div>
                   </CardFooter>
                 </Card>
@@ -129,13 +129,13 @@ const ContactUs = () => {
                         className="text-info"
                         href="https://goo.gl/maps/1Uy3tyShraVWj6MP7"
                         target="_blank"
+                        rel="noopener noreferrer"
                       >
                         {" "}
                         80 Vermont Street Wodonga VIC 3690{" "}
                       </a>
                     </CardText>
                     <Iframe
-                      // url="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3441.689163293893!2d146.8777788632351!3d-36.1334911483489!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b2158ff61e5afa1%3A0xf97759b974ef17cf!2s80%20Vermont%20St%2C%20Wodonga%20VIC%203690!5e0!3m2!1sen!2sau!4v1580460776987!5m2!1sen!2sau"
                       url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1611.18540853074!2d146.8789333572565!3d-36.13318348009144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b2158ff61e5afa1%3A0xf97759b974ef17cf!2s80%20Vermont%20St%2C%20Wodonga%20VIC%203690!5e0!3m2!1sen!2sau!4v1580709121873!5m2!1sen!2sau"
                       width="100%"
                       height="400"
