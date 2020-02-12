@@ -1,12 +1,6 @@
 import React from "react";
-import {
-  Card,
-  CardHeader,
-  CardFooter,
-  CardBody,
-  CardTitle
-} from "reactstrap";
-
+import { Card, CardHeader, CardFooter, CardBody, CardTitle } from "reactstrap";
+import { Link } from 'react-router-dom';
 const OpeningHours = () => {
   return (
     <>
@@ -15,7 +9,7 @@ const OpeningHours = () => {
           <i className="fa fa-clock fa-lg fa-icon-card-header"></i>
           Opening Hours
         </CardHeader>
-        <CardBody className="card-body" style={{ height: 300}}>
+        <CardBody className="card-body" style={{ height: 300 }}>
           <CardTitle tag="h5" className=" clearfix card-content-title">
             <div className="float-left">Monday</div>
             <div className="float-right">8:00 am to 5:20 pm</div>
@@ -40,6 +34,10 @@ const OpeningHours = () => {
             <div className="float-left">Saturday</div>
             <div className="float-right">9:00 am to 12:30 pm</div>
           </CardTitle>
+          <CardTitle tag="h5" className=" clearfix card-content-title">
+            <div className="float-left">Sunday</div>
+            <div className="float-right">closed</div>
+          </CardTitle>
         </CardBody>
         <CardFooter className="card-footer-padding">
           <div className="text-justified">
@@ -47,7 +45,8 @@ const OpeningHours = () => {
               className="fa fa-info-circle fa-lg"
               style={{ marginRight: 10 }}
             ></i>
-            Closed on Sundays
+            
+            <Link to="/afterhours-page">Check after hours care</Link>
           </div>
         </CardFooter>
       </Card>

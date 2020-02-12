@@ -2,9 +2,9 @@ import React from "react";
 import { Table, Card, CardHeader } from "reactstrap";
 
 const TableData = ({ feeData }) => {
-  console.log(feeData[0].header);
-  console.log(feeData[0].row);
-  console.log(feeData[0].row[0].data);
+//   console.log(feeData[0].header);
+//   console.log(feeData[0].row);
+//   console.log(feeData[0].row[0].data);
   return (
     <>
       <Card className="card-data ">

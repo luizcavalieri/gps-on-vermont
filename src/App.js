@@ -19,6 +19,9 @@ import ProfilePage from './views/examples/ProfilePage';
 import OurServicesPage from './views/examples/OurServicesPage';
 import PatientInfoPage from './views/examples/PatientInfoPage';
 import StaffPage from './views/examples/StaffPage';
+import FeesPage from './views/examples/FeesPage';
+import AfterHoursPage from './views/examples/AfterHoursPage';
+import AppointmentsPage from './views/examples/AppointmentsPage';
 
 function App() {
   return (
@@ -29,9 +32,12 @@ function App() {
         <Route path='/landing-page' render={props => <LandingPage {...props} /> } />
         <Route path='/contact-page' component={ContactUsPage} />
         <Route path='/staff-page' component={StaffPage} />
-        <Route path='/our-services' component={OurServicesPage} />
-        <Route path='/patient-info' component={PatientInfoPage} />
+        <Route path='/services-page' component={OurServicesPage} />
+        <Route path='/patientinfo-page' component={PatientInfoPage} />
         <Route path='/profile' component={ProfilePage} />
+        <Route path='/fees-page' component={FeesPage} />
+        <Route path='/afterhours-page' component={AfterHoursPage} />
+        <Route path="/appointments-page" component={AppointmentsPage} />
       </Switch>
     </Router>
   );

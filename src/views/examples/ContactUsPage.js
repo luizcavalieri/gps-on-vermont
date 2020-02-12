@@ -19,11 +19,11 @@ import { headerScrolling } from "./commons";
 import IconNumber from "../../components/General/IconNumber";
 import BookingButton from "../../components/General/BookingButton";
 
-const ContactUs = () => {
+const ContactUsPage = () => {
   // const [firstFocus, setFirstFocus] = React.useState(false);
   // const [lastFocus, setLastFocus] = React.useState(false);
 
-  const contactMessage = "We'd love to hear from you!";
+  const message = "We'd love to hear from you!";
 
   useEffect(() => {
     headerScrolling();
@@ -33,7 +33,7 @@ const ContactUs = () => {
     <>
       <OtherNavbar />
       <div className="wrapper">
-        <OtherPageHeader message={contactMessage} />
+        <OtherPageHeader message={message} />
         <div className="section text-center">
           <Container className="text-muted">
             <Row>
@@ -186,4 +186,4 @@ const ContactUs = () => {
   );
 };
 
-export default ContactUs;
+export default ContactUsPage;

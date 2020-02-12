@@ -129,12 +129,12 @@ function OtherNavbar() {
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink to="/our-services" tag={Link}>
+                <NavLink to="/services-page" tag={Link}>
                   Our Services
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink to="/patient-info" tag={Link}>
+                <NavLink to="/patientinfo-page" tag={Link}>
                   Patient Information
                 </NavLink>
               </NavItem>
@@ -144,17 +144,17 @@ function OtherNavbar() {
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://github.com/creativetimofficial/now-ui-kit-react/issues?ref=creativetim">
+                <NavLink to="/fees-page" tag={Link}>
                   Fees
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://github.com/creativetimofficial/now-ui-kit-react/issues?ref=creativetim">
+              <NavLink to="/appointments-page" tag={Link}>
                   Appointments
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink to="/index">After Hours care</NavLink>
+                <NavLink to="/afterhours-page" tag={Link}>After Hours care</NavLink>
               </NavItem>
               {/* <NavItem>
                 <NavLink
