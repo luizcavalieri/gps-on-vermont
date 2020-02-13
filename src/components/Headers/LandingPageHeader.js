@@ -2,7 +2,6 @@ import React, { useEffect, createRef } from "react";
 
 // reactstrap components
 import { Container } from "reactstrap";
-import IconSocialMediaItem from "../General/IconSocialMediaItem";
 import BookingButton from "../General/BookingButton";
 // core components
 
@@ -35,10 +34,10 @@ const LandingPageHeader = ({ title }) => {
         <div className="content-center">
           <Container>
             <h1 className="title">{title}</h1>
-            <div className="text-center">
-              <IconSocialMediaItem id="facebook" link="https://www.facebook.com" />
-              <BookingButton doctorId="https://www.hotdoc.com.au/medical-centres/wodonga-VIC-3690/gps-on-vermont/doctors" />
-            </div>
+              <BookingButton
+                doctorId="https://www.hotdoc.com.au/medical-centres/wodonga-VIC-3690/gps-on-vermont/doctors"
+                size="md"
+              />
           </Container>
         </div>
       </div>

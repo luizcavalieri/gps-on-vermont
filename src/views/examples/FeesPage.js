@@ -8,7 +8,7 @@ import TableData from "../../components/General/TableData";
 import feeContent from "../../data/fees-content";
 
 const FeesPage = () => {
-  const message = "We'd love to hear from you!";
+  const message = "";
 
   useEffect(() => {
     headerScrolling();

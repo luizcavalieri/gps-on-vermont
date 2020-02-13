@@ -6,9 +6,11 @@ import { headerScrolling } from "./commons";
 import { Container } from "reactstrap";
 import patientsInfo from "../../data/patientsInfo-content";
 import InfoCard from "../../components/General/InfoCard";
+import BookingButton from "../../components/General/BookingButton";
 
+//https://daveceddia.com/pluggable-slots-in-react-components/
 const AppointmentsPage = () => {
-  const message = "We'd love to hear from you!";
+  const message = "Schedule now";
 
   useEffect(() => {
     headerScrolling();
@@ -25,7 +27,10 @@ const AppointmentsPage = () => {
               record={patientsInfo[0]}
               iconClassName="far fa-calendar-alt fa-lg"
               headerClassName="text-left"
-            />
+              headerRightContent={
+                <BookingButton className="btn-weight" size="sm" />
+              }
+            ></InfoCard>
           </Container>
         </div>
         <DefaultFooter />

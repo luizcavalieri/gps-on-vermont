@@ -100,7 +100,7 @@ const ContactUsPage = () => {
                     <div className="p-2 text-center  font-paragraph ">
                       Schedule yours now
                     </div>
-                    <BookingButton doctorId="" />
+                    <BookingButton doctorId="" size="md"/>
                   </CardBody>
                   <CardFooter className="card-footer-padding">
                     <div className="text-justified">
@@ -108,7 +108,7 @@ const ContactUsPage = () => {
                         className="fa fa-info-circle fa-lg "
                         style={{ marginRight: 10 }}
                       ></i>
-                      
+                      HotDoc
                     </div>
                   </CardFooter>
                 </Card>
@@ -131,8 +131,7 @@ const ContactUsPage = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        {" "}
-                        80 Vermont Street Wodonga VIC 3690{" "}
+                        80 Vermont Street Wodonga VIC 3690
                       </a>
                     </CardText>
                     <Iframe

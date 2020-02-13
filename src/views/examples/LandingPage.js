@@ -1,12 +1,7 @@
 import React, { useEffect } from "react";
 
 // reactstrap components
-import {
-  Container,
-  Row,
-  Col,
-  Button
-} from "reactstrap";
+import { Container, Row, Col, Button, UncontrolledTooltip } from "reactstrap";
 
 // core components
 import HomeNavbar from "../../components/NavBars/HomeNavbar";
@@ -16,6 +11,7 @@ import { headerScrolling } from "./commons";
 import newsContent from "../../data/news-content";
 import News from "../../components/General/News";
 import OpeningHours from "../../components/General/OpeningHours";
+import IconSocialMediaItem from "../../components/General/IconSocialMediaItem";
 
 function LandingPage() {
   // const [firstFocus, setFirstFocus] = useState(false);
@@ -35,6 +31,23 @@ function LandingPage() {
         <LandingPageHeader title={messageTitle} />
         <div className="section section-about-us">
           <Container>
+            <div className="button-container">
+              <Button className="btn-round" color="info" size="lg">
+                Like us
+              </Button>
+              {/* <Button
+                className="btn-round btn-icon"
+                color="default"
+                id="tooltip515203352"
+                size="lg"
+              >
+                <i className="fab fa-facebook"></i>
+              </Button> */}
+              <IconSocialMediaItem id="tooltip515203352" mediaId="facebook" link="" color="info" size="lg"/>
+              <UncontrolledTooltip delay={0} target="tooltip515203352">
+                Follow me on facebook
+              </UncontrolledTooltip>
+            </div>
             <Row>
               <Col className="ml-auto mr-auto text-center" md="8">
                 <h2 className="title">Who we are?</h2>
@@ -51,11 +64,11 @@ function LandingPage() {
             </Row>
           </Container>
         </div>
-        <div>
+        {/* <div>
           <Container>
             <News news={newsContent} />
           </Container>
-        </div>
+        </div> */}
         <div>
           <Container>
             {/* <CardDeck className="card-deck-data " > */}
@@ -85,9 +98,7 @@ ml-auto mr-auto
                 <News news={newsContent} />
               </Col>
               <Col md="12" xl="4">
-                
-                  <OpeningHours />
-                
+                <OpeningHours />
               </Col>
             </Row>
             {/* </CardDeck> */}
@@ -199,7 +210,7 @@ ml-auto mr-auto
                       </a>{" "}
                       for people to be able to follow them outside the site. */}
                     </p>
-                    <Button
+                    {/* <Button
                       className="btn-icon btn-round"
                       color="info"
                       href="#pablo"
@@ -222,7 +233,7 @@ ml-auto mr-auto
                       onClick={e => e.preventDefault()}
                     >
                       <i className="fab fa-facebook-square"></i>
-                    </Button>
+                    </Button> */}
                   </div>
                 </Col>
                 <Col md="6">
@@ -250,7 +261,7 @@ ml-auto mr-auto
                       </a>{" "}
                       for people to be able to follow them outside the site. */}
                     </p>
-                    <Button
+                    {/* <Button
                       className="btn-icon btn-round"
                       color="info"
                       href="#pablo"
@@ -265,7 +276,7 @@ ml-auto mr-auto
                       onClick={e => e.preventDefault()}
                     >
                       <i className="fab fa-linkedin"></i>
-                    </Button>
+                    </Button> */}
                   </div>
                 </Col>
 

@@ -32,7 +32,7 @@ const BusinessCard = ({ emp }) => {
             <CardTitle tag="h4" className="business-card-title">
               {emp.name}
             </CardTitle>
-            <CardText className="category text-info">{emp.title}</CardText>
+            <CardText className="category text-primary">{emp.title}</CardText>
             <DescriptionList
               list={emp.descriptions}
               includeNewLine={ false }
@@ -47,7 +47,7 @@ const BusinessCard = ({ emp }) => {
               iconClassName="fa fa-check-circle fa-lg"
             />
             <IconSocialMediaList list={emp.socialMedia} />
-            {emp.booking ? <BookingButton doctorId={emp.bookingDoctorId} /> : null}
+            {emp.booking ? <BookingButton doctorId={emp.bookingDoctorId} size="md"/> : null}
           </CardBody>
         </div>
       </Card>

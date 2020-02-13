@@ -45,8 +45,7 @@ const OpeningHours = () => {
               className="fa fa-info-circle fa-lg"
               style={{ marginRight: 10 }}
             ></i>
-            
-            <Link to="/afterhours-page">Check after hours care</Link>
+            <Link className="text-info"  to="/afterhours-page">Check after hours care</Link>
           </div>
         </CardFooter>
       </Card>

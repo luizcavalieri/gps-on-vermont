@@ -3,19 +3,26 @@ import { Card, CardHeader, CardBody } from "reactstrap";
 import IconCheckList from "./IconCheckList";
 import DescriptionList from "./DescriptionList";
 
-const InfoCard = ({ record , iconClassName, headerClassName}) => {
-  if(!record) return null;
+const InfoCard = ({ record, iconClassName, headerClassName, headerRightContent }) => {
+  if (!record) return null;
   return (
     <>
       <Card className="card-data">
         <CardHeader className={headerClassName}>
-          <i className={iconClassName.concat(" fa-icon-card-header")} ></i>
-          {record.title}
+          <div className="clearfix">
+            <div className="float-left">
+              <i className={iconClassName.concat(" fa-icon-card-header")}></i>
+              {record.title}
+            </div>
+            <div className="float-right">
+              {headerRightContent}
+            </div>
+          </div>
         </CardHeader>
         <CardBody>
           <DescriptionList
             list={record.descriptions}
-            includeNewLine={ true }
+            includeNewLine={true}
             className="text-justified font-paragraph "
           />
           <dir className="new-line"></dir>

@@ -8,6 +8,7 @@ import patientsInfo from "../../data/patientsInfo-content";
 import InfoCard from "../../components/General/InfoCard";
 import TableData from "../../components/General/TableData";
 import feeContent from "../../data/fees-content";
+import BookingButton from "../../components/General/BookingButton";
 
 const PatientInfoPage = () => {
   const message = "Patients Information";
@@ -29,6 +30,9 @@ const PatientInfoPage = () => {
                   record={patientsInfo[0]}
                   iconClassName="far fa-calendar-alt fa-lg"
                   headerClassName="text-left"
+                  headerRightContent={
+                    <BookingButton className="btn-weight" size="sm" />
+                  }
                 />
               </Col>
             </Row>
