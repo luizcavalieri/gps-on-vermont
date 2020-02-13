@@ -22,6 +22,7 @@ import StaffPage from './views/examples/StaffPage';
 import FeesPage from './views/examples/FeesPage';
 import AfterHoursPage from './views/examples/AfterHoursPage';
 import AppointmentsPage from './views/examples/AppointmentsPage';
+import FormLinksPage from './views/examples/FormLinksPage';
 
 function App() {
   return (
@@ -38,6 +39,7 @@ function App() {
         <Route path='/fees-page' component={FeesPage} />
         <Route path='/afterhours-page' component={AfterHoursPage} />
         <Route path="/appointments-page" component={AppointmentsPage} />
+        <Route path="/formlinks-page" component={FormLinksPage} />
       </Switch>
     </Router>
   );

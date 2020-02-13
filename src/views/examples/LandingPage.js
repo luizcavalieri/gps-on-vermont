@@ -12,6 +12,7 @@ import newsContent from "../../data/news-content";
 import News from "../../components/General/News";
 import OpeningHours from "../../components/General/OpeningHours";
 import IconSocialMediaItem from "../../components/General/IconSocialMediaItem";
+import DarkFooter from "../../components/Footers/DarkFooter";
 
 function LandingPage() {
   // const [firstFocus, setFirstFocus] = useState(false);
@@ -393,7 +394,7 @@ ml-auto mr-auto
             </Row>
           </Container>
         </div> */}
-        <DefaultFooter />
+        <DarkFooter />
       </div>
     </>
   );

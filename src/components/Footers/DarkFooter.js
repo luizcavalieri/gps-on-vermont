@@ -15,29 +15,30 @@ function DarkFooter() {
                 href="https://www.creative-tim.com?ref=nukr-dark-footer"
                 target="_blank"
               >
-                Creative Tim
+                Gps on Vermont
               </a>
             </li>
             <li>
-              <a
+              {/* <a
                 href="http://presentation.creative-tim.com?ref=nukr-dark-footer"
                 target="_blank"
               >
                 About Us
-              </a>
+              </a> */}
             </li>
             <li>
-              <a
+              {/* <a
                 href="http://blog.creative-tim.com?ref=nukr-dark-footer"
                 target="_blank"
               >
                 Blog
-              </a>
+              </a> */}
             </li>
           </ul>
         </nav>
         <div className="copyright" id="copyright">
-          © {new Date().getFullYear()}, Designed by{" "}
+          © {new Date().getFullYear()}
+          {/* , Designed by{" "}
           <a
             href="https://www.invisionapp.com?ref=nukr-dark-footer"
             target="_blank"
@@ -50,7 +51,7 @@ function DarkFooter() {
             target="_blank"
           >
             Creative Tim
-          </a>
+          </a> */}
           .
         </div>
       </Container>

@@ -3,7 +3,7 @@ import IconSocialMediaItem from "./IconSocialMediaItem";
 
 const IconSocialMediaList = ({ list }) => {
   if (!list) return null;
-  // let colooo = "info";
+
   return (
     <>
       {list.map((item, index) => (

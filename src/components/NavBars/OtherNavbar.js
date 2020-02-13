@@ -139,7 +139,7 @@ function OtherNavbar() {
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://github.com/creativetimofficial/now-ui-kit-react/issues?ref=creativetim">
+                <NavLink to="/formlinks-page" tag={Link}>
                   Forms/Links
                 </NavLink>
               </NavItem>

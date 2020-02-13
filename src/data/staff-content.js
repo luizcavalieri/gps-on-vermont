@@ -46,10 +46,7 @@ const staff = [
     descriptions: ["No clue", "Done"],
     booking: false,
     bookingDoctorId: "",
-    socialMedia: [{
-      id: "facebook",
-      link: "https://www.facebook.com"
-    }]
+    socialMedia: []
   },
   {
     titleAbr: "Pm",
@@ -60,10 +57,7 @@ const staff = [
     descriptions: ["No clue", "Done"],
     booking: false,
     bookingDoctorId: "",
-    socialMedia: [{
-      id: "facebook",
-      link: "https://www.facebook.com"
-    }]
+    socialMedia: []
   },
   {
     titleAbr: "Pm",
@@ -74,10 +68,7 @@ const staff = [
     descriptions: ["No clue", "Done"],
     booking: false,
     bookingDoctorId: "",
-    socialMedia: [{
-      id: "facebook",
-      link: "https://www.facebook.com"
-    }]
+    socialMedia: []
   }
 ];
 

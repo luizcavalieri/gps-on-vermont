@@ -151,7 +151,7 @@ function HomeNavbar() {
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink to="/index">
+                <NavLink to="/formlinks-page" tag={Link}>
                   Forms/Links
                 </NavLink>
               </NavItem>
