@@ -57,7 +57,12 @@ const staff = [
     descriptions: ["No clue", "Done"],
     booking: false,
     bookingDoctorId: "",
-    socialMedia: []
+    socialMedia: [
+      {
+        id: "phone",
+        link: "0427313048"
+      }
+    ]
   },
   {
     titleAbr: "Pm",

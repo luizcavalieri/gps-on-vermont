@@ -1,9 +1,10 @@
 import React, { useEffect } from "react";
 import OtherNavbar from "../../components/NavBars/OtherNavbar";
 import OtherPageHeader from "../../components/Headers/OtherPageHeader";
-import DefaultFooter from "../../components/Footers/DefaultFooter.js";
+
 import { headerScrolling } from "./commons";
 import { Container } from "reactstrap";
+import DarkFooter from "../../components/Footers/DarkFooter";
 
 const AfterHoursPage = () => {
   const message = "ABC";
@@ -20,7 +21,7 @@ const AfterHoursPage = () => {
         <div className="section text-center">
           <Container className=" text-muted"></Container>
         </div>
-        <DefaultFooter />
+        <DarkFooter />
       </div>
     </>
   );

@@ -3,9 +3,9 @@ import staffContent from "../../data/staff-content";
 import Staff from "../../components/General/Staff";
 import OtherNavbar from "../../components/NavBars/OtherNavbar";
 import OtherPageHeader from "../../components/Headers/OtherPageHeader";
-import DefaultFooter from "../../components/Footers/DefaultFooter.js";
 import { headerScrolling } from "./commons";
 import { Container } from "reactstrap";
+import DarkFooter from "../../components/Footers/DarkFooter";
 
 const StaffPage = () => {
 
@@ -29,7 +29,7 @@ const StaffPage = () => {
           </Container>
         </div>
       </div>
-      <DefaultFooter />
+      <DarkFooter />
     </>
   );
 };

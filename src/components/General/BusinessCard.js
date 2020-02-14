@@ -18,9 +18,9 @@ const BusinessCard = ({ emp }) => {
     <>
       <Card>
         <div className="team-player">
-          <CardHeader className="business-card-header">
+          <CardHeader className="business-card-header ">
             <CardImg
-              className="rounded-circle img-fluid img-raised
+              className="rounded-circle img-fluid 
               business-card-image"
               alt="..."
               src={require(`../../assets/img/${path}`)}
@@ -33,9 +33,10 @@ const BusinessCard = ({ emp }) => {
               {emp.name}
             </CardTitle>
             <CardText className="category text-primary">{emp.title}</CardText>
+            <hr />
             <DescriptionList
               list={emp.descriptions}
-              includeNewLine={ false }
+              includeNewLine={false}
               className="text-justified font-paragraph"
             />
             <dir className="new-line"></dir>
@@ -46,9 +47,14 @@ const BusinessCard = ({ emp }) => {
               liClassName="fa-li"
               iconClassName="fa fa-check-circle fa-lg"
             />
-            <IconSocialMediaList list={emp.socialMedia} />
-            {emp.booking ? <BookingButton doctorId={emp.bookingDoctorId} size="md"/> : null}
           </CardBody>
+          <div >
+            <IconSocialMediaList list={emp.socialMedia} size="lg" color="info"/>
+            {emp.booking ? (
+              <BookingButton doctorId={emp.bookingDoctorId}  size="lg" />
+            ) : null}
+          </div>
+          
         </div>
       </Card>
     </>

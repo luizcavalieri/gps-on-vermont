@@ -14,10 +14,10 @@ import Iframe from "react-iframe";
 
 import OtherNavbar from "../../components/NavBars/OtherNavbar";
 import OtherPageHeader from "../../components/Headers/OtherPageHeader";
-import DefaultFooter from "../../components/Footers/DefaultFooter.js";
 import { headerScrolling } from "./commons";
 import IconNumber from "../../components/General/IconNumber";
 import BookingButton from "../../components/General/BookingButton";
+import DarkFooter from "../../components/Footers/DarkFooter";
 
 const ContactUsPage = () => {
   // const [firstFocus, setFirstFocus] = React.useState(false);
@@ -180,7 +180,7 @@ const ContactUsPage = () => {
           </Container>
         </div>
       </div>
-      <DefaultFooter />
+      <DarkFooter />
     </>
   );
 };

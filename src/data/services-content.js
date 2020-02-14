@@ -73,7 +73,12 @@ const services = [
             "Heart checks ",
             "Skin checks, Liquid Nitrogen freezing for sunspots and warts, minor surgery",
             "Workcover (VIC and NSW) Comcare",
-            "TAC (motor vehicle)"
+            "TAC (motor vehicle)",
+            "Refugee Health",
+            "Ear Syringing",
+            "Pre-employment and general health medicals",
+            "Weight Loss",
+            "Travel Medicine and Vaccinations"
         ]
     },
     {
@@ -83,13 +88,8 @@ const services = [
             ""
         ],
         items: [
-            "Refugee Health",
-            "Ear Syringing",
             "CVC program",
-            "General Medical, White and Gold card holders",
-            "Pre-employment and general health medicals",
-            "Weight Loss",
-            "Travel Medicine and Vaccinations"
+            "General Medical, White and Gold card holders"
         ]
     }
 

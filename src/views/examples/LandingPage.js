@@ -6,7 +6,6 @@ import { Container, Row, Col, Button, UncontrolledTooltip } from "reactstrap";
 // core components
 import HomeNavbar from "../../components/NavBars/HomeNavbar";
 import LandingPageHeader from "../../components/Headers/LandingPageHeader.js";
-import DefaultFooter from "../../components/Footers/DefaultFooter.js";
 import { headerScrolling } from "./commons";
 import newsContent from "../../data/news-content";
 import News from "../../components/General/News";

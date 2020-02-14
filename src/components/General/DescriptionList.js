@@ -6,7 +6,7 @@ const DescriptionList = ({ list, includeNewLine, className:passedClasses }) => {
   if (!list) return null;
   return (
     <>
-      {/* <div className="description"> */}
+      
       <div>
         {list.map((item, index) => (
           

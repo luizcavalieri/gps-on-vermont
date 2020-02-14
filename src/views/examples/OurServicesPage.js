@@ -2,10 +2,10 @@ import React, { useEffect } from "react";
 import { Container } from "reactstrap";
 import OtherNavbar from "../../components/NavBars/OtherNavbar";
 import OtherPageHeader from "../../components/Headers/OtherPageHeader";
-import DefaultFooter from "../../components/Footers/DefaultFooter.js";
 import { headerScrolling } from "./commons";
 import Services from "../../components/General/Services";
 import servicesContent from "../../data/services-content";
+import DarkFooter from "../../components/Footers/DarkFooter";
 
 const OurServicesPage = () => {
   const ourServicesMessage = "Our Services";
@@ -25,7 +25,7 @@ const OurServicesPage = () => {
           </Container>
         </div>
       </div>
-      <DefaultFooter />
+      <DarkFooter />
     </>
   );
 };

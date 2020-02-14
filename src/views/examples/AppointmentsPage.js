@@ -1,12 +1,13 @@
 import React, { useEffect } from "react";
 import OtherNavbar from "../../components/NavBars/OtherNavbar";
 import OtherPageHeader from "../../components/Headers/OtherPageHeader";
-import DefaultFooter from "../../components/Footers/DefaultFooter.js";
+
 import { headerScrolling } from "./commons";
 import { Container } from "reactstrap";
 import patientsInfo from "../../data/patientsInfo-content";
 import InfoCard from "../../components/General/InfoCard";
 import BookingButton from "../../components/General/BookingButton";
+import DarkFooter from "../../components/Footers/DarkFooter";
 
 //https://daveceddia.com/pluggable-slots-in-react-components/
 const AppointmentsPage = () => {
@@ -33,7 +34,7 @@ const AppointmentsPage = () => {
             ></InfoCard>
           </Container>
         </div>
-        <DefaultFooter />
+        <DarkFooter />
       </div>
     </>
   );

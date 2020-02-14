@@ -2,8 +2,9 @@ import React, { useEffect } from "react";
 import { Container } from "reactstrap";
 import OtherNavbar from "../../components/NavBars/OtherNavbar";
 import OtherPageHeader from "../../components/Headers/OtherPageHeader";
-import DefaultFooter from "../../components/Footers/DefaultFooter.js";
+
 import { headerScrolling } from "./commons";
+import DarkFooter from "../../components/Footers/DarkFooter";
 
 const FormLinksPage = () => {
   const message = "ABC";
@@ -21,7 +22,7 @@ const FormLinksPage = () => {
           <Container className="text-muted"></Container>
         </div>
       </div>
-      <DefaultFooter />
+      <DarkFooter />
     </>
   );
 };

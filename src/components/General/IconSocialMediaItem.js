@@ -21,6 +21,8 @@ const IconSocialMediaItem = ({ id, mediaId, link, color, size }) => {
               return <i className="fab fa-twitter"></i>;
             case "instagram":
               return <i className="fab fa-instagram"></i>;
+            case "phone":
+              return <i className="fas fa-phone fa-2x" style={{verticalAlign: -25}} ></i>;
             default:
               return null;
           }
