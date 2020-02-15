@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/gps-on-vermont/precache-manifest.d694c676e8e31735977d475d088bc6c8.js"
+  "/gps-on-vermont/precache-manifest.be625e3f5483f0ab93082785ea81bedd.js"
 );
 
 self.addEventListener('message', (event) => {
