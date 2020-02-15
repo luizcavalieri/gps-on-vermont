@@ -2,13 +2,11 @@ import React from "react";
 import { Button } from "reactstrap";
 
 const BookingButton = ({ doctorId, size, className:passedClasses }) => {
-//   console.log(doctorId);
+
   if(!passedClasses) passedClasses = "btn-font btn-weight";
   return (
     <>
       <Button
-        // className="btn-font btn-weight"
-        // className="btn-weight"
         className={passedClasses}
         size={size}
         color="primary"

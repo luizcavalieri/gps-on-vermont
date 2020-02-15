@@ -22,7 +22,6 @@ const StaffPage = () => {
         <OtherPageHeader message={contactMessage} />
         <div className="section section-team text-center">
           <Container className="text-muted">
-            {/* <h2 className="title">Here is our team</h2> */}
             <div className="team">
               <Staff staffData={staffContent} />
             </div>

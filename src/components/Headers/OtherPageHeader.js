@@ -32,7 +32,7 @@ const OtherPageHeader = ({ message }) => {
           }}
           ref={pageHeader}
         ></div>
-        <div className="content-center">
+        <div className="content-center-other-pages">
           <Container>
         <h1 className="title">{message}</h1>
 {/*             

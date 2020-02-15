@@ -2,7 +2,6 @@ import React, { useEffect, createRef } from "react";
 
 // reactstrap components
 import { Container } from "reactstrap";
-import BookingButton from "../General/BookingButton";
 // core components
 
 const LandingPageHeader = ({ title }) => {
@@ -25,7 +24,7 @@ const LandingPageHeader = ({ title }) => {
     <>
       <div className="page-header page-header-small">
         <div
-          className="page-header-image"
+          className="page-header-image "
           style={{
             backgroundImage: "url(" + require("../../assets/img/bg6.jpg") + ")"
           }}
@@ -34,10 +33,6 @@ const LandingPageHeader = ({ title }) => {
         <div className="content-center">
           <Container>
             <h1 className="title">{title}</h1>
-              <BookingButton
-                doctorId="https://www.hotdoc.com.au/medical-centres/wodonga-VIC-3690/gps-on-vermont/doctors"
-                size="md"
-              />
           </Container>
         </div>
       </div>
