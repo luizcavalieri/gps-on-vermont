@@ -7,7 +7,6 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.0",
     "@testing-library/user-event": "^7.2.1",
-    "gh-pages": "^2.2.0",
     "moment": "2.24.0",
     "node-sass": "^4.13.1",
     "nouislider": "14.0.2",
@@ -31,7 +30,6 @@
     "map-sass": "node-sass src/assets/scss/now-ui-kit.scss src/assets/css/now-ui-kit.css --source-map true",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
-
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -50,5 +48,8 @@
   },
   "optionalDependencies": {
     "typescript": "3.5.3"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
   }
 }
