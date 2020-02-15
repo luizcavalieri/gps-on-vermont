@@ -24,7 +24,9 @@ import AfterHoursPage from './views/examples/AfterHoursPage';
 import AppointmentsPage from './views/examples/AppointmentsPage';
 import FormLinksPage from './views/examples/FormLinksPage';
 
-function App() {
+// function App() {
+const App = () => {
+  console.log("Host URL"+process.env.PUBLIC_URL);
   return (
     <Router>
       <Switch>
