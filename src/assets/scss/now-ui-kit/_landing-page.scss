@@ -3,6 +3,12 @@
   margin-top: -90px;
   font-size: 1.2em;
 }
+/*
+For device sizes
+https://stackoverflow.com/questions/41574776/what-is-class-mb-0-in-bootstrap-4
+
+*/
+
 
 /* Small devices (landscape phones, 320px and up) */
 @media (min-width: 320px) {
@@ -20,8 +26,7 @@
     font-size: 2.6em;
   }
   .button-online-appointments{
-    // margin-top: -11rem;
-    margin-top: -12.5rem;
+    margin-top: -11.5rem;
   }
 }
 
@@ -31,7 +36,7 @@
     font-size: 2.6em;
   }
   .button-online-appointments{
-    margin-top: -12.5rem;
+    margin-top: -13rem;
   }
 }
 
