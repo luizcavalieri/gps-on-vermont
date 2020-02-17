@@ -28,9 +28,10 @@ import FormLinksPage from './views/examples/FormLinksPage';
 const App = () => {
   console.log("Host URL"+process.env.PUBLIC_URL);
   return (
-    <Router>
+    // <Router basename={process.env.PUBLIC_URL}>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Switch>
-        <Route path="/" component={LandingPage} exact />
+        
         <Route path="/index" render={props => <Index {...props} />} />
         <Route path='/landing-page' render={props => <LandingPage {...props} /> } />
         <Route path='/contact-page' component={ContactUsPage} />
@@ -42,8 +43,10 @@ const App = () => {
         <Route path='/afterhours-page' component={AfterHoursPage} />
         <Route path="/appointments-page" component={AppointmentsPage} />
         <Route path="/formlinks-page" component={FormLinksPage} />
+        <Route path="/" component={LandingPage} exact />
       </Switch>
-    </Router>
+      </BrowserRouter>
+   
   );
 }
 
