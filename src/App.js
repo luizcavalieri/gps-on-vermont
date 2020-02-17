@@ -1,6 +1,6 @@
 import React from 'react';
 // import logo from './logo.svg';
-import {BrowserRouter , Route, Switch} from 'react-router-dom';
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import './App.css';
 
 // styles for this kit
@@ -28,10 +28,10 @@ import FormLinksPage from './views/examples/FormLinksPage';
 const App = () => {
   console.log("Host URL"+process.env.PUBLIC_URL);
   return (
-    // <Router basename={process.env.PUBLIC_URL}>
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+
+    <Router basename={process.env.PUBLIC_URL} forceRefresh={true}>
       <Switch>
-        
+        <Route path="/" component={LandingPage} exact />
         <Route path="/index" render={props => <Index {...props} />} />
         <Route path='/landing-page' render={props => <LandingPage {...props} /> } />
         <Route path='/contact-page' component={ContactUsPage} />
@@ -43,10 +43,8 @@ const App = () => {
         <Route path='/afterhours-page' component={AfterHoursPage} />
         <Route path="/appointments-page" component={AppointmentsPage} />
         <Route path="/formlinks-page" component={FormLinksPage} />
-        <Route path="/" component={LandingPage} exact />
       </Switch>
-      </BrowserRouter>
-   
+    </Router>
   );
 }
 
