@@ -29,7 +29,7 @@ const App = () => {
   console.log("Host URL"+process.env.PUBLIC_URL);
   return (
 
-    <Router basename={process.env.PUBLIC_URL} forceRefresh={true}>
+    <Router basename={process.env.PUBLIC_URL} >
       <Switch>
         <Route path="/" component={LandingPage} exact />
         <Route path="/index" render={props => <Index {...props} />} />
