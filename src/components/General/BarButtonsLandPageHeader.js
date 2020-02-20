@@ -1,5 +1,5 @@
 import React from "react";
-import {Row, Col, Button, i, UncontrolledTooltip} from 'reactstrap';
+import { Row, Col, Button, i, UncontrolledTooltip } from "reactstrap";
 import BookingButton from "./BookingButton";
 import IconSocialMediaItem from "./IconSocialMediaItem";
 
@@ -32,6 +32,7 @@ const BarButtonsLandPageHeader = () => {
         </UncontrolledTooltip>
 
         <Button
+          id="tooltip515203353"
           className=" btn-icon btn-round "
           color={"info"}
           size={"lg"}
@@ -43,6 +44,9 @@ const BarButtonsLandPageHeader = () => {
         >
           <i className="fas fa-map-marker-alt fa-2x fa-blink maps-icon "></i>
         </Button>
+        <UncontrolledTooltip delay={0} target="tooltip515203353">
+          Visit Us
+        </UncontrolledTooltip>
       </div>
     </>
   );
