@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2b1635a1d9d6beee9686eb4b0f88150e",
+    "revision": "80026ffb67cc06b8a4a6419c370de440",
     "url": "/gps-on-vermont/index.html"
   },
   {
-    "revision": "265007db5aa2973d9fa8",
-    "url": "/gps-on-vermont/static/css/main.1134949e.chunk.css"
+    "revision": "9c46bea20d021e4c4131",
+    "url": "/gps-on-vermont/static/css/main.527eccbd.chunk.css"
   },
   {
-    "revision": "9e58e60cce68ca58a75c",
-    "url": "/gps-on-vermont/static/js/2.1522f431.chunk.js"
+    "revision": "144ee16cff88e9688453",
+    "url": "/gps-on-vermont/static/js/2.76e88fa2.chunk.js"
   },
   {
     "revision": "16b86e91d2e79208973b06c295aba9d7",
-    "url": "/gps-on-vermont/static/js/2.1522f431.chunk.js.LICENSE"
+    "url": "/gps-on-vermont/static/js/2.76e88fa2.chunk.js.LICENSE"
   },
   {
-    "revision": "265007db5aa2973d9fa8",
-    "url": "/gps-on-vermont/static/js/main.6a2d7f61.chunk.js"
+    "revision": "9c46bea20d021e4c4131",
+    "url": "/gps-on-vermont/static/js/main.de3980db.chunk.js"
   },
   {
     "revision": "b6ce3b8da8bd7d55c4da",
@@ -68,6 +68,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gps-on-vermont/static/media/blurred-image-1.0e3525dc.jpg"
   },
   {
+    "revision": "282a73b56c3926f8d275dde35553803c",
+    "url": "/gps-on-vermont/static/media/care.282a73b5.svg"
+  },
+  {
+    "revision": "6bbcdb22b9d210b55a96c6a62dd93a3d",
+    "url": "/gps-on-vermont/static/media/child.6bbcdb22.svg"
+  },
+  {
     "revision": "f7cb2d390498c2969b2b1050f3e024ce",
     "url": "/gps-on-vermont/static/media/creative-tim-white-slim2.f7cb2d39.png"
   },
@@ -82,6 +90,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d71420556fcc7a1d685912ba3ef91c7f",
     "url": "/gps-on-vermont/static/media/gpv.d7142055.png"
+  },
+  {
+    "revision": "78c9dfda95f7d33962da236b97615752",
+    "url": "/gps-on-vermont/static/media/head-brains.78c9dfda.svg"
   },
   {
     "revision": "ffcc99c42164b65da7af6307b66379cf",
@@ -128,6 +140,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gps-on-vermont/static/media/logo-square.00ac6ca2.jpg"
   },
   {
+    "revision": "4cccb4ad4e8388cb2145668c58ba15c8",
+    "url": "/gps-on-vermont/static/media/medal.4cccb4ad.svg"
+  },
+  {
+    "revision": "a3b471498b7f8e7bc3a6de2b3d394291",
+    "url": "/gps-on-vermont/static/media/medication.a3b47149.svg"
+  },
+  {
     "revision": "92e7581ab14047afd5688bed0132b2c0",
     "url": "/gps-on-vermont/static/media/nucleo-logo.92e7581a.svg"
   },
@@ -154,5 +174,21 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f217f346c88e5fb2720ca7c28827ff72",
     "url": "/gps-on-vermont/static/media/ryan.f217f346.jpg"
+  },
+  {
+    "revision": "d0823912f92b5a13aad17bd529d6c594",
+    "url": "/gps-on-vermont/static/media/stethoscope.d0823912.svg"
+  },
+  {
+    "revision": "8a0e408e0a475e1f57cd72d6e4c9edd5",
+    "url": "/gps-on-vermont/static/media/travel.8a0e408e.svg"
+  },
+  {
+    "revision": "3ccd37706c08a8be13c0218341c47e49",
+    "url": "/gps-on-vermont/static/media/vaccine.3ccd3770.svg"
+  },
+  {
+    "revision": "603977f9bb6b069470d6530d07a10127",
+    "url": "/gps-on-vermont/static/media/worker.603977f9.svg"
   }
 ]);
