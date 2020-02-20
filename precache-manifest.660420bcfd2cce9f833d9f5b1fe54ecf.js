@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "80026ffb67cc06b8a4a6419c370de440",
+    "revision": "3b23af4296a9cb048b7e793307c1e179",
     "url": "/gps-on-vermont/index.html"
   },
   {
-    "revision": "9c46bea20d021e4c4131",
+    "revision": "ee7fbd6f9cb4948e662b",
     "url": "/gps-on-vermont/static/css/main.527eccbd.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gps-on-vermont/static/js/2.76e88fa2.chunk.js.LICENSE"
   },
   {
-    "revision": "9c46bea20d021e4c4131",
-    "url": "/gps-on-vermont/static/js/main.de3980db.chunk.js"
+    "revision": "ee7fbd6f9cb4948e662b",
+    "url": "/gps-on-vermont/static/js/main.189d13d7.chunk.js"
   },
   {
     "revision": "b6ce3b8da8bd7d55c4da",
@@ -140,12 +140,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gps-on-vermont/static/media/logo-square.00ac6ca2.jpg"
   },
   {
-    "revision": "4cccb4ad4e8388cb2145668c58ba15c8",
-    "url": "/gps-on-vermont/static/media/medal.4cccb4ad.svg"
+    "revision": "1dde2abf79c6a9e5beff063af2963aad",
+    "url": "/gps-on-vermont/static/media/medal.1dde2abf.svg"
   },
   {
-    "revision": "a3b471498b7f8e7bc3a6de2b3d394291",
-    "url": "/gps-on-vermont/static/media/medication.a3b47149.svg"
+    "revision": "0e73a2327acd8d1bb5ca160a46f3a120",
+    "url": "/gps-on-vermont/static/media/medication.0e73a232.svg"
   },
   {
     "revision": "92e7581ab14047afd5688bed0132b2c0",
@@ -180,15 +180,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gps-on-vermont/static/media/stethoscope.d0823912.svg"
   },
   {
-    "revision": "8a0e408e0a475e1f57cd72d6e4c9edd5",
-    "url": "/gps-on-vermont/static/media/travel.8a0e408e.svg"
+    "revision": "a9cd159fc75dc86eb19cbffe0ece13c3",
+    "url": "/gps-on-vermont/static/media/travel.a9cd159f.svg"
   },
   {
-    "revision": "3ccd37706c08a8be13c0218341c47e49",
-    "url": "/gps-on-vermont/static/media/vaccine.3ccd3770.svg"
+    "revision": "3ced0c09611f65d1dba131d48dd78b80",
+    "url": "/gps-on-vermont/static/media/vaccine.3ced0c09.svg"
   },
   {
-    "revision": "603977f9bb6b069470d6530d07a10127",
-    "url": "/gps-on-vermont/static/media/worker.603977f9.svg"
+    "revision": "ed8f2965f393f7d598b0f59a6968e925",
+    "url": "/gps-on-vermont/static/media/worker.ed8f2965.svg"
   }
 ]);
