@@ -11,7 +11,7 @@ const InfoCard = ({ record, iconClassName, headerClassName, headerRightContent }
         <CardHeader className={headerClassName}>
           <div className="clearfix">
             <div className="float-left">
-              <i className={iconClassName.concat(" fa-icon-card-header")}></i>
+              <i className={iconClassName.concat(" ").concat("fa-icon-card-header")}></i>
               {record.title}
             </div>
             <div className="float-right">

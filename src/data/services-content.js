@@ -2,6 +2,7 @@ const services = [
     {
         title: "Health Assessments",
         icon: "fa fa-user-nurse fa-lg",
+        image: "stethoscope.svg",
         descriptions: [
             "Medicare subsides a number of Health Assessments that you can take advantage of at our clinic:"
         ],
@@ -15,8 +16,9 @@ const services = [
         ]
     },
     {
-        title: "Chronic Disease Management",
+        title: "Flu shot vaccines",
         icon: "fa fa-user-md fa-lg",
+        image: "vaccine.svg",
         descriptions: [
             "Chronic disease Management Plans (GPMP) include conditions that are ongoing such as:"
         ],
@@ -31,8 +33,9 @@ const services = [
         ]
     },
     {
-        title: "Diabetes Management",
+        title: "Travel",
         icon: "fa fa-notes-medical fa-lg",
+        image: "travel.svg",
         descriptions: [
             "Our doctors manage diabetes patients and those at high risk of developing diabetes through our Chronic Disease Management plans. GPs on Vermont provides: "
         ],
@@ -43,8 +46,9 @@ const services = [
         ]
     },
     {
-        title: "Heart and Lung Conditions",
+        title: "Counselling",
         icon: "fa fa-heartbeat fa-lg",
+        image: "head-brains.svg",
         descriptions: [
             "GPs on Vermont cares for patients with:"
         ],
@@ -57,10 +61,11 @@ const services = [
         ]
     },
     {
-        title: "General Health",
+        title: "General Practice Health",
         icon: "fa fa-laptop-medical fa-lg",
+        image: "care.svg",
         descriptions: [
-            ""
+            "ABCDE"
         ],
         items: [
             "Electrocardiogram (E.C.G)",
@@ -84,8 +89,45 @@ const services = [
     {
         title: "Dept. of Veteran Affairs",
         icon: "fa fa-stethoscope fa-lg",
+        image: "medal.svg",
         descriptions: [
-            ""
+            "BLUBLU"
+        ],
+        items: [
+            "CVC program",
+            "General Medical, White and Gold card holders"
+        ]
+    },
+    {
+        title: "Sexual Health",
+        icon: "fa fa-stethoscope fa-lg",
+        image: "medication.svg",
+        descriptions: [
+            "BLIBLI"
+        ],
+        items: [
+            "CVC program",
+            "General Medical, White and Gold card holders"
+        ]
+    },
+    {
+        title: "Occupational health",
+        icon: "fa fa-stethoscope fa-lg",
+        image: "worker.svg",
+        descriptions: [
+            "BLEBLE"
+        ],
+        items: [
+            "CVC program",
+            "General Medical, White and Gold card holders"
+        ]
+    },
+    {
+        title: "Child Immunization",
+        icon: "fa fa-stethoscope fa-lg",
+        image: "child.svg",
+        descriptions: [
+            "BLABLA"
         ],
         items: [
             "CVC program",

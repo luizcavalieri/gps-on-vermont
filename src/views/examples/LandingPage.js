@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 
 // reactstrap components
-import { Container, Row, Col, Button, UncontrolledTooltip } from "reactstrap";
+import { Container, Row, Col } from "reactstrap";
 
 // core components
 import HomeNavbar from "../../components/NavBars/HomeNavbar";
@@ -10,9 +10,10 @@ import { headerScrolling } from "./commons";
 import newsContent from "../../data/news-content";
 import News from "../../components/General/News";
 import OpeningHours from "../../components/General/OpeningHours";
-import IconSocialMediaItem from "../../components/General/IconSocialMediaItem";
 import DarkFooter from "../../components/Footers/DarkFooter";
-import BookingButton from "../../components/General/BookingButton";
+import ServiceCardPreview from "../../components/General/ServiceCardPreview";
+import BarButtonsLandPageHeader from "../../components/General/BarButtonsLandPageHeader";
+
 
 function LandingPage() {
   // const [firstFocus, setFirstFocus] = useState(false);
@@ -24,6 +25,7 @@ function LandingPage() {
     headerScrolling();
   });
 
+
   return (
     <>
       <HomeNavbar />
@@ -33,31 +35,7 @@ function LandingPage() {
 
         <div className="section section-about-us">
           <Container>
-            <Row className="row justify-content-center">
-              <Col xs="11" sm="11" md="6" lg="6" xl="3">
-                <BookingButton
-                  className="btn-block button-online-appointments btn-font btn-weight"
-                  doctorId="https://www.hotdoc.com.au/medical-centres/wodonga-VIC-3690/gps-on-vermont/doctors"
-                  size="md"
-                />
-              </Col>
-            </Row>
-            <div className="button-container">
-              <Button className="btn-round" color="info" size="lg">
-                Like us
-              </Button>
-
-              <IconSocialMediaItem
-                id="tooltip515203352"
-                mediaId="facebook"
-                link=""
-                color="info"
-                size="lg"
-              />
-              <UncontrolledTooltip delay={0} target="tooltip515203352">
-                Follow me on facebook
-              </UncontrolledTooltip>
-            </div>
+            <BarButtonsLandPageHeader />
             <Row>
               <Col className="ml-auto mr-auto text-center" md="8">
                 <h2 className="title">Who we are?</h2>
@@ -85,6 +63,15 @@ function LandingPage() {
                 <OpeningHours />
               </Col>
             </Row>
+          </Container>
+        </div>
+
+        <div className="section section-team text-center">
+          <Container>
+            <h2 className="title">Our Services</h2>
+            <div className="team">
+              <ServiceCardPreview numberOfItemsPerRow={3} />
+            </div>
           </Container>
         </div>
 
