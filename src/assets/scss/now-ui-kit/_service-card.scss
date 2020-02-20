@@ -1,6 +1,15 @@
-// brand-info
 
+.service-preview-card{
+    box-shadow: none;
+}
 
+.service-preview-card-body-title{
+    margin-top: 0rem;
+}
+
+.service-preview-card-col{
+    margin-bottom: 1rem;
+}
 
 @keyframes fa-blink {
     0% { opacity: 1; }

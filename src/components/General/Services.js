@@ -1,19 +1,19 @@
 import React from "react";
-import { Row } from "reactstrap";
-import { chunks } from "../../views/examples/commons";
-import ServicesRow from "./ServicesRow";
+import { Row, Col } from "reactstrap";
+import InfoCard from "./InfoCard";
 
 const Services = ({ servicesData }) => {
   if (!servicesData) return null;
-  //2 is the number of columns in a row, separates de data in rows of 2 columns
-  const rows = chunks(servicesData, 2);
+
   return (
     <>
-      {rows.map((row, index) => (
-        <Row key={index}>
-          <ServicesRow row={row} />
-        </Row>
-      ))}
+      <Row >
+        {servicesData.map((service, index) => (
+          <Col key={index} xs="12" xl="6">
+            <InfoCard record={service} iconClassName={service.icon} />
+          </Col>
+        ))}
+      </Row>
     </>
   );
 };

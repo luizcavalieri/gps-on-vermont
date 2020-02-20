@@ -8,7 +8,7 @@ const ServiceCard = ({ service, className:passedClasses }) => {
   if(!passedClasses) passedClasses = " font-paragraph";
   return (
     <>
-      <Card>
+      <Card className="service-preview-card">
         <div className="team-player">
           <CardHeader>
             <CardImg
@@ -19,8 +19,8 @@ const ServiceCard = ({ service, className:passedClasses }) => {
             ></CardImg>
             {/* <i className="fa fa-newspaper fa-lg fa-icon-card-header fa-10x" ></i> */}
           </CardHeader>
-          <CardBody>
-            <CardTitle tag="h4" className="business-card-title">
+          <CardBody >
+            <CardTitle tag="h4" className="business-card-title service-preview-card-body-title">
               {service.title}
             </CardTitle>
             <CardText className="category text-primary">

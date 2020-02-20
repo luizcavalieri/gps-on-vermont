@@ -1,19 +1,19 @@
 import React from "react";
-import { Row } from "reactstrap";
-import { chunks } from "../../views/examples/commons";
-import StaffRow from "./StaffRow";
+import { Row, Col } from "reactstrap";
+import BusinessCard from "./BusinessCard";
 
 const Staff = ({ staffData }) => {
   if (!staffData) return null;
-  //2 is the number of columns in a row, separates de data in rows of 2 columns
-  const rows = chunks(staffData, 2);
+
   return (
     <>
-      {rows.map((row, index) => (
-        <Row key={index}> 
-          <StaffRow  row={row} />
-        </Row>
-      ))}
+      <Row>
+        {staffData.map((employee, index) => (
+          <Col key={index} md="6" lg="6" xl="4" >
+            <BusinessCard emp={employee} />
+          </Col>
+        ))}
+      </Row>
     </>
   );
 };

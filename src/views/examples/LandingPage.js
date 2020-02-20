@@ -11,7 +11,7 @@ import newsContent from "../../data/news-content";
 import News from "../../components/General/News";
 import OpeningHours from "../../components/General/OpeningHours";
 import DarkFooter from "../../components/Footers/DarkFooter";
-import ServiceCardPreview from "../../components/General/ServiceCardPreview";
+import ServiceCardBlock from "../../components/General/ServiceCardBlock";
 import BarButtonsLandPageHeader from "../../components/General/BarButtonsLandPageHeader";
 
 
@@ -70,7 +70,7 @@ function LandingPage() {
           <Container>
             <h2 className="title">Our Services</h2>
             <div className="team">
-              <ServiceCardPreview numberOfItemsPerRow={3} />
+              <ServiceCardBlock numberOfItemsPerRow={3} />
             </div>
           </Container>
         </div>
