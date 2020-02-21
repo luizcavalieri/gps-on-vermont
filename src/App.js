@@ -23,6 +23,7 @@ import FeesPage from './views/examples/FeesPage';
 import AfterHoursPage from './views/examples/AfterHoursPage';
 import AppointmentsPage from './views/examples/AppointmentsPage';
 import FormLinksPage from './views/examples/FormLinksPage';
+import ServiceDetailsPage from './views/examples/ServiceDetailsPage';
 
 // function App() {
 const App = () => {
@@ -43,6 +44,8 @@ const App = () => {
         <Route path='/afterhours-page' component={AfterHoursPage} />
         <Route path="/appointments-page" component={AppointmentsPage} />
         <Route path="/formlinks-page" component={FormLinksPage} />
+        {/* <Route path="/service-details" render={props => <ServiceDetailsPage {...props} />} /> */}
+        <Route path="/service-details" component={ServiceDetailsPage} />
       </Switch>
     </Router>
   );
