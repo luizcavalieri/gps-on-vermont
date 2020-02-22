@@ -3,7 +3,7 @@ import OtherNavbar from "../../components/NavBars/OtherNavbar";
 import OtherPageHeader from "../../components/Headers/OtherPageHeader";
 import { Row, Container, CardImg } from "reactstrap";
 import DarkFooter from "../../components/Footers/DarkFooter";
-
+// import Image from 'react-bootstrap/Image';
 
 const ServiceDetailsPage = ( props ) => {
     
@@ -20,7 +20,8 @@ const ServiceDetailsPage = ( props ) => {
         <div className="section text-center">
           <Container  className=" text-muted">
             <Row className="justify-content-center">
-                <img width="50%" src={require(`../../assets/img/${path}`)} alt={service.title} />
+                <img  className="d-block w-100" src={require(`../../assets/img/${path}`)} alt={service.title} />
+                {/* <Image src={require(`../../assets/img/${path}`)} alt={service.title} /> */}
             </Row>
           </Container>
         </div>
