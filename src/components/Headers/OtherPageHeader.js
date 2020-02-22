@@ -34,7 +34,7 @@ const OtherPageHeader = ({ message }) => {
         ></div>
         <div className="content-center-other-pages">
           <Container>
-        <h1 className="title-smal-header">{message}</h1>
+        <h1 className="title-small-header">{message}</h1>
 {/*             
             <div className="text-center">
               <Button

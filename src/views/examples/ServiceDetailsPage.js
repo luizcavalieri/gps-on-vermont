@@ -5,18 +5,9 @@ import { Container } from "reactstrap";
 import DarkFooter from "../../components/Footers/DarkFooter";
 import { Redirect } from "react-router-dom";
 
+
 const ServiceDetailsPage = props => {
-  // if(!props.location.state.service.service){
-
-  // }
-//   let service;
-  //   if (!props.location.state) service = "nothing";
-  //   else service = props.location.state.service.service;
-
-  // let service;
-  // console.log(service);
-  
-
+ 
   if (!props.location.state) {
     return (
       <>
@@ -28,7 +19,6 @@ const ServiceDetailsPage = props => {
     let path = "our-services-people.jpg";
     return (
       <>
-        {/* {service === "nothing" ? <Redirect to="/not-found" /> : ""} */}
         <OtherNavbar />
         <div className="wrapper">
           <OtherPageHeader message={service.title} />
