@@ -19,7 +19,7 @@ const ServiceDetailsPage = ( props ) => {
         <OtherPageHeader message={service.title} />
         <div className="section text-center">
           <Container  className=" text-muted">
-            <Row className="justify-content-md-center">
+            <Row className="justify-content-center">
                 <img width="50%" src={require(`../../assets/img/${path}`)} alt={service.title} />
             </Row>
           </Container>
