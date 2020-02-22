@@ -70,7 +70,7 @@ function LandingPage() {
           <Container>
             <h2 className="title">Our Services</h2>
             <div className="team">
-              <ServiceCardBlock numberOfItemsPerRow={3} />
+              <ServiceCardBlock />
             </div>
           </Container>
         </div>

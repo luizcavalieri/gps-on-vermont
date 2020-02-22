@@ -18,6 +18,12 @@ https://stackoverflow.com/questions/41574776/what-is-class-mb-0-in-bootstrap-4
   .button-online-appointments{
     margin-top: -10.5rem;
   }
+  .title-smal-header {
+    font-weight: $font-weight-light;
+    font-size: $font-size-h4;
+    // padding-top: 82.5px;
+    padding-top: 5.1rem;
+  }
 }
 
 /* Small devices (landscape phones, 360px and up) */
@@ -28,6 +34,11 @@ https://stackoverflow.com/questions/41574776/what-is-class-mb-0-in-bootstrap-4
   .button-online-appointments{
     margin-top: -11.5rem;
   }
+  .title-smal-header {
+    // font-weight: $font-weight-light;
+    // font-size: $font-size-h4;
+    padding-top: 5rem;
+  }
 }
 
 /* Small devices (landscape phones, 411px and up) */
@@ -37,6 +48,11 @@ https://stackoverflow.com/questions/41574776/what-is-class-mb-0-in-bootstrap-4
   }
   .button-online-appointments{
     margin-top: -13rem;
+  }
+  .title-smal-header {
+    // font-weight: $font-weight-light;
+    font-size: $font-size-h3;
+    padding-top: 4.9rem;
   }
 }
 
@@ -55,6 +71,11 @@ https://stackoverflow.com/questions/41574776/what-is-class-mb-0-in-bootstrap-4
   .button-online-appointments{
     margin-top: -15.5rem;
   }
+  .title-smal-header {
+    font-weight: $font-weight-bold;
+    font-size: $font-size-h2;
+    padding-top: 70px;
+  }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -64,6 +85,11 @@ https://stackoverflow.com/questions/41574776/what-is-class-mb-0-in-bootstrap-4
   }
   .button-online-appointments{
     margin-top: -18rem;
+  }
+  .title-smal-header {
+    // font-weight: $font-weight-bold;
+    font-size: $font-size-h1;
+    padding-top: 80px;
   }
 }
 
@@ -76,4 +102,9 @@ https://stackoverflow.com/questions/41574776/what-is-class-mb-0-in-bootstrap-4
     margin-top: -14rem;
   }
 
+  .title-smal-header {
+    // font-weight: $font-weight-bold;
+    // font-size: $font-size-h1;
+    padding-top: 60px;
+  }
 }

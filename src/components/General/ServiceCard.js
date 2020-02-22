@@ -38,13 +38,15 @@ const ServiceCard = ({ service, className: passedClasses }) => {
               {service.descriptions}
             </CardText>
             {/* <Link className="text-info"  to="/afterhours-page">Check after hours care</Link> */}
+
+
             <Link to={{
               pathname: "/service-details",
               state: {
                  service: {service} 
               }
-            }}
-              >
+            }}>
+              
               <Button
                 color={"info"}
                 className={passedClasses}
