@@ -48,7 +48,7 @@ const services = [
     {
         title: "Counselling",
         icon: "fa fa-heartbeat fa-lg",
-        image: "head-brains.svg",
+        image: "headbrain.svg",
         descriptions: [
             "GPs on Vermont cares for patients with:"
         ],
