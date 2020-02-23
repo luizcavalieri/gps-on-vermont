@@ -7,6 +7,7 @@ import { Container } from "reactstrap";
 import TableData from "../../components/General/TableData";
 import feeContent from "../../data/fees-content";
 import DarkFooter from "../../components/Footers/DarkFooter";
+import BookingButton from "../../components/General/BookingButton";
 
 const FeesPage = () => {
   const message = "";
@@ -22,11 +23,13 @@ const FeesPage = () => {
         <OtherPageHeader message={message} />
         <div className="section text-center">
           <Container className=" text-muted">
-          <TableData feeData={feeContent} />
-
+            <TableData
+              feeData={feeContent}
+              headerRightContent={
+                <BookingButton className="btn-weight" size="sm" />
+              }
+            />
           </Container>
-
-          
         </div>
       </div>
       <DarkFooter />
