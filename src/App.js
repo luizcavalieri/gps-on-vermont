@@ -26,6 +26,9 @@ import FormLinksPage from './views/examples/FormLinksPage';
 import ServiceDetailsPage from './views/examples/ServiceDetailsPage';
 import NotFoundPage from './views/examples/NotFoundPage';
 
+// This is to avoid the refresh problems when refreshing the page on github
+// https://github.com/rafrex/spa-github-pages
+
 // function App() {
 const App = () => {
   console.log("Host URL"+process.env.PUBLIC_URL);

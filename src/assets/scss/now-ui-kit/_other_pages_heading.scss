@@ -16,13 +16,11 @@
   .page-header {
     &.page-header-xsmall {
       min-height: 6vh;
-      // max-height: 640px;
     }
   }
   .title-small-header {
     font-weight: $font-weight-light;
     font-size: $font-size-h4;
-    // padding-top: 82.5px;
     padding-top: 5.1rem;
   }
 }
@@ -34,8 +32,6 @@
 /* Small devices (landscape phones, 360px and up) */
 @media (min-width: 360px) {
   .title-small-header {
-    // font-weight: $font-weight-light;
-    // font-size: $font-size-h4;
     padding-top: 5rem;
   }
 }
@@ -43,7 +39,6 @@
 /* Small devices (landscape phones, 411px and up) */
 @media (min-width: 411px) {
   .title-small-header {
-    // font-weight: $font-weight-light;
     font-size: $font-size-h3;
     padding-top: 4.9rem;
   }
@@ -54,7 +49,6 @@
   .page-header {
     &.page-header-xsmall {
       min-height: 10vh;
-      // max-height: 640px;
     }
   }
 }
@@ -87,7 +81,6 @@
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .title-small-header {
-    // font-weight: $font-weight-bold;
     font-size: $font-size-h1;
     padding-top: 80px;
   }
@@ -103,7 +96,6 @@
     }
   }
   .title-small-header {
-    // font-weight: $font-weight-bold;
     font-size: $font-size-h1;
     padding-top: 80px;
   }
@@ -118,8 +110,6 @@
     }
   }
   .title-small-header {
-    // font-weight: $font-weight-bold;
-    // font-size: $font-size-h1;
     padding-top: 60px;
   }
 }

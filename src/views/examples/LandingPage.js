@@ -25,7 +25,6 @@ function LandingPage() {
     headerScrolling();
   });
 
-
   return (
     <>
       <HomeNavbar />
