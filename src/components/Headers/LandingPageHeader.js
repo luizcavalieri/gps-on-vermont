@@ -32,7 +32,7 @@ const LandingPageHeader = ({ title }) => {
         ></div>
         <div className="content-center">
           <Container>
-            <h1 className="title">{title}</h1>
+            <h1 className="title-landing-page">{title}</h1>
           </Container>
         </div>
       </div>
