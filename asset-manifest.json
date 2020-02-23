@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/gps-on-vermont/static/css/main.4218f527.chunk.css",
-    "main.js": "/gps-on-vermont/static/js/main.63cf2244.chunk.js",
-    "main.js.map": "/gps-on-vermont/static/js/main.63cf2244.chunk.js.map",
+    "main.css": "/gps-on-vermont/static/css/main.84860b4e.chunk.css",
+    "main.js": "/gps-on-vermont/static/js/main.ea16319d.chunk.js",
+    "main.js.map": "/gps-on-vermont/static/js/main.ea16319d.chunk.js.map",
     "runtime-main.js": "/gps-on-vermont/static/js/runtime-main.c75256c0.js",
     "runtime-main.js.map": "/gps-on-vermont/static/js/runtime-main.c75256c0.js.map",
     "static/js/2.f606ee96.chunk.js": "/gps-on-vermont/static/js/2.f606ee96.chunk.js",
     "static/js/2.f606ee96.chunk.js.map": "/gps-on-vermont/static/js/2.f606ee96.chunk.js.map",
     "index.html": "/gps-on-vermont/index.html",
-    "precache-manifest.ccbad72aba02002f36c888bcfdddae91.js": "/gps-on-vermont/precache-manifest.ccbad72aba02002f36c888bcfdddae91.js",
+    "precache-manifest.92681a72ab4e36ea20fd9c976346434a.js": "/gps-on-vermont/precache-manifest.92681a72ab4e36ea20fd9c976346434a.js",
     "service-worker.js": "/gps-on-vermont/service-worker.js",
-    "static/css/main.4218f527.chunk.css.map": "/gps-on-vermont/static/css/main.4218f527.chunk.css.map",
+    "static/css/main.84860b4e.chunk.css.map": "/gps-on-vermont/static/css/main.84860b4e.chunk.css.map",
     "static/js/2.f606ee96.chunk.js.LICENSE": "/gps-on-vermont/static/js/2.f606ee96.chunk.js.LICENSE",
     "static/media/avatar.jpg": "/gps-on-vermont/static/media/avatar.7257a1a9.jpg",
     "static/media/bg1.jpg": "/gps-on-vermont/static/media/bg1.6b1983a2.jpg",
@@ -57,7 +57,7 @@
   "entrypoints": [
     "static/js/runtime-main.c75256c0.js",
     "static/js/2.f606ee96.chunk.js",
-    "static/css/main.4218f527.chunk.css",
-    "static/js/main.63cf2244.chunk.js"
+    "static/css/main.84860b4e.chunk.css",
+    "static/js/main.ea16319d.chunk.js"
   ]
 }
