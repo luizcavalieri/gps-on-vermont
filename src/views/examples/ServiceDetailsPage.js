@@ -5,9 +5,7 @@ import { Container } from "reactstrap";
 import DarkFooter from "../../components/Footers/DarkFooter";
 import { Redirect } from "react-router-dom";
 
-
 const ServiceDetailsPage = props => {
- 
   if (!props.location.state) {
     return (
       <>
@@ -26,6 +24,8 @@ const ServiceDetailsPage = props => {
             <Container className=" text-muted">
               <div className="justify-content-center">
                 <img
+                  className="img-fluid"
+                  width={"70%"}
                   src={require(`../../assets/img/${path}`)}
                   alt={service.title}
                 />

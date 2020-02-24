@@ -13,7 +13,8 @@ import OpeningHours from "../../components/General/OpeningHours";
 import DarkFooter from "../../components/Footers/DarkFooter";
 import ServiceCardBlock from "../../components/General/ServiceCardBlock";
 import BarButtonsLandPageHeader from "../../components/General/BarButtonsLandPageHeader";
-
+import staffContent from "../../data/staff-content";
+import OurTeam from "../../components/General/OurTeam";
 
 function LandingPage() {
   // const [firstFocus, setFirstFocus] = useState(false);
@@ -123,6 +124,16 @@ function LandingPage() {
             </div>
           </Container>
         </div>
+
+        <div className="section section-team text-center">
+          <Container>
+            <h2 className="title">Here is our team</h2>
+            <div className="team"></div>
+
+            <OurTeam staffData={staffContent} />
+          </Container>
+        </div>
+
         <DarkFooter />
       </div>
     </>

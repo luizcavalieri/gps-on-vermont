@@ -17,7 +17,7 @@ const BusinessCard = ({ emp }) => {
   return (
     <>
       <Card>
-        <div className="team-player">
+        <div >
           <CardHeader className="business-card-header ">
             <CardImg
               className="rounded-circle img-fluid 
