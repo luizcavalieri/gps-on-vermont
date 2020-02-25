@@ -1,5 +1,6 @@
 
-.busines-card{
+
+.busines-card {
   margin-top: 0.875rem;
   margin-right: 0.4375rem;
   box-shadow: none;
@@ -22,18 +23,17 @@
   }
 }
 
-.business-card-image-size{
+.business-card-image-size {
   max-width: 12.5rem;
 }
 
 .business-card-image {
   max-width: 12.5rem;
   margin-top: 4.7rem;
-  margin-bottom: -6.0rem;
+  margin-bottom: -6rem;
   border-color: $white-color;
   border-style: solid;
   border-width: 5px;
-  
 }
 
 .new-line {
@@ -41,19 +41,18 @@
 }
 
 .business-card-header {
-  
   // background-color: $info-color;
   background-image: linear-gradient($info-color, $light-blue);
-  
+
   &:first-child {
     border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
   }
 }
 
-.business-card-title{
-    font-weight: $font-weight-bold;
-    // padding-top: 30px;
-    font-size: 1.5rem;
+.business-card-title {
+  font-weight: $font-weight-bold;
+  // padding-top: 30px;
+  font-size: 1.5rem;
 }
 
 .business-card-footer {
@@ -61,7 +60,7 @@
   padding-bottom: 0.4rem;
   padding: 0.75rem 1.25rem;
   margin-top: 0;
-  
+
   // enable this if you want to add a top line
   // border-top: 1px solid rgba(0,0,0,.125);
 }
@@ -72,5 +71,3 @@
 //     // border-style: groove;
 //     border-color: red($color: #000000);
 // }
-
-

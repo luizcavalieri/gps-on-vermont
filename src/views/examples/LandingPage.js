@@ -75,63 +75,11 @@ function LandingPage() {
           </Container>
         </div>
 
-        {/* <div id="teamA" className="section section-team text-center">
-          <Container>
-            <h2 className="title">Here is our team</h2>
-            <div className="team">
-              <Row>
-                <Col md="6">
-                  <div className="team-player">
-                    <img
-                      alt="..."
-                      className="rounded-circle img-fluid img-raised"
-                      src={require("../../assets/img/dr-carmen.png")}
-                    ></img>
-                    <h4 className="title">Carmen Padilla</h4>
-                    <p className="category text-info">Doctor</p>
-                    <p className="description">
-                      FRACGP, MBBS, Diploma of Child Heath Dr Padilla has been a
-                      General Practitioner in the Wodonga area for 10 years.{" "}
-                      <br /> Carmen has a special interest in women’s health,
-                      child health, chronic disease management, men’s health.{" "}
-                      <br />
-                      Dr Padilla speaks Spanish as well as English
-                      <br />
-                    </p>
-                  </div>
-                </Col>
-                <Col md="6">
-                  <div className="team-player">
-                    <img
-                      alt="..."
-                      className="rounded-circle img-fluid img-raised"
-                      src={require("../../assets/img/ryan.jpg")}
-                    ></img>
-                    <h4 className="title">Annette Baumgarten</h4>
-                    <p className="category text-info">Practice Manager</p>
-                    <p className="description">
-                      Our administration Team is managed by our Practice Manager
-                      Annette Baumgarten. Annette has a vast background in
-                      Business Management and has been a Practice Manager in
-                      other Practices. Annette has a Diploma of Business, a
-                      graduate of the Institute of company Directors Australia,
-                      and has a certificate of Community engagement with the
-                      Australian and International Participation
-                    </p>
-                  </div>
-                </Col>
-              </Row>
-            </div>
-          </Container>
-        </div> */}
-
         <div className="section section-team text-center">
           <Container>
             <h2 className="title">Here is our team</h2>
-            
-            <div className="team"></div>
-
             <OurTeam staffData={staffContent} />
+            
           </Container>
         </div>
 

@@ -60,13 +60,14 @@ const OurTeam = ({ staffData }) => {
         infinite={deviceType !== "mobile" ? true : false}
         autoPlay={deviceType !== "mobile" ? true : false}
         // autoPlay={true}
-        autoPlaySpeed={3000}
+        autoPlaySpeed={13000}
         // autoPlaySpeed={1}
         keyBoardControl={true}
         // customTransition="all .5"
         // customTransition="all .3"
         // transitionDuration={500}
         // customTransition="all 1s linear"
+        dotListClass={"abcd"}
         customTransition={deviceType !== "mobile" ? "all 1s linear" : "all .5"}
         additionalTransfrom={0}
         containerClass="carousel-container"

@@ -3,6 +3,14 @@
   margin-top: -90px;
   font-size: 1.2em;
 }
+//this is for the dots in the carousel
+.custom-dot-list-style {
+  .react-multi-carousel-dot button {    
+    width: 30px;
+    height: 30px;
+  }
+}
+
 /*
 For device sizes
 https://stackoverflow.com/questions/41574776/what-is-class-mb-0-in-bootstrap-4
