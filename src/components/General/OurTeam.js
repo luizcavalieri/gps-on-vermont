@@ -60,7 +60,7 @@ const OurTeam = ({ staffData }) => {
         infinite={deviceType !== "mobile" ? true : false}
         autoPlay={deviceType !== "mobile" ? true : false}
         // autoPlay={true}
-        autoPlaySpeed={13000}
+        autoPlaySpeed={6000}
         // autoPlaySpeed={1}
         keyBoardControl={true}
         // customTransition="all .5"
