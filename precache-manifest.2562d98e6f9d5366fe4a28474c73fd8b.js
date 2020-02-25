@@ -1,31 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "958273746fbfdf3d91d49d801209e6fe",
+    "revision": "e3f682fb3c1d3ece74062a518997a77b",
     "url": "/gps-on-vermont/index.html"
   },
   {
-    "revision": "5bc41f0ecfdcc1292348",
-    "url": "/gps-on-vermont/static/css/main.84860b4e.chunk.css"
+    "revision": "0f38f953ca25872603ca",
+    "url": "/gps-on-vermont/static/css/2.5f557260.chunk.css"
   },
   {
-    "revision": "5c4cfbf688c4534e23be",
-    "url": "/gps-on-vermont/static/js/2.f606ee96.chunk.js"
+    "revision": "e250fa4cf3b037ee51fc",
+    "url": "/gps-on-vermont/static/css/main.574065bd.chunk.css"
   },
   {
-    "revision": "16b86e91d2e79208973b06c295aba9d7",
-    "url": "/gps-on-vermont/static/js/2.f606ee96.chunk.js.LICENSE"
+    "revision": "0f38f953ca25872603ca",
+    "url": "/gps-on-vermont/static/js/2.eab95e6d.chunk.js"
   },
   {
-    "revision": "5bc41f0ecfdcc1292348",
-    "url": "/gps-on-vermont/static/js/main.31208077.chunk.js"
+    "revision": "092d7501092d8b8f7b873d3e532e5f4d",
+    "url": "/gps-on-vermont/static/js/2.eab95e6d.chunk.js.LICENSE"
+  },
+  {
+    "revision": "e250fa4cf3b037ee51fc",
+    "url": "/gps-on-vermont/static/js/main.b31072ed.chunk.js"
   },
   {
     "revision": "b6ce3b8da8bd7d55c4da",
     "url": "/gps-on-vermont/static/js/runtime-main.c75256c0.js"
-  },
-  {
-    "revision": "7257a1a94be550133f3233fd792ee724",
-    "url": "/gps-on-vermont/static/media/avatar.7257a1a9.jpg"
   },
   {
     "revision": "6b1983a26a32647c4832456dc9f5dcd3",
@@ -178,6 +178,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "225653f9f4dacef3e81bcc52f5ef547d",
     "url": "/gps-on-vermont/static/media/profile.225653f9.jpg"
+  },
+  {
+    "revision": "04eb8fc57f27498e5ae37523e3bfb2c7",
+    "url": "/gps-on-vermont/static/media/revicons.04eb8fc5.woff"
+  },
+  {
+    "revision": "17629a5dfe0d3c3946cf401e1895f091",
+    "url": "/gps-on-vermont/static/media/revicons.17629a5d.ttf"
+  },
+  {
+    "revision": "2feb69ccb596730c72920c6ba3e37ef8",
+    "url": "/gps-on-vermont/static/media/revicons.2feb69cc.eot"
   },
   {
     "revision": "f217f346c88e5fb2720ca7c28827ff72",
