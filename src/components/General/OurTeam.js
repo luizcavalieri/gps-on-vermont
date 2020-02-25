@@ -66,6 +66,7 @@ const OurTeam = ({ staffData }) => {
         // customTransition="all .3"
         // transitionDuration={500}
         customTransition="all 1s linear"
+        customTransition={deviceType !== "mobile" ? "all 1s linear" : "all .5"}
         additionalTransfrom={0}
         containerClass="carousel-container"
         removeArrowOnDeviceType={["tablet", "mobile"]}
