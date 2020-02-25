@@ -40,7 +40,7 @@ const staff = [
   {
     titleAbr: "Pm",
     title: "Nurse",
-    name: "bla ble",
+    name: "Bla ble",
     image: "avatar.jpg",
     accreditations: ["ABC", "VVV", "Certificate of YYY"],
     descriptions: ["No clue", "Done"],
@@ -51,7 +51,7 @@ const staff = [
   {
     titleAbr: "Pm",
     title: "Nurse",
-    name: "mooooo",
+    name: "Mooooo",
     image: "avatar.jpg",
     accreditations: ["ABC", "VVV", "Certificate of YYY"],
     descriptions: ["No clue", "Done"],
@@ -67,7 +67,7 @@ const staff = [
   {
     titleAbr: "Pm",
     title: "Nurse",
-    name: "meeee",
+    name: "Meeee",
     image: "avatar.jpg",
     accreditations: ["ABC", "VVV", "Certificate of YYY"],
     descriptions: ["No clue", "Done"],

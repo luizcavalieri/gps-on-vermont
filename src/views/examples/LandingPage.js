@@ -75,7 +75,7 @@ function LandingPage() {
           </Container>
         </div>
 
-        <div id="teamA" className="section section-team text-center">
+        {/* <div id="teamA" className="section section-team text-center">
           <Container>
             <h2 className="title">Here is our team</h2>
             <div className="team">
@@ -123,11 +123,12 @@ function LandingPage() {
               </Row>
             </div>
           </Container>
-        </div>
+        </div> */}
 
         <div className="section section-team text-center">
           <Container>
             <h2 className="title">Here is our team</h2>
+            
             <div className="team"></div>
 
             <OurTeam staffData={staffContent} />

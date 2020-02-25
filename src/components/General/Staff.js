@@ -9,8 +9,8 @@ const Staff = ({ staffData }) => {
     <>
       <Row>
         {staffData.map((employee, index) => (
-          <Col key={index} md="6" lg="6" xl="4" >
-            <BusinessCard emp={employee} />
+          <Col key={index} md="6" lg="6" xl="6" >
+            <BusinessCard emp={employee} headerClassName={"business-card-header"} cardBodyClassName={"business-card-body-with-header"}/>
           </Col>
         ))}
       </Row>

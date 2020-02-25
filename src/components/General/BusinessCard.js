@@ -12,24 +12,26 @@ import {
   CardText
 } from "reactstrap";
 
-const BusinessCard = ({ emp }) => {
+const BusinessCard = ({ emp, cardClassName, headerClassName, cardImageClassName, cardBodyClassName }) => {
   let path = emp.image;
+
+  if(!cardImageClassName) cardImageClassName = "rounded-circle img-fluid business-card-image";
+
   return (
     <>
-      <Card>
-        <div >
-          <CardHeader className="business-card-header ">
+      <Card className={cardClassName}>
+        {/* <div > */}
+          <CardHeader className={headerClassName}>
             <CardImg
-              className="rounded-circle img-fluid 
-              business-card-image"
+              className={cardImageClassName}
               alt="..."
               src={require(`../../assets/img/${path}`)}
               top
             ></CardImg>
           </CardHeader>
 
-          <CardBody className="business-card-body">
-            <CardTitle tag="h4" className="business-card-title">
+          <CardBody className={cardBodyClassName}>
+            <CardTitle tag="h4" className="business-card-title text-muted">
               {emp.name}
             </CardTitle>
             <CardText className="category text-primary">{emp.title}</CardText>
@@ -37,12 +39,12 @@ const BusinessCard = ({ emp }) => {
             <DescriptionList
               list={emp.descriptions}
               includeNewLine={false}
-              className="text-justified font-paragraph"
+              className="text-justified font-paragraph text-muted"
             />
             <dir className="new-line"></dir>
             <IconCheckList
               list={emp.accreditations}
-              className="text-left font-paragraph"
+              className="text-left font-paragraph text-muted"
               ulClassName="fa-ul"
               liClassName="fa-li"
               iconClassName="fa fa-check-circle fa-lg"
@@ -55,7 +57,7 @@ const BusinessCard = ({ emp }) => {
             ) : null}
           </div>
           
-        </div>
+        {/* </div> */}
       </Card>
     </>
   );
