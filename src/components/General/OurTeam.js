@@ -77,7 +77,9 @@ const OurTeam = ({ staffData }) => {
       >
         {staffData.map((employee, index) => (
           <div key={index}>
-            <BusinessCard emp={employee} cardClassName={"busines-card"} cardImageClassName={"rounded-circle img-fluid img-raised business-card-image-size"}/>
+            <BusinessCard emp={employee}  cardClassName={"busines-card"} cardImageClassName={"rounded-circle img-fluid img-raised business-card-image-size"}
+                cardBodyClassName={"business-card-body"}
+            />
           </div>
         ))}
       </Carousel>
