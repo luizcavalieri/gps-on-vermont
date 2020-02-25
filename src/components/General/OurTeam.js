@@ -50,13 +50,14 @@ const OurTeam = ({ staffData }) => {
         //   setIsMoving(false);
         // }}
         swipeable={true}
-        draggable={false}
+        draggable={true}
         showDots={true}
         responsive={responsive}
         arrows
         // ssr={true} // means to render carousel on server-side.
         ssr={true}
-        infinite={true}
+        // infinite={true}
+        infinite={deviceType !== "mobile" ? true : false}
         autoPlay={deviceType !== "mobile" ? true : false}
         // autoPlay={true}
         autoPlaySpeed={3000}
