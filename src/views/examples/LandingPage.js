@@ -15,6 +15,8 @@ import ServiceCardBlock from "../../components/General/ServiceCardBlock";
 import BarButtonsLandPageHeader from "../../components/General/BarButtonsLandPageHeader";
 import staffContent from "../../data/staff-content";
 import OurTeam from "../../components/General/OurTeam";
+//////////just as an example of how to avoid typescript check ///@ts-ignore
+import ScrollUpButton from "react-scroll-up-button";
 
 
 function LandingPage() {
@@ -29,6 +31,7 @@ function LandingPage() {
 
   return (
     <>
+      <ScrollUpButton  style={{bottom: 87}} ></ScrollUpButton>
       <HomeNavbar />
 
       <div className="wrapper">
@@ -87,6 +90,7 @@ function LandingPage() {
 
         <DarkFooter />
       </div>
+      
     </>
   );
 }

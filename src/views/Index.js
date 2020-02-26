@@ -20,6 +20,7 @@ import CompleteExamples from "./index-sections/CompleteExamples.js";
 import SignUp from "./index-sections/SignUp.js";
 import Examples from "./index-sections/Examples.js";
 import Download from "./index-sections/Download.js";
+import ScrollUpButton from "react-scroll-up-button";
 
 function Index() {
   React.useEffect(() => {
@@ -35,6 +36,7 @@ function Index() {
   });
   return (
     <>
+      <ScrollUpButton ></ScrollUpButton>
       <IndexNavbar />
       <div className="wrapper">
         <IndexHeader />
