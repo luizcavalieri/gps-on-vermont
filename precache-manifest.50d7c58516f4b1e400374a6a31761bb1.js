@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3c49ed38cc030b48001b399b428efe33",
+    "revision": "eac71f889ddbee44617a5f27107ee9de",
     "url": "/gps-on-vermont/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gps-on-vermont/static/css/2.5f557260.chunk.css"
   },
   {
-    "revision": "b541bff8a7aace965f68",
-    "url": "/gps-on-vermont/static/css/main.19052b52.chunk.css"
+    "revision": "c0913d847da2f96ba35f",
+    "url": "/gps-on-vermont/static/css/main.f72c5144.chunk.css"
   },
   {
     "revision": "6bcce406a4e91e2d38d6",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gps-on-vermont/static/js/2.ba53fb22.chunk.js.LICENSE"
   },
   {
-    "revision": "b541bff8a7aace965f68",
-    "url": "/gps-on-vermont/static/js/main.7f0bb61c.chunk.js"
+    "revision": "c0913d847da2f96ba35f",
+    "url": "/gps-on-vermont/static/js/main.c7070433.chunk.js"
   },
   {
     "revision": "b6ce3b8da8bd7d55c4da",
