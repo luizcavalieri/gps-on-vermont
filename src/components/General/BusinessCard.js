@@ -32,7 +32,7 @@ const BusinessCard = ({
         <CardHeader className={headerClassName}>
           <CardImg
             className={cardImageClassName}
-            alt="..."
+            alt="employee image"
             src={require(`../../assets/img/${path}`)}
             top
           ></CardImg>

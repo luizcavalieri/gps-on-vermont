@@ -12,6 +12,9 @@ const OurTeam = ({ staffData }) => {
   const [switchValue, setSwitchValue] = useState(true);
   //   const [isMoving, setIsMoving] = useState(false);
   // console.log("deviceType: " + deviceType);
+  const TABLET = "tablet";
+  const MOBILE = "mobile";
+  const BROWSER = "browser";
 
   const responsive = {
     desktop: {
@@ -33,12 +36,12 @@ const OurTeam = ({ staffData }) => {
       partialVisibilityGutter: 30
     }
   };
-  let value = deviceType !== "mobile" ? "all 1s linear" : "all .5";
+  let value = deviceType !== MOBILE ? "all 1s linear" : "all .5";
   let switchComponent;
-  if (deviceType === "tablet") {
+  if (deviceType === TABLET) {
     switchComponent = (
       <div className="d-flex flex-row align-items-center">
-        <div className="p-2">Auto Scrolling</div>
+        <div className="p-2 text-muted font-paragraph">Auto Scrolling</div>
         <div className=" ">
           <Switch
             defaultValue={switchValue}
@@ -54,14 +57,12 @@ const OurTeam = ({ staffData }) => {
     <>
       <div className="d-flex flex-row justify-content-center ">
         {switchComponent}
-        {/* <Button className="btn-round ml-auto" color="info" size="sm"></Button> */}
-
         <Link
           to={{
             pathname: "/staff-page"
           }}
         >
-          <Button className="btn-round " color="info" size="sm">
+          <Button className="btn-round font-paragraph" color="info" size="sm">
             View All
           </Button>
         </Link>
@@ -81,21 +82,14 @@ const OurTeam = ({ staffData }) => {
         showDots={true}
         responsive={responsive}
         arrows
-        // ssr={true} // means to render carousel on server-side.
-        ssr={true}
-        // infinite={true}
-        infinite={deviceType !== "mobile" ? true : false}
+        ssr={true} // means to render carousel on server-side.
+        infinite={deviceType !== MOBILE ? true : false}
         autoPlay={
-          deviceType !== "mobile"
-            ? deviceType === "tablet" && switchValue
-              ? true
-              : false
+          deviceType === BROWSER || (deviceType === TABLET && switchValue)
+            ? true
             : false
         }
-        // autoPlay={switchValue}
-        // autoPlay={true}
         autoPlaySpeed={6000}
-        // autoPlaySpeed={1}
         keyBoardControl={true}
         // customTransition="all .5"
         // customTransition="all .3"
@@ -105,7 +99,7 @@ const OurTeam = ({ staffData }) => {
         customTransition={value}
         additionalTransfrom={0}
         containerClass="carousel-container"
-        removeArrowOnDeviceType={["tablet", "mobile"]}
+        removeArrowOnDeviceType={[TABLET, MOBILE]}
         deviceType={deviceType}
         dotListClass={"custom-dot-list-style"}
         itemClass="carousel-item-padding-40-px"
@@ -125,7 +119,6 @@ const OurTeam = ({ staffData }) => {
           </div>
         ))}
       </Carousel>
-      {/* </div> */}
     </>
   );
 };
