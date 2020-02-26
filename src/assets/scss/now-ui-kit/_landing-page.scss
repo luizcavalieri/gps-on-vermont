@@ -5,10 +5,46 @@
 }
 //this is for the dots in the carousel
 .custom-dot-list-style {
-  .react-multi-carousel-dot button {    
+  .react-multi-carousel-dot button {
     width: 30px;
     height: 30px;
   }
+}
+
+//these are for the switch
+.bootstrap-switch {
+  width: 65px !important;
+  height: 26px;
+  margin-bottom: 0px;
+}
+
+.bootstrap-switch-large {
+  margin-top: -1px;
+  margin-left: -1px;
+  height: 27px !important;
+  width: 100%;
+
+  .bootstrap-switch-label {
+    margin-left: -12px;
+    height: 1.6875rem !important;
+  }
+
+  .bootstrap-switch-handle-off {
+    font-size: small !important;
+    line-height: 1.33 !important;
+    width: 52% !important;
+  }
+  .bootstrap-switch-handle-on {
+    font-size: small !important;
+    line-height: 1.33 !important;
+    margin-left: -3px;
+  }
+}
+.bootstrap-switch-off {
+  background: $default-color;
+}
+.bootstrap-switch-on {
+  background: $info-color;
 }
 
 /*
@@ -39,7 +75,6 @@ https://stackoverflow.com/questions/41574776/what-is-class-mb-0-in-bootstrap-4
   .button-online-appointments {
     margin-top: -11.5rem;
   }
-
 }
 
 /* Small devices (landscape phones, 411px and up) */

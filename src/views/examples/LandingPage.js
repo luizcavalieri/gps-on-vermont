@@ -16,6 +16,7 @@ import BarButtonsLandPageHeader from "../../components/General/BarButtonsLandPag
 import staffContent from "../../data/staff-content";
 import OurTeam from "../../components/General/OurTeam";
 
+
 function LandingPage() {
   // const [firstFocus, setFirstFocus] = useState(false);
   // const [lastFocus, setLastFocus] = useState(false);
@@ -78,6 +79,7 @@ function LandingPage() {
         <div className="section section-team text-center">
           <Container>
             <h2 className="title">Here is our team</h2>
+            
             <OurTeam staffData={staffContent} />
             
           </Container>
