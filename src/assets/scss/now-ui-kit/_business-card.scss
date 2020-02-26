@@ -47,11 +47,17 @@
     border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
   }
 }
-
-.business-card-title {
+.business-card-name {
+  text-transform: capitalize;
   font-weight: $font-weight-bold;
   // padding-top: 30px;
   font-size: 1.5rem;
+}
+
+.business-card-title {
+  text-transform: capitalize;
+  font-weight: $font-weight-bold;
+  margin-top: -0.625rem;
 }
 
 .business-card-footer {
@@ -70,3 +76,12 @@
 //     // border-style: groove;
 //     border-color: red($color: #000000);
 // }
+.spoken-languages{
+  margin-top: -0.625rem;
+  font-size: 1.2em;
+}
+
+.language-pill{
+  background-color: $dark-gray;
+  // margin-top: -0.625rem;
+}

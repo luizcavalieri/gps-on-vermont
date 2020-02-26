@@ -10,6 +10,7 @@ const staff = [
       "Carmen has a special interest in women’s health, child health, chronic disease management, men’s health.",
       "Dr Padilla speaks Spanish as well as English."
     ],
+    speaks:["English","Spanish"],
     booking: true,
     bookingDoctorId: "dr-carmen-padilla-1",
     socialMedia: []
@@ -28,6 +29,7 @@ const staff = [
       "Our administration Team is managed by our Practice Manager Annette.",
       "She has a vast background in Business Management and has been a Practice Manager in other Practices."
     ],
+    speaks:["English"],
     booking: false,
     bookingDoctorId: "",
     socialMedia: [
@@ -43,6 +45,7 @@ const staff = [
     name: "Bla ble",
     image: "avatar.jpg",
     accreditations: ["ABC", "VVV", "Certificate of YYY"],
+    speaks:["English","Mandarin"],
     descriptions: ["No clue", "Done"],
     booking: false,
     bookingDoctorId: "",
@@ -54,6 +57,7 @@ const staff = [
     name: "Mooooo",
     image: "avatar.jpg",
     accreditations: ["ABC", "VVV", "Certificate of YYY"],
+    speaks:["English","Servian", "Croatian"],
     descriptions: ["No clue", "Done"],
     booking: false,
     bookingDoctorId: "",
@@ -70,6 +74,7 @@ const staff = [
     name: "Meeee",
     image: "avatar.jpg",
     accreditations: ["ABC", "VVV", "Certificate of YYY"],
+    speaks:["English","Servian", "Croatian","Macedonian"],
     descriptions: ["No clue", "Done"],
     booking: false,
     bookingDoctorId: "",
