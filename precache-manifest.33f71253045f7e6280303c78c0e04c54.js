@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "01e25dd3c3b9dd60dbca7949dd76dde4",
+    "revision": "7103baa5ae4264c52303a302b87feb74",
     "url": "/gps-on-vermont/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gps-on-vermont/static/css/2.5f557260.chunk.css"
   },
   {
-    "revision": "def1f2d3bac8d6e0d48c",
+    "revision": "753f7eb8841f887b2ece",
     "url": "/gps-on-vermont/static/css/main.f72c5144.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gps-on-vermont/static/js/2.a2806e88.chunk.js.LICENSE"
   },
   {
-    "revision": "def1f2d3bac8d6e0d48c",
-    "url": "/gps-on-vermont/static/js/main.5bf0e339.chunk.js"
+    "revision": "753f7eb8841f887b2ece",
+    "url": "/gps-on-vermont/static/js/main.93091a05.chunk.js"
   },
   {
     "revision": "b6ce3b8da8bd7d55c4da",
@@ -80,8 +80,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gps-on-vermont/static/media/creative-tim-white-slim2.f7cb2d39.png"
   },
   {
-    "revision": "b74463680be8c9e4ed80ed2f2c0d2e32",
-    "url": "/gps-on-vermont/static/media/dr-carmen.b7446368.png"
+    "revision": "41d3505071dc5af623059207ee517806",
+    "url": "/gps-on-vermont/static/media/dr-carmen.41d35050.jpg"
   },
   {
     "revision": "089c4f4e55f158a69d0364c6b6339f37",
