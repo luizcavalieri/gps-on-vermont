@@ -10,7 +10,8 @@ const staff = [
       "Carmen has a special interest in women’s health, child health, chronic disease management, men’s health.",
       "Dr Padilla speaks Spanish as well as English."
     ],
-    speaks:["English","Spanish"],
+    availability: ["5 days per week"],
+    speaks: ["English", "Spanish"],
     booking: true,
     bookingDoctorId: "dr-carmen-padilla-1",
     socialMedia: []
@@ -29,7 +30,8 @@ const staff = [
       "Our administration Team is managed by our Practice Manager Annette.",
       "She has a vast background in Business Management and has been a Practice Manager in other Practices."
     ],
-    speaks:["English"],
+    availability: ["5 days per week"],
+    speaks: ["English"],
     booking: false,
     bookingDoctorId: "",
     socialMedia: [
@@ -40,25 +42,33 @@ const staff = [
     ]
   },
   {
-    titleAbr: "Pm",
-    title: "Nurse",
-    name: "Lara",
+    titleAbr: "Nr",
+    title: "Practice Nurse",
+    name: "Lara Hopkins",
     image: "Lara.jpg",
-    accreditations: ["ABC", "VVV", "Certificate of YYY"],
-    speaks:["English","Mandarin"],
-    descriptions: ["No clue", "Done"],
+    accreditations: ["acc1", "acc2", "acc3"],
+    availability: ["Monday", "Tuesday"],
+    speaks: ["English"],
+    descriptions: ["first one", "second one", "third one", "fouth one", "fifth one"],
     booking: false,
     bookingDoctorId: "",
     socialMedia: []
   },
   {
     titleAbr: "Pm",
-    title: "Counsellor",
-    name: "Jen",
+    title: "Mental Health Social Worker",
+    name: "Jen Walker",
     image: "Jen.jpg",
-    accreditations: ["ABC", "VVV", "Certificate of YYY"],
-    speaks:["English","Servian", "Croatian"],
-    descriptions: ["No clue", "Done"],
+    accreditations: ["acc1", "acc2", "acc3"],
+    availability: ["Call for an appointment"],
+    speaks: ["English"],
+    descriptions: [
+      "I am an Accredited Mental Health Social Worker and have been in this field for nearly 20 years.",
+      "In this time I have worked in the homeless sector, drug and alcohol, education, young people, children with challenging behaviours, forensic drug and alcohol and with the Veteran community.",
+      "My passion is working with trauma affected people as trauma can and does underpin many mental health problems and I see this often in my practice.",
+      "I use Cognitive Behaviour Therapy, Narrative Therapy and Acceptance Commitment Therapy and have trained in Cognitive Processing Therapy.",
+      "I like to stay up to date with new emerging ways to support those with mental health issues and undertake training and academic study on a regular basis."
+    ],
     booking: false,
     bookingDoctorId: "",
     socialMedia: [
@@ -70,12 +80,26 @@ const staff = [
   },
   {
     titleAbr: "Pm",
+    title: "Nursing Manager",
+    name: "Megan Chick",
+    image: "avatar.jpg",
+    accreditations: ["acc1", "acc2", "acc3"],
+    availability: ["5 days per week"],
+    speaks: ["English"],
+    descriptions: ["first one", "second one", "third one"],
+    booking: false,
+    bookingDoctorId: "",
+    socialMedia: []
+  },
+  {
+    titleAbr: "Pm",
     title: "Nurse",
     name: "Test",
     image: "avatar.jpg",
-    accreditations: ["ABC", "VVV", "Certificate of YYY"],
-    speaks:["English","Servian", "Croatian","Macedonian"],
-    descriptions: ["No clue", "Done"],
+    accreditations: ["acc1", "acc2", "acc3"],
+    availability: ["Call for an appointment"],
+    speaks: ["English", "Servian", "Croatian", "Macedonian"],
+    descriptions: ["first one", "second one", "third one"],
     booking: false,
     bookingDoctorId: "",
     socialMedia: []
