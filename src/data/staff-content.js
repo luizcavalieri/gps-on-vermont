@@ -35,7 +35,7 @@ const staff = [
     socialMedia: [
       {
         id: "facebook",
-        link: "https://www.facebook.com"
+        link: "https://www.facebook.com/gpsonvermont/"
       }
     ]
   },

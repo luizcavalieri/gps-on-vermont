@@ -70,7 +70,7 @@ const BusinessCard = ({
           />
         </CardBody>
         <div>
-          <IconSocialMediaList list={emp.socialMedia} size="lg" color="info" />
+          <IconSocialMediaList list={emp.socialMedia} size="lg" color="info" target="_blank" rel ="noopener noreferrer" />
           {emp.booking ? (
             <BookingButton doctorId={emp.bookingDoctorId} size="lg" />
           ) : null}
