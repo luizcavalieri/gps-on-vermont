@@ -52,7 +52,7 @@ function DarkFooter() {
           >
             Creative Tim
           </a> */}
-          .
+          
         </div>
       </Container>
     </footer>

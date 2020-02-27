@@ -8,8 +8,7 @@ import {
   NavItem,
   NavLink,
   Nav,
-  Container,
-  UncontrolledTooltip
+  Container
 } from "reactstrap";
 
 function OtherNavbar() {
@@ -95,9 +94,9 @@ function OtherNavbar() {
             >
               Home
             </NavbarBrand>
-            <UncontrolledTooltip target="#navbar-brand">
+            {/* <UncontrolledTooltip target="#navbar-brand">
               Gps on Vermont
-            </UncontrolledTooltip>
+            </UncontrolledTooltip> */}
             <button
               className="navbar-toggler navbar-toggler"
               onClick={() => {

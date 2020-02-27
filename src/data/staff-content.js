@@ -19,7 +19,7 @@ const staff = [
     titleAbr: "Pm",
     title: "Practice Manager",
     name: "Annette Baumgarten",
-    image: "avatar.jpg",
+    image: "Annette.jpg",
     accreditations: [
       "Diploma of Business",
       "Graduate of the Institute of company Directors Australia",
@@ -42,8 +42,8 @@ const staff = [
   {
     titleAbr: "Pm",
     title: "Nurse",
-    name: "Bla ble",
-    image: "avatar.jpg",
+    name: "Lara",
+    image: "Lara.jpg",
     accreditations: ["ABC", "VVV", "Certificate of YYY"],
     speaks:["English","Mandarin"],
     descriptions: ["No clue", "Done"],
@@ -53,9 +53,9 @@ const staff = [
   },
   {
     titleAbr: "Pm",
-    title: "Nurse",
-    name: "Mooooo",
-    image: "avatar.jpg",
+    title: "Counsellor",
+    name: "Jen",
+    image: "Jen.jpg",
     accreditations: ["ABC", "VVV", "Certificate of YYY"],
     speaks:["English","Servian", "Croatian"],
     descriptions: ["No clue", "Done"],
@@ -71,7 +71,7 @@ const staff = [
   {
     titleAbr: "Pm",
     title: "Nurse",
-    name: "Meeee",
+    name: "Test",
     image: "avatar.jpg",
     accreditations: ["ABC", "VVV", "Certificate of YYY"],
     speaks:["English","Servian", "Croatian","Macedonian"],
