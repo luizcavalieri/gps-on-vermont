@@ -1,7 +1,7 @@
 import React from "react";
 import { Button } from "reactstrap";
 
-const IconSocialMediaItem = ({ id, mediaId, link, color, size }) => {
+const IconSocialMediaItem = ({ id, mediaId, link, color, size, target, rel }) => {
   
   return (
     <>
@@ -11,6 +11,8 @@ const IconSocialMediaItem = ({ id, mediaId, link, color, size }) => {
         size={size}
         href={link}
         id={id}
+        rel={rel}
+        target={target}
         // onClick={e => e.preventDefault()}
       >
         {(function() {

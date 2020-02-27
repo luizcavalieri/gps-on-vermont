@@ -3,7 +3,7 @@ const staff = [
     titleAbr: "Dr",
     title: "Doctor",
     name: "Carmen Padilla",
-    image: "dr-carmen.png",
+    image: "dr-carmen.jpg",
     accreditations: ["FRACGP", "MBBS", "Diploma of Child Heath"],
     descriptions: [
       "Dr Padilla has been a General Practitioner in the Wodonga area for 10 years.",

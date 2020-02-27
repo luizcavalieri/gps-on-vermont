@@ -23,9 +23,11 @@ const BarButtonsLandPageHeader = () => {
         <IconSocialMediaItem
           id="tooltip515203352"
           mediaId="facebook"
-          link=""
+          link={`https://www.facebook.com/gpsonvermont/`}
           color="info"
           size="lg"
+          target="_blank"
+          rel="noopener noreferrer"
         />
         <UncontrolledTooltip delay={0} target="tooltip515203352">
           Follow me on facebook
