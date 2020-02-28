@@ -30,6 +30,7 @@ const ServiceDetailsPage = props => {
                   alt={service.title}
                 />
               </div>
+              
             </Container>
           </div>
           <DarkFooter />

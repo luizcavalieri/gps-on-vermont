@@ -42,6 +42,19 @@ const staff = [
     ]
   },
   {
+    titleAbr: "Pm",
+    title: "Nursing Manager",
+    name: "Megan Chick",
+    image: "avatar.jpg",
+    accreditations: ["acc1", "acc2", "acc3"],
+    availability: ["5 days per week"],
+    speaks: ["English"],
+    descriptions: ["first one", "second one", "third one"],
+    booking: false,
+    bookingDoctorId: "",
+    socialMedia: []
+  },
+  {
     titleAbr: "Nr",
     title: "Practice Nurse",
     name: "Lara Hopkins",
@@ -49,7 +62,7 @@ const staff = [
     accreditations: ["acc1", "acc2", "acc3"],
     availability: ["Monday", "Tuesday"],
     speaks: ["English"],
-    descriptions: ["first one", "second one", "third one", "fouth one", "fifth one"],
+    descriptions: ["first one", "second one", "third one"],
     booking: false,
     bookingDoctorId: "",
     socialMedia: []
@@ -78,19 +91,7 @@ const staff = [
       }
     ]
   },
-  {
-    titleAbr: "Pm",
-    title: "Nursing Manager",
-    name: "Megan Chick",
-    image: "avatar.jpg",
-    accreditations: ["acc1", "acc2", "acc3"],
-    availability: ["5 days per week"],
-    speaks: ["English"],
-    descriptions: ["first one", "second one", "third one"],
-    booking: false,
-    bookingDoctorId: "",
-    socialMedia: []
-  },
+
   {
     titleAbr: "Pm",
     title: "Nurse",

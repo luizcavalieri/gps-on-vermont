@@ -35,7 +35,7 @@ const ServiceCard = ({ service, className: passedClasses }) => {
               {service.title}
             </CardTitle>
             <CardText className="category text-primary">
-              {service.descriptions}
+              {service.shortIntro}
             </CardText>
             {/* <Link className="text-info"  to="/afterhours-page">Check after hours care</Link> */}
 
@@ -50,8 +50,6 @@ const ServiceCard = ({ service, className: passedClasses }) => {
               <Button
                 color={"info"}
                 className={passedClasses}
-                // to="/service-details"
-                // renderas={Link}
               >
                 View Service
               </Button>
