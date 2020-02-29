@@ -22,7 +22,7 @@ const services = [
         topics: [
           {
             icon: "",
-            type: "Paragraph",
+            type: "PARAGRAPH",
             title: "",
             descriptions: [
               "Annual check-ups are recommended for anyone aged 40 years and over.",
@@ -52,30 +52,7 @@ const services = [
       "Remember it’s important to get re-vaccinated every year to protect yourself against the flu viruses circulating that year. Your doctor will be able to advise you on the most adequate vaccine for you and your family, based on your age, vaccine availability and eligibility to receive vaccination free of charge."
     ],
     items: [],
-    sections: [
-      {
-        title: "",
-        topics: [
-          {
-            icon: "",
-            type: "Card",
-            title: "",
-            descriptions: ["", "", "", "", "", "", "", "", "", "", "", "", ""]
-          }
-        ]
-      },
-      {
-        title: "",
-        topics: [
-          {
-            icon: "",
-            type: "Card",
-            title: "",
-            descriptions: ["", "", "", "", "", "", "", "", "", "", "", "", ""]
-          }
-        ]
-      }
-    ]
+    sections: []
   },
   {
     title: "Travel health care",
@@ -109,7 +86,7 @@ const services = [
         topics: [
           {
             icon: "",
-            type: "Paragraph",
+            type: "PARAGRAPH",
             title: "Fitness to travel certificates",
             descriptions: [
               "We understand everyone is managing a busy schedule and we are committed to ensuring availability to suit any timetable."
@@ -117,7 +94,7 @@ const services = [
           },
           {
             icon: "",
-            type: "Paragraph",
+            type: "PARAGRAPH",
             title: "Travel immunisations",
             descriptions: [
               "We are available to advise on specific immunisation requirements for different regions around the world. Even if you have been immunised in the past, it is still recommended to speak with a doctor just to be on the safe side."
@@ -125,7 +102,7 @@ const services = [
           },
           {
             icon: "",
-            type: "Paragraph",
+            type: "PARAGRAPH",
             title: "International Health advice",
             descriptions: [
               "Our Doctors are knowledgeable about specific immunisation requirements for different regions around the world. If you have been immunised in the past it is still recommended you speak with one of our doctors to ensure you are up to date with any travel health information.",
@@ -139,7 +116,7 @@ const services = [
         topics: [
           {
             icon: "",
-            type: "Paragraph",
+            type: "PARAGRAPH",
             title: "I’m planning on travelling. When should I see a doctor?",
             descriptions: [
               "We recommend you make an appointment to see your GP 6-12 weeks before you travel. Remember the sooner the better! That way you have enough time to do all checks and apply any advice of your GP recommendation to ensure you are healthy and ready before your trip."
@@ -147,7 +124,7 @@ const services = [
           },
           {
             icon: "",
-            type: "Paragraph",
+            type: "PARAGRAPH",
             title:
               "I’m a mature traveller and/or have pre-existing conditions. Is it safe for me to travel?",
             descriptions: [
@@ -156,7 +133,7 @@ const services = [
           },
           {
             icon: "",
-            type: "Paragraph",
+            type: "PARAGRAPH",
             title: "Do I really need vaccinations?",
             descriptions: [
               "Yes!, Depending on where you are travelling to, there are many diseases that can be prevented if you receive the appropriate vaccination. Remember to ask your doctor which ones you need with enough time before your trip, some vaccinations take several weeks of time to become active."
@@ -164,7 +141,7 @@ const services = [
           },
           {
             icon: "",
-            type: "Paragraph",
+            type: "PARAGRAPH",
             title:
               "I’m pregnant. What do I need to do to ensure my baby and I are safe?",
             descriptions: [
@@ -173,7 +150,7 @@ const services = [
           },
           {
             icon: "",
-            type: "Paragraph",
+            type: "PARAGRAPH",
             title:
               "Do I need any vaccination certificates to enter overseas countries?",
             descriptions: [
@@ -197,13 +174,13 @@ const services = [
         topics: [
           {
             icon: "",
-            type: "Card",
+            type: "CARD",
             title: "",
             descriptions: ["", "", "", "", "", "", "", "", "", "", "", "", ""]
           },
           {
             icon: "",
-            type: "Card",
+            type: "CARD",
             title: "",
             descriptions: ["", "", "", "", "", "", "", "", "", "", "", "", ""]
           }
@@ -214,13 +191,13 @@ const services = [
         topics: [
           {
             icon: "",
-            type: "Card",
+            type: "CARD",
             title: "",
             descriptions: ["", "", "", "", "", "", "", "", "", "", "", "", ""]
           },
           {
             icon: "",
-            type: "Card",
+            type: "CARD",
             title: "",
             descriptions: ["", "", "", "", "", "", "", "", "", "", "", "", ""]
           }
@@ -267,7 +244,7 @@ const services = [
         topics: [
           {
             icon: "",
-            type: "Card",
+            type: "CARD",
             title: "Women's health",
             descriptions: [
               "Antenatal care",
@@ -282,7 +259,7 @@ const services = [
           },
           {
             icon: "",
-            type: "Card",
+            type: "CARD",
             title: "Men's health",
             descriptions: [
               "Men’s health",
@@ -294,7 +271,7 @@ const services = [
           },
           {
             icon: "",
-            type: "Card",
+            type: "CARD",
             title: "Children's Health",
             descriptions: [
               "Childhood immunisations",
@@ -304,7 +281,7 @@ const services = [
           },
           {
             icon: "",
-            type: "Card",
+            type: "CARD",
             title: "Minor surgery",
             descriptions: [
               "Insertion and removal of implanon (rod)",
@@ -314,7 +291,7 @@ const services = [
           },
           {
             icon: "",
-            type: "Card",
+            type: "CARD",
             title: "Chronic Illness",
             descriptions: [
               "Screening and detection of chronic illness",
@@ -324,7 +301,7 @@ const services = [
           },
           {
             icon: "",
-            type: "Card",
+            type: "CARD",
             title: "Mental health",
             descriptions: [
               "Depression",
@@ -345,7 +322,7 @@ const services = [
         topics: [
           {
             icon: "",
-            type: "Paragraph",
+            type: "PARAGRAPH",
             title: "How do i make a booking?",
             descriptions: [
               "You can book online or call us on (02) 6025 2189 during business hours from Monday to Saturday or clicking on the “Book an Appointment” button on our website. Sometimes we even take same day appointments!"
@@ -353,7 +330,7 @@ const services = [
           },
           {
             icon: "",
-            type: "Paragraph",
+            type: "PARAGRAPH",
             title: "How long before my appointment should I arrive?",
             descriptions: [
               "To give the doctors the ability to run on time and fill out needed paperwork, we recommend arriving to your appointment about 5-10 mins before your scheduled time."
@@ -361,7 +338,7 @@ const services = [
           },
           {
             icon: "",
-            type: "Paragraph",
+            type: "PARAGRAPH",
             title:
               "Can I fill out the New Patient registration form before I come in?",
             descriptions: [
@@ -370,7 +347,7 @@ const services = [
           },
           {
             icon: "",
-            type: "Paragraph",
+            type: "PARAGRAPH",
             title: "What if I can’t make it to my appointment?",
             descriptions: [
               "Out of respect to our doctors we highly recommend to inform us of any cancellations within 24/48 hours’ notice. Same day cancellations may impact the chance to book in the future."
@@ -391,43 +368,8 @@ const services = [
       "The Department of Veterans' Affairs (DVA) is a primary service delivery agency responsible for developing and implementing programs that assist the veteran and defence force communities.",
       "The Australian Government's commitment to the delivery of efficient and effective mental health services. DVA provides suicide awareness and prevention support for current and ex-serving Australian Defense Force personnel and their families who are experiencing or have been affected by the thoughts or actions of suicide."
     ],
-    items: ["", "", ""],
-    sections: [
-      {
-        title: "",
-        topics: [
-          {
-            icon: "",
-            type: "Paragraph",
-            title: "",
-            descriptions: ["", "", "", "", "", "", "", "", "", "", "", "", ""]
-          },
-          {
-            icon: "",
-            type: "Paragraph",
-            title: "",
-            descriptions: ["", "", "", "", "", "", "", "", "", "", "", "", ""]
-          }
-        ]
-      },
-      {
-        title: "",
-        topics: [
-          {
-            icon: "",
-            type: "Card",
-            title: "",
-            descriptions: ["", "", "", "", "", "", "", "", "", "", "", "", ""]
-          },
-          {
-            icon: "",
-            type: "Card",
-            title: "",
-            descriptions: ["", "", "", "", "", "", "", "", "", "", "", "", ""]
-          }
-        ]
-      }
-    ]
+    items: [],
+    sections: []
   },
   {
     title: "Sexual Health",
@@ -439,43 +381,8 @@ const services = [
       "Sexually transmitted infection (STI) screening in patient who feel that it is relevant to them, sexually transmitted disease screening can be conducted during the consultation. As an STI can occur without the patient experiencing symptoms, screening is offered as part of a patient’s health check, as is a discussion about safe sex practices.",
       "We ask that you book a 20-minute appointment for a sexual health Check.  To arrange an appointment with one of our Doctors, please phone (02) 6025 2189 or book online."
     ],
-    items: ["CVC program", "General Medical, White and Gold card holders"],
-    sections: [
-      {
-        title: "",
-        topics: [
-          {
-            icon: "",
-            type: "Card",
-            title: "",
-            descriptions: ["", "", "", "", "", "", "", "", "", "", "", "", ""]
-          },
-          {
-            icon: "",
-            type: "Card",
-            title: "",
-            descriptions: ["", "", "", "", "", "", "", "", "", "", "", "", ""]
-          }
-        ]
-      },
-      {
-        title: "",
-        topics: [
-          {
-            icon: "",
-            type: "Card",
-            title: "",
-            descriptions: ["", "", "", "", "", "", "", "", "", "", "", "", ""]
-          },
-          {
-            icon: "",
-            type: "Card",
-            title: "",
-            descriptions: ["", "", "", "", "", "", "", "", "", "", "", "", ""]
-          }
-        ]
-      }
-    ]
+    items: [],
+    sections: []
   },
   {
     title: "Occupational health",
@@ -506,7 +413,7 @@ const services = [
         topics: [
           {
             icon: "",
-            type: "Paragraph",
+            type: "PARAGRAPH",
             title: "",
             descriptions: [
               "Pre-employment medicals are increasingly an essential task in the recruiting process to identify the most suitable candidates for the specific roles you’re trying to hire for.",
@@ -522,7 +429,7 @@ const services = [
         topics: [
           {
             icon: "",
-            type: "Paragraph",
+            type: "PARAGRAPH",
             title: "",
             descriptions: [
               "An Executive Health Assessment fits in with our overall Needs-Based style of service provision. We want to leave every stone unturned in evaluating executive health, but we are not in the business of placing individuals at further risk or saying ‘yes’ to all requests and companies in the interest of simply raising earnings.",
@@ -537,7 +444,7 @@ const services = [
         topics: [
           {
             icon: "",
-            type: "Paragraph",
+            type: "PARAGRAPH",
             title: "",
             descriptions: [
               "Small injuries can be a long-term burden on your business and really dent your momentum. While you may be covered in case of injury, it is important to maintain a good rapport with your employees and demonstrate that your interests are mutually aligned.",
@@ -563,20 +470,20 @@ const services = [
       "Remain in the clinic with your child for at least 15 minutes after their immunisation to be sure there are no immediate side effects.",
       "Serious side effects or allergic reactions to the vaccines are rare."
     ],
-    items: ["", "", ""],
+    items: [],
     sections: [
       {
         title: "Vaccines",
         topics: [
           {
             icon: "",
-            type: "Paragraph",
+            type: "CARD",
             title: "Birth",
             descriptions: ["Hepatitis B"]
           },
           {
             icon: "",
-            type: "Paragraph",
+            type: "CARD",
             title: "2 Months",
             descriptions: [
               "HepB-DTPa_Hib_IPV (hepatitis B, diphtheria, tetanus, acellular pertussis (whooping cough), Haemophilus influenzae type B, polio)",
@@ -586,7 +493,7 @@ const services = [
           },
           {
             icon: "",
-            type: "Paragraph",
+            type: "CARD",
             title: "4 Months",
             descriptions: [
               "HepB-DTPa_Hib_IPV (hepatitis B, diphtheria, tetanus, acellular pertussis (whooping cough), Haemophilus influenzae type B, polio)",
@@ -596,7 +503,7 @@ const services = [
           },
           {
             icon: "",
-            type: "Paragraph",
+            type: "CARD",
             title: "6 Months",
             descriptions: [
               "HepB-DTPa_Hib_IPV (hepatitis B, diphtheria, tetanus, acellular pertussis (whooping cough), Haemophilus influenzae type B, polio)",
@@ -607,7 +514,7 @@ const services = [
           },
           {
             icon: "",
-            type: "Paragraph",
+            type: "CARD",
             title: "12 Months",
             descriptions: [
               "Measles, mumps and rubella (MMR)",
@@ -618,7 +525,7 @@ const services = [
           },
           {
             icon: "",
-            type: "Paragraph",
+            type: "CARD",
             title: "18 Months",
             descriptions: [
               "Haemophilus influenza type B (Hib)",
@@ -629,7 +536,7 @@ const services = [
           },
           {
             icon: "",
-            type: "Paragraph",
+            type: "CARD",
             title: "4 years",
             descriptions: [
               "DTPa-IPV (Diphtheria, tetanus, acellular pertussis (whooping cough) and inactivated polio)",
@@ -638,8 +545,8 @@ const services = [
           },
           {
             icon: "",
-            type: "Paragraph",
-            title: "10-15 years (depends on state or Territory",
+            type: "CARD",
+            title: "10-15 years (depends on state or Territory)",
             descriptions: [
               "Human papilloma virus (HPV): usually 2 doses",
               "DTPa"
@@ -654,16 +561,16 @@ const services = [
     icon: "fa fa-heartbeat fa-lg",
     image: "headbrain.svg",
     shortIntro:
-      "If you have a chronic or terminal medical condition, our GPs can work with the Chronic Disease Management (CDM) program offered by Medicare to plan and co-ordinate the appropriate health care for you. We’ll take you through the Medicare guidelines and develop a personal plan for your treatment. Our GPs can also organise care plans on your behalf.",
-    introDescriptions: [""],
-    items: ["", "", ""],
+      "If you have a chronic or terminal medical condition, our GPs can work with the Chronic Disease Management (CDM) program offered by Medicare to plan and co-ordinate the appropriate health care for you.",
+    introDescriptions: [],
+    items: [],
     sections: [
       {
         title: "",
         topics: [
           {
             icon: "",
-            type: "Card",
+            type: "CARD",
             title:
               "In general practice, a care plan is a process for setting and achieving health goals. This involves:",
             descriptions: [
@@ -675,7 +582,7 @@ const services = [
           },
           {
             icon: "",
-            type: "Card",
+            type: "CARD",
             title:
               "If the GP involves other health care professionals as well, the plan may also include:",
             descriptions: [
@@ -694,15 +601,15 @@ const services = [
     image: "headbrain.svg",
     shortIntro:
       "Aboriginal health” means not just the physical well-being of an individual but refers to the social, emotional and cultural well-being of the whole Community in which each individual is able to achieve their full potential as a human being thereby bringing about the total well-being of their Community.",
-    introDescriptions: [""],
-    items: ["", "", ""],
+    introDescriptions: [],
+    items: [],
     sections: [
       {
         title: "",
         topics: [
           {
             icon: "",
-            type: "Card",
+            type: "CARD",
             title:
               "Aboriginal and Torres Strait Islander people can access a health check annually, with a minimum claim period of 9 months. 715 health checks are free at Aboriginal Medical Services and bulk bulling clinics to help people stay healthy and strong.",
             descriptions: [
@@ -728,26 +635,8 @@ const services = [
       "It’s also important to build your awareness of the specific physical health problems LGBTQ individuals face. Lesbian women are more at risk for certain cancers due to the prevalence of obesity, nulliparity, or later pregnancy.",
       "Lesbian women are susceptible to many of the same sexually transmitted infections as heterosexual people and gay men. Thinking that this population isn’t at risk for these STIs can result in lack of appropriate screening and treatment. In addition to HIV infection, gay men may be at higher risk for anal cancer and can be particularly susceptible to body image issues in the desire to be attractive to other men. They may also experience a variety of cancers resulting from increased obesity and use of tobacco and alcohol."
     ],
-    items: ["", "", ""],
-    sections: [
-      {
-        title: "",
-        topics: [
-          {
-            icon: "",
-            type: "Card",
-            title:
-              "Aboriginal and Torres Strait Islander people can access a health check annually, with a minimum claim period of 9 months. 715 health checks are free at Aboriginal Medical Services and bulk bulling clinics to help people stay healthy and strong.",
-            descriptions: [
-              "Delivery of culturally responsive services for all Aboriginal and Torres Strait Islander patients and their families.Assessment of the patient’s condition(s) in relation to overall health and functionality",
-              "Availability of appropriate health services and preventative care for Aboriginal people.",
-              "Helping ensure the practice meets the particular needs of ATSI patients and their families and increase the cultural sensitivity of healthcare services and providers to Aboriginal health issues.",
-              "Build positive relationships with the Victorian Aboriginal community, other service providers, and government departments."
-            ]
-          }
-        ]
-      }
-    ]
+    items: [],
+    sections: []
   }
 ];
 

@@ -59,10 +59,10 @@ const staff = [
     title: "Practice Nurse",
     name: "Lara Hopkins",
     image: "Lara.jpg",
-    accreditations: ["acc1", "acc2", "acc3"],
+    accreditations: ["Bachelor of Nursing", "Credentialed immunisation provider"],
     availability: ["Monday", "Tuesday"],
     speaks: ["English"],
-    descriptions: ["first one", "second one", "third one"],
+    descriptions: ["Lara shares a high passion for primary health care.  She has worked in this environment for the past five years after successfully completing her studies of ‘Bachelor of Nursing’ in 2015.", "Our nurse Lara is very passionate about general practice and enjoys all aspects of practice nursing. She is a strong advocate for whole patient care, health and wellbeing. Lara also holds a strong interest in Immunisation since becoming a credentialed immunisation provider in 2016.  She also has extensive experience with the skin since having worked in specialised skin clinics for many years.", "Outside of work Lara has three gorgeous children and in her spare time she enjoys trips to the snow, drinking coffee, catching up with friends, walking and spending time with her family."],
     booking: false,
     bookingDoctorId: "",
     socialMedia: []
@@ -72,7 +72,7 @@ const staff = [
     title: "Mental Health Social Worker",
     name: "Jen Walker",
     image: "Jen.jpg",
-    accreditations: ["acc1", "acc2", "acc3"],
+    accreditations: [],
     availability: ["Call for an appointment"],
     speaks: ["English"],
     descriptions: [
@@ -90,20 +90,6 @@ const staff = [
         link: "0427313048"
       }
     ]
-  },
-
-  {
-    titleAbr: "Pm",
-    title: "Nurse",
-    name: "Test",
-    image: "avatar.jpg",
-    accreditations: ["acc1", "acc2", "acc3"],
-    availability: ["Call for an appointment"],
-    speaks: ["English", "Servian", "Croatian", "Macedonian"],
-    descriptions: ["first one", "second one", "third one"],
-    booking: false,
-    bookingDoctorId: "",
-    socialMedia: []
   }
 ];
 

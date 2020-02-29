@@ -176,3 +176,12 @@ p {
   }
 }
 
+.line-segment{
+  border-color: $primary-color;
+}
+
+.line-underlined{
+  // text-decoration: underline;
+  color: $info-color;
+  border-color: $info-color;
+}

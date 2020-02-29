@@ -9,6 +9,7 @@ import {
   Button
 } from "reactstrap";
 import { Link } from "react-router-dom";
+import safeJsonStringify from "safe-json-stringify";
 
 const ServiceCard = ({ service, className: passedClasses }) => {
   let path = service.image;
@@ -43,7 +44,7 @@ const ServiceCard = ({ service, className: passedClasses }) => {
             <Link to={{
               pathname: "/service-details",
               state: {
-                 service: {service} 
+                 service: safeJsonStringify(service) 
               }
             }}>
               
