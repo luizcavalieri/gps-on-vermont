@@ -106,7 +106,7 @@ const OurTeam = ({ staffData }) => {
         slidesToSlide={1}
         // renderDotsOutside={true}
       >
-        {staffData.map((employee, index) => (
+        {staffData.filter( emp => emp.enabled ).map((employee, index) => (
           <div key={index}>
             <BusinessCard
               emp={employee}

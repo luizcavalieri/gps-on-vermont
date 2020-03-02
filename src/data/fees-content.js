@@ -41,9 +41,9 @@ const fees = [
                 rownum: 4,
                 data: [
                     ["Standard Consultation 10 minutes"],
-                    "$63.20",
-                    "$38.20",
-                    "$25.00"
+                    "Not Applicable",
+                    "Not Applicable",
+                    "Not Applicable"
                 ]
 
             },
@@ -51,9 +51,9 @@ const fees = [
                 rownum: 5,
                 data: [
                     ["Long Consultation 20 minutes"],
-                    "$98.95",
-                    "$73.95",
-                    "$25.00"
+                    "Not Applicable",
+                    "Not Applicable",
+                    "Not Applicable"
                 ]
 
             }
