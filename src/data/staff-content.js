@@ -14,7 +14,8 @@ const staff = [
     speaks: ["English", "Spanish"],
     booking: true,
     bookingDoctorId: "dr-carmen-padilla-1",
-    socialMedia: []
+    socialMedia: [],
+    enabled: true
   },
   {
     titleAbr: "Pm",
@@ -39,7 +40,8 @@ const staff = [
         id: "facebook",
         link: "https://www.facebook.com/gpsonvermont/"
       }
-    ]
+    ],
+    enabled: true
   },
   {
     titleAbr: "Pm",
@@ -52,7 +54,8 @@ const staff = [
     descriptions: ["first one", "second one", "third one"],
     booking: false,
     bookingDoctorId: "",
-    socialMedia: []
+    socialMedia: [],
+    enabled: false
   },
   {
     titleAbr: "Nr",
@@ -65,7 +68,8 @@ const staff = [
     descriptions: ["Lara shares a high passion for primary health care.  She has worked in this environment for the past five years after successfully completing her studies of ‘Bachelor of Nursing’ in 2015.", "Our nurse Lara is very passionate about general practice and enjoys all aspects of practice nursing. She is a strong advocate for whole patient care, health and wellbeing. Lara also holds a strong interest in Immunisation since becoming a credentialed immunisation provider in 2016.  She also has extensive experience with the skin since having worked in specialised skin clinics for many years.", "Outside of work Lara has three gorgeous children and in her spare time she enjoys trips to the snow, drinking coffee, catching up with friends, walking and spending time with her family."],
     booking: false,
     bookingDoctorId: "",
-    socialMedia: []
+    socialMedia: [],
+    enabled: true
   },
   {
     titleAbr: "Pm",
@@ -89,7 +93,8 @@ const staff = [
         id: "phone",
         link: "0427313048"
       }
-    ]
+    ],
+    enabled: true
   }
 ];
 

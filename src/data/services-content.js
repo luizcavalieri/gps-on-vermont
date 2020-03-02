@@ -1,5 +1,6 @@
 const services = [
   {
+    id: "1",
     title: "Health Assessments",
     icon: "fa fa-stethoscope fa-lg",
     image: "stethoscope.svg",
@@ -41,6 +42,7 @@ const services = [
     ]
   },
   {
+    id: "2",
     title: "Flu shot vaccines",
     icon: "fa fa-syringe fa-lg",
     image: "vaccine.svg",
@@ -55,6 +57,7 @@ const services = [
     sections: []
   },
   {
+    id: "3",
     title: "Travel health care",
     icon: "fa fa-plane-departure fa-lg",
     image: "travel.svg",
@@ -162,18 +165,22 @@ const services = [
     ]
   },
   {
+    id: "4",
     title: "Counselling",
     icon: "fa fa-heartbeat fa-lg",
     image: "headbrain.svg",
-    shortIntro: "Counselling is an empowering process that encourages individuals to confront issues and problems, and to work at restoring well-being.",
-    introDescriptions: ["The counselling process is a planned, structured dialogue between a counsellor and a client",
-    "It is a cooperative process in which a trained professional helps a person called the client to identify sources of difficulties or concerns that he or she is experiencing",
-    "A counsellor will demonstrate unconditional acceptance, genuineness and empathy and will try to understand things from your perspective."
-],
+    shortIntro:
+      "Counselling is an empowering process that encourages individuals to confront issues and problems, and to work at restoring well-being.",
+    introDescriptions: [
+      "The counselling process is a planned, structured dialogue between a counsellor and a client",
+      "It is a cooperative process in which a trained professional helps a person called the client to identify sources of difficulties or concerns that he or she is experiencing",
+      "A counsellor will demonstrate unconditional acceptance, genuineness and empathy and will try to understand things from your perspective."
+    ],
     items: [],
     sections: []
   },
   {
+    id: "5",
     title: "General Practice Care",
     icon: "fa fa-laptop-medical fa-lg",
     image: "care.svg",
@@ -326,6 +333,7 @@ const services = [
     ]
   },
   {
+    id: "6",
     title: "Dept. of Veteran Affairs",
     icon: "fa fa-user-nurse fa-lg",
     image: "medal.svg",
@@ -340,6 +348,7 @@ const services = [
     sections: []
   },
   {
+    id: "7",
     title: "Sexual Health",
     icon: "fa fa-pills fa-lg",
     image: "medication.svg",
@@ -353,6 +362,7 @@ const services = [
     sections: []
   },
   {
+    id: "8",
     title: "Occupational health",
     icon: "fa fa-hard-hat fa-lg",
     image: "worker.svg",
@@ -425,6 +435,7 @@ const services = [
     ]
   },
   {
+    id: "9",
     title: "Child Immunization",
     icon: "fa fa-baby fa-lg",
     image: "child.svg",
@@ -525,6 +536,7 @@ const services = [
     ]
   },
   {
+    id: "10",
     title: "Chronic disease management",
     icon: "fa fa-file-medical fa-lg",
     image: "pill.svg",
@@ -564,6 +576,7 @@ const services = [
     ]
   },
   {
+    id: "11",
     title: "Aboriginal health",
     icon: "fa fa-flag fa-lg",
     image: "aboriginalflag.svg",
@@ -592,6 +605,7 @@ const services = [
     ]
   },
   {
+    id: "12",
     title: "LGBTQI community",
     icon: "fa fa-genderless fa-lg",
     image: "rainbow.svg",
