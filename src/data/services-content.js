@@ -1,7 +1,7 @@
 const services = [
   {
     title: "Health Assessments",
-    icon: "fa fa-user-nurse fa-lg",
+    icon: "fa fa-stethoscope fa-lg",
     image: "stethoscope.svg",
     shortIntro:
       "We provide health assessment in view of preventing, detecting different medical and surgical conditions.",
@@ -42,7 +42,7 @@ const services = [
   },
   {
     title: "Flu shot vaccines",
-    icon: "fa fa-user-md fa-lg",
+    icon: "fa fa-syringe fa-lg",
     image: "vaccine.svg",
     shortIntro:
       "Flu vaccination, involves having an injection given into the upper arm y a nurse or doctor and only takes a few seconds.",
@@ -56,7 +56,7 @@ const services = [
   },
   {
     title: "Travel health care",
-    icon: "fa fa-notes-medical fa-lg",
+    icon: "fa fa-plane-departure fa-lg",
     image: "travel.svg",
     shortIntro:
       "Stay healthy abroad.If you are planning on travelling overseas, we would highly recommend to book in an appointment with a GPs to discuss your travel vaccinations and advice.",
@@ -165,45 +165,13 @@ const services = [
     title: "Counselling",
     icon: "fa fa-heartbeat fa-lg",
     image: "headbrain.svg",
-    shortIntro: "",
-    introDescriptions: ["GPs on Vermont cares for people"],
-    items: ["", "", ""],
-    sections: [
-      {
-        title: "",
-        topics: [
-          {
-            icon: "",
-            type: "CARD",
-            title: "",
-            descriptions: ["", "", "", "", "", "", "", "", "", "", "", "", ""]
-          },
-          {
-            icon: "",
-            type: "CARD",
-            title: "",
-            descriptions: ["", "", "", "", "", "", "", "", "", "", "", "", ""]
-          }
-        ]
-      },
-      {
-        title: "",
-        topics: [
-          {
-            icon: "",
-            type: "CARD",
-            title: "",
-            descriptions: ["", "", "", "", "", "", "", "", "", "", "", "", ""]
-          },
-          {
-            icon: "",
-            type: "CARD",
-            title: "",
-            descriptions: ["", "", "", "", "", "", "", "", "", "", "", "", ""]
-          }
-        ]
-      }
-    ]
+    shortIntro: "Counselling is an empowering process that encourages individuals to confront issues and problems, and to work at restoring well-being.",
+    introDescriptions: ["The counselling process is a planned, structured dialogue between a counsellor and a client",
+    "It is a cooperative process in which a trained professional helps a person called the client to identify sources of difficulties or concerns that he or she is experiencing",
+    "A counsellor will demonstrate unconditional acceptance, genuineness and empathy and will try to understand things from your perspective."
+],
+    items: [],
+    sections: []
   },
   {
     title: "General Practice Care",
@@ -359,7 +327,7 @@ const services = [
   },
   {
     title: "Dept. of Veteran Affairs",
-    icon: "fa fa-stethoscope fa-lg",
+    icon: "fa fa-user-nurse fa-lg",
     image: "medal.svg",
     shortIntro:
       "The department of Veteran’s Affairs delivers government programs for war veterans, members of the Australian Defence Force, members of the Australian Federal Police and their dependants.",
@@ -373,7 +341,7 @@ const services = [
   },
   {
     title: "Sexual Health",
-    icon: "fa fa-stethoscope fa-lg",
+    icon: "fa fa-pills fa-lg",
     image: "medication.svg",
     shortIntro:
       "Sexual health is an important part of wellbeing for all ages. Find out what we’re doing to help prevent and manage sexually transmissible infections in Australia.",
@@ -386,7 +354,7 @@ const services = [
   },
   {
     title: "Occupational health",
-    icon: "fa fa-stethoscope fa-lg",
+    icon: "fa fa-hard-hat fa-lg",
     image: "worker.svg",
     shortIntro:
       "We provide employers occupational health with a full employment  medical services and injury management.",
@@ -458,7 +426,7 @@ const services = [
   },
   {
     title: "Child Immunization",
-    icon: "fa fa-stethoscope fa-lg",
+    icon: "fa fa-baby fa-lg",
     image: "child.svg",
     shortIntro:
       "The Australian National Immunisation Program (NIP) recommends and funds immunisation against 13 diseases for Australian children aged 0-4 years. To be fully protected against some diseases, your child might need to be immunised 2-4 times at different ages.",
@@ -558,8 +526,8 @@ const services = [
   },
   {
     title: "Chronic disease management",
-    icon: "fa fa-heartbeat fa-lg",
-    image: "headbrain.svg",
+    icon: "fa fa-file-medical fa-lg",
+    image: "pill.svg",
     shortIntro:
       "If you have a chronic or terminal medical condition, our GPs can work with the Chronic Disease Management (CDM) program offered by Medicare to plan and co-ordinate the appropriate health care for you.",
     introDescriptions: [],
@@ -597,8 +565,8 @@ const services = [
   },
   {
     title: "Aboriginal health",
-    icon: "fa fa-heartbeat fa-lg",
-    image: "headbrain.svg",
+    icon: "fa fa-flag fa-lg",
+    image: "aboriginalflag.svg",
     shortIntro:
       "Aboriginal health” means not just the physical well-being of an individual but refers to the social, emotional and cultural well-being of the whole Community in which each individual is able to achieve their full potential as a human being thereby bringing about the total well-being of their Community.",
     introDescriptions: [],
@@ -625,8 +593,8 @@ const services = [
   },
   {
     title: "LGBTQI community",
-    icon: "fa fa-heartbeat fa-lg",
-    image: "headbrain.svg",
+    icon: "fa fa-genderless fa-lg",
+    image: "rainbow.svg",
     shortIntro:
       "We are GPs who create an environment where all patients feel welcome and can better meet their patients' often complex health care needs.",
     introDescriptions: [

@@ -3,8 +3,8 @@ import { Card, CardHeader, CardBody } from "reactstrap";
 import IconCheckList from "./IconCheckList";
 import DescriptionList from "./DescriptionList";
 
-const InfoCard = ({ record, iconClassName, headerClassName, headerRightContent }) => {
-  if (!record) return null;
+const InfoCard = ({ title, descriptions, items, iconClassName, headerClassName, headerRightContent, footerContent }) => {
+  if (!title) return null;
   return (
     <>
       <Card className="card-data">
@@ -12,7 +12,7 @@ const InfoCard = ({ record, iconClassName, headerClassName, headerRightContent }
           <div className="clearfix">
             <div className="float-left">
               <i className={iconClassName.concat(" ").concat("fa-icon-card-header")}></i>
-              {record.title}
+              {title}
             </div>
             <div className="float-right">
               {headerRightContent}
@@ -21,19 +21,20 @@ const InfoCard = ({ record, iconClassName, headerClassName, headerRightContent }
         </CardHeader>
         <CardBody>
           <DescriptionList
-            list={record.descriptions}
+            list={descriptions}
             includeNewLine={true}
             className="text-justified font-paragraph "
           />
           <dir className="new-line"></dir>
           <IconCheckList
-            list={record.items}
+            list={items}
             className="text-left font-paragraph"
             ulClassName="fa-ul"
             liClassName="fa-li"
             iconClassName="fa fa-check-circle fa-lg"
           />
         </CardBody>
+        {footerContent}
       </Card>
     </>
   );

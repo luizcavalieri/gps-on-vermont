@@ -7,7 +7,7 @@ import { Container } from "reactstrap";
 import DarkFooter from "../../components/Footers/DarkFooter";
 
 const AfterHoursPage = () => {
-  const message = "ABC";
+  const message = "";
 
   useEffect(() => {
     headerScrolling();
@@ -19,7 +19,12 @@ const AfterHoursPage = () => {
       <div className="wrapper">
         <OtherPageHeader message={message} />
         <div className="section text-center">
-          <Container className=" text-muted"></Container>
+          <Container className=" text-muted">
+            <h3>
+            Wodonga Regional Hospital (Emergency Dept) – <b>02 6051 7111</b>
+            </h3>
+
+          </Container>
         </div>
         <DarkFooter />
       </div>

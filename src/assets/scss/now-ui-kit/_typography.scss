@@ -180,8 +180,9 @@ p {
   border-color: $primary-color;
 }
 
-.line-underlined{
-  // text-decoration: underline;
+.sub-title{
+  // padding: 0;
+  font-weight: 700;
   color: $info-color;
   border-color: $info-color;
 }

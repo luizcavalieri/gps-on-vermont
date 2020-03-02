@@ -25,7 +25,10 @@ const AppointmentsPage = () => {
         <div className="section text-center">
           <Container className=" text-muted">
             <InfoCard
-              record={patientsInfo[0]}
+              // record={patientsInfo[0]}
+              title={patientsInfo[0].title}
+              descriptions={patientsInfo[0].descriptions}
+              items={patientsInfo[0].items}
               iconClassName="far fa-calendar-alt fa-lg"
               headerClassName="text-left"
               headerRightContent={

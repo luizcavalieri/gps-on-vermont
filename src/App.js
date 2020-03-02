@@ -27,6 +27,7 @@ import FormLinksPage from "./views/examples/FormLinksPage";
 import ServiceDetailsPage from "./views/examples/ServiceDetailsPage";
 import NotFoundPage from "./views/examples/NotFoundPage";
 import ScrollToTop from "./components/General/ScrollToTop";
+import NewsDetailsPage from "./views/examples/NewsDetailsPage";
 
 // This is to avoid the refresh problems when refreshing the page on github
 // https://github.com/rafrex/spa-github-pages
@@ -54,6 +55,7 @@ const App = () => {
         <Route path="/appointments-page" component={AppointmentsPage} />
         <Route path="/formlinks-page" component={FormLinksPage} />
         <Route path="/service-details" component={ServiceDetailsPage} />
+        <Route path="/news/:id" component={NewsDetailsPage} />
         <Route component={NotFoundPage} />
       </Switch>
     </Router>

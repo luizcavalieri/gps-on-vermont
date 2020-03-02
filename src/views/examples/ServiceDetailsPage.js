@@ -79,7 +79,7 @@ const ServiceDetailsPage = props => {
                         <hr className="line-segment" />
                         {section.topics.map((topic, index) => (
                           <div key={index}>
-                            <h3 className="title text-capitalize line-underlined">
+                            <h3 className="title text-capitalize sub-title">
                               {topic.title}
                             </h3>
                             {

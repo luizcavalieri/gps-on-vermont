@@ -27,7 +27,9 @@ const PatientInfoPage = () => {
             <Row>
               <Col>
                 <InfoCard
-                  record={patientsInfo[0]}
+                  title={patientsInfo[0].title}
+                  descriptions={patientsInfo[0].descriptions}
+                  items={patientsInfo[0].items}
                   iconClassName="far fa-calendar-alt fa-lg"
                   headerClassName="text-left"
                   headerRightContent={
@@ -39,7 +41,9 @@ const PatientInfoPage = () => {
             <Row>
               <Col>
                 <InfoCard
-                  record={patientsInfo[1]}
+                  title={patientsInfo[1].title}
+                  descriptions={patientsInfo[1].descriptions}
+                  items={patientsInfo[1].items}
                   iconClassName="fas fa-ban fa-lg"
                   headerClassName="text-left"
                 />
@@ -48,7 +52,9 @@ const PatientInfoPage = () => {
             <Row>
               <Col>
                 <InfoCard
-                  record={patientsInfo[2]}
+                  title={patientsInfo[2].title}
+                  descriptions={patientsInfo[2].descriptions}
+                  items={patientsInfo[2].items}
                   iconClassName="fa fa-user-nurse fa-lg"
                   headerClassName="text-left"
                 />
@@ -57,7 +63,9 @@ const PatientInfoPage = () => {
             <Row>
               <Col>
                 <InfoCard
-                  record={patientsInfo[3]}
+                  title={patientsInfo[3].title}
+                  descriptions={patientsInfo[3].descriptions}
+                  items={patientsInfo[3].items}
                   iconClassName="fa fa-notes-medical fa-lg"
                   headerClassName="text-left"
                 />

@@ -25,5 +25,4 @@ export function chunks(arr, size) {
 
   return result;
 };
- 
 
