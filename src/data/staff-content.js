@@ -39,6 +39,10 @@ const staff = [
       {
         id: "facebook",
         link: "https://www.facebook.com/gpsonvermont/"
+      },
+      {
+        id: "phone",
+        link: "0260252189"
       }
     ],
     enabled: true
@@ -48,14 +52,14 @@ const staff = [
     title: "Nursing Manager",
     name: "Megan Chick",
     image: "avatar.jpg",
-    accreditations: ["acc1", "acc2", "acc3"],
+    accreditations: ["Registered nurse Division 1", "Clinical Nurse Specialist", "Midwife", "Childhood Immuniser"],
     availability: ["5 days per week"],
     speaks: ["English"],
-    descriptions: ["first one", "second one", "third one"],
+    descriptions: [" Megan has been nursing for over 20 years and has extensive experience in clinical care in General Practice","She looks forward to meeting the new patients to the clinic."],
     booking: false,
     bookingDoctorId: "",
     socialMedia: [],
-    enabled: false
+    enabled: true
   },
   {
     titleAbr: "Nr",
@@ -91,7 +95,7 @@ const staff = [
     socialMedia: [
       {
         id: "phone",
-        link: "0427313048"
+        link: "0260252189"
       }
     ],
     enabled: true

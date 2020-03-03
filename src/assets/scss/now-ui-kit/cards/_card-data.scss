@@ -236,3 +236,18 @@ $card-height-5x: 31.25rem;
   font-size: $font-paragraph;
 }
 //style={{ overflowY: "auto", height: "300px", position: "relative" }}
+
+.phone-badge{
+  font-size: 1.3em;
+}
+
+.phone-badge-title{
+  @extend .phone-badge;
+  margin-top: -5.3rem;
+  margin-bottom: 3.6rem;
+  margin-right: 0.4rem;
+}
+
+.axxx{
+  margin-top: -2.5rem;
+}
