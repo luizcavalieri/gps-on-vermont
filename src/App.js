@@ -32,7 +32,6 @@ import NewsDetailsPage from "./views/examples/NewsDetailsPage";
 // This is to avoid the refresh problems when refreshing the page on github
 // https://github.com/rafrex/spa-github-pages
 
-// function App() {
 const App = () => {
   console.log("Host URL" + process.env.PUBLIC_URL);
   return (
@@ -54,7 +53,7 @@ const App = () => {
         <Route path="/afterhours-page" component={AfterHoursPage} />
         <Route path="/appointments-page" component={AppointmentsPage} />
         <Route path="/formlinks-page" component={FormLinksPage} />
-        <Route path="/service-details" component={ServiceDetailsPage} />
+        <Route path="/service-details/:id" component={ServiceDetailsPage} />
         <Route path="/news/:id" component={NewsDetailsPage} />
         <Route component={NotFoundPage} />
       </Switch>

@@ -2,7 +2,7 @@ import React from "react";
 import { Row, Col, CardFooter } from "reactstrap";
 import InfoCard from "./InfoCard";
 import { Link } from "react-router-dom";
-import safeJsonStringify from "safe-json-stringify";
+
 
 const Services = ({ servicesData }) => {
   if (!servicesData) return null;
@@ -16,12 +16,7 @@ const Services = ({ servicesData }) => {
   const footerComponent = (service) => (
     <CardFooter className="card-footer-padding">
         <div>
-          <Link className="text-info" to={{
-              pathname: "/service-details",
-              state: {
-                 service: safeJsonStringify(service) 
-              }
-            }}>
+          <Link to={`/service-details/${service.id}`}>  
             View Details
           </Link>
         </div>

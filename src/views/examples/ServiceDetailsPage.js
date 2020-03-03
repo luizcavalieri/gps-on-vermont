@@ -5,21 +5,22 @@ import { Container, Row, Col } from "reactstrap";
 import DarkFooter from "../../components/Footers/DarkFooter";
 import { Redirect } from "react-router-dom";
 import IconCheckList from "../../components/General/IconCheckList";
+import servicesContent from "../../data/services-content";
 
+  const ServiceDetailsPage = ({ match }) => {
+  const idParam = match.params.id;
 
-const ServiceDetailsPage = props => {
-  if (!props.location.state) {
+  const services = servicesContent.filter( ser => ser.id === idParam);
+  
+  if (  !(Array.isArray(services) && services.length )  ) {
     return (
       <>
         <Redirect to="/not-found" />;
       </>
     );
   } else {
-    const service = JSON.parse(props.location.state.service);
-    // const service = props.location.state.service.service;
-    // const service = props.location.state.service;
-    // console.log(service);
-    // console.log(service.items);
+    
+    const service = services[0];
     let path = "our-services-people.jpg";
     return (
       <>

@@ -9,11 +9,10 @@ import {
   Button
 } from "reactstrap";
 import { Link } from "react-router-dom";
-import safeJsonStringify from "safe-json-stringify";
 
 const ServiceCard = ({ service, className: passedClasses }) => {
   let path = service.image;
-  //   if(!passedClasses) passedClasses = "btn-font btn-weight";
+
   if (!passedClasses) passedClasses = " font-paragraph";
   return (
     <>
@@ -25,8 +24,8 @@ const ServiceCard = ({ service, className: passedClasses }) => {
               alt="..."
               src={require(`../../assets/img/${path}`)}
               top
-            ></CardImg>
-            {/* <i className="fa fa-newspaper fa-lg fa-icon-card-header fa-10x" ></i> */}
+            >
+            </CardImg>
           </CardHeader>
           <CardBody>
             <CardTitle
@@ -38,20 +37,8 @@ const ServiceCard = ({ service, className: passedClasses }) => {
             <CardText className="category text-primary">
               {service.shortIntro}
             </CardText>
-            {/* <Link className="text-info"  to="/afterhours-page">Check after hours care</Link> */}
-
-
-            <Link to={{
-              pathname: "/service-details",
-              state: {
-                 service: safeJsonStringify(service) 
-              }
-            }}>
-              
-              <Button
-                color={"info"}
-                className={passedClasses}
-              >
+            <Link to={`/service-details/${service.id}`}>
+              <Button color={"info"} className={passedClasses}>
                 View Service
               </Button>
             </Link>
