@@ -2,11 +2,11 @@ import React from "react";
 import newsContent from "../../data/news-content";
 import NotFoundPage from "./NotFoundPage";
 import OtherNavbar from "../../components/NavBars/OtherNavbar";
-import OtherPageHeader from "../../components/Headers/OtherPageHeader";
 import { Container, Row, Col } from "reactstrap";
 import DarkFooter from "../../components/Footers/DarkFooter";
 import ReactLinkify from "react-linkify";
 import BookingButton from "../../components/General/BookingButton";
+import LandingPageHeader from "../../components/Headers/LandingPageHeader";
 
 const NewsDetailsPage = ({ match }) => {
   const idFound = match.params.id;
@@ -31,7 +31,11 @@ const NewsDetailsPage = ({ match }) => {
     <>
       <OtherNavbar />
       <div className="wrapper">
-        <OtherPageHeader message={""} />
+        <LandingPageHeader
+          imageClassName={"page-header page-header-xsmall"}
+          contentClassName={"content-center-other-pages"}
+          titleClassName={"title-small-header"}
+        />
         <div className="section text-center" style={{ padding: 0 }}>
           <Container className="text-muted">
             {articles.map((article, index) => (
@@ -66,7 +70,6 @@ const NewsDetailsPage = ({ match }) => {
                     </h5>
                   ) : null
                 )}
-                
               </div>
             ))}
           </Container>

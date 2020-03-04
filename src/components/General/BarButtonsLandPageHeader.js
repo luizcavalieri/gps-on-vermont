@@ -1,9 +1,10 @@
 import React from "react";
-import { Row, Col, Button, i, UncontrolledTooltip } from "reactstrap";
+import { Row, Col, Button, i, UncontrolledTooltip, CardImg } from "reactstrap";
 import BookingButton from "./BookingButton";
 import IconSocialMediaItem from "./IconSocialMediaItem";
 
 const BarButtonsLandPageHeader = () => {
+  const path = "career.jpg";
   return (
     <>
       <Row className="row justify-content-center">
@@ -13,43 +14,55 @@ const BarButtonsLandPageHeader = () => {
             doctorId="https://www.hotdoc.com.au/medical-centres/wodonga-VIC-3690/gps-on-vermont/doctors"
             size="md"
           />
+          {/* <CardImg
+            className={"rounded-circle img-fluid career-card-image img-raised ml-auto"}
+            alt="career image"
+            src={require(`../../assets/img/${path}`)}
+            
+          ></CardImg> */}
         </Col>
       </Row>
-      <div className="button-container">
-        <Button className="btn-round" color="info" size="lg">
-          Like us
-        </Button>
+      {/* <Row> */}
+        <div className="button-container">
+          <Button className="btn-round" color="info" size="lg">
+            Like us
+          </Button>
 
-        <IconSocialMediaItem
-          id="tooltip515203352"
-          mediaId="facebook"
-          link={`https://www.facebook.com/gpsonvermont/`}
-          color="info"
-          size="lg"
-          target="_blank"
-          rel="noopener noreferrer"
-        />
-        <UncontrolledTooltip delay={0} target="tooltip515203352">
-          Follow me on facebook
-        </UncontrolledTooltip>
+          <IconSocialMediaItem
+            id="tooltip515203352"
+            mediaId="facebook"
+            link={`https://www.facebook.com/gpsonvermont/`}
+            color="info"
+            size="lg"
+            target="_blank"
+            rel="noopener noreferrer"
+          />
+          <UncontrolledTooltip delay={0} target="tooltip515203352">
+            Follow me on facebook
+          </UncontrolledTooltip>
 
-        <Button
-          id="tooltip515203353"
-          className=" btn-icon btn-round "
-          color={"info"}
-          size={"lg"}
-          href={`https://goo.gl/maps/1Uy3tyShraVWj6MP7`}
-          target="_blank"
-          rel="noopener noreferrer"
+          <Button
+            id="tooltip515203353"
+            className=" btn-icon btn-round "
+            color={"info"}
+            size={"lg"}
+            href={`https://goo.gl/maps/1Uy3tyShraVWj6MP7`}
+            target="_blank"
+            rel="noopener noreferrer"
 
-          // onClick={e => e.preventDefault()}
-        >
-          <i className="fas fa-map-marker-alt fa-2x fa-blink maps-icon "></i>
-        </Button>
-        <UncontrolledTooltip delay={0} target="tooltip515203353">
-          Visit Us
-        </UncontrolledTooltip>
-      </div>
+            // onClick={e => e.preventDefault()}
+          >
+            <i className="fas fa-map-marker-alt fa-2x fa-blink maps-icon "></i>
+          </Button>
+          <UncontrolledTooltip delay={0} target="tooltip515203353">
+            Visit Us
+          </UncontrolledTooltip>
+          
+        </div>
+        {/* <div> */}
+          
+        {/* </div> */}
+      {/* </Row> */}
     </>
   );
 };

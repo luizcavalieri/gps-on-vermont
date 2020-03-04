@@ -134,7 +134,7 @@ function OtherNavbar() {
               </NavItem>
               <NavItem>
                 <NavLink to="/patientinfo-page" tag={Link}>
-                  Patient Information
+                  Patient Info
                 </NavLink>
               </NavItem>
               <NavItem>
@@ -148,12 +148,19 @@ function OtherNavbar() {
                 </NavLink>
               </NavItem>
               <NavItem>
-              <NavLink to="/appointments-page" tag={Link}>
+                <NavLink to="/appointments-page" tag={Link}>
                   Appointments
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink to="/afterhours-page" tag={Link}>After Hours care</NavLink>
+                <NavLink to="/afterhours-page" tag={Link}>
+                  After Hours
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink to="/career-page" tag={Link}>
+                  Career
+                </NavLink>
               </NavItem>
               {/* <NavItem>
                 <NavLink

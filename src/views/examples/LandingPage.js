@@ -18,7 +18,6 @@ import OurTeam from "../../components/General/OurTeam";
 //////////just as an example of how to avoid typescript check ///@ts-ignore
 import ScrollUpButton from "react-scroll-up-button";
 
-
 function LandingPage() {
   // const [firstFocus, setFirstFocus] = useState(false);
   // const [lastFocus, setLastFocus] = useState(false);
@@ -31,11 +30,16 @@ function LandingPage() {
 
   return (
     <>
-      <ScrollUpButton  style={{bottom: 87}} ></ScrollUpButton>
+      <ScrollUpButton style={{ bottom: 87 }}></ScrollUpButton>
       <HomeNavbar />
 
       <div className="wrapper">
-        <LandingPageHeader title={messageTitle} />
+        <LandingPageHeader
+          title={messageTitle}
+          imageClassName={"page-header page-header-small"}
+          contentClassName={"content-center"}
+          titleClassName={"title-landing-page"}
+        />
 
         <div className="section section-about-us">
           <Container>
@@ -82,15 +86,13 @@ function LandingPage() {
         <div className="section section-team text-center">
           <Container>
             <h2 className="title">Here is our team</h2>
-            
+
             <OurTeam staffData={staffContent} />
-            
           </Container>
         </div>
 
         <DarkFooter />
       </div>
-      
     </>
   );
 }

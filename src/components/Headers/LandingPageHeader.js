@@ -4,9 +4,14 @@ import React, { useEffect, createRef } from "react";
 import { Container } from "reactstrap";
 // core components
 
-const LandingPageHeader = ({ title }) => {
+const LandingPageHeader = ({ title, backgroundImgName, imageClassName, contentClassName, titleClassName }) => {
   let pageHeader = createRef();
+  if (!backgroundImgName) backgroundImgName = "bg6.jpg";
+  if(!imageClassName) imageClassName = "page-header page-header-small";
+  if(!contentClassName) contentClassName="content-center";
+  if(!titleClassName) titleClassName="title-landing-page"
 
+  // const path = "../../assets/img/";
   useEffect(() => {
     if (window.innerWidth > 991) {
       const updateScroll = () => {
@@ -22,17 +27,18 @@ const LandingPageHeader = ({ title }) => {
   });
   return (
     <>
-      <div className="page-header page-header-small">
+      <div className={imageClassName}>
         <div
           className="page-header-image "
           style={{
-            backgroundImage: "url(" + require("../../assets/img/bg6.jpg") + ")"
+            backgroundImage: "url(" + require(`../../assets/img/${backgroundImgName}`) + ")"
           }}
           ref={pageHeader}
         ></div>
-        <div className="content-center">
+        <div className={contentClassName}>
           <Container>
-            <h1 className="title-landing-page">{title}</h1>
+            {/* <h1 className="title-landing-page">{title}</h1> */}
+            <h1 className={titleClassName}>{title}</h1>
           </Container>
         </div>
       </div>

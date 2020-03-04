@@ -1,32 +1,36 @@
 import React from "react";
 import OtherNavbar from "../../components/NavBars/OtherNavbar";
-import OtherPageHeader from "../../components/Headers/OtherPageHeader";
 import { Container, Row, Col } from "reactstrap";
 import DarkFooter from "../../components/Footers/DarkFooter";
 import { Redirect } from "react-router-dom";
 import IconCheckList from "../../components/General/IconCheckList";
 import servicesContent from "../../data/services-content";
+import LandingPageHeader from "../../components/Headers/LandingPageHeader";
 
-  const ServiceDetailsPage = ({ match }) => {
+const ServiceDetailsPage = ({ match }) => {
   const idParam = match.params.id;
 
-  const services = servicesContent.filter( ser => ser.id === idParam);
-  
-  if (  !(Array.isArray(services) && services.length )  ) {
+  const services = servicesContent.filter(ser => ser.id === idParam);
+
+  if (!(Array.isArray(services) && services.length)) {
     return (
       <>
         <Redirect to="/not-found" />;
       </>
     );
   } else {
-    
     const service = services[0];
     let path = "our-services-people.jpg";
     return (
       <>
         <OtherNavbar />
         <div className="wrapper">
-          <OtherPageHeader message={service.title} />
+          <LandingPageHeader
+            title={service.title}
+            imageClassName={"page-header page-header-xsmall"}
+            contentClassName={"content-center-other-pages"}
+            titleClassName={"title-small-header"}
+          />
           <div className="section text-center">
             <Container className=" text-muted">
               <div className="justify-content-center">

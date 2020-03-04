@@ -146,7 +146,7 @@ function HomeNavbar() {
               </NavItem>
               <NavItem>
                 <NavLink to="/patientinfo-page" tag={Link}>
-                  Patient Information
+                  Patient Info
                 </NavLink>
               </NavItem>
               <NavItem>
@@ -166,7 +166,12 @@ function HomeNavbar() {
               </NavItem>
               <NavItem>
                 <NavLink to="/afterhours-page" tag={Link}>
-                  After Hours care
+                  After Hours
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink to="/career-page" tag={Link}>
+                  Career
                 </NavLink>
               </NavItem>
               {/* <NavItem>

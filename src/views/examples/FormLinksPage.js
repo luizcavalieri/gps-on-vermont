@@ -1,10 +1,9 @@
 import React, { useEffect } from "react";
 import { Container } from "reactstrap";
 import OtherNavbar from "../../components/NavBars/OtherNavbar";
-import OtherPageHeader from "../../components/Headers/OtherPageHeader";
-
 import { headerScrolling } from "./commons";
 import DarkFooter from "../../components/Footers/DarkFooter";
+import LandingPageHeader from "../../components/Headers/LandingPageHeader";
 
 const FormLinksPage = () => {
   const message = "ABC";
@@ -17,7 +16,12 @@ const FormLinksPage = () => {
     <>
       <OtherNavbar />
       <div className="wrapper">
-        <OtherPageHeader message={message} />
+        <LandingPageHeader
+          title={message}
+          imageClassName={"page-header page-header-xsmall"}
+          contentClassName={"content-center-other-pages"}
+          titleClassName={"title-small-header"}
+        />
         <div className="section text-center">
           <Container className="text-muted"></Container>
         </div>
