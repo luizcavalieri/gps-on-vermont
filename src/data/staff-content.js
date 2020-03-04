@@ -10,7 +10,14 @@ const staff = [
       "Carmen has a special interest in women’s health, child health, chronic disease management, men’s health.",
       "Dr Padilla speaks Spanish as well as English."
     ],
-    availability: ["5 days per week"],
+    availability: [
+      { day: "M", desc: "Monday", from: "8:30", to: "5:20", notes: "" },
+      { day: "T", desc: "Tuesday", from: "8:30", to: "5:20", notes: "" },
+      { day: "W", desc: "Wednesday", from: "8:30", to: "5:20", notes: "" },
+      { day: "T", desc: "Thursday", from: "8:30", to: "5:20", notes: "" },
+      { day: "F", desc: "Friday", from: "8:30", to: "5:20", notes: "" },
+      { day: "S", desc: "Saturday", from: "9:00", to: "12:30", notes: "" }
+    ],
     speaks: ["English", "Spanish"],
     booking: true,
     bookingDoctorId: "dr-carmen-padilla-1",
@@ -31,7 +38,14 @@ const staff = [
       "Our administration Team is managed by our Practice Manager Annette.",
       "She has a vast background in Business Management and has been a Practice Manager in other Practices."
     ],
-    availability: ["5 days per week"],
+    availability: [
+      { day: "M", desc: "Monday", from: "8:30", to: "5:20", notes: "" },
+      { day: "T", desc: "Tuesday", from: "8:30", to: "5:20", notes: "" },
+      { day: "W", desc: "Wednesday", from: "8:30", to: "5:20", notes: "" },
+      { day: "T", desc: "Thursday", from: "8:30", to: "5:20", notes: "" },
+      { day: "F", desc: "Friday", from: "8:30", to: "5:20", notes: "" },
+      { day: "S", desc: "Saturday", from: "9:00", to: "12:30", notes: "" }
+    ],
     speaks: ["English"],
     booking: false,
     bookingDoctorId: "",
@@ -52,10 +66,25 @@ const staff = [
     title: "Nursing Manager",
     name: "Megan Chick",
     image: "avatar.jpg",
-    accreditations: ["Registered nurse Division 1", "Clinical Nurse Specialist", "Midwife", "Childhood Immuniser"],
-    availability: ["5 days per week"],
+    accreditations: [
+      "Registered nurse Division 1",
+      "Clinical Nurse Specialist",
+      "Midwife",
+      "Childhood Immuniser"
+    ],
+    availability: [
+      { day: "M", desc: "Monday", from: "8:30", to: "5:20", notes: "" },
+      { day: "T", desc: "Tuesday", from: "8:30", to: "5:20", notes: "" },
+      { day: "W", desc: "Wednesday", from: "8:30", to: "5:20", notes: "" },
+      { day: "T", desc: "Thursday", from: "8:30", to: "5:20", notes: "" },
+      { day: "F", desc: "Friday", from: "8:30", to: "5:20", notes: "" },
+      { day: "S", desc: "Saturday", from: "9:00", to: "12:30", notes: "" }
+    ],
     speaks: ["English"],
-    descriptions: [" Megan has been nursing for over 20 years and has extensive experience in clinical care in General Practice","She looks forward to meeting the new patients to the clinic."],
+    descriptions: [
+      " Megan has been nursing for over 20 years and has extensive experience in clinical care in General Practice",
+      "She looks forward to meeting the new patients to the clinic."
+    ],
     booking: false,
     bookingDoctorId: "",
     socialMedia: [],
@@ -66,10 +95,20 @@ const staff = [
     title: "Practice Nurse",
     name: "Lara Hopkins",
     image: "Lara.jpg",
-    accreditations: ["Bachelor of Nursing", "Credentialed immunisation provider"],
-    availability: ["Monday", "Tuesday"],
+    accreditations: [
+      "Bachelor of Nursing",
+      "Credentialed immunisation provider"
+    ],
+    availability: [
+      { day: "M", desc: "Monday", from: "8:30", to: "5:20", notes: "" },
+      { day: "T", desc: "Thursday", from: "8:30", to: "5:20", notes: "" }
+    ],
     speaks: ["English"],
-    descriptions: ["Lara shares a high passion for primary health care.  She has worked in this environment for the past five years after successfully completing her studies of ‘Bachelor of Nursing’ in 2015.", "Our nurse Lara is very passionate about general practice and enjoys all aspects of practice nursing. She is a strong advocate for whole patient care, health and wellbeing. Lara also holds a strong interest in Immunisation since becoming a credentialed immunisation provider in 2016.  She also has extensive experience with the skin since having worked in specialised skin clinics for many years.", "Outside of work Lara has three gorgeous children and in her spare time she enjoys trips to the snow, drinking coffee, catching up with friends, walking and spending time with her family."],
+    descriptions: [
+      "Lara shares a high passion for primary health care.  She has worked in this environment for the past five years after successfully completing her studies of ‘Bachelor of Nursing’ in 2015.",
+      "Our nurse Lara is very passionate about general practice and enjoys all aspects of practice nursing. She is a strong advocate for whole patient care, health and wellbeing. Lara also holds a strong interest in Immunisation since becoming a credentialed immunisation provider in 2016.  She also has extensive experience with the skin since having worked in specialised skin clinics for many years.",
+      "Outside of work Lara has three gorgeous children and in her spare time she enjoys trips to the snow, drinking coffee, catching up with friends, walking and spending time with her family."
+    ],
     booking: false,
     bookingDoctorId: "",
     socialMedia: [],
@@ -81,7 +120,9 @@ const staff = [
     name: "Jen Walker",
     image: "Jen.jpg",
     accreditations: [],
-    availability: ["Call for an appointment"],
+    availability: [
+      { day: "i", desc: "call for an appointment", from: "", to: "", notes: "" }
+    ],
     speaks: ["English"],
     descriptions: [
       "I am an Accredited Mental Health Social Worker and have been in this field for nearly 20 years.",
