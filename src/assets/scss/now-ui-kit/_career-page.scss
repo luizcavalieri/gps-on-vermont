@@ -1,0 +1,139 @@
+.section-career-overview {
+  padding: 0.1rem 0;
+
+  .ribbon-container {
+    margin-left: 1.6rem;
+    margin-right: 1.6rem;
+    margin-bottom: 1rem;
+
+    article {
+      display: flex;
+      border-color: $info-color;
+      border-style: double;
+      color: $info-color;
+      border-top-left-radius: 0.25rem;
+      border-bottom-left-radius: 0.25rem;
+    }
+
+    img {
+      width: 35rem;
+      box-shadow: $box-shadow-raised;
+      border-top-left-radius: 0.25rem;
+      border-bottom-left-radius: 0.25rem;
+    }
+
+    section {
+      padding: 0rem;
+      padding-bottom: 1rem;
+      background-color: $smoke-bg;
+      text-align: left;
+
+      h3 {
+        padding-top: 2rem;
+        text-align: center;
+      }
+
+      p {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        color: $text-muted;
+      }
+
+      div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 0.5rem;
+        cite {
+          font-size: $font-paragraph;
+        }
+      }
+      footer {
+        text-align: right;
+        margin-right: 2rem;
+      }
+    }
+  }
+
+  @media screen and (min-width: 320px) {
+    article {
+      flex-direction: column;
+    }
+    .ribbon-container {
+      section {
+        div {
+          // display: flex;
+          flex-direction: column;
+          cite {
+            justify-content: space-around;
+          }
+        }
+      }
+    }
+  }
+
+  /* Small devices (landscape phones, 411px and up) */
+  @media screen and (min-width: 411px) {
+  }
+
+  @media screen and (min-width: 411px) and (orientation: landscape) {
+  }
+
+  /* Small devices (landscape phones, 576px and up) */
+  @media screen and (min-width: 576px) {
+  }
+
+  /* Small devices (landscape phones, 576px and up) */
+  @media screen and (min-width: 576px) and (orientation: landscape) {
+  }
+
+  /* Small devices (landscape phones, 576px and up) */
+  @media screen and (min-width: 640px) and (orientation: landscape) {
+  }
+
+  /* Medium devices (tablets, 768px and up) */
+  @media screen and (min-width: 768px) {
+    .ribbon-container {
+      img {
+        width: 100%;
+      }
+      section {
+        div {
+          // display: flex;
+          flex-direction: row;
+          cite {
+            justify-content: space-around;
+          }
+        }
+      }
+    }
+
+  }
+
+  @media screen and (min-width: 768px) and (orientation: landscape) {
+  }
+
+  /* Large devices (desktops, 992px and up) */
+  @media screen and (min-width: 992px) {
+    article {
+      flex-direction: row;
+    }
+    .ribbon-container {
+      img {
+        width: 30rem;
+      }
+    }
+  }
+
+  @media screen and (min-width: 992px) and (orientation: landscape) {
+  }
+
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media screen and (min-width: 1200px) {
+    .ribbon-container {
+      img {
+        width: 32srem;
+      }
+    }
+  }
+}

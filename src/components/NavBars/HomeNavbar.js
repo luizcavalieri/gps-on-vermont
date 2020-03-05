@@ -149,11 +149,11 @@ function HomeNavbar() {
                   Patient Info
                 </NavLink>
               </NavItem>
-              <NavItem>
+              {/* <NavItem>
                 <NavLink to="/formlinks-page" tag={Link}>
                   Forms/Links
                 </NavLink>
-              </NavItem>
+              </NavItem> */}
               <NavItem>
                 <NavLink to="/fees-page" tag={Link} >
                   Fees

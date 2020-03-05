@@ -1,10 +1,10 @@
 import React from "react";
-import { Row, Col, Button, i, UncontrolledTooltip, CardImg } from "reactstrap";
+import { Row, Col, Button, i, UncontrolledTooltip } from "reactstrap";
 import BookingButton from "./BookingButton";
 import IconSocialMediaItem from "./IconSocialMediaItem";
 
 const BarButtonsLandPageHeader = () => {
-  const path = "career.jpg";
+  // const path = "career.jpg";
   return (
     <>
       <Row className="row justify-content-center">
