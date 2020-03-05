@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0c8aca4f41934cb466c4b53c6d344580",
+    "revision": "9c978c772725911a2345c689fdb69567",
     "url": "/gps-on-vermont/index.html"
   },
   {
-    "revision": "6c31d69866c6b1112944",
+    "revision": "b38ef440e2b1f8581999",
     "url": "/gps-on-vermont/static/css/2.5f557260.chunk.css"
   },
   {
-    "revision": "06a29b066d5d18b6364a",
-    "url": "/gps-on-vermont/static/css/main.a64ee5a1.chunk.css"
+    "revision": "a81082ba4f3555b9ea83",
+    "url": "/gps-on-vermont/static/css/main.05faa673.chunk.css"
   },
   {
-    "revision": "6c31d69866c6b1112944",
-    "url": "/gps-on-vermont/static/js/2.58ec8d81.chunk.js"
+    "revision": "b38ef440e2b1f8581999",
+    "url": "/gps-on-vermont/static/js/2.9bbb1ac3.chunk.js"
   },
   {
     "revision": "092d7501092d8b8f7b873d3e532e5f4d",
-    "url": "/gps-on-vermont/static/js/2.58ec8d81.chunk.js.LICENSE"
+    "url": "/gps-on-vermont/static/js/2.9bbb1ac3.chunk.js.LICENSE"
   },
   {
-    "revision": "06a29b066d5d18b6364a",
-    "url": "/gps-on-vermont/static/js/main.da6aa9d3.chunk.js"
+    "revision": "a81082ba4f3555b9ea83",
+    "url": "/gps-on-vermont/static/js/main.f51392d6.chunk.js"
   },
   {
     "revision": "b6ce3b8da8bd7d55c4da",
@@ -92,6 +92,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gps-on-vermont/static/media/care.e039d16a.svg"
   },
   {
+    "revision": "536b87dda161caca8ac073932e56162f",
+    "url": "/gps-on-vermont/static/media/career-large.536b87dd.jpg"
+  },
+  {
+    "revision": "c8df13403b3b92d845ccd4590d396e5a",
+    "url": "/gps-on-vermont/static/media/career.c8df1340.jpg"
+  },
+  {
     "revision": "97e5770b44871094bf9b31aa7e4cb150",
     "url": "/gps-on-vermont/static/media/child.97e5770b.svg"
   },
@@ -102,6 +110,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f7cb2d390498c2969b2b1050f3e024ce",
     "url": "/gps-on-vermont/static/media/creative-tim-white-slim2.f7cb2d39.png"
+  },
+  {
+    "revision": "1da755bbbcdf98cb2837609e61d3c7c3",
+    "url": "/gps-on-vermont/static/media/doc-patient-stethoscope.1da755bb.jpg"
   },
   {
     "revision": "41d3505071dc5af623059207ee517806",

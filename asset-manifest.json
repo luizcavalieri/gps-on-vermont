@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/gps-on-vermont/static/css/main.a64ee5a1.chunk.css",
-    "main.js": "/gps-on-vermont/static/js/main.da6aa9d3.chunk.js",
-    "main.js.map": "/gps-on-vermont/static/js/main.da6aa9d3.chunk.js.map",
+    "main.css": "/gps-on-vermont/static/css/main.05faa673.chunk.css",
+    "main.js": "/gps-on-vermont/static/js/main.f51392d6.chunk.js",
+    "main.js.map": "/gps-on-vermont/static/js/main.f51392d6.chunk.js.map",
     "runtime-main.js": "/gps-on-vermont/static/js/runtime-main.c75256c0.js",
     "runtime-main.js.map": "/gps-on-vermont/static/js/runtime-main.c75256c0.js.map",
     "static/css/2.5f557260.chunk.css": "/gps-on-vermont/static/css/2.5f557260.chunk.css",
-    "static/js/2.58ec8d81.chunk.js": "/gps-on-vermont/static/js/2.58ec8d81.chunk.js",
-    "static/js/2.58ec8d81.chunk.js.map": "/gps-on-vermont/static/js/2.58ec8d81.chunk.js.map",
+    "static/js/2.9bbb1ac3.chunk.js": "/gps-on-vermont/static/js/2.9bbb1ac3.chunk.js",
+    "static/js/2.9bbb1ac3.chunk.js.map": "/gps-on-vermont/static/js/2.9bbb1ac3.chunk.js.map",
     "index.html": "/gps-on-vermont/index.html",
-    "precache-manifest.5a7b7b0a38b41d17a93bc6edfd046afe.js": "/gps-on-vermont/precache-manifest.5a7b7b0a38b41d17a93bc6edfd046afe.js",
+    "precache-manifest.befdb7123d0d40906af01c3ea4160f85.js": "/gps-on-vermont/precache-manifest.befdb7123d0d40906af01c3ea4160f85.js",
     "service-worker.js": "/gps-on-vermont/service-worker.js",
     "static/css/2.5f557260.chunk.css.map": "/gps-on-vermont/static/css/2.5f557260.chunk.css.map",
-    "static/css/main.a64ee5a1.chunk.css.map": "/gps-on-vermont/static/css/main.a64ee5a1.chunk.css.map",
-    "static/js/2.58ec8d81.chunk.js.LICENSE": "/gps-on-vermont/static/js/2.58ec8d81.chunk.js.LICENSE",
+    "static/css/main.05faa673.chunk.css.map": "/gps-on-vermont/static/css/main.05faa673.chunk.css.map",
+    "static/js/2.9bbb1ac3.chunk.js.LICENSE": "/gps-on-vermont/static/js/2.9bbb1ac3.chunk.js.LICENSE",
     "static/media/Annette.jpg": "/gps-on-vermont/static/media/Annette.dc67e5cc.jpg",
     "static/media/Jen.jpg": "/gps-on-vermont/static/media/Jen.91488925.jpg",
     "static/media/Lara.jpg": "/gps-on-vermont/static/media/Lara.664eec52.jpg",
@@ -30,9 +30,12 @@
     "static/media/bg8.jpg": "/gps-on-vermont/static/media/bg8.6737ce3b.jpg",
     "static/media/blurred-image-1.jpg": "/gps-on-vermont/static/media/blurred-image-1.0e3525dc.jpg",
     "static/media/care.svg": "/gps-on-vermont/static/media/care.e039d16a.svg",
+    "static/media/career-large.jpg": "/gps-on-vermont/static/media/career-large.536b87dd.jpg",
+    "static/media/career.jpg": "/gps-on-vermont/static/media/career.c8df1340.jpg",
     "static/media/child.svg": "/gps-on-vermont/static/media/child.97e5770b.svg",
     "static/media/corona-news.png": "/gps-on-vermont/static/media/corona-news.74594cc3.png",
     "static/media/creative-tim-white-slim2.png": "/gps-on-vermont/static/media/creative-tim-white-slim2.f7cb2d39.png",
+    "static/media/doc-patient-stethoscope.jpg": "/gps-on-vermont/static/media/doc-patient-stethoscope.1da755bb.jpg",
     "static/media/dr-carmen.jpg": "/gps-on-vermont/static/media/dr-carmen.41d35050.jpg",
     "static/media/eva.jpg": "/gps-on-vermont/static/media/eva.089c4f4e.jpg",
     "static/media/flu-news.png": "/gps-on-vermont/static/media/flu-news.70cd81ec.png",
@@ -69,8 +72,8 @@
   "entrypoints": [
     "static/js/runtime-main.c75256c0.js",
     "static/css/2.5f557260.chunk.css",
-    "static/js/2.58ec8d81.chunk.js",
-    "static/css/main.a64ee5a1.chunk.css",
-    "static/js/main.da6aa9d3.chunk.js"
+    "static/js/2.9bbb1ac3.chunk.js",
+    "static/css/main.05faa673.chunk.css",
+    "static/js/main.f51392d6.chunk.js"
   ]
 }
