@@ -16,22 +16,28 @@ const News = ({ news }) => {
   let tot = news.length;
   const TEXT_SIZE = 150;
 
-  const headerComponent = (comp) => {
-    if(!(jobOffers.length) ){
-       return comp;
-    } else{
-      return (
-      <RibbonContainer className="news-ribbon">
-        <Link to="/career-page">
-          <RightLargeRibbon
-            backgroundColor="#cc4400" color="#f0f0f0"
-            fontFamily = "Arial"
-          >
-            Now Hiring
-          </RightLargeRibbon>
-        </Link>
-        {comp}
-      </RibbonContainer>)
+  const headerComponent = comp => {
+    if (!jobOffers.length) {
+      return comp;
+    } else {
+      if (!jobOffers.filter(job => job.enabled).length) {
+        return comp;
+      } else {
+        return (
+          <RibbonContainer className="news-ribbon">
+            <Link to="/career-page">
+              <RightLargeRibbon
+                backgroundColor="#cc4400"
+                color="#f0f0f0"
+                fontFamily="Arial"
+              >
+                Now Hiring
+              </RightLargeRibbon>
+            </Link>
+            {comp}
+          </RibbonContainer>
+        );
+      }
     }
   };
   const header = (
@@ -46,9 +52,8 @@ const News = ({ news }) => {
   return (
     <>
       <Card className="card-data ">
-        
         {headerComponent(header)}
-        
+
         <CardBody className="overflow-vertical scrollbar-ripe-malinka">
           {news.map((item, index) => (
             <Card key={index}>
