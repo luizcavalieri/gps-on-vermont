@@ -6,7 +6,7 @@ import DarkFooter from "../../components/Footers/DarkFooter";
 import LandingPageHeader from "../../components/Headers/LandingPageHeader";
 
 const AfterHoursPage = () => {
-  const message = "";
+  const message = "Please contact";
 
   useEffect(() => {
     headerScrolling();
@@ -18,9 +18,10 @@ const AfterHoursPage = () => {
       <div className="wrapper">
         <LandingPageHeader
           title={message}
-          imageClassName={"page-header page-header-xsmall"}
-          contentClassName={"content-center-other-pages"}
-          titleClassName={"title-small-header"}
+          backgroundImgName={"after-hours.jpg"}
+          imageClassName={"page-header page-header-small"}
+          contentClassName={"content-center"}
+          titleClassName={"title-landing-page"}
         />
         <div className="section text-center">
           <Container className=" text-muted">
