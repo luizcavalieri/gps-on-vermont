@@ -31,7 +31,7 @@ const fees = [
                 rownum: 3,
                 data: [
                     ["DVA Patients"],
-                    "Bulk Billed	",
+                    "Bulk Billed",
                     "Not Applicable",
                     "Not Applicable"
                 ]
@@ -41,7 +41,7 @@ const fees = [
                 rownum: 4,
                 data: [
                     ["Standard Consultation 10 minutes"],
-                    "Not Applicable",
+                    "Bulk Billed",
                     "Not Applicable",
                     "Not Applicable"
                 ]
@@ -51,7 +51,7 @@ const fees = [
                 rownum: 5,
                 data: [
                     ["Long Consultation 20 minutes"],
-                    "Not Applicable",
+                    "Bulk Billed",
                     "Not Applicable",
                     "Not Applicable"
                 ]

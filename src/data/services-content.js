@@ -62,7 +62,7 @@ const services = [
     icon: "fa fa-plane-departure fa-lg",
     image: "travel.svg",
     shortIntro:
-      "Stay healthy abroad.If you are planning on travelling overseas, we would highly recommend to book in an appointment with a GPs to discuss your travel vaccinations and advice.",
+      "Stay healthy abroad. If you are planning on travelling overseas, we would highly recommend to book in an appointment with a GPs to discuss your travel vaccinations and advice.",
     introDescriptions: [
       "Here at GPs on Vermont we are available to advise you on any preparations needed for your future trips. It’s important to protect your health when you’re travelling inside and/or outside Australia.",
       "With appropriate planning and health checks, patients can avoid diseases and other health conditions.",
@@ -426,7 +426,7 @@ const services = [
             title: "",
             descriptions: [
               "Small injuries can be a long-term burden on your business and really dent your momentum. While you may be covered in case of injury, it is important to maintain a good rapport with your employees and demonstrate that your interests are mutually aligned.",
-              "If you look after them while they are sick with more than just sick-pay and a work cover claim number, it should come back to you in productivity and more importantly, loyalty. This easier said than done of course, but every little bit helps.",
+              "If you look after them while they are sick with more than just sick-pay and a work cover claim number, it should come back to you in productivity and more importantly, loyalty. This is easier said than done of course, but every little bit helps.",
               "Making sure they are ready to go back to work while injured (at work or at home) or allowing them to perform some lighter duties can really help cover you legally, but more importantly allow you to care for your workers."
             ]
           }
@@ -581,7 +581,7 @@ const services = [
     icon: "fa fa-flag fa-lg",
     image: "aboriginalflag.svg",
     shortIntro:
-      "Aboriginal health” means not just the physical well-being of an individual but refers to the social, emotional and cultural well-being of the whole Community in which each individual is able to achieve their full potential as a human being thereby bringing about the total well-being of their Community.",
+      "'Aboriginal health' means not just the physical well-being of an individual but refers to the social, emotional and cultural well-being of the whole Community in which each individual is able to achieve their full potential as a human being thereby bringing about the total well-being of their Community.",
     introDescriptions: [],
     items: [],
     sections: [
@@ -594,7 +594,7 @@ const services = [
             title:
               "Aboriginal and Torres Strait Islander people can access a health check annually, with a minimum claim period of 9 months. 715 health checks are free at Aboriginal Medical Services and bulk bulling clinics to help people stay healthy and strong.",
             descriptions: [
-              "Delivery of culturally responsive services for all Aboriginal and Torres Strait Islander patients and their families.Assessment of the patient’s condition(s) in relation to overall health and functionality",
+              "Delivery of culturally responsive services for all Aboriginal and Torres Strait Islander patients and their families. Assessment of the patient’s condition(s) in relation to overall health and functionality",
               "Availability of appropriate health services and preventative care for Aboriginal people.",
               "Helping ensure the practice meets the particular needs of ATSI patients and their families and increase the cultural sensitivity of healthcare services and providers to Aboriginal health issues.",
               "Build positive relationships with the Victorian Aboriginal community, other service providers, and government departments."
