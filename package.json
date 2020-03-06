@@ -2,7 +2,7 @@
   "name": "gps-on-vermont",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://alexpadillarosas.github.io/gps-on-vermont/",
+  "homepage": "https://gpsonvermont.com.au/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.1",
