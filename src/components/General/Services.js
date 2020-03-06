@@ -30,6 +30,7 @@ const Services = ({ servicesData }) => {
           <Col key={index} xs="12" xl="6">
             <InfoCard
               title={service.title}
+              headerClassName={"capitalize"}
               descriptions={convertIntoArray(service.shortIntro)}
               iconClassName={service.icon}
               footerContent={footerComponent(service)}
