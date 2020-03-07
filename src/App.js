@@ -40,7 +40,7 @@ const App = () => {
       <ScrollToTop />
       <Switch>
         <Route path="/" component={LandingPage} exact />
-        <Route path="/index" render={props => <Index {...props} />} />
+        {/* <Route path="/index" render={props => <Index {...props} />} /> */}
         <Route
           path="/landing-page"
           render={props => <LandingPage {...props} />}
