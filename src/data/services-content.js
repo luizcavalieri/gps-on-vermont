@@ -47,7 +47,7 @@ const services = [
     icon: "fa fa-syringe fa-lg",
     image: "vaccine.svg",
     shortIntro:
-      "Flu vaccination, involves having an injection given into the upper arm y a nurse or doctor and only takes a few seconds.",
+      "Flu vaccination, involves having an injection given into the upper arm by a nurse or doctor and only takes a few seconds.",
     introDescriptions: [
       "Majority of Australians benefit from having a yearly flu vaccination. Whilst groups such as 65+ years old, pregnant women, children are those most at risk. A nurse or doctor can give the injection which is usually given into the upper arm and only takes a few seconds",
       "The vaccines change each year, based on predictions of which flu strains will be most active that coming winter. They are usually given around late autumn to provide protection over the flu season. Your immunity is highest during 3-4 months after getting the flu shot therefore, we highly recommend getting immunised before the start of flu season to stay protected.",
