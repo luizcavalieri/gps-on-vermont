@@ -2,7 +2,7 @@ const news = [
   {
     id: "1",
     img: "gpv-news.png",
-    title: "Opening Soon",
+    title: "Gps on Vermont is Opening Soon",
     contents: [
       "We are so excited to announce that GP's on Vermont is openning soon in Wodonga! Here at GP’s on Vermont Medical Centre we are passionate about providing high quality primary and preventive health care to the community.",
       "Health is important, but good health is optimal.",

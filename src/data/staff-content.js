@@ -11,12 +11,12 @@ const staff = [
       "Dr Padilla speaks Spanish as well as English."
     ],
     availability: [
-      { day: "M", desc: "Monday", from: "8:30", to: "5:20", notes: "" },
-      { day: "T", desc: "Tuesday", from: "8:30", to: "5:20", notes: "" },
-      { day: "W", desc: "Wednesday", from: "8:30", to: "5:20", notes: "" },
-      { day: "T", desc: "Thursday", from: "8:30", to: "5:20", notes: "" },
-      { day: "F", desc: "Friday", from: "8:30", to: "5:20", notes: "" },
-      { day: "S", desc: "Saturday", from: "9:00", to: "12:30", notes: "" }
+      { day: "Mon", desc: "Monday", from: "8:30", to: "5:20", notes: "" },
+      { day: "Tue", desc: "Tuesday", from: "8:30", to: "5:20", notes: "" },
+      { day: "Wed", desc: "Wednesday", from: "8:30", to: "5:20", notes: "" },
+      { day: "Thu", desc: "Thursday", from: "8:30", to: "5:20", notes: "" },
+      { day: "Fri", desc: "Friday", from: "8:30", to: "5:20", notes: "" },
+      { day: "Sat", desc: "Saturday", from: "9:00", to: "12:30", notes: "" }
     ],
     speaks: ["English", "Spanish"],
     booking: true,
@@ -39,12 +39,12 @@ const staff = [
       "She has a vast background in Business Management and has been a Practice Manager in other Practices."
     ],
     availability: [
-      { day: "M", desc: "Monday", from: "8:30", to: "5:20", notes: "" },
-      { day: "T", desc: "Tuesday", from: "8:30", to: "5:20", notes: "" },
-      { day: "W", desc: "Wednesday", from: "8:30", to: "5:20", notes: "" },
-      { day: "T", desc: "Thursday", from: "8:30", to: "5:20", notes: "" },
-      { day: "F", desc: "Friday", from: "8:30", to: "5:20", notes: "" },
-      { day: "S", desc: "Saturday", from: "9:00", to: "12:30", notes: "" }
+      { day: "Mon", desc: "Monday", from: "8:30", to: "5:20", notes: "" },
+      { day: "Tue", desc: "Tuesday", from: "8:30", to: "5:20", notes: "" },
+      { day: "Wed", desc: "Wednesday", from: "8:30", to: "5:20", notes: "" },
+      { day: "Thu", desc: "Thursday", from: "8:30", to: "5:20", notes: "" },
+      { day: "Fri", desc: "Friday", from: "8:30", to: "5:20", notes: "" },
+      { day: "Sat", desc: "Saturday", from: "9:00", to: "12:30", notes: "" }
     ],
     speaks: ["English"],
     booking: false,
@@ -73,12 +73,12 @@ const staff = [
       "Childhood Immuniser"
     ],
     availability: [
-      { day: "M", desc: "Monday", from: "8:30", to: "5:20", notes: "" },
-      { day: "T", desc: "Tuesday", from: "8:30", to: "5:20", notes: "" },
-      { day: "W", desc: "Wednesday", from: "8:30", to: "5:20", notes: "" },
-      { day: "T", desc: "Thursday", from: "8:30", to: "5:20", notes: "" },
-      { day: "F", desc: "Friday", from: "8:30", to: "5:20", notes: "" },
-      { day: "S", desc: "Saturday", from: "9:00", to: "12:30", notes: "" }
+      { day: "Mon", desc: "Monday", from: "8:30", to: "5:20", notes: "" },
+      { day: "Tue", desc: "Tuesday", from: "8:30", to: "5:20", notes: "" },
+      { day: "Wed", desc: "Wednesday", from: "8:30", to: "5:20", notes: "" },
+      { day: "Thu", desc: "Thursday", from: "8:30", to: "5:20", notes: "" },
+      { day: "Fri", desc: "Friday", from: "8:30", to: "5:20", notes: "" },
+      { day: "Sat", desc: "Saturday", from: "9:00", to: "12:30", notes: "" }
     ],
     speaks: ["English"],
     descriptions: [
@@ -100,8 +100,8 @@ const staff = [
       "Credentialed immunisation provider"
     ],
     availability: [
-      { day: "M", desc: "Monday", from: "8:30", to: "5:20", notes: "" },
-      { day: "T", desc: "Thursday", from: "8:30", to: "5:20", notes: "" }
+      { day: "Mon", desc: "Monday", from: "8:30", to: "5:20", notes: "" },
+      { day: "Thu", desc: "Thursday", from: "8:30", to: "5:20", notes: "" }
     ],
     speaks: ["English"],
     descriptions: [
@@ -121,7 +121,7 @@ const staff = [
     image: "Jen.jpg",
     accreditations: [],
     availability: [
-      { day: "i", desc: "call for an appointment", from: "", to: "", notes: "" }
+      { day: "Call", desc: "call for an appointment", from: "", to: "", notes: "" }
     ],
     speaks: ["English"],
     descriptions: [

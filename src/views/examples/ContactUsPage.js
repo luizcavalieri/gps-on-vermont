@@ -44,7 +44,7 @@ const ContactUsPage = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Take me there
+            Take me to GPs on Vermont
           </a>
         </CardFooter>
 

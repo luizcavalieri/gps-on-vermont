@@ -12,6 +12,7 @@ import {
   CardText,
   Badge
 } from "reactstrap";
+// import Availability from "./Availability";
 
 const BusinessCard = ({
   emp,
@@ -32,7 +33,7 @@ const BusinessCard = ({
         <CardHeader className={headerClassName}>
           <CardImg
             className={cardImageClassName}
-            alt="employee image"
+            alt={emp.name}
             src={require(`../../assets/img/${path}`)}
             top
           ></CardImg>
@@ -53,7 +54,8 @@ const BusinessCard = ({
               </Badge>
             ))}
           </div>
-
+          {/* <hr /> */}
+          {/* <Availability label={"Availability: "} values={emp.availability} /> */}
           <hr />
           <DescriptionList
             list={emp.descriptions}
@@ -70,7 +72,7 @@ const BusinessCard = ({
           />
         </CardBody>
         <div>
-          <IconSocialMediaList list={emp.socialMedia} size="lg" color="info" target="_blank" rel ="noopener noreferrer" />
+          <IconSocialMediaList list={emp.socialMedia} size="lg" color="info" target="_blank" rel="noopener noreferrer" />
           {emp.booking ? (
             <BookingButton doctorId={emp.bookingDoctorId} size="lg" />
           ) : null}
