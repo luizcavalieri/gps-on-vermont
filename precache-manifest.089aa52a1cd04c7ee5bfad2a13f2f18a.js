@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "31c047f9d8b294b4affacc89b2efbc8b",
+    "revision": "d1785b0e31f06a740c45919f38be834a",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.8f0d8aca.chunk.css"
   },
   {
-    "revision": "78a3a3800fdd38400e1b",
+    "revision": "176be610dfcd10641fe0",
     "url": "/static/css/main.3880a763.chunk.css"
   },
   {
@@ -20,24 +20,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.70f785a7.chunk.js.LICENSE"
   },
   {
-    "revision": "78a3a3800fdd38400e1b",
-    "url": "/static/js/main.e4cb9e3c.chunk.js"
+    "revision": "176be610dfcd10641fe0",
+    "url": "/static/js/main.f32f5a3f.chunk.js"
   },
   {
     "revision": "4eaec8f9385691ea727f",
     "url": "/static/js/runtime-main.77a88525.js"
   },
   {
-    "revision": "dc67e5cc64398a6c46855a88d2bdce0a",
-    "url": "/static/media/Annette.dc67e5cc.jpg"
+    "revision": "4a291657fa276cc47c58010d1f6ab64a",
+    "url": "/static/media/Annette.4a291657.jpg"
   },
   {
-    "revision": "914889253d318aa28d095dc8193fcd42",
-    "url": "/static/media/Jen.91488925.jpg"
+    "revision": "88124177eff6fdc0f64437e36599d2c6",
+    "url": "/static/media/Jen.88124177.jpg"
   },
   {
-    "revision": "664eec5274de39598e66858b09291488",
-    "url": "/static/media/Lara.664eec52.jpg"
+    "revision": "487615920c946c0f0ffa2fb2b0c522f5",
+    "url": "/static/media/Lara.48761592.jpg"
   },
   {
     "revision": "328be05cf671e8c923ae63a1dd0508c7",
@@ -104,8 +104,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/child.1f381aa4.svg"
   },
   {
-    "revision": "74594cc35974cc4ba92eed4fc0e7f0ea",
-    "url": "/static/media/corona-news.74594cc3.png"
+    "revision": "5179b24ed976c96f9b353b68783e0dff",
+    "url": "/static/media/corona-news.5179b24e.jpg"
   },
   {
     "revision": "f7cb2d390498c2969b2b1050f3e024ce",
@@ -120,20 +120,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/doctor-patient-consultation.193b6836.jpg"
   },
   {
-    "revision": "41d3505071dc5af623059207ee517806",
-    "url": "/static/media/dr-carmen.41d35050.jpg"
+    "revision": "f8e7701da3ca5af97f88b9e371ed545d",
+    "url": "/static/media/dr-carmen.f8e7701d.jpg"
   },
   {
     "revision": "089c4f4e55f158a69d0364c6b6339f37",
     "url": "/static/media/eva.089c4f4e.jpg"
   },
   {
-    "revision": "70cd81ec4f1987f846eb817a330fdd4d",
-    "url": "/static/media/flu-news.70cd81ec.png"
+    "revision": "19414363f20d7d7586ac9fb6ca5c1c6e",
+    "url": "/static/media/flu-news.19414363.jpg"
   },
   {
-    "revision": "b700900478564147f5ef67c92255a64f",
-    "url": "/static/media/gpv-news.b7009004.png"
+    "revision": "443b4eba6a54f1a00fb6505d6110087e",
+    "url": "/static/media/gpv-news.443b4eba.jpg"
   },
   {
     "revision": "d71420556fcc7a1d685912ba3ef91c7f",
