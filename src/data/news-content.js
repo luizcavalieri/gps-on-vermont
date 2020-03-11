@@ -1,7 +1,7 @@
 const news = [
   {
     id: "1",
-    img: "gpv-news.png",
+    img: "gpv-news.jpg",
     title: "Gps on Vermont is Opening Soon",
     contents: [
       "We are so excited to announce that GP's on Vermont is openning soon in Wodonga! Here at GP’s on Vermont Medical Centre we are passionate about providing high quality primary and preventive health care to the community.",
@@ -13,7 +13,7 @@ const news = [
   },
   {
     id: "2",
-    img: "flu-news.png",
+    img: "flu-news.jpg",
     title: "Flu Vaccination",
     contents: [
       "Flu vaccines will be in stock in late March, but we are recommending that you wait until May before being vaccinated. Our flu vaccination clinic will be run by out practice nurses. You can receive a flu vaccine during the course of your consultation with your doctor if you prefer.",
@@ -23,7 +23,7 @@ const news = [
   },
   {
     id: "3",
-    img: "corona-news.png",
+    img: "corona-news.jpg",
     title: "Coronavirus",
     contents: [
       "The Department of Health and Human Services is working around the clock with health services, the Commonwealth and international agencies to respond to the outbreak of coronavirus disease (COVID-19) and to keep the Victorian community safe",
