@@ -157,7 +157,7 @@ function ProfilePage() {
                         <img
                           alt="..."
                           className="img-raised"
-                          src={require("../../assets/img/bg6.jpg")}
+                          src={require("../../assets/img/doctor-patient-consultation.jpg")}
                         ></img>
                         <img
                           alt="..."
@@ -204,7 +204,7 @@ function ProfilePage() {
                         <img
                           alt="..."
                           className="img-raised"
-                          src={require("../../assets/img/bg6.jpg")}
+                          src={require("../../assets/img/doctor-patient-consultation.jpg")}
                         ></img>
                       </Col>
                     </Row>

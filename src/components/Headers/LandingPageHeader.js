@@ -6,7 +6,7 @@ import { Container } from "reactstrap";
 
 const LandingPageHeader = ({ title, backgroundImgName, imageClassName, contentClassName, titleClassName }) => {
   let pageHeader = createRef();
-  if (!backgroundImgName) backgroundImgName = "bg6.jpg";
+  if (!backgroundImgName) backgroundImgName = "doctor-patient-consultation.jpg";
   if(!imageClassName) imageClassName = "page-header page-header-small";
   if(!contentClassName) contentClassName="content-center";
   if(!titleClassName) titleClassName="title-landing-page"
