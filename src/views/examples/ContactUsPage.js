@@ -34,6 +34,7 @@ const ContactUsPage = () => {
             width="100%"
             height="500"
             id="myId"
+            title="Maps - GPs on Vermont Medical Centre"
             allowFullScreen
           />
         </div>

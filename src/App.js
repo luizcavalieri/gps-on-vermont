@@ -34,7 +34,7 @@ import CareerPage from "./views/examples/CareerPage";
 // https://github.com/rafrex/spa-github-pages
 
 const App = () => {
-  console.log("Host URL" + process.env.PUBLIC_URL);
+  // console.log("Host URL" + process.env.PUBLIC_URL);
   return (
     <Router basename={process.env.PUBLIC_URL}>
       <ScrollToTop />

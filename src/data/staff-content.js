@@ -3,11 +3,11 @@ const staff = [
     titleAbr: "Dr",
     title: "Doctor",
     name: "Carmen Padilla",
-    image: "dr-carmen.jpg",
+    image: "dr-carmen-padilla.jpg",
     accreditations: ["FRACGP", "MBBS", "Diploma of Child Heath"],
     descriptions: [
       "Dr Padilla has been a General Practitioner in the Wodonga area for 10 years.",
-      "Carmen has a special interest in women’s health, child health, chronic disease management, men’s health.",
+      "Carmen has a special interest in women’s health, children's health, chronic disease management and men’s health.",
       "Dr Padilla speaks Spanish as well as English."
     ],
     availability: [
@@ -28,7 +28,7 @@ const staff = [
     titleAbr: "Pm",
     title: "Practice Manager",
     name: "Annette Baumgarten",
-    image: "Annette.jpg",
+    image: "Annette-Baumgarten.jpg",
     accreditations: [
       "Diploma of Business",
       "Graduate of the Institute of company Directors Australia",
@@ -94,7 +94,7 @@ const staff = [
     titleAbr: "Nr",
     title: "Practice Nurse",
     name: "Lara Hopkins",
-    image: "Lara.jpg",
+    image: "Lara-Hopkins.jpg",
     accreditations: [
       "Bachelor of Nursing",
       "Credentialed immunisation provider"
@@ -118,7 +118,7 @@ const staff = [
     titleAbr: "Pm",
     title: "Mental Health Social Worker",
     name: "Jen Walker",
-    image: "Jen.jpg",
+    image: "Jen-Walker.jpg",
     accreditations: [],
     availability: [
       { day: "Call", desc: "call for an appointment", from: "", to: "", notes: "" }
