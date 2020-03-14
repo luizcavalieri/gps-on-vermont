@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8b7ad735a8050facf15875280115dd12",
+    "revision": "0b7e51cc0e0b76fcab77487985efbe41",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.8f0d8aca.chunk.css"
   },
   {
-    "revision": "0d3f0a49f28e21efa102",
+    "revision": "31450e30812f5eeae3a3",
     "url": "/static/css/main.3880a763.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.70f785a7.chunk.js.LICENSE"
   },
   {
-    "revision": "0d3f0a49f28e21efa102",
-    "url": "/static/js/main.0c0f233c.chunk.js"
+    "revision": "31450e30812f5eeae3a3",
+    "url": "/static/js/main.c0cd2d7d.chunk.js"
   },
   {
     "revision": "4eaec8f9385691ea727f",
@@ -116,8 +116,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/doc-patient-stethoscope.1da755bb.jpg"
   },
   {
-    "revision": "193b6836a750ffd3115a10232ab696ca",
-    "url": "/static/media/doctor-patient-consultation.193b6836.jpg"
+    "revision": "f13556dc206fdf8b163e098f45c51362",
+    "url": "/static/media/doctor-patient-consultation.f13556dc.jpg"
   },
   {
     "revision": "f8e7701da3ca5af97f88b9e371ed545d",
