@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6b0f4322256bafb1f8915e32ef8274a8",
+    "revision": "8d888214f1ead81cb87d47a349930f64",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.8f0d8aca.chunk.css"
   },
   {
-    "revision": "fc099610b740ab7d7442",
+    "revision": "c8cd77bbe03e799a4d4a",
     "url": "/static/css/main.1aa9ac35.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.70f785a7.chunk.js.LICENSE"
   },
   {
-    "revision": "fc099610b740ab7d7442",
-    "url": "/static/js/main.c0cd2d7d.chunk.js"
+    "revision": "c8cd77bbe03e799a4d4a",
+    "url": "/static/js/main.5db7db23.chunk.js"
   },
   {
     "revision": "4eaec8f9385691ea727f",
@@ -104,8 +104,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/child.1f381aa4.svg"
   },
   {
-    "revision": "5179b24ed976c96f9b353b68783e0dff",
-    "url": "/static/media/corona-news.5179b24e.jpg"
+    "revision": "8f41a73304773647d2fe12f6fd5fe0c8",
+    "url": "/static/media/corona-news.8f41a733.jpg"
   },
   {
     "revision": "f7cb2d390498c2969b2b1050f3e024ce",
@@ -116,8 +116,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/doc-patient-stethoscope.1da755bb.jpg"
   },
   {
-    "revision": "f13556dc206fdf8b163e098f45c51362",
-    "url": "/static/media/doctor-patient-consultation.f13556dc.jpg"
+    "revision": "eec75de2e7717bb5c526579b8ca14940",
+    "url": "/static/media/doctor-patient-consultation.eec75de2.jpg"
   },
   {
     "revision": "f8e7701da3ca5af97f88b9e371ed545d",
@@ -128,12 +128,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/eva.089c4f4e.jpg"
   },
   {
-    "revision": "19414363f20d7d7586ac9fb6ca5c1c6e",
-    "url": "/static/media/flu-news.19414363.jpg"
+    "revision": "5ddb23b0dc93e8ee9f6049742c7e63f9",
+    "url": "/static/media/flu-news.5ddb23b0.jpg"
   },
   {
-    "revision": "443b4eba6a54f1a00fb6505d6110087e",
-    "url": "/static/media/gpv-news.443b4eba.jpg"
+    "revision": "fd536e3e0c35e9c6ce66f62a20883761",
+    "url": "/static/media/gpv-news.fd536e3e.jpg"
   },
   {
     "revision": "d71420556fcc7a1d685912ba3ef91c7f",
