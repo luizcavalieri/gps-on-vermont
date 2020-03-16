@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.9a92b2f5.chunk.css",
-    "main.js": "/static/js/main.a2052099.chunk.js",
-    "main.js.map": "/static/js/main.a2052099.chunk.js.map",
+    "main.js": "/static/js/main.171c610d.chunk.js",
+    "main.js.map": "/static/js/main.171c610d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.77a88525.js",
     "runtime-main.js.map": "/static/js/runtime-main.77a88525.js.map",
     "static/css/2.8f0d8aca.chunk.css": "/static/css/2.8f0d8aca.chunk.css",
-    "static/js/2.f92b73cb.chunk.js": "/static/js/2.f92b73cb.chunk.js",
-    "static/js/2.f92b73cb.chunk.js.map": "/static/js/2.f92b73cb.chunk.js.map",
+    "static/js/2.f056bcfa.chunk.js": "/static/js/2.f056bcfa.chunk.js",
+    "static/js/2.f056bcfa.chunk.js.map": "/static/js/2.f056bcfa.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.70f6907ca1cbe54e3d70008876fb89e3.js": "/precache-manifest.70f6907ca1cbe54e3d70008876fb89e3.js",
+    "precache-manifest.baf9cee21d47d15a6224dc33ab1f85b9.js": "/precache-manifest.baf9cee21d47d15a6224dc33ab1f85b9.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.8f0d8aca.chunk.css.map": "/static/css/2.8f0d8aca.chunk.css.map",
     "static/css/main.9a92b2f5.chunk.css.map": "/static/css/main.9a92b2f5.chunk.css.map",
-    "static/js/2.f92b73cb.chunk.js.LICENSE": "/static/js/2.f92b73cb.chunk.js.LICENSE",
+    "static/js/2.f056bcfa.chunk.js.LICENSE": "/static/js/2.f056bcfa.chunk.js.LICENSE",
     "static/media/Annette-Baumgarten.jpg": "/static/media/Annette-Baumgarten.4a291657.jpg",
     "static/media/Jen-Walker.jpg": "/static/media/Jen-Walker.88124177.jpg",
     "static/media/Lara-Hopkins.jpg": "/static/media/Lara-Hopkins.48761592.jpg",
@@ -34,6 +34,7 @@
     "static/media/career.jpg": "/static/media/career.c8df1340.jpg",
     "static/media/child.svg": "/static/media/child.1f381aa4.svg",
     "static/media/corona-news.jpg": "/static/media/corona-news.8f41a733.jpg",
+    "static/media/corona-signs-au.jpg": "/static/media/corona-signs-au.9e347565.jpg",
     "static/media/creative-tim-white-slim2.png": "/static/media/creative-tim-white-slim2.f7cb2d39.png",
     "static/media/doc-patient-stethoscope.jpg": "/static/media/doc-patient-stethoscope.1da755bb.jpg",
     "static/media/doctor-patient-consultation.jpg": "/static/media/doctor-patient-consultation.eec75de2.jpg",
@@ -73,8 +74,8 @@
   "entrypoints": [
     "static/js/runtime-main.77a88525.js",
     "static/css/2.8f0d8aca.chunk.css",
-    "static/js/2.f92b73cb.chunk.js",
+    "static/js/2.f056bcfa.chunk.js",
     "static/css/main.9a92b2f5.chunk.css",
-    "static/js/main.a2052099.chunk.js"
+    "static/js/main.171c610d.chunk.js"
   ]
 }

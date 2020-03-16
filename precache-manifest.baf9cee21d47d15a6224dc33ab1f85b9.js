@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4f2175bd4c4803ef2fefa2e46421a58d",
+    "revision": "5b4e3ff0bbd298f8d8c4a2e0a4bf72fe",
     "url": "/index.html"
   },
   {
-    "revision": "5b6eae4f2c5904096802",
+    "revision": "75ec4d0b0dfe1d6d1bcc",
     "url": "/static/css/2.8f0d8aca.chunk.css"
   },
   {
-    "revision": "dac57212835c5fbdad24",
+    "revision": "f444d6851ad5f035528a",
     "url": "/static/css/main.9a92b2f5.chunk.css"
   },
   {
-    "revision": "5b6eae4f2c5904096802",
-    "url": "/static/js/2.f92b73cb.chunk.js"
+    "revision": "75ec4d0b0dfe1d6d1bcc",
+    "url": "/static/js/2.f056bcfa.chunk.js"
   },
   {
     "revision": "8ba4ad77d01405b66fb2ae9c164a3c05",
-    "url": "/static/js/2.f92b73cb.chunk.js.LICENSE"
+    "url": "/static/js/2.f056bcfa.chunk.js.LICENSE"
   },
   {
-    "revision": "dac57212835c5fbdad24",
-    "url": "/static/js/main.a2052099.chunk.js"
+    "revision": "f444d6851ad5f035528a",
+    "url": "/static/js/main.171c610d.chunk.js"
   },
   {
     "revision": "4eaec8f9385691ea727f",
@@ -106,6 +106,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8f41a73304773647d2fe12f6fd5fe0c8",
     "url": "/static/media/corona-news.8f41a733.jpg"
+  },
+  {
+    "revision": "9e34756508700b5c9b7bc53aed57ad8a",
+    "url": "/static/media/corona-signs-au.9e347565.jpg"
   },
   {
     "revision": "f7cb2d390498c2969b2b1050f3e024ce",
