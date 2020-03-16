@@ -7,14 +7,15 @@ import DarkFooter from "../../components/Footers/DarkFooter";
 import ReactLinkify from "react-linkify";
 import BookingButton from "../../components/General/BookingButton";
 import LandingPageHeader from "../../components/Headers/LandingPageHeader";
+import SocialMediaShareBar from "../../components/General/SocialMediaShareBar";
 
 const NewsDetailsPage = ({ match }) => {
-  const idFound = match.params.id;
+  const idFound = match.params.pageLink;
 
   let articles = [];
 
   if (idFound !== "all") {
-    const newsFound = newsContent.find(article => article.id === idFound);
+    const newsFound = newsContent.find(article => article.pageLink === idFound);
     if (!newsFound) return <NotFoundPage />;
     articles.push(newsFound);
   } else {
@@ -54,6 +55,7 @@ const NewsDetailsPage = ({ match }) => {
                   <Col className="d-flex flex-column" md="8" xl="8">
                     <h3 className=" text-capitalize sub-title">
                       {article.title}
+                      
                     </h3>
                     <h5 className="description text-left">
                       {article.contents[0]}
@@ -70,6 +72,7 @@ const NewsDetailsPage = ({ match }) => {
                     </h5>
                   ) : null
                 )}
+                <SocialMediaShareBar shareUrl={article.pageLink} title={article.title}/>
               </div>
             ))}
           </Container>

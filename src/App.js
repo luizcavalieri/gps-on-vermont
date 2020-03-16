@@ -34,7 +34,7 @@ import CareerPage from "./views/examples/CareerPage";
 // https://github.com/rafrex/spa-github-pages
 
 const App = () => {
-  // console.log("Host URL" + process.env.PUBLIC_URL);
+  console.log("Host URL" + process.env.PUBLIC_URL);
   return (
     <Router basename={process.env.PUBLIC_URL}>
       <ScrollToTop />
@@ -55,7 +55,7 @@ const App = () => {
         <Route path="/appointments-page" component={AppointmentsPage} />
         <Route path="/formlinks-page" component={FormLinksPage} />
         <Route path="/service-details/:id" component={ServiceDetailsPage} />
-        <Route path="/news/:id" component={NewsDetailsPage} />
+        <Route path="/news/:pageLink" component={NewsDetailsPage} />
         <Route path="/career-page" component={CareerPage} />
         <Route component={NotFoundPage} />
       </Switch>
