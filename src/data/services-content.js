@@ -5,7 +5,7 @@ const services = [
     icon: "fa fa-stethoscope fa-lg",
     image: "stethoscope.svg",
     shortIntro:
-      "We provide health assessment in view of preventing, detecting different medical and surgical conditions.",
+      "We provide health assessment with the view of preventing, detecting different medical conditions.",
     introDescriptions: [
       "Medicare subsides a number of Health Assessments that you can take advantage of at our clinic:"
     ],
@@ -49,7 +49,7 @@ const services = [
     shortIntro:
       "Flu vaccination, involves having an injection given into the upper arm by a nurse or doctor and only takes a few seconds.",
     introDescriptions: [
-      "Majority of Australians benefit from having a yearly flu vaccination. Whilst groups such as 65+ years old, pregnant women, children are those most at risk. A nurse or doctor can give the injection which is usually given into the upper arm and only takes a few seconds",
+      "The Majority of Australians benefit from having a yearly flu vaccination. Whilst groups such as 65+ years old, pregnant women, children are those most at risk. A nurse or doctor can give the injection which is usually given into the upper arm and only takes a few seconds",
       "The vaccines change each year, based on predictions of which flu strains will be most active that coming winter. They are usually given around late autumn to provide protection over the flu season. Your immunity is highest during 3-4 months after getting the flu shot therefore, we highly recommend getting immunised before the start of flu season to stay protected.",
       "Remember it’s important to get re-vaccinated every year to protect yourself against the flu viruses circulating that year. Your doctor will be able to advise you on the most adequate vaccine for you and your family, based on your age, vaccine availability and eligibility to receive vaccination free of charge."
     ],
@@ -67,7 +67,7 @@ const services = [
       "Here at GPs on Vermont we are available to advise you on any preparations needed for your future trips. It’s important to protect your health when you’re travelling inside and/or outside Australia.",
       "With appropriate planning and health checks, patients can avoid diseases and other health conditions.",
       "Overseas travel exposes people to various unfamiliar environments.",
-      "Our goal is to provide concise and current travel and health advice and vaccinations."
+      "Our goal is to provide current travel and health advice and offer vaccinations."
     ],
     items: [
       "Cholera (oral)",
@@ -122,7 +122,7 @@ const services = [
             type: "PARAGRAPH",
             title: "I’m planning on travelling. When should I see a doctor?",
             descriptions: [
-              "We recommend you make an appointment to see your GP 6-12 weeks before you travel. Remember the sooner the better! That way you have enough time to do all checks and apply any advice of your GP recommendation to ensure you are healthy and ready before your trip."
+              "We recommend you make an appointment to see your GP 6-12 weeks before you travel. Remember the sooner the better! That way you have enough time to do all the checks and apply any advice your GP may recommend to ensure you are healthy and ready before your trip."
             ]
           },
           {
@@ -139,7 +139,7 @@ const services = [
             type: "PARAGRAPH",
             title: "Do I really need vaccinations?",
             descriptions: [
-              "Yes!, Depending on where you are travelling to, there are many diseases that can be prevented if you receive the appropriate vaccination. Remember to ask your doctor which ones you need with enough time before your trip, some vaccinations take several weeks of time to become active."
+              "Yes!, Depending on where you are travelling to, there are many diseases that can be prevented if you receive the appropriate vaccination. Remember to leave enough time before your trip to ask your doctor which vaccines you need as some vaccinations take several weeks to become active."
             ]
           },
           {
@@ -170,10 +170,10 @@ const services = [
     icon: "fa fa-heartbeat fa-lg",
     image: "headbrain.svg",
     shortIntro:
-      "Counselling is an empowering process that encourages individuals to confront issues and problems, and to work at restoring well-being.",
+      "Counselling is an empowering process that encourages individuals to confront issues and problems and to work at restoring well-being.",
     introDescriptions: [
-      "The counselling process is a planned, structured dialogue between a counsellor and a client",
-      "It is a cooperative process in which a trained professional helps a person called the client to identify sources of difficulties or concerns that he or she is experiencing",
+      "The counselling process is a planned, structured dialogue between a counsellor and a client.",
+      "It is a cooperative process in which a trained professional helps a person called the client to identify sources of difficulties or concerns that he or she is experiencing.",
       "A counsellor will demonstrate unconditional acceptance, genuineness and empathy and will try to understand things from your perspective."
     ],
     items: [],
@@ -187,8 +187,8 @@ const services = [
     shortIntro:
       "We are providing patient care for all types of individuals, couples and families of all ages. We specialise in all aspects including women’s health, men’s health, children’s health, chronic illness and all major or minor injuries.",
     introDescriptions: [
-      "Here in GP’s on Vermont Medical Centre we’re committed to providing continuous long-term patient care for all types of individuals, couples and families of all ages. ",
-      "We specialise in all aspects including women’s health, men’s health, children’s health, chronic illness and all major or minor injuries. For us it is all about our patient’s needs and desired health outcomes.",
+      "Here in GP’s on Vermont Medical Centre we’re committed to providing continuous long-term patient care for all ages and types of people including individuals, couples and families.",
+      "We specialise in a broad range of health areas including women’s health, men’s health, children’s health, injures, mental health and  chronic illness. For us it is all about our patient’s needs and desired health outcomes.",
       "This clinic provides equity of access to quality care for all Australians regardless of their race, sex, age, religion, socioeconomic status or location. Good access includes affordability, the availability of appointments, intensive care, and the ability to access the GP of the patient’s choice.",
       "We are determined to treat every patient equally and with respect. Our General Practice knowledge is extensive, and we are 100% sure that we can provide a solution that best suits each individual’s situation."
     ],
@@ -355,8 +355,8 @@ const services = [
     shortIntro:
       "Sexual health is an important part of wellbeing for all ages. Find out what we’re doing to help prevent and manage sexually transmissible infections in Australia.",
     introDescriptions: [
-      "Sexually transmitted infection (STI) screening in patient who feel that it is relevant to them, sexually transmitted disease screening can be conducted during the consultation. As an STI can occur without the patient experiencing symptoms, screening is offered as part of a patient’s health check, as is a discussion about safe sex practices.",
-      "We ask that you book a 20-minute appointment for a sexual health Check.  To arrange an appointment with one of our Doctors, please phone (02) 6025 2189 or book online."
+      "Sexually transmitted infection (STI) screening is available for patients. The screening can be conducted during a regular consultation and can inlcude a discussion about safe sex practices. As many STI’s can occur without the patient experiencing symptoms, screening is recommended as part of a patient’s health check.",
+      "We ask that you book a 20-minute appointment for a sexual health check. To arrange an appointment with one of our Doctors, please phone (02) 6025 2189 or book online."
     ],
     items: [],
     sections: []

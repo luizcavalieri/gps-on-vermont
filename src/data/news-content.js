@@ -3,12 +3,11 @@ const news = [
     id: "1",
     img: "gpv-news.jpg",
     pageLink: "gps-on-vermont-opening-soon",
-    title: "Gps on Vermont is Opening Soon",
+    title: "GPs on Vermont is Opening Soon",
     contents: [
       "We are so excited to announce that GP's on Vermont is openning soon in Wodonga! Here at GP’s on Vermont Medical Centre we are passionate about providing high quality primary and preventive health care to the community.",
       "Health is important, but good health is optimal.",
-      "Make sure you come visit us and like our page for more updates.",
-      `book your appointment now following this link https://www.hotdoc.com.au/medical-centres/wodonga-VIC-3690/gps-on-vermont/doctors/`
+      "Make sure you come visit us and like our page for more updates."
     ],
     date: "01-02-2020"
   },
@@ -33,6 +32,20 @@ const news = [
       "On this webpage you can find information and guidance about the current outbreak of the coronavirus disease (COVID-19). This is a rapidly changing situation, so please visit this webpage for regular updates.",
       "Coronaviruses are a large family of viruses which may cause illness in animals or humans. In humans, several coronaviruses are known to cause respiratory infections ranging from the common cold to more severe diseases. COVID-19 is the most recently discovered coronavirus.",
       "If you suspect you may have the coronavirus disease (COVID-19), please call the dedicated hotline on 1800 675 398. Please keep Triple Zero (000) for emergencies only."
+    ],
+    date: "01-02-2020"
+  },
+  {
+    id: "4",
+    img: "corona-signs-au.jpg",
+    pageLink: "coronavirus-protect-yourself",
+    title: "Coronavirus - How can you best protect yourself and your loved ones?",
+    contents: [
+      "The best protection is to wash your hands!",
+      "Regular hand cleansing is the single most effective action to prevent infections by killing viruses and other germs that may be on your hands.",
+      "Effective hand cleansing means washing your hands for 20secs in warm, soapy water and drying them thoroughly.",
+      "Or use a alcohol-based hand sanitizer, that contains at least 60% alcohol, if you don’t have immediate access to soap and water.",
+      "To watch the World Health Organization (WHO) hand washing video please click - https://youtu.be/3PmVJQUCm4E"
     ],
     date: "01-02-2020"
   }
