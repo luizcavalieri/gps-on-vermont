@@ -17,59 +17,60 @@ import {
 } from "react-share";
 
 
-const SocialMediaShareBar = ({ shareUrl, title }) => {
+const SocialMediaShareBar = ({ shareUrl, title, description }) => {
 
     console.log(process.env.PUBLIC_URL);
     const urlToShare = "https://gpsonvermont.com.au/news/" + shareUrl;
     console.log(urlToShare);
     return (
         <>
-            <div className="Demo__some-network">
-                <FacebookShareButton
-                    url={urlToShare}
-                    quote={title}
-                    className="Demo__some-network__share-button"
-                >
-                    <FacebookIcon size={32} round />
-                </FacebookShareButton>
+            <div className="Demo__container">
+                <div className="Demo__some-network">
+                    <FacebookShareButton
+                        url={urlToShare}
+                        quote={title}
+                        className="Demo__some-network__share-button"
+                    >
+                        <FacebookIcon size={32} round />
+                    </FacebookShareButton>
 
-                <div>
-                    <FacebookShareCount url={urlToShare} className="Demo__some-network__share-count">
-                        {count => count}
-                    </FacebookShareCount>
+                    <div>
+                        <FacebookShareCount url={urlToShare} className="Demo__some-network__share-count">
+                            {count => count}
+                        </FacebookShareCount>
+                    </div>
                 </div>
-            </div>
-            <div className="Demo__some-network">
-                <TwitterShareButton
-                    url={urlToShare}
-                    title={title}
-                    className="Demo__some-network__share-button"
-                >
-                    <TwitterIcon size={32} round />
-                </TwitterShareButton>
+                <div className="Demo__some-network">
+                    <TwitterShareButton
+                        url={urlToShare}
+                        title={title}
+                        className="Demo__some-network__share-button"
+                    >
+                        <TwitterIcon size={32} round />
+                    </TwitterShareButton>
 
-                <div className="Demo__some-network__share-count">&nbsp;</div>
-            </div>
-            <div className="Demo__some-network">
-                <WhatsappShareButton
-                    url={urlToShare}
-                    title={title}
-                    separator=":: "
-                    className="Demo__some-network__share-button"
-                >
-                    <WhatsappIcon size={32} round />
-                </WhatsappShareButton>
+                    <div className="Demo__some-network__share-count">&nbsp;</div>
+                </div>
+                <div className="Demo__some-network">
+                    <WhatsappShareButton
+                        url={urlToShare}
+                        title={title}
+                        separator=":: "
+                        className="Demo__some-network__share-button"
+                    >
+                        <WhatsappIcon size={32} round />
+                    </WhatsappShareButton>
 
-                <div className="Demo__some-network__share-count">&nbsp;</div>
-            </div>
+                    <div className="Demo__some-network__share-count">&nbsp;</div>
+                </div>
 
-            <div className="Demo__some-network">
-                <LinkedinShareButton url={urlToShare} className="Demo__some-network__share-button">
-                    <LinkedinIcon size={32} round />
-                </LinkedinShareButton>
-            </div>
+                <div className="Demo__some-network">
+                    <LinkedinShareButton url={urlToShare} summary={description} source={"Gps On Vermont"} className="Demo__some-network__share-button">
+                        <LinkedinIcon size={32} round />
+                    </LinkedinShareButton>
+                </div>
 
-            {/* <div className="Demo__some-network">
+                {/* <div className="Demo__some-network">
                 <PinterestShareButton
                     url={String(window.location)}
                     media={`${String(window.location)}/${exampleImage}`}
@@ -82,30 +83,31 @@ const SocialMediaShareBar = ({ shareUrl, title }) => {
                     <PinterestShareCount url={shareUrl} className="Demo__some-network__share-count" />
                 </div>
             </div> */}
-            <div className="Demo__some-network">
-                <RedditShareButton
-                    url={urlToShare}
-                    title={title}
-                    windowWidth={660}
-                    windowHeight={460}
-                    className="Demo__some-network__share-button"
-                >
-                    <RedditIcon size={32} round />
-                </RedditShareButton>
+                <div className="Demo__some-network">
+                    <RedditShareButton
+                        url={urlToShare}
+                        title={title}
+                        windowWidth={660}
+                        windowHeight={460}
+                        className="Demo__some-network__share-button"
+                    >
+                        <RedditIcon size={32} round />
+                    </RedditShareButton>
 
-                <div>
-                    <RedditShareCount url={urlToShare} className="Demo__some-network__share-count" />
+                    <div>
+                        <RedditShareCount url={urlToShare} className="Demo__some-network__share-count" />
+                    </div>
                 </div>
-            </div>
-            <div className="Demo__some-network">
-                <EmailShareButton
-                    url={urlToShare}
-                    subject={title}
-                    body="body"
-                    className="Demo__some-network__share-button"
-                >
-                    <EmailIcon size={32} round />
-                </EmailShareButton>
+                <div className="Demo__some-network">
+                    <EmailShareButton
+                        url={urlToShare}
+                        subject={title}
+                        body="body"
+                        className="Demo__some-network__share-button"
+                    >
+                        <EmailIcon size={32} round />
+                    </EmailShareButton>
+                </div>
             </div>
         </>
     )

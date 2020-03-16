@@ -72,7 +72,7 @@ const NewsDetailsPage = ({ match }) => {
                     </h5>
                   ) : null
                 )}
-                <SocialMediaShareBar shareUrl={article.pageLink} title={article.title}/>
+                <SocialMediaShareBar shareUrl={article.pageLink} title={article.title} description={article.contents[0]}/>
               </div>
             ))}
           </Container>
