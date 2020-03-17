@@ -37,15 +37,68 @@ const news = [
   },
   {
     id: "4",
-    img: "corona-signs-au.jpg",
-    pageLink: "coronavirus-protect-yourself",
-    title: "Coronavirus - How can you best protect yourself and your loved ones?",
+    img: "covid19-protect-yourself.jpg",
+    pageLink: "coronavirus-covid-19-protect-yourself",
+    title: "Coronavirus COVID-19 - How can you best protect yourself and your loved ones?",
     contents: [
       "The best protection is to wash your hands!",
       "Regular hand cleansing is the single most effective action to prevent infections by killing viruses and other germs that may be on your hands.",
       "Effective hand cleansing means washing your hands for 20secs in warm, soapy water and drying them thoroughly.",
       "Or use a alcohol-based hand sanitizer, that contains at least 60% alcohol, if you don’t have immediate access to soap and water.",
       "To watch the World Health Organization (WHO) hand washing video please click - https://youtu.be/3PmVJQUCm4E"
+    ],
+    date: "01-02-2020"
+  },
+  {
+    id: "5",
+    img: "corona-wearing-masks.jpg",
+    pageLink: "how-to-use-surgical-face-masks",
+    title: "When and how to use surgical face masks",
+    contents: [
+      "Most members of the general public don’t need to wear masks!",
+      "At this stage If you are healthy, you only need to wear a mask if:",
+      "1. You have cold or flu symptoms and are going to be around other people.",
+      "2. You might be infected with Corona Virus (COVID-19) and are in contact with other people.",
+      "3. You are a are taking care of a person with suspected COVID-19 or another contagious infection.",
+      "However, if you want to wear a mask to feel like you are more protected you can certainly do so.",
+      "Masks are effective only when used in combination with frequent hand-cleaning with alcohol-based hand rub or soap and water. If you wear a mask, then you must know how to use it and dispose of it properly.",
+      "Please watch the following face mask video on how to correctly wear a face mask - https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/when-and-how-to-use-masks"
+    ],
+    date: "01-02-2020"
+  },
+  {
+    id: "6",
+    img: "corona-symptoms.jpg",
+    pageLink: "coronavirus-symptoms",
+    title: "Coronavirus - Local Update",
+    contents: [
+      "What are the symptoms and what should you do if you feel unwell?",
+      "Corona virus symptoms include fever, flu-like symptoms such as coughing, sore throat and fatigue, runny nose and shortness of breath.",
+      "Call us if you have cold or flu type symptoms or concerns about exposure to coronavirus we can help determine if you need to be tested.",
+      "Please note you should not attend either the Albury or Wodonga emergency departments without calling first unless you are critically unwell.",
+      "If necessary Corona Virus screening appointments can be made at Albury Wodonga Health by calling (02) 6058 4444.",
+      "The good news is that so far the Albury Wodonga Health screening clinics have not detected a positive case."
+    ],
+    date: "01-02-2020"
+  },
+  {
+    id: "7",
+    img: "covid19-isolation.jpg",
+    pageLink: "covid-19-self-isolation-tips",
+    title: "Self Isolation Tips",
+    contents: [
+      "It's important to stay at home or in your hotel and don’t go to public places including work, school, childcare, university or public gatherings to stop coronavirus spreading.",
+      "Do:",
+      "  • Try to keep at least 2 metres (3 steps) from other people in your home, particularly people over 70, or those with long-term health conditions.",
+      "  • Ask friends, family and delivery services to deliver things like food shopping and medicines but leave them outside.",
+      "  • Sleep alone, if possible.",
+      "  • Regularly wash your hands with soap and warm water for at least 20 seconds.",
+      "  • Drink plenty of water and take everyday painkillers, such as paracetamol and ibuprofen, to help with your symptoms.",
+      "Don’t:",
+      "  • Do not have visitors (ask people to leave deliveries outside.",
+      "  • Do not leave your home, for example to go for a walk, to school or to public places.",
+      "  • If you must leave home, such as to seek medical care, wear a surgical mask. If you don’t have a mask, take care to not cough or sneeze on others.",
+      "Read more advice about staying at home on https://www.health.gov.au/sites/default/files/documents/2020/03/coronavirus-covid-19-isolation-guidance_2.pdf."
     ],
     date: "01-02-2020"
   }
