@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5b4e3ff0bbd298f8d8c4a2e0a4bf72fe",
+    "revision": "0c84d4613b1cb778d0e076ca52ff2374",
     "url": "/index.html"
   },
   {
-    "revision": "75ec4d0b0dfe1d6d1bcc",
+    "revision": "95635e262463f64e0219",
     "url": "/static/css/2.8f0d8aca.chunk.css"
   },
   {
-    "revision": "f444d6851ad5f035528a",
+    "revision": "733a148b70ea4df41b78",
     "url": "/static/css/main.9a92b2f5.chunk.css"
   },
   {
-    "revision": "75ec4d0b0dfe1d6d1bcc",
-    "url": "/static/js/2.f056bcfa.chunk.js"
+    "revision": "95635e262463f64e0219",
+    "url": "/static/js/2.fbd854c3.chunk.js"
   },
   {
     "revision": "8ba4ad77d01405b66fb2ae9c164a3c05",
-    "url": "/static/js/2.f056bcfa.chunk.js.LICENSE"
+    "url": "/static/js/2.fbd854c3.chunk.js.LICENSE"
   },
   {
-    "revision": "f444d6851ad5f035528a",
-    "url": "/static/js/main.171c610d.chunk.js"
+    "revision": "733a148b70ea4df41b78",
+    "url": "/static/js/main.18bcdb8b.chunk.js"
   },
   {
     "revision": "4eaec8f9385691ea727f",
@@ -108,8 +108,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/corona-news.8f41a733.jpg"
   },
   {
-    "revision": "9e34756508700b5c9b7bc53aed57ad8a",
-    "url": "/static/media/corona-signs-au.9e347565.jpg"
+    "revision": "b65f93e2f4ab349a439d2237864caf85",
+    "url": "/static/media/corona-symptoms.b65f93e2.jpg"
+  },
+  {
+    "revision": "66c3b0a6960ed66eb541daec9586687b",
+    "url": "/static/media/corona-wearing-masks.66c3b0a6.jpg"
+  },
+  {
+    "revision": "693ab4219623518342e8adfa39c63c94",
+    "url": "/static/media/covid19-isolation.693ab421.jpg"
+  },
+  {
+    "revision": "bb395681c06ad9c337e3803978c4857a",
+    "url": "/static/media/covid19-protect-yourself.bb395681.jpg"
   },
   {
     "revision": "f7cb2d390498c2969b2b1050f3e024ce",

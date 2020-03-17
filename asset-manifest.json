@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.9a92b2f5.chunk.css",
-    "main.js": "/static/js/main.171c610d.chunk.js",
-    "main.js.map": "/static/js/main.171c610d.chunk.js.map",
+    "main.js": "/static/js/main.18bcdb8b.chunk.js",
+    "main.js.map": "/static/js/main.18bcdb8b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.77a88525.js",
     "runtime-main.js.map": "/static/js/runtime-main.77a88525.js.map",
     "static/css/2.8f0d8aca.chunk.css": "/static/css/2.8f0d8aca.chunk.css",
-    "static/js/2.f056bcfa.chunk.js": "/static/js/2.f056bcfa.chunk.js",
-    "static/js/2.f056bcfa.chunk.js.map": "/static/js/2.f056bcfa.chunk.js.map",
+    "static/js/2.fbd854c3.chunk.js": "/static/js/2.fbd854c3.chunk.js",
+    "static/js/2.fbd854c3.chunk.js.map": "/static/js/2.fbd854c3.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.baf9cee21d47d15a6224dc33ab1f85b9.js": "/precache-manifest.baf9cee21d47d15a6224dc33ab1f85b9.js",
+    "precache-manifest.1f4bdab4a46ae715649202a3d20cea56.js": "/precache-manifest.1f4bdab4a46ae715649202a3d20cea56.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.8f0d8aca.chunk.css.map": "/static/css/2.8f0d8aca.chunk.css.map",
     "static/css/main.9a92b2f5.chunk.css.map": "/static/css/main.9a92b2f5.chunk.css.map",
-    "static/js/2.f056bcfa.chunk.js.LICENSE": "/static/js/2.f056bcfa.chunk.js.LICENSE",
+    "static/js/2.fbd854c3.chunk.js.LICENSE": "/static/js/2.fbd854c3.chunk.js.LICENSE",
     "static/media/Annette-Baumgarten.jpg": "/static/media/Annette-Baumgarten.4a291657.jpg",
     "static/media/Jen-Walker.jpg": "/static/media/Jen-Walker.88124177.jpg",
     "static/media/Lara-Hopkins.jpg": "/static/media/Lara-Hopkins.48761592.jpg",
@@ -34,7 +34,10 @@
     "static/media/career.jpg": "/static/media/career.c8df1340.jpg",
     "static/media/child.svg": "/static/media/child.1f381aa4.svg",
     "static/media/corona-news.jpg": "/static/media/corona-news.8f41a733.jpg",
-    "static/media/corona-signs-au.jpg": "/static/media/corona-signs-au.9e347565.jpg",
+    "static/media/corona-symptoms.jpg": "/static/media/corona-symptoms.b65f93e2.jpg",
+    "static/media/corona-wearing-masks.jpg": "/static/media/corona-wearing-masks.66c3b0a6.jpg",
+    "static/media/covid19-isolation.jpg": "/static/media/covid19-isolation.693ab421.jpg",
+    "static/media/covid19-protect-yourself.jpg": "/static/media/covid19-protect-yourself.bb395681.jpg",
     "static/media/creative-tim-white-slim2.png": "/static/media/creative-tim-white-slim2.f7cb2d39.png",
     "static/media/doc-patient-stethoscope.jpg": "/static/media/doc-patient-stethoscope.1da755bb.jpg",
     "static/media/doctor-patient-consultation.jpg": "/static/media/doctor-patient-consultation.eec75de2.jpg",
@@ -74,8 +77,8 @@
   "entrypoints": [
     "static/js/runtime-main.77a88525.js",
     "static/css/2.8f0d8aca.chunk.css",
-    "static/js/2.f056bcfa.chunk.js",
+    "static/js/2.fbd854c3.chunk.js",
     "static/css/main.9a92b2f5.chunk.css",
-    "static/js/main.171c610d.chunk.js"
+    "static/js/main.18bcdb8b.chunk.js"
   ]
 }
