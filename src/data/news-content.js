@@ -17,7 +17,7 @@ const news = [
     pageLink: "flu-vaccination",
     title: "Flu Vaccination",
     contents: [
-      "Flu vaccines will be in stock in late March, but we are recommending that you wait until May before being vaccinated. Our flu vaccination clinic will be run by out practice nurses. You can receive a flu vaccine during the course of your consultation with your doctor if you prefer.",
+      "Flu vaccines will be in stock in late March, but we are recommending that you wait until May before being vaccinated. Our flu vaccination clinic will be run by our practice nurses. You can receive a flu vaccine during the course of your consultation with your doctor if you prefer.",
       "People eligible for free influenza vaccine: All children aged six months to less than five years - Victorian government funded. All Aboriginal and Torres Strait Islander people aged from six months. All adults aged ≥65 years"
     ],
     date: "31-01-2020"
@@ -47,7 +47,7 @@ const news = [
       "Or use a alcohol-based hand sanitizer, that contains at least 60% alcohol, if you don’t have immediate access to soap and water.",
       "To watch the World Health Organization (WHO) hand washing video please click - https://youtu.be/3PmVJQUCm4E"
     ],
-    date: "01-02-2020"
+    date: "10-02-2020"
   },
   {
     id: "5",
@@ -64,7 +64,7 @@ const news = [
       "Masks are effective only when used in combination with frequent hand-cleaning with alcohol-based hand rub or soap and water. If you wear a mask, then you must know how to use it and dispose of it properly.",
       "Please watch the following face mask video on how to correctly wear a face mask - https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/when-and-how-to-use-masks"
     ],
-    date: "01-02-2020"
+    date: "12-03-2020"
   },
   {
     id: "6",
@@ -79,7 +79,7 @@ const news = [
       "If necessary Corona Virus screening appointments can be made at Albury Wodonga Health by calling (02) 6058 4444.",
       "The good news is that so far the Albury Wodonga Health screening clinics have not detected a positive case."
     ],
-    date: "01-02-2020"
+    date: "16-03-2020"
   },
   {
     id: "7",
@@ -95,12 +95,12 @@ const news = [
       "  • Regularly wash your hands with soap and warm water for at least 20 seconds.",
       "  • Drink plenty of water and take everyday painkillers, such as paracetamol and ibuprofen, to help with your symptoms.",
       "Don’t:",
-      "  • Do not have visitors (ask people to leave deliveries outside.",
+      "  • Do not have visitors (ask people to leave deliveries outside).",
       "  • Do not leave your home, for example to go for a walk, to school or to public places.",
       "  • If you must leave home, such as to seek medical care, wear a surgical mask. If you don’t have a mask, take care to not cough or sneeze on others.",
       "Read more advice about staying at home on https://www.health.gov.au/sites/default/files/documents/2020/03/coronavirus-covid-19-isolation-guidance_2.pdf."
     ],
-    date: "01-02-2020"
+    date: "18-03-2020"
   }
 ];
 
