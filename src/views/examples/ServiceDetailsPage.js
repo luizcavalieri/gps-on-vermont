@@ -2,12 +2,11 @@ import React from "react";
 import OtherNavbar from "../../components/NavBars/OtherNavbar";
 import { Container, Row, Col } from "reactstrap";
 import DarkFooter from "../../components/Footers/DarkFooter";
-import { Redirect, useHistory } from "react-router-dom";
+import { Redirect } from "react-router-dom";
 import IconCheckList from "../../components/General/IconCheckList";
 import servicesContent from "../../data/services-content";
 import LandingPageHeader from "../../components/Headers/LandingPageHeader";
 import BackButton from "../../components/General/BackButton";
-
 
 const ServiceDetailsPage = ({ match }) => {
   const idParam = match.params.id;
@@ -23,15 +22,6 @@ const ServiceDetailsPage = ({ match }) => {
   } else {
     const service = services[0];
     let path = "our-services-people.jpg";
-
-    // function BackButton({ children }) {
-    //   let history = useHistory()
-    //   return (
-    //     <button type="button" onClick={() => history.goBack()}>
-    //       {children}
-    //     </button>
-    //   )
-    // }
 
     return (
       <>

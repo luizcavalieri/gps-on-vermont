@@ -16,6 +16,7 @@
     "react-device-detect": "^1.11.14",
     "react-dom": "^16.13.0",
     "react-iframe": "^1.8.0",
+    "react-js-pagination": "^3.0.3",
     "react-linkify": "^1.0.0-alpha",
     "react-multi-carousel": "^2.5.2",
     "react-ribbons": "^1.0.6",

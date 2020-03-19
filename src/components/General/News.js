@@ -1,15 +1,7 @@
 import React from "react";
-import {
-  CardBody,
-  Card,
-  CardHeader,
-  CardFooter,
-  Media,
-  Col,
-  Row
-} from "reactstrap";
-import { Link } from "react-router-dom";
 import { RibbonContainer, RightLargeRibbon } from "react-ribbons";
+import { Link } from "react-router-dom";
+import { Card, CardBody, CardFooter, CardHeader, Col, Media, Row } from "reactstrap";
 import jobOffers from "../../data/job-offers";
 
 const News = ({ news }) => {
@@ -75,20 +67,21 @@ const News = ({ news }) => {
                       <p className="preview-content">
                         {item.contents[0].length > TEXT_SIZE
                           ? item.contents[0]
-                              .substring(0, TEXT_SIZE)
-                              .concat("...")
+                            .substring(0, TEXT_SIZE)
+                            .concat("...")
                           : item.contents[0]}
                       </p>
                       {item.contents[0].length > TEXT_SIZE ||
-                      item.contents.length > 1 ? (
-                        <Link to={`/news/${item.pageLink}`}>
-                          <div className="read-more">Read more</div>
-                        </Link>
-                      ) : null}
+                        item.contents.length > 1 ? (
+                          <Link to={`/news/${item.pageLink}`}>
+                            <div className="read-more">Read more</div>
+                          </Link>
+                        ) : null}
                     </Media>
                   </Col>
                 </Row>
               </Media>
+
             </Card>
           ))}
         </CardBody>

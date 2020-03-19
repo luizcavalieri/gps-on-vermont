@@ -1,22 +1,22 @@
 import React, { useEffect } from "react";
-
-// reactstrap components
-import { Container, Row, Col } from "reactstrap";
-
-// core components
-import HomeNavbar from "../../components/NavBars/HomeNavbar";
-import LandingPageHeader from "../../components/Headers/LandingPageHeader.js";
-import { headerScrolling } from "./commons";
-import newsContent from "../../data/news-content";
-import News from "../../components/General/News";
-import OpeningHours from "../../components/General/OpeningHours";
-import DarkFooter from "../../components/Footers/DarkFooter";
-import ServiceCardBlock from "../../components/General/ServiceCardBlock";
-import BarButtonsLandPageHeader from "../../components/General/BarButtonsLandPageHeader";
-import staffContent from "../../data/staff-content";
-import OurTeam from "../../components/General/OurTeam";
+import { Link } from "react-router-dom";
 //////////just as an example of how to avoid typescript check ///@ts-ignore
 import ScrollUpButton from "react-scroll-up-button";
+// reactstrap components
+import { Button, Col, Container, Row } from "reactstrap";
+import DarkFooter from "../../components/Footers/DarkFooter";
+import BarButtonsLandPageHeader from "../../components/General/BarButtonsLandPageHeader";
+import NewsCardsPreview from "../../components/General/NewsCardsPreview";
+import OurTeam from "../../components/General/OurTeam";
+import ServiceCardBlock from "../../components/General/ServiceCardBlock";
+import LandingPageHeader from "../../components/Headers/LandingPageHeader.js";
+// core components
+import HomeNavbar from "../../components/NavBars/HomeNavbar";
+import newsContent from "../../data/news-content";
+import staffContent from "../../data/staff-content";
+import { headerScrolling } from "./commons";
+
+
 
 function LandingPage() {
   // const [firstFocus, setFirstFocus] = useState(false);
@@ -27,6 +27,16 @@ function LandingPage() {
   useEffect(() => {
     headerScrolling();
   });
+
+  let seeMoreComponent = (
+            <Row>
+                <Col className="d-flex justify-content-center">
+                    <Link className="text-info" to="/news-nav/all">
+                        <Button color="info" className=" font-paragraph" >See More</Button>
+                    </Link>
+                </Col>
+            </Row>
+            );
 
   return (
     <>
@@ -46,7 +56,8 @@ function LandingPage() {
             <BarButtonsLandPageHeader />
             <Row>
               <Col className="ml-auto mr-auto text-center" md="8">
-                <h2 className="title">Who we are?</h2>
+                <h2 className="title text-muted">Who we are?</h2>
+                {/* <hr className="line-segment" /> */}
                 <h5 className="description">
                   At GPs on Vermont Medical Centre we are passionate about
                   providing high quality primary and preventive health care to
@@ -56,12 +67,15 @@ function LandingPage() {
                   a long and fulfilling life of physical, emotional and social
                   wellbeing.
                 </h5>
+                {/* <hr className="line-segment" /> */}
               </Col>
+
             </Row>
+
           </Container>
         </div>
 
-        <div>
+        {/* <div>
           <Container>
             <Row>
               <Col md="12" xl="8">
@@ -72,11 +86,20 @@ function LandingPage() {
               </Col>
             </Row>
           </Container>
+
+        </div> */}
+
+
+        <div className="section section-team text-center">
+          <Container>
+            <h2 className="title text-muted">Latest News</h2>
+            <NewsCardsPreview news={newsContent} start={0} quantity={3} bottomComponenet={seeMoreComponent}/>
+          </Container>
         </div>
 
         <div className="section section-team text-center">
           <Container>
-            <h2 className="title">Our Services</h2>
+            <h2 className="title text-muted">Our Services</h2>
             <div className="team">
               <ServiceCardBlock />
             </div>
@@ -85,8 +108,7 @@ function LandingPage() {
 
         <div className="section section-team text-center">
           <Container>
-            <h2 className="title">Here is our team</h2>
-
+            <h2 className="title text-muted">Here is our team</h2>
             <OurTeam staffData={staffContent} />
           </Container>
         </div>

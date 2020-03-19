@@ -5,11 +5,11 @@ const news = [
     pageLink: "gps-on-vermont-opening-soon",
     title: "GPs on Vermont is Opening Soon",
     contents: [
-      "We are so excited to announce that GP's on Vermont is openning soon in Wodonga! Here at GP’s on Vermont Medical Centre we are passionate about providing high quality primary and preventive health care to the community.",
-      "Health is important, but good health is optimal.",
+      "We are so excited to announce that GP's on Vermont is openning soon in Wodonga! We are very excited to be able to offer bulk-billed consultations and exceptional care to the Wodonga community.", 
+      "Come and discuss your healthcare needs or concerns with us we are ready and willing to assist you.",
       "Make sure you come visit us and like our page for more updates."
     ],
-    date: "01-02-2020"
+    date: "2020-02-01"
   },
   {
     id: "2",
@@ -20,7 +20,7 @@ const news = [
       "Flu vaccines will be in stock in late March, but we are recommending that you wait until May before being vaccinated. Our flu vaccination clinic will be run by our practice nurses. You can receive a flu vaccine during the course of your consultation with your doctor if you prefer.",
       "People eligible for free influenza vaccine: All children aged six months to less than five years - Victorian government funded. All Aboriginal and Torres Strait Islander people aged from six months. All adults aged ≥65 years"
     ],
-    date: "31-01-2020"
+    date: "2020-02-10"
   },
   {
     id: "3",
@@ -33,7 +33,7 @@ const news = [
       "Coronaviruses are a large family of viruses which may cause illness in animals or humans. In humans, several coronaviruses are known to cause respiratory infections ranging from the common cold to more severe diseases. COVID-19 is the most recently discovered coronavirus.",
       "If you suspect you may have the coronavirus disease (COVID-19), please call the dedicated hotline on 1800 675 398. Please keep Triple Zero (000) for emergencies only."
     ],
-    date: "01-02-2020"
+    date: "2020-02-12"
   },
   {
     id: "4",
@@ -47,7 +47,7 @@ const news = [
       "Or use a alcohol-based hand sanitizer, that contains at least 60% alcohol, if you don’t have immediate access to soap and water.",
       "To watch the World Health Organization (WHO) hand washing video please click - https://youtu.be/3PmVJQUCm4E"
     ],
-    date: "10-02-2020"
+    date: "2020-02-19"
   },
   {
     id: "5",
@@ -64,7 +64,7 @@ const news = [
       "Masks are effective only when used in combination with frequent hand-cleaning with alcohol-based hand rub or soap and water. If you wear a mask, then you must know how to use it and dispose of it properly.",
       "Please watch the following face mask video on how to correctly wear a face mask - https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/when-and-how-to-use-masks"
     ],
-    date: "12-03-2020"
+    date: "2020-03-04"
   },
   {
     id: "6",
@@ -79,7 +79,7 @@ const news = [
       "If necessary Corona Virus screening appointments can be made at Albury Wodonga Health by calling (02) 6058 4444.",
       "The good news is that so far the Albury Wodonga Health screening clinics have not detected a positive case."
     ],
-    date: "16-03-2020"
+    date: "2020-03-16"
   },
   {
     id: "7",
@@ -100,7 +100,7 @@ const news = [
       "  • If you must leave home, such as to seek medical care, wear a surgical mask. If you don’t have a mask, take care to not cough or sneeze on others.",
       "Read more advice about staying at home on https://www.health.gov.au/sites/default/files/documents/2020/03/coronavirus-covid-19-isolation-guidance_2.pdf."
     ],
-    date: "18-03-2020"
+    date: "2020-03-18"
   }
 ];
 

@@ -440,7 +440,7 @@ const services = [
     icon: "fa fa-baby fa-lg",
     image: "child.svg",
     shortIntro:
-      "The Australian National Immunisation Program (NIP) recommends and funds immunisation against 13 diseases for Australian children aged 0-4 years. To be fully protected against some diseases, your child might need to be immunised 2-4 times at different ages.",
+      "The National Immunisation Program (NIP) Recommends And Funds Immunisation Against 13 Diseases For Australian Children Aged 0-4 Years. Some Diseases Require Your Child To Be Immunised 2-4 Times At Various Ages.",
     introDescriptions: [
       "Under the National Immunisation Program, vaccination is free for Australian children.",
       "Immunisation from an early age helps protect your child against serious childhood infections.",
@@ -581,7 +581,7 @@ const services = [
     icon: "fa fa-flag fa-lg",
     image: "aboriginalflag.svg",
     shortIntro:
-      "'Aboriginal health' means not just the physical well-being of an individual but refers to the social, emotional and cultural well-being of the whole Community in which each individual is able to achieve their full potential as a human being thereby bringing about the total well-being of their Community.",
+      "'Aboriginal Health' Entails Not Just The Physical Well-Being Of An Individual But Also The Social, Emotional And Cultural Well-Being Of The Whole Community.",
     introDescriptions: [],
     items: [],
     sections: [

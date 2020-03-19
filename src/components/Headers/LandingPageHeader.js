@@ -11,7 +11,6 @@ const LandingPageHeader = ({ title, backgroundImgName, imageClassName, contentCl
   if(!contentClassName) contentClassName="content-center";
   if(!titleClassName) titleClassName="title-landing-page"
 
-  // const path = "../../assets/img/";
   useEffect(() => {
     if (window.innerWidth > 991) {
       const updateScroll = () => {
@@ -37,7 +36,6 @@ const LandingPageHeader = ({ title, backgroundImgName, imageClassName, contentCl
         ></div>
         <div className={contentClassName}>
           <Container>
-            {/* <h1 className="title-landing-page">{title}</h1> */}
             <h1 className={titleClassName}>{title}</h1>
           </Container>
         </div>

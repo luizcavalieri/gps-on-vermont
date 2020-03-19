@@ -21,7 +21,7 @@ const ServiceCard = ({ service, className: passedClasses }) => {
           <CardHeader>
             <CardImg
               className=" img-fluid "
-              alt="..."
+              alt={service.title}
               src={require(`../../assets/img/${path}`)}
               top
             >
@@ -30,11 +30,11 @@ const ServiceCard = ({ service, className: passedClasses }) => {
           <CardBody>
             <CardTitle
               tag="h4"
-              className="business-card-title service-preview-card-body-title"
+              className="text-muted business-card-title service-preview-card-body-title"
             >
               {service.title}
             </CardTitle>
-            <CardText className="category text-primary">
+            <CardText className="category text-primary" style={{height: 170}}>
               {service.shortIntro}
             </CardText>
             <Link to={`/service-details/${service.id}`}>

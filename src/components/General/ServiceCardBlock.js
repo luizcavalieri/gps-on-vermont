@@ -7,7 +7,7 @@ const ServiceCardBlock = () => {
 
   return (
     <>
-      <Row>
+      <Row >
         {servicesContent.map((item, index) => (
           <Col key={index} xl="4" lg="4" md="6" className="service-preview-card-col">
             <ServiceCard service={item} />
