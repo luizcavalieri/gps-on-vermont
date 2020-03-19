@@ -6,6 +6,7 @@ import { Container } from 'reactstrap';
 import NewsCardsPreviewPagination from '../../components/General/NewsCardsPreviewPagination';
 import { headerScrolling } from './commons';
 import DarkFooter from '../../components/Footers/DarkFooter';
+import BackButton from '../../components/General/BackButton';
 
 const NewsNavigationPage = () => {
 
@@ -24,6 +25,7 @@ const NewsNavigationPage = () => {
                     titleClassName={"title-small-header"}
                 />
                 <div className="section text-center" >
+                    <BackButton children={"Go Back"} className="btn-round our-services-go-back-button" />
                     <Container className="text-muted">
                         <NewsCardsPreviewPagination itemsPerPage={6} />
                     </Container>

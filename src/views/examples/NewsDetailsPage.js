@@ -7,11 +7,12 @@ import LandingPageHeader from "../../components/Headers/LandingPageHeader";
 import OtherNavbar from "../../components/NavBars/OtherNavbar";
 import newsContent from "../../data/news-content";
 import NotFoundPage from "./NotFoundPage";
+import BackButton from "../../components/General/BackButton";
 
 
 const NewsDetailsPage = ({ match }) => {
   const idFound = match.params.pageLink;
-  
+
   let articles = [];
 
   if (idFound !== "all") {
@@ -32,8 +33,9 @@ const NewsDetailsPage = ({ match }) => {
           contentClassName={"content-center-other-pages"}
           titleClassName={"title-small-header"}
         />
-        <div className="section text-center mb-5" style={{ padding: 0 }}>
-          <Container className="text-muted">
+        <div className="section text-center mb-5 ">
+          <BackButton children={"Go Back"} className="btn-round our-services-go-back-button" />
+          <Container className="text-muted ">
             {articles.map((article, index) => (
               <NewsDetail key={index} article={article} />
             ))}

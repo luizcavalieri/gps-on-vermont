@@ -51,12 +51,12 @@ function LandingPage() {
           titleClassName={"title-landing-page"}
         />
 
-        <div className="section section-about-us">
+        <div className="section section-about-us" >
           <Container>
             <BarButtonsLandPageHeader />
             <Row>
               <Col className="ml-auto mr-auto text-center" md="8">
-                <h2 className="title text-muted">Who we are?</h2>
+                <h2 className="title text-muted">Welcome!</h2>
                 {/* <hr className="line-segment" /> */}
                 <h5 className="description">
                   At GPs on Vermont Medical Centre we are passionate about
@@ -90,14 +90,14 @@ function LandingPage() {
         </div> */}
 
 
-        <div className="section section-team text-center">
+        <div className="section section-team text-center" style={{padding: 0}}>
           <Container>
             <h2 className="title text-muted">Latest News</h2>
             <NewsCardsPreview news={newsContent} start={0} quantity={3} bottomComponenet={seeMoreComponent}/>
           </Container>
         </div>
 
-        <div className="section section-team text-center">
+        <div className="section section-team text-center" style={{padding: 0}}>
           <Container>
             <h2 className="title text-muted">Our Services</h2>
             <div className="team">
@@ -106,7 +106,7 @@ function LandingPage() {
           </Container>
         </div>
 
-        <div className="section section-team text-center">
+        <div className="section section-team text-center" style={{padding: 0}}>
           <Container>
             <h2 className="title text-muted">Here is our team</h2>
             <OurTeam staffData={staffContent} />

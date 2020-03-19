@@ -101,6 +101,19 @@ const news = [
       "Read more advice about staying at home on https://www.health.gov.au/sites/default/files/documents/2020/03/coronavirus-covid-19-isolation-guidance_2.pdf."
     ],
     date: "2020-03-18"
+  },
+  {
+    id: "8",
+    img: "gpv-yes-we-are-open.jpg",
+    pageLink: "gps-on-vermont-we-are-open",
+    title: "Gwambunna and Welcome",
+    contents: [
+      "We are delighted to announce that GPs on Vermont Medical Centre is now open! We are very excited to be able to offer bulk-billed consultations and exceptional care to the Albury Wodonga community.",
+      "Come and discuss your healthcare needs or concerns with us we are ready and willing to assist you.",
+      "Call one of our friendly staff on (02) 6025 2189 to make an appointment or pop into the clinic during opening hours. We are located at 80 Vermont St, Wodonga VIC 3690",
+      "We look forward to meeting you :) "
+    ],
+    date: "2020-03-19"
   }
 ];
 
