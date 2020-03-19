@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "58985078cd8db20458531bcaba7dbc1c",
+    "revision": "84d5ce70b4b1ca519a476f68ad2a035e",
     "url": "/index.html"
   },
   {
-    "revision": "69d4fc814bb5a4f88389",
+    "revision": "37ababa714499612aa19",
     "url": "/static/css/2.8f0d8aca.chunk.css"
   },
   {
-    "revision": "86999c9db9a1d44cdf5d",
+    "revision": "f1f058cc5f016047be49",
     "url": "/static/css/main.d3f56d3c.chunk.css"
   },
   {
-    "revision": "69d4fc814bb5a4f88389",
-    "url": "/static/js/2.0dbdcf41.chunk.js"
+    "revision": "37ababa714499612aa19",
+    "url": "/static/js/2.e8d15791.chunk.js"
   },
   {
     "revision": "8ba4ad77d01405b66fb2ae9c164a3c05",
-    "url": "/static/js/2.0dbdcf41.chunk.js.LICENSE"
+    "url": "/static/js/2.e8d15791.chunk.js.LICENSE"
   },
   {
-    "revision": "86999c9db9a1d44cdf5d",
-    "url": "/static/js/main.1d119dd5.chunk.js"
+    "revision": "f1f058cc5f016047be49",
+    "url": "/static/js/main.ef59b1d3.chunk.js"
   },
   {
     "revision": "4eaec8f9385691ea727f",
@@ -108,20 +108,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/corona-news.8f41a733.jpg"
   },
   {
-    "revision": "b65f93e2f4ab349a439d2237864caf85",
-    "url": "/static/media/corona-symptoms.b65f93e2.jpg"
+    "revision": "6dc208f37757fbfa12ad390b1a457067",
+    "url": "/static/media/corona-symptoms.6dc208f3.jpg"
   },
   {
-    "revision": "66c3b0a6960ed66eb541daec9586687b",
-    "url": "/static/media/corona-wearing-masks.66c3b0a6.jpg"
+    "revision": "99ae631bbaca1b4200bc681d6340c030",
+    "url": "/static/media/corona-wearing-masks.99ae631b.jpg"
   },
   {
     "revision": "693ab4219623518342e8adfa39c63c94",
     "url": "/static/media/covid19-isolation.693ab421.jpg"
   },
   {
-    "revision": "bb395681c06ad9c337e3803978c4857a",
-    "url": "/static/media/covid19-protect-yourself.bb395681.jpg"
+    "revision": "a3e29e837c9ec07df02a22f7461c4371",
+    "url": "/static/media/covid19-protect-yourself.a3e29e83.jpg"
   },
   {
     "revision": "f7cb2d390498c2969b2b1050f3e024ce",
