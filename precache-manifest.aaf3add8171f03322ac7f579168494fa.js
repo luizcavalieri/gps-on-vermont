@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "84d5ce70b4b1ca519a476f68ad2a035e",
+    "revision": "6ddeb52a62c4b9ff6e4e0dfaedd9809e",
     "url": "/index.html"
   },
   {
-    "revision": "37ababa714499612aa19",
+    "revision": "03c2ea0b53d8968e8450",
     "url": "/static/css/2.8f0d8aca.chunk.css"
   },
   {
-    "revision": "f1f058cc5f016047be49",
-    "url": "/static/css/main.d3f56d3c.chunk.css"
+    "revision": "e4576eb2fa1ee0d3f278",
+    "url": "/static/css/main.84c89150.chunk.css"
   },
   {
-    "revision": "37ababa714499612aa19",
-    "url": "/static/js/2.e8d15791.chunk.js"
+    "revision": "03c2ea0b53d8968e8450",
+    "url": "/static/js/2.fdc94409.chunk.js"
   },
   {
     "revision": "8ba4ad77d01405b66fb2ae9c164a3c05",
-    "url": "/static/js/2.e8d15791.chunk.js.LICENSE"
+    "url": "/static/js/2.fdc94409.chunk.js.LICENSE"
   },
   {
-    "revision": "f1f058cc5f016047be49",
-    "url": "/static/js/main.ef59b1d3.chunk.js"
+    "revision": "e4576eb2fa1ee0d3f278",
+    "url": "/static/js/main.f20525ed.chunk.js"
   },
   {
     "revision": "4eaec8f9385691ea727f",
@@ -150,6 +150,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "fd536e3e0c35e9c6ce66f62a20883761",
     "url": "/static/media/gpv-news.fd536e3e.jpg"
+  },
+  {
+    "revision": "9786d0118592fba544349473d9cd0f53",
+    "url": "/static/media/gpv-yes-we-are-open.9786d011.jpg"
   },
   {
     "revision": "d71420556fcc7a1d685912ba3ef91c7f",
