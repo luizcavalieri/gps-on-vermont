@@ -7,6 +7,7 @@ import { Button, Col, Container, Row } from "reactstrap";
 import DarkFooter from "../../components/Footers/DarkFooter";
 import BarButtonsLandPageHeader from "../../components/General/BarButtonsLandPageHeader";
 import NewsCardsPreview from "../../components/General/NewsCardsPreview";
+import OpeningHours2 from "../../components/General/OpeninHours2";
 import OurTeam from "../../components/General/OurTeam";
 import ServiceCardBlock from "../../components/General/ServiceCardBlock";
 import LandingPageHeader from "../../components/Headers/LandingPageHeader.js";
@@ -23,20 +24,20 @@ function LandingPage() {
   // const [lastFocus, setLastFocus] = useState(false);
 
   const messageTitle = "GPs On Vermont Medical Centre";
-
+  const bulkBilled = "gpv-bulk-billed-medical-centre.png";
   useEffect(() => {
     headerScrolling();
   });
 
   let seeMoreComponent = (
-            <Row>
-                <Col className="d-flex justify-content-center">
-                    <Link className="text-info" to="/news-nav/all">
-                        <Button color="info" className=" font-paragraph" >See More</Button>
-                    </Link>
-                </Col>
-            </Row>
-            );
+    <Row>
+      <Col className="d-flex justify-content-center">
+        <Link className="text-info" to="/news-nav/all">
+          <Button color="info" className=" font-paragraph" >See More</Button>
+        </Link>
+      </Col>
+    </Row>
+  );
 
   return (
     <>
@@ -52,13 +53,19 @@ function LandingPage() {
         />
 
         <div className="section section-about-us" >
-          <Container>
+          <Container >
             <BarButtonsLandPageHeader />
             <Row>
-              <Col className="ml-auto mr-auto text-center" md="8">
-                <h2 className="title text-muted">Welcome!</h2>
+              <Col className="ml-auto mr-auto text-center align-content-center" md="12" >
+                <h2 className="title text-muted ml-auto">Welcome!</h2>
                 {/* <hr className="line-segment" /> */}
-                <h5 className="description">
+              </Col>
+            </Row>
+            <Row >
+              <Col sm="12" lg="3" ></Col>
+
+              <Col sm="12" lg="6" className="">
+                <h5 className="description text-center">
                   At GPs on Vermont Medical Centre we are passionate about
                   providing high quality primary and preventive health care to
                   the community. Health is important, but good health is
@@ -66,38 +73,29 @@ function LandingPage() {
                   preventative approach to your health is the key to sustaining
                   a long and fulfilling life of physical, emotional and social
                   wellbeing.
-                </h5>
-                {/* <hr className="line-segment" /> */}
+                  </h5>
               </Col>
-
+              <Col sm="12" md="6" lg="3" className="ml-auto mr-auto text-center bulk-billed-image" >
+                <img className="img-fluid pb-2" width={"80%"} src={require(`../../assets/img/${bulkBilled}`)} alt={bulkBilled} />
+              </Col>
             </Row>
-
+            <Row >
+              <Col sm="12" md="6" lg="6" className="ml-auto mr-auto text-center" >
+                <h2 className="title text-muted">Opening Hours</h2>
+                <OpeningHours2 />
+              </Col>
+            </Row>
           </Container>
         </div>
 
-        {/* <div>
-          <Container>
-            <Row>
-              <Col md="12" xl="8">
-                <News news={newsContent} />
-              </Col>
-              <Col md="12" xl="4">
-                <OpeningHours />
-              </Col>
-            </Row>
-          </Container>
-
-        </div> */}
-
-
-        <div className="section section-team text-center" style={{padding: 0}}>
+        <div className="section section-team text-center" style={{ padding: 0 }}>
           <Container>
             <h2 className="title text-muted">Latest News</h2>
-            <NewsCardsPreview news={newsContent} start={0} quantity={3} bottomComponenet={seeMoreComponent}/>
+            <NewsCardsPreview news={newsContent} start={0} quantity={3} bottomComponenet={seeMoreComponent} />
           </Container>
         </div>
 
-        <div className="section section-team text-center" style={{padding: 0}}>
+        <div className="section section-team text-center" style={{ padding: 0 }}>
           <Container>
             <h2 className="title text-muted">Our Services</h2>
             <div className="team">
@@ -106,7 +104,7 @@ function LandingPage() {
           </Container>
         </div>
 
-        <div className="section section-team text-center" style={{padding: 0}}>
+        <div className="section section-team text-center" style={{ padding: 0 }}>
           <Container>
             <h2 className="title text-muted">Here is our team</h2>
             <OurTeam staffData={staffContent} />
