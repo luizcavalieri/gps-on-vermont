@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6ddeb52a62c4b9ff6e4e0dfaedd9809e",
+    "revision": "4fceab0b68cc343912c05ccaa2bd4da6",
     "url": "/index.html"
   },
   {
-    "revision": "03c2ea0b53d8968e8450",
+    "revision": "6930bb129c6efde677d0",
     "url": "/static/css/2.8f0d8aca.chunk.css"
   },
   {
-    "revision": "e4576eb2fa1ee0d3f278",
-    "url": "/static/css/main.84c89150.chunk.css"
+    "revision": "c95ad780e2d437d473fd",
+    "url": "/static/css/main.eee0cd41.chunk.css"
   },
   {
-    "revision": "03c2ea0b53d8968e8450",
-    "url": "/static/js/2.fdc94409.chunk.js"
+    "revision": "6930bb129c6efde677d0",
+    "url": "/static/js/2.98edaf60.chunk.js"
   },
   {
     "revision": "8ba4ad77d01405b66fb2ae9c164a3c05",
-    "url": "/static/js/2.fdc94409.chunk.js.LICENSE"
+    "url": "/static/js/2.98edaf60.chunk.js.LICENSE"
   },
   {
-    "revision": "e4576eb2fa1ee0d3f278",
-    "url": "/static/js/main.f20525ed.chunk.js"
+    "revision": "c95ad780e2d437d473fd",
+    "url": "/static/js/main.ca1f591f.chunk.js"
   },
   {
     "revision": "4eaec8f9385691ea727f",
@@ -148,8 +148,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/flu-news.5ddb23b0.jpg"
   },
   {
+    "revision": "b6d67a99b892a0aff4196f90deb50b50",
+    "url": "/static/media/gpv-bulk-billed-medical-centre.b6d67a99.png"
+  },
+  {
     "revision": "fd536e3e0c35e9c6ce66f62a20883761",
     "url": "/static/media/gpv-news.fd536e3e.jpg"
+  },
+  {
+    "revision": "eed5604395f7fc7ccf688c48947ec8c3",
+    "url": "/static/media/gpv-opening-hours.eed56043.jpg"
   },
   {
     "revision": "9786d0118592fba544349473d9cd0f53",
