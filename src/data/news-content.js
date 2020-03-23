@@ -77,7 +77,10 @@ const news = [
       "Call us if you have cold or flu type symptoms or concerns about exposure to coronavirus we can help determine if you need to be tested.",
       "Please note you should not attend either the Albury or Wodonga emergency departments without calling first unless you are critically unwell.",
       "If necessary Corona Virus screening appointments can be made at Albury Wodonga Health by calling (02) 6058 4444.",
-      "The good news is that so far the Albury Wodonga Health screening clinics have not detected a positive case."
+      "The good news is that so far the Albury Wodonga Health screening clinics have not detected a positive case.",
+      "If you have symptoms or are seeking information on coronavirus (COVID-19), call the National Coronavirus Helpline on 1800 020 080. The line operates 24 hours a day, seven days a week.",
+      "If you have serious symptoms such as difficulty breathing, call 000 for urgent medical help.",
+      "Find more information here: https://www.health.gov.au/news/health-alerts/novel-coronavirus-2019-ncov-health-alert"
     ],
     date: "2020-03-16"
   },

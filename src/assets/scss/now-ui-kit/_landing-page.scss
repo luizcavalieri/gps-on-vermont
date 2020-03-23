@@ -96,6 +96,14 @@ https://stackoverflow.com/questions/41574776/what-is-class-mb-0-in-bootstrap-4
     font-weight: bold;
     font-size: medium;
   }
+  .ad-card-title{
+    font-size: 1.4rem;
+    // color: #e95e38;
+    // color: #ff9172;
+    // color: #ff9679;
+    // color: #ff9248;
+    color: #ffa579;
+  }
 }
 
 /* Small devices (landscape phones, 320px and up) */
@@ -125,6 +133,9 @@ https://stackoverflow.com/questions/41574776/what-is-class-mb-0-in-bootstrap-4
     font-weight: bold;
     font-size: large;
   }
+  .ad-card-title{
+    font-size: 1.5rem;
+  }
 }
 
 /* Small devices (landscape phones, 411px and up) */
@@ -141,6 +152,9 @@ https://stackoverflow.com/questions/41574776/what-is-class-mb-0-in-bootstrap-4
   }
   .our-services-go-back-button{
     margin-top: -0.6rem;
+  }
+  .ad-card-title{
+    font-size: 1.8rem;
   }
 }
 
@@ -209,6 +223,9 @@ https://stackoverflow.com/questions/41574776/what-is-class-mb-0-in-bootstrap-4
   .our-services-go-back-button{
     margin-top: -2.6rem;
   }
+  .ad-card-title{
+    font-size: 1.6rem;
+  }
 }
 
 @media screen and (min-width: 768px) and (orientation: landscape) {
@@ -232,6 +249,9 @@ https://stackoverflow.com/questions/41574776/what-is-class-mb-0-in-bootstrap-4
     font-size: $font-size-h1;
     padding-top: 80px;
   }
+  .ad-card-title{
+    font-size: 2.0rem;
+  }
 }
 
 @media screen and (min-width: 992px) and (orientation: landscape) {
@@ -251,6 +271,7 @@ https://stackoverflow.com/questions/41574776/what-is-class-mb-0-in-bootstrap-4
     font-size: $font-size-h1;
     padding-top: 80px;
   }
+
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -272,6 +293,9 @@ https://stackoverflow.com/questions/41574776/what-is-class-mb-0-in-bootstrap-4
   }
   .bulk-billed-image{
     margin-top: -1.8rem;
+  }
+  .ad-card-title{
+    font-size: 2.0rem;
   }
 }
 
