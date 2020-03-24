@@ -586,7 +586,7 @@ const services = [
     items: [],
     sections: [
       {
-        title: "",
+        title: "Gwambunna and Welcome!",
         topics: [
           {
             icon: "",
@@ -598,6 +598,19 @@ const services = [
               "Availability of appropriate health services and preventative care for Aboriginal people.",
               "Helping ensure the practice meets the particular needs of ATSI patients and their families and increase the cultural sensitivity of healthcare services and providers to Aboriginal health issues.",
               "Build positive relationships with the Victorian Aboriginal community, other service providers, and government departments."
+            ]
+          }
+        ]
+      },
+      {
+        title: "Acknowledment of country",
+        topics: [
+          {
+            icon: "",
+            type: "PARAGRAPH",
+            title: "",
+            descriptions: [
+              "GPs on Vermont Medical Centre acknowledges and pays respect to the traditional custodians and original owners of this land, the Wiradjuri people, and recognise the continuing connection to land, waters and culture. We pay respect to those that have passed before us and acknowledge all elders past, present and emerging."
             ]
           }
         ]

@@ -4,6 +4,9 @@ import ReactLinkify from "react-linkify";
 import SocialMediaShareBar from './SocialMediaShareBar';
 
 const NewsDetail = ({ article }) => {
+    
+    let link = "news/" + article.pageLink;
+    const mediaList = ["facebook","twitter","whatsapp","reddit","linkedin","email"];
 
     const componentDecorator = (href, text, key) => (
         <a href={href} key={key} target="_blank" rel="noopener noreferrer">
@@ -35,7 +38,7 @@ const NewsDetail = ({ article }) => {
                         {paragraph}
                     </ReactLinkify>
                 </h5>) : null)}
-                <SocialMediaShareBar shareUrl={article.pageLink} title={article.title} description={article.contents[0]} />
+                <SocialMediaShareBar shareUrl={link} title={article.title} description={article.contents[0]} media={mediaList} />
             </div>
         </>
     )

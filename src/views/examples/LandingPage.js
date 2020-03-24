@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 //////////just as an example of how to avoid typescript check ///@ts-ignore
 import ScrollUpButton from "react-scroll-up-button";
 // reactstrap components
-import { Button, Col, Container, Row, CardImg, Card } from "reactstrap";
+import { Button, Col, Container, Row } from "reactstrap";
 import DarkFooter from "../../components/Footers/DarkFooter";
 import BarButtonsLandPageHeader from "../../components/General/BarButtonsLandPageHeader";
 import NewsCardsPreview from "../../components/General/NewsCardsPreview";
@@ -18,8 +18,6 @@ import staffContent from "../../data/staff-content";
 import { headerScrolling } from "./commons";
 import Announcement from "../../components/General/Announcement";
 
-
-const backImage = "gpv-easter-ad.jpg";
 function LandingPage() {
   // const [firstFocus, setFirstFocus] = useState(false);
   // const [lastFocus, setLastFocus] = useState(false);
@@ -65,8 +63,6 @@ function LandingPage() {
             <Row >
               <Col sm="12" lg="3" >
 
-                {/* <CardImg className="rounded-circle " height="100%" src={require(`../../assets/img/${backImage}`)} alt={backImage} ></CardImg> */}
-
               </Col>
 
               <Col sm="12" lg="6" className="">
@@ -91,11 +87,9 @@ function LandingPage() {
             </Row>
             <Row >
               <Col sm="12" md="6" lg="6" >
-                {/* <h2 className="title text-muted">Opening Hours</h2> */}
                 <OpeningHours2 />
               </Col>
               <Col sm="12" md="6" lg="6" >
-                {/* <h2 className="title text-muted">Opening Hours</h2> */}
                 <Announcement />
               </Col>
             </Row>
