@@ -109,7 +109,7 @@ const ContactUsPage = () => {
                     <div className="d-flex flex-row justify-content-center phone-badge">
                       <div className="text-justified">
                         <i
-                          className="fa fa-mobile fa-lg "
+                          className="fa fa-mobile-alt fa-lg "
                           style={{ marginRight: 2 }}
                         ></i>
 

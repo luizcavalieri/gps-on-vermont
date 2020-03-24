@@ -23,45 +23,71 @@ const BarButtonsLandPageHeader = () => {
         </Col>
       </Row>
       {/* <Row> */}
-        <div className="button-container">
-          <Button className="btn-round" color="info" size="lg">
+      <div className="button-container">
+        {/* <Button className="btn-round" color="info" size="lg">
             Like us
-          </Button>
+          </Button> */}
 
-          <IconSocialMediaItem
-            id="tooltip515203352"
-            mediaId="facebook"
-            link={`https://www.facebook.com/gpsonvermont/`}
-            color="info"
-            size="lg"
-            target="_blank"
-            rel="noopener noreferrer"
-          />
-          <UncontrolledTooltip delay={0} target="tooltip515203352">
-            Follow me on facebook
-          </UncontrolledTooltip>
+        <IconSocialMediaItem
+          id="tooltip515203352"
+          mediaId="facebook"
+          link={`https://www.facebook.com/gpsonvermont/`}
+          color="info"
+          size="lg"
+          target="_blank"
+          rel="noopener noreferrer"
+        />
+        <UncontrolledTooltip delay={0} target="tooltip515203352">
+          Follow me on facebook
+        </UncontrolledTooltip>
 
-          <Button
-            id="tooltip515203353"
-            className=" btn-icon btn-round "
-            color={"info"}
-            size={"lg"}
-            href={`https://goo.gl/maps/1Uy3tyShraVWj6MP7`}
-            target="_blank"
-            rel="noopener noreferrer"
+        <IconSocialMediaItem
+          id="tooltip515203353"
+          mediaId={"landline"}
+          link={"tel: 0260252189"}
+          target={"_blank"}
+          rel={"noopener noreferrer"}
+          color={"info"}
+          size={"lg"}
+        />
+        <UncontrolledTooltip delay={0} target="tooltip515203353">
+          Call Us
+        </UncontrolledTooltip>
 
-            // onClick={e => e.preventDefault()}
-          >
-            <i className="fas fa-map-marker-alt fa-2x fa-blink maps-icon "></i>
-          </Button>
-          <UncontrolledTooltip delay={0} target="tooltip515203353">
-            Visit Us
-          </UncontrolledTooltip>
-          
-        </div>
-        {/* <div> */}
-          
-        {/* </div> */}
+        <IconSocialMediaItem
+          id="tooltip515203354"
+          mediaId={"mobile"}
+          link={"tel: 0477413700"}
+          target={"_blank"}
+          rel={"noopener noreferrer"}
+          color={"info"}
+          size={"lg"}
+        />
+        <UncontrolledTooltip delay={0} target="tooltip515203354">
+          Call Us
+        </UncontrolledTooltip>
+
+        <Button
+          id="tooltip515203355"
+          className=" btn-icon btn-round "
+          color={"info"}
+          size={"lg"}
+          href={`https://goo.gl/maps/1Uy3tyShraVWj6MP7`}
+          target="_blank"
+          rel="noopener noreferrer"
+
+        // onClick={e => e.preventDefault()}
+        >
+          <i className="fas fa-map-marker-alt fa-2x fa-blink maps-icon "></i>
+        </Button>
+        <UncontrolledTooltip delay={0} target="tooltip515203355">
+          Visit Us
+        </UncontrolledTooltip>
+
+      </div>
+      {/* <div> */}
+
+      {/* </div> */}
       {/* </Row> */}
     </>
   );
