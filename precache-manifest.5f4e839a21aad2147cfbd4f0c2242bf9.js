@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9a374477d5d33e1969ddd6581500b39a",
+    "revision": "ec20a7c129ebb220e344289e3d3724a0",
     "url": "/index.html"
   },
   {
-    "revision": "221a82690170cbb0fd07",
+    "revision": "fcf369c499de3ed7f5de",
     "url": "/static/css/2.8f0d8aca.chunk.css"
   },
   {
-    "revision": "e7ff2cc038ce4a6c07a3",
+    "revision": "342a0dc244d33a38b9b6",
     "url": "/static/css/main.2c286c38.chunk.css"
   },
   {
-    "revision": "221a82690170cbb0fd07",
-    "url": "/static/js/2.20bf5990.chunk.js"
+    "revision": "fcf369c499de3ed7f5de",
+    "url": "/static/js/2.9c8634f8.chunk.js"
   },
   {
     "revision": "48f74b2d2fc2a053f12b8b52e6567e7d",
-    "url": "/static/js/2.20bf5990.chunk.js.LICENSE"
+    "url": "/static/js/2.9c8634f8.chunk.js.LICENSE"
   },
   {
-    "revision": "e7ff2cc038ce4a6c07a3",
-    "url": "/static/js/main.32a8a8e9.chunk.js"
+    "revision": "342a0dc244d33a38b9b6",
+    "url": "/static/js/main.d45ce511.chunk.js"
   },
   {
     "revision": "4eaec8f9385691ea727f",
@@ -86,6 +86,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "0e3525dc0ebf60365c013c84cee51855",
     "url": "/static/media/blurred-image-1.0e3525dc.jpg"
+  },
+  {
+    "revision": "e1812d58758238de4afb922c04ad2777",
+    "url": "/static/media/book-your-flu-shot.e1812d58.jpg"
   },
   {
     "revision": "ba147accb532a1e1ef8707390396fab7",
@@ -266,6 +270,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "95ef73b6b3fc22dac399be2ad6ec3238",
     "url": "/static/media/pill.95ef73b6.svg"
+  },
+  {
+    "revision": "ac7712980a58c06b0a2876b93965b129",
+    "url": "/static/media/pneumonia-vaccine-news.ac771298.jpg"
   },
   {
     "revision": "225653f9f4dacef3e81bcc52f5ef547d",
