@@ -124,7 +124,7 @@ const news = [
     title: "COVID-19 Clinic Process : TeleHEALTH",
     contents: [
       "As per response to the Federal Government announcement, we are changing the way that we see patients due to the COVID-19 Pandemic.",
-      "In keeping with the social distance, to protect all of us, consultations are conducted over the phone with your attendance outside on eligible patients with high risk symptoms such as:",
+      "In keeping with the social distance, to protect all of us, consultations are conducted over the phone on eligible patients with high risk symptoms such as:",
       " •	Fever >38",
       " •	Persistent cough",
       " •	Shortness of breath",
@@ -135,9 +135,8 @@ const news = [
       " •	Chronic respiratory disease",
       " •	Hypertension ",
       " •	Cancer",
-      " •	Male",
       " •	Old age",
-      "Our waiting room is now restricted as only two patients are currently  allowed to be at the same time. It is important that you still come to the practice, you will be meet by one of our staff in the parking, and you will be ask to wait in your car at the back of the surgery , waiting to be call when your doctor is ready for you.",
+      "Our waiting room is now restricted as only two patients are currently allowed to be at the same time. It is important that you still come to the practice, you will be meet by one of our staff in the parking, and you will be ask to wait in your car at the back of the surgery , waiting to be call when your doctor is ready for you.",
       "Bulk billed telephone advice is now available if:",
       " •	Diagnosed with COVID-19 but are not admitted to the hospital",
       " •	Meet the triage protocole criteria for suspected COVID-19",
@@ -152,7 +151,51 @@ const news = [
       
     ],
     date: "2020-03-26"
-  }
+  },
+  {
+    id: "10",
+    img: "book-your-flu-shot.jpg",
+    pageLink: "book-your-flu-shot",
+    title: "We've got you covered this winter - Get your Flu vaccine",
+    contents: [
+      "It's that time again, Flu shots are in!. Everyone can benefit from the flu vaccine, but it’s crucial for people in certain groups.",
+      "Getting the flu puts you at risk of secondary infections and serious complications, especially if you’re in a high-risk group. Possible complications include: ",
+      " •	pneumonia •	bronchitis • sinus infections •	ear infections ",
+      "The very young have an increased chance of developing complications from the flu. It’s important for them to stay up to date on their flu vaccinations. It’s also important to make the flu vaccine a priority if you:",
+      
+      " •	are 65 or older",
+      " •	live in a nursing home or care facility",
+      " •	have a chronic health condition, such as diabetes, asthma, heart disease, or HIV",
+      " •	have a weakened immune system",
+      " •	are a healthcare worker who may be exposed to people who are sick",
+      "Also remember If you are over 65, you might need your PNEUMONIA Vaccine."
+    ],
+    date: "2020-03-27"
+  },
+  {
+    id: "11",
+    img: "pneumonia-vaccine-news.jpg",
+    pageLink: "book-your-pneumonia-vaccine-news",
+    title: "Get your Pneumonia vaccine",
+    contents: [
+      "We've got Vaccines available to reduce the risk of pneumococcal disease and immunisation. It is recommended for people in high-risk groups",
+      "What is pneumococcal disease?",
+      "Pneumococcal disease is caused by infection with the bacteria Streptococcus pneumoniae. Infection can cause a variety of diseases including: pneumonia (infection of the lungs), otitis media (infection of the middle ear) and meningitis (infection of the membranes around the brain and spinal cord).",
+      "What are the symptoms?",
+      "Symptoms depend on the site of infection and the age of the person, as described below:",
+      " •	Pneumonia can cause shortness of breath, fever, lack of energy, loss of appetite, headache, chest pain and cough.",
+      " •	Otitis media can cause crying, tugging at the ear, fever, irritability, poor hearing, and sometimes diarrhoea and vomiting.",
+      " •	Meningitis can cause fever, headache, stiff neck, nausea, vomiting, and drowsiness.",
+      "The very young have an increased chance of developing complications from the flu. It’s important for them to stay up to date on their flu vaccinations. It’s also important to make the flu vaccine a priority if you:",
+      " •	people aged 65 years and older",
+      " •	Aboriginal and Torres Strait Islander people aged 50 and over. It is also available for those aged 15-49 years who have one or more of the following medical risk factors:",
+      " -•	heart, kidney or lung disease",
+      " -•	asthma or diabetes",
+      " -•	are immuno-compromised",
+      " -•	are heavy drinkers or smokers."
+    ],
+    date: "2020-03-26"
+  },
 ];
 
 export default news;
