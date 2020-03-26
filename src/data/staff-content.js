@@ -16,7 +16,7 @@ const staff = [
       { day: "Wed", desc: "Wednesday", from: "8:30", to: "5:20", notes: "" },
       { day: "Thu", desc: "Thursday", from: "8:30", to: "5:20", notes: "" },
       { day: "Fri", desc: "Friday", from: "8:30", to: "5:20", notes: "" },
-      { day: "Sat", desc: "Saturday", from: "9:00", to: "12:30", notes: "" }
+      { day: "Sat", desc: "Saturday", from: "9:00", to: "4:20", notes: "" }
     ],
     speaks: ["English", "Spanish"],
     booking: true,

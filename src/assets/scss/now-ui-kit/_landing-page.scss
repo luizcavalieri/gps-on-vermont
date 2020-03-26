@@ -104,6 +104,14 @@ https://stackoverflow.com/questions/41574776/what-is-class-mb-0-in-bootstrap-4
     // color: #ff9248;
     color: #ffa579;
   }
+  .telehealth-header{
+    margin-top: -1.25rem;
+    color: #ffffff;
+  }
+  .telehealth-footer{
+    margin-top: 16.1rem !important;
+  }
+
 }
 
 /* Small devices (landscape phones, 320px and up) */
@@ -136,6 +144,13 @@ https://stackoverflow.com/questions/41574776/what-is-class-mb-0-in-bootstrap-4
   .ad-card-title{
     font-size: 1.5rem;
   }
+  .telehealth-footer{
+    margin-top: 14.7rem !important;
+  }
+
+  .telehealth-footer{
+    margin-top: 15.9rem !important;
+  }
 }
 
 /* Small devices (landscape phones, 411px and up) */
@@ -155,6 +170,16 @@ https://stackoverflow.com/questions/41574776/what-is-class-mb-0-in-bootstrap-4
   }
   .ad-card-title{
     font-size: 1.8rem;
+  }
+  .telehealth-footer{
+    margin-top: 14.3rem !important;
+  }
+  .telehealth-header{
+    margin-top: -1.5rem;
+    color: #ffffff;
+  }
+  .telehealth-footer{
+    margin-top: 15.8rem !important;
   }
 }
 
@@ -178,6 +203,9 @@ https://stackoverflow.com/questions/41574776/what-is-class-mb-0-in-bootstrap-4
 @media screen and (min-width: 576px) {
   h1 {
     font-size: 3.2em;
+  }
+  .telehealth-footer{
+    margin-top: 15rem !important;
   }
 }
 
@@ -226,6 +254,13 @@ https://stackoverflow.com/questions/41574776/what-is-class-mb-0-in-bootstrap-4
   .ad-card-title{
     font-size: 1.6rem;
   }
+  .telehealth-header{
+    margin-top: -1.3rem;
+    color: #ffffff;
+  }
+  .telehealth-footer{
+    margin-top: 16.5rem !important;
+  }
 }
 
 @media screen and (min-width: 768px) and (orientation: landscape) {
@@ -252,6 +287,14 @@ https://stackoverflow.com/questions/41574776/what-is-class-mb-0-in-bootstrap-4
   .ad-card-title{
     font-size: 2.0rem;
   }
+  .telehealth-header{
+    margin-top: -1.6rem;
+    color: #ffffff;
+  }
+  .telehealth-footer{
+    margin-top: 16.1rem !important;
+  }
+
 }
 
 @media screen and (min-width: 992px) and (orientation: landscape) {
@@ -291,9 +334,10 @@ https://stackoverflow.com/questions/41574776/what-is-class-mb-0-in-bootstrap-4
   .title-small-header {
     padding-top: 60px;
   }
-  .bulk-billed-image{
-    margin-top: -1.8rem;
+  .bulk-billed-image {
+    margin-top: -1.6rem;
   }
+
   .ad-card-title{
     font-size: 2.0rem;
   }

@@ -25,10 +25,10 @@ const NewsCardsPreview = ({ news, start, quantity, bottomComponenet }) => {
 
     return (
         <>
-            <Row>
+            <Row >
                 {news.sort(compare).slice(start, quantity).map((item, index) => (
 
-                    <Col key={index} lg={"4"} md="6">
+                    <Col key={index} lg={"4"} md="6" className={"ml-auto mr-auto"}>
                         <Card >
                             <CardImg src={require(`../../assets/img/${item.img}`)} />
                             <CardBody style={{ height: 200 }}>

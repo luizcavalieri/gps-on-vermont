@@ -77,12 +77,11 @@ const news = [
       "Call us if you have cold or flu type symptoms or concerns about exposure to coronavirus we can help determine if you need to be tested.",
       "Please note you should not attend either the Albury or Wodonga emergency departments without calling first unless you are critically unwell.",
       "If necessary Corona Virus screening appointments can be made at Albury Wodonga Health by calling (02) 6058 4444.",
-      "The good news is that so far the Albury Wodonga Health screening clinics have not detected a positive case.",
       "If you have symptoms or are seeking information on coronavirus (COVID-19), call the National Coronavirus Helpline on 1800 020 080. The line operates 24 hours a day, seven days a week.",
       "If you have serious symptoms such as difficulty breathing, call 000 for urgent medical help.",
       "Find more information here: https://www.health.gov.au/news/health-alerts/novel-coronavirus-2019-ncov-health-alert"
     ],
-    date: "2020-03-16"
+    date: "2020-03-25"
   },
   {
     id: "7",
@@ -117,6 +116,42 @@ const news = [
       "We look forward to meeting you :) "
     ],
     date: "2020-03-19"
+  },
+  {
+    id: "9",
+    img: "gpv-telehealth-news.jpg",
+    pageLink: "gpv-telehealth-news",
+    title: "COVID-19 Clinic Process : TeleHEALTH",
+    contents: [
+      "As per response to the Federal Government announcement, we are changing the way that we see patients due to the COVID-19 Pandemic.",
+      "In keeping with the social distance, to protect all of us, consultations are conducted over the phone with your attendance outside on eligible patients with high risk symptoms such as:",
+      " •	Fever >38",
+      " •	Persistent cough",
+      " •	Shortness of breath",
+      " •	Fatigue",
+      "High risk patients :",
+      " •	Cardiovascular disease",
+      " •	Diabetes",
+      " •	Chronic respiratory disease",
+      " •	Hypertension ",
+      " •	Cancer",
+      " •	Male",
+      " •	Old age",
+      "Our waiting room is now restricted as only two patients are currently  allowed to be at the same time. It is important that you still come to the practice, you will be meet by one of our staff in the parking, and you will be ask to wait in your car at the back of the surgery , waiting to be call when your doctor is ready for you.",
+      "Bulk billed telephone advice is now available if:",
+      " •	Diagnosed with COVID-19 but are not admitted to the hospital",
+      " •	Meet the triage protocole criteria for suspected COVID-19",
+      " •	Instructed to self isolated",
+      " •	Over 70",
+      " •	An indigenous person over 50",
+      " •	Pregnant",
+      " •	A parent of an infant under 12 months",
+      " •	Being treated with a chronic condition",
+      " •	Immunocompromised",
+      "We thank you for your cooperation and apologise for any inconvenience."
+      
+    ],
+    date: "2020-03-26"
   }
 ];
 

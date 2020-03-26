@@ -26,7 +26,7 @@ const Announcement = () => {
                     </CardTitle>
                     <CardTitle tag="h5" className=" clearfix opening-hours">
                         <div className="float-left">Saturday</div>
-                        <div className="float-right">9:00 am to 12:30 pm</div>
+                        <div className="float-right">9:00 am to 4:20 pm</div>
                     </CardTitle>
                     <CardTitle tag="h5" className=" clearfix opening-hours">
                         <div className="float-left">Monday</div>

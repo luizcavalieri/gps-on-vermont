@@ -17,6 +17,7 @@ import newsContent from "../../data/news-content";
 import staffContent from "../../data/staff-content";
 import { headerScrolling } from "./commons";
 import Announcement from "../../components/General/Announcement";
+import TeleHealth from "../../components/General/TeleHealth";
 
 function LandingPage() {
   // const [firstFocus, setFirstFocus] = useState(false);
@@ -24,6 +25,7 @@ function LandingPage() {
 
   const messageTitle = "GPs On Vermont Medical Centre";
   const bulkBilled = "gpv-bulk-billed-medical-centre.png";
+  const telehealth = "gpv-telehealth.jpg"
   useEffect(() => {
     headerScrolling();
   });
@@ -61,8 +63,8 @@ function LandingPage() {
               </Col>
             </Row>
             <Row >
-              <Col sm="12" lg="3" >
-
+              <Col sm="12" md="6" lg="3" className="ml-auto mr-auto text-center " >
+                <img className="rounded-circle img-raised img-fluid " width={"70%"} height={"70%"} src={require(`../../assets/img/${telehealth}`)} alt={telehealth} />
               </Col>
 
               <Col sm="12" lg="6" className="">
@@ -77,7 +79,7 @@ function LandingPage() {
                   </h5>
               </Col>
               <Col sm="12" md="6" lg="3" className="ml-auto mr-auto text-center bulk-billed-image" >
-                <img className="img-fluid pb-2" width={"80%"} src={require(`../../assets/img/${bulkBilled}`)} alt={bulkBilled} />
+                <img className="img-fluid pb-2 " width={"80%"} src={require(`../../assets/img/${bulkBilled}`)} alt={bulkBilled} />
               </Col>
             </Row>
             <Row>
@@ -91,6 +93,11 @@ function LandingPage() {
               </Col>
               <Col sm="12" md="6" lg="6" >
                 <Announcement />
+              </Col>
+            </Row>
+            <Row >
+              <Col sm="12" md="8" lg="6" className={"ml-auto mr-auto"}>
+                <TeleHealth />
               </Col>
             </Row>
           </Container>
