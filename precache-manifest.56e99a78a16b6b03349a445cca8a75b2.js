@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "83c950291191f9981a68e61d12f53b85",
+    "revision": "9a374477d5d33e1969ddd6581500b39a",
     "url": "/index.html"
   },
   {
-    "revision": "fe7837c5b895ed63c316",
+    "revision": "221a82690170cbb0fd07",
     "url": "/static/css/2.8f0d8aca.chunk.css"
   },
   {
-    "revision": "c06e2b977a51df7e23ee",
-    "url": "/static/css/main.91410f3a.chunk.css"
+    "revision": "e7ff2cc038ce4a6c07a3",
+    "url": "/static/css/main.2c286c38.chunk.css"
   },
   {
-    "revision": "fe7837c5b895ed63c316",
-    "url": "/static/js/2.39c1a564.chunk.js"
+    "revision": "221a82690170cbb0fd07",
+    "url": "/static/js/2.20bf5990.chunk.js"
   },
   {
     "revision": "48f74b2d2fc2a053f12b8b52e6567e7d",
-    "url": "/static/js/2.39c1a564.chunk.js.LICENSE"
+    "url": "/static/js/2.20bf5990.chunk.js.LICENSE"
   },
   {
-    "revision": "c06e2b977a51df7e23ee",
-    "url": "/static/js/main.8398efae.chunk.js"
+    "revision": "e7ff2cc038ce4a6c07a3",
+    "url": "/static/js/main.32a8a8e9.chunk.js"
   },
   {
     "revision": "4eaec8f9385691ea727f",
@@ -158,6 +158,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "98c51ef645be42c419f816ccf4a3a734",
     "url": "/static/media/gpv-opening-hours.98c51ef6.jpg"
+  },
+  {
+    "revision": "62a3d1a7e66cd97a92d57a61ec2a68e3",
+    "url": "/static/media/gpv-telehealth-news.62a3d1a7.jpg"
+  },
+  {
+    "revision": "9d2c7c2efd5191076fd7f7611bf51362",
+    "url": "/static/media/gpv-telehealth-service.9d2c7c2e.jpg"
+  },
+  {
+    "revision": "9971eb6fb2ac4e82dd96ad63c53e2637",
+    "url": "/static/media/gpv-telehealth.9971eb6f.jpg"
   },
   {
     "revision": "9786d0118592fba544349473d9cd0f53",
