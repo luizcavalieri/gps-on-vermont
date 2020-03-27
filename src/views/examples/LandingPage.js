@@ -34,7 +34,7 @@ function LandingPage() {
     <Row>
       <Col className="d-flex justify-content-center">
         <Link className="text-info" to="/news-nav/all">
-          <Button color="info" className=" font-paragraph" >See More</Button>
+          <Button color="info" className=" font-paragraph" >See More News</Button>
         </Link>
       </Col>
     </Row>
@@ -106,7 +106,7 @@ function LandingPage() {
         <div className="section section-team text-center" style={{ padding: 0 }}>
           <Container>
             <h2 className="title text-muted">Latest News</h2>
-            <NewsCardsPreview news={newsContent} start={0} quantity={3} bottomComponenet={seeMoreComponent} />
+            <NewsCardsPreview news={newsContent} start={0} quantity={6} bottomComponenet={seeMoreComponent} />
           </Container>
         </div>
 

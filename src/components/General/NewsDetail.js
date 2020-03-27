@@ -20,7 +20,7 @@ const NewsDetail = ({ article }) => {
                 <Row>
                     <Col md="4" xl="4">
                         <div className="justify-content-center">
-                            <img className="img-fluid" width={"150%"} src={require(`../../assets/img/${article.img}`)} alt={article.title} />
+                            <img className="img-fluid" width={"150%"} src={require(`../../assets/img/news/${article.img}`)} alt={article.title} />
                         </div>
                     </Col>
                     <Col className="d-flex flex-column" md="8" xl="8">

@@ -14,13 +14,8 @@ import {
 } from "reactstrap";
 // import Availability from "./Availability";
 
-const BusinessCard = ({
-  emp,
-  cardClassName,
-  headerClassName,
-  cardImageClassName,
-  cardBodyClassName
-}) => {
+const BusinessCard = ({ emp, cardClassName, headerClassName, cardImageClassName, cardBodyClassName }) => {
+
   let path = emp.image;
 
   if (!cardImageClassName)
@@ -34,7 +29,7 @@ const BusinessCard = ({
           <CardImg
             className={cardImageClassName}
             alt={emp.name}
-            src={require(`../../assets/img/${path}`)}
+            src={require(`../../assets/img/staff/${path}`)}
             top
           ></CardImg>
         </CardHeader>

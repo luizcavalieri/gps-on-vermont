@@ -55,8 +55,12 @@ const staff = [
         link: "https://www.facebook.com/gpsonvermont/"
       },
       {
-        id: "phone",
-        link: "0260252189"
+        id: "landline",
+        link: "tel: 0260252189"
+      },
+      {
+        id: "mobile",
+        link: "tel: 0477413700"
       }
     ],
     enabled: true
@@ -136,7 +140,7 @@ const staff = [
     socialMedia: [
       {
         id: "phone",
-        link: "0260252189"
+        link: "tel: 0260252189"
       }
     ],
     enabled: true

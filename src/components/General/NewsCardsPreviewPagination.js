@@ -5,7 +5,7 @@ import NewsCardsPreview from './NewsCardsPreview';
 
 const NewsCardsPreviewPagination = ({ itemsPerPage }) => {
     const [activePage, setActivePage] = useState(1);
-    if (!itemsPerPage) itemsPerPage = 6;
+    if (!itemsPerPage) itemsPerPage = 9;
 
     return (
         <>

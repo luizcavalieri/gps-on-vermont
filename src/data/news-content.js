@@ -1,7 +1,7 @@
 const news = [
   {
     id: "1",
-    img: "gpv-news.jpg",
+    img: "gps-on-vermont-medical-centre-news.jpg",
     pageLink: "gps-on-vermont-opening-soon",
     title: "GPs on Vermont is Opening Soon",
     contents: [
@@ -13,7 +13,7 @@ const news = [
   },
   {
     id: "2",
-    img: "flu-news.jpg",
+    img: "flu-vaccines-news.jpg",
     pageLink: "flu-vaccination",
     title: "Flu Vaccination",
     contents: [
@@ -24,7 +24,7 @@ const news = [
   },
   {
     id: "3",
-    img: "corona-news.jpg",
+    img: "covid-19-news.jpg",
     pageLink: "coronavirus-information",
     title: "Coronavirus",
     contents: [
@@ -37,7 +37,7 @@ const news = [
   },
   {
     id: "4",
-    img: "covid19-protect-yourself.jpg",
+    img: "covid-19-protect-yourself-news.jpg",
     pageLink: "coronavirus-covid-19-protect-yourself",
     title: "Coronavirus COVID-19 - How can you best protect yourself and your loved ones?",
     contents: [
@@ -51,7 +51,7 @@ const news = [
   },
   {
     id: "5",
-    img: "corona-wearing-masks.jpg",
+    img: "covid-19-wearing-masks-news.jpg",
     pageLink: "how-to-use-surgical-face-masks",
     title: "When and how to use surgical face masks",
     contents: [
@@ -68,7 +68,7 @@ const news = [
   },
   {
     id: "6",
-    img: "corona-symptoms.jpg",
+    img: "covid-19-symptoms-news.jpg",
     pageLink: "coronavirus-symptoms",
     title: "Coronavirus - Local Update",
     contents: [
@@ -85,7 +85,7 @@ const news = [
   },
   {
     id: "7",
-    img: "covid19-isolation.jpg",
+    img: "covid-19-isolation-tips-news.jpg",
     pageLink: "covid-19-self-isolation-tips",
     title: "Self Isolation Tips",
     contents: [
@@ -102,11 +102,11 @@ const news = [
       "  • If you must leave home, such as to seek medical care, wear a surgical mask. If you don’t have a mask, take care to not cough or sneeze on others.",
       "Read more advice about staying at home on https://www.health.gov.au/sites/default/files/documents/2020/03/coronavirus-covid-19-isolation-guidance_2.pdf."
     ],
-    date: "2020-03-18"
+    date: "2020-03-19"
   },
   {
     id: "8",
-    img: "gpv-yes-we-are-open.jpg",
+    img: "yes-we-are-open-news.jpg",
     pageLink: "gps-on-vermont-we-are-open",
     title: "Gwambunna and Welcome",
     contents: [
@@ -115,29 +115,25 @@ const news = [
       "Call one of our friendly staff on (02) 6025 2189 to make an appointment or pop into the clinic during opening hours. We are located at 80 Vermont St, Wodonga VIC 3690",
       "We look forward to meeting you :) "
     ],
-    date: "2020-03-19"
+    date: "2020-03-18"
   },
   {
     id: "9",
-    img: "gpv-telehealth-news.jpg",
+    img: "telehealth-news.jpg",
     pageLink: "gpv-telehealth-news",
-    title: "COVID-19 Clinic Process : TeleHEALTH",
+    title: "TeleHEALTH is Available!!!",
     contents: [
-      "As per response to the Federal Government announcement, we are changing the way that we see patients due to the COVID-19 Pandemic.",
-      "In keeping with the social distance, to protect all of us, consultations are conducted over the phone on eligible patients with high risk symptoms such as:",
-      " •	Fever >38",
-      " •	Persistent cough",
-      " •	Shortness of breath",
-      " •	Fatigue",
-      "High risk patients :",
+      "We are pleased to announce that some consultations are now available using regular calls, whatsapp video or skype. Please read the conditions, and don't forget to call us after your booking has been arranged to have everything set up for you.",
+      "1.- Consultations will now be conducted over the phone, or video call for patients considered to be high risk. Such patients are those who have:",
       " •	Cardiovascular disease",
       " •	Diabetes",
       " •	Chronic respiratory disease",
       " •	Hypertension ",
       " •	Cancer",
-      " •	Old age",
-      "Our waiting room is now restricted as only two patients are currently allowed to be at the same time. It is important that you still come to the practice, you will be meet by one of our staff in the parking, and you will be ask to wait in your car at the back of the surgery , waiting to be call when your doctor is ready for you.",
-      "Bulk billed telephone advice is now available if:",
+      " •	Old aged 70 years or above",
+      "Please note if you think you are at risk, but are not on the above list of conditions please call the centre ( 0260252189 - 0477413700 ) to discuss the best approach for your circumstances.",
+      ".",
+      "2.- The current eligibility criteria for bulk billed phone consults is if you are:",
       " •	Diagnosed with COVID-19 but are not admitted to the hospital",
       " •	Meet the triage protocole criteria for suspected COVID-19",
       " •	Instructed to self isolated",
@@ -147,14 +143,14 @@ const news = [
       " •	A parent of an infant under 12 months",
       " •	Being treated with a chronic condition",
       " •	Immunocompromised",
-      "We thank you for your cooperation and apologise for any inconvenience."
-      
+      ".",
+      "Important notice: If you meet the conditions, after making your booking do not forget to call us ( 02 6025 2189 or 0477 413 700 ) to let us know you want to use teleHealth, so we can get everything set up for you!"
     ],
     date: "2020-03-26"
   },
   {
     id: "10",
-    img: "book-your-flu-shot.jpg",
+    img: "book-your-flu-shot-news.jpg",
     pageLink: "book-your-flu-shot",
     title: "We've got you covered this winter - Get your Flu vaccine",
     contents: [
@@ -178,13 +174,13 @@ const news = [
     pageLink: "book-your-pneumonia-vaccine-news",
     title: "Get your Pneumonia vaccine",
     contents: [
-      "We've got Vaccines available to reduce the risk of pneumococcal disease and immunisation. It is recommended for people in high-risk groups",
+      "We've got Vaccines available to reduce the risk of pneumococcal disease and immunisation. It is recommended for people in high-risk groups.",
       "What is pneumococcal disease?",
       "Pneumococcal disease is caused by infection with the bacteria Streptococcus pneumoniae. Infection can cause a variety of diseases including: pneumonia (infection of the lungs), otitis media (infection of the middle ear) and meningitis (infection of the membranes around the brain and spinal cord).",
       "What are the symptoms?",
       "Symptoms depend on the site of infection and the age of the person, as described below:",
       " •	Pneumonia can cause shortness of breath, fever, lack of energy, loss of appetite, headache, chest pain and cough.",
-      " •	Otitis media can cause crying, tugging at the ear, fever, irritability, poor hearing, and sometimes diarrhoea and vomiting.",
+      " •	Otitis media can cause crying, tugging at the ear, fever, irritability, poor hearing, and sometimes diahorrea and vomiting.",
       " •	Meningitis can cause fever, headache, stiff neck, nausea, vomiting, and drowsiness.",
       "The very young have an increased chance of developing complications from the flu. It’s important for them to stay up to date on their flu vaccinations. It’s also important to make the flu vaccine a priority if you:",
       " •	people aged 65 years and older",
@@ -196,6 +192,27 @@ const news = [
     ],
     date: "2020-03-26"
   },
+  {
+    id: "12",
+    img: "gps-on-vermont-medical-centre-news.jpg",
+    pageLink: "covid-19-clinic-process-news",
+    title: "COVID-19 Clinic Process",
+    contents: [
+      "As per response to the Federal Government announcement, we are changing the way that we see patients due to the COVID-19 Pandemic.",
+      "1.- Patients displaying potential COVID-19 symptoms such as:",
+      " •	Fever > 38",
+      " •	Persistent cough",
+      " •	Shortness of breath",
+      " •	Fatighe",
+      "Please call the centre to discuss your next steps. Please do not come to the centre without having discussed your symptoms over the phone with us first. We do not want to put others at possible risk.",
+      ".",      
+      "2.- We will be restricting the number of patients in our waiting room to no more than two patients at any one time.",
+      "It is important to note all patients presenting to the practice, in order to limit cross-contamination risk, will be required to wait outside in the parking lot and will be called in when it is their turn. When entering the premises, you will be asked to go straight to the bathroom to wash your hands, wear a mask and will then go straight to your consultation room. Your practitioner will be disinfecting the room between each patient and will also be wearing a mask.",
+      ".",
+      "We thank you for your cooperation and apologise for any inconvenience."
+    ],
+    date: "2020-03-26"
+  }
 ];
 
 export default news;

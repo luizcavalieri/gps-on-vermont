@@ -34,12 +34,12 @@ const ServiceCard = ({ service, className: passedClasses }) => {
             >
               {service.title}
             </CardTitle>
-            <CardText className="category text-primary" style={{height: 170}}>
+            <CardText className="category text-primary" style={{height: 185}}>
               {service.shortIntro}
             </CardText>
             <Link to={`/service-details/${service.id}`}>
               <Button color={"info"} className={passedClasses}>
-                View Service
+                More Details
               </Button>
             </Link>
           </CardBody>

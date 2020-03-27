@@ -51,7 +51,7 @@ const BarButtonsLandPageHeader = () => {
           size={"lg"}
         />
         <UncontrolledTooltip delay={0} target="tooltip515203353">
-          Call Us
+          Call Us: 0260252189
         </UncontrolledTooltip>
 
         <IconSocialMediaItem
@@ -64,7 +64,7 @@ const BarButtonsLandPageHeader = () => {
           size={"lg"}
         />
         <UncontrolledTooltip delay={0} target="tooltip515203354">
-          Call Us
+          Call Us: 0477413700
         </UncontrolledTooltip>
 
         <Button

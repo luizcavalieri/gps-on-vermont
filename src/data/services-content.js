@@ -541,7 +541,7 @@ const services = [
     icon: "fa fa-file-medical fa-lg",
     image: "pill.svg",
     shortIntro:
-      "If you have a chronic or terminal medical condition, our GPs can work with the Chronic Disease Management (CDM) program offered by Medicare to plan and co-ordinate the appropriate health care for you.",
+      "If you have a chronic or terminal medical condition, our GPs can work with the Chronic Disease Management (CDM) program offered by Medicare to plan the appropriate health care for you.",
     introDescriptions: [],
     items: [],
     sections: [

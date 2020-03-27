@@ -27,7 +27,7 @@ const NewsNavigationPage = () => {
                 <div className="section text-center" >
                     <BackButton children={"Go Back"} className="btn-round our-services-go-back-button" />
                     <Container className="text-muted">
-                        <NewsCardsPreviewPagination itemsPerPage={6} />
+                        <NewsCardsPreviewPagination itemsPerPage={9} />
                     </Container>
                 </div>
             </div>
