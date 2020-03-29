@@ -1,8 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Card, CardBody, CardFooter, CardImg, CardText, CardTitle, Col, Row } from 'reactstrap';
-import { EndOfLineState } from 'typescript';
-
 
 const NewsCardsPreview = ({ news, start, quantity, bottomComponenet }) => {
     const TEXT_SIZE = 120;
