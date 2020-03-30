@@ -13,7 +13,7 @@ const BookingButton = ({ doctorId, size, className:passedClasses }) => {
         href={`https://www.hotdoc.com.au/medical-centres/wodonga-VIC-3690/gps-on-vermont/doctors/${doctorId}`}
         // onClick={e => e.preventDefault()}
       >
-        Online Appointments
+        Book Appointment
       </Button>
     </>
   );
