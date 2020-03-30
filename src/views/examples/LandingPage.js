@@ -63,8 +63,10 @@ function LandingPage() {
               </Col>
             </Row>
             <Row >
-              <Col sm="12" md="6" lg="3" className="ml-auto mr-auto text-center " >
-                <img className="rounded-circle img-raised img-fluid " width={"70%"} height={"70%"} src={require(`../../assets/img/${telehealth}`)} alt={telehealth} />
+              <Col sm="12" md="6" lg="3" className="ml-auto mr-auto text-center align-self-center telehealth-shield" >
+                <Link style={{ fontSize: 18 }} className="text-info font-weight-bolder" to="/news/gpv-telehealth-news">
+                  <img className="rounded-circle img-raised img-fluid " width={"70%"} height={"70%"} src={require(`../../assets/img/${telehealth}`)} alt={telehealth} />
+                </Link>
               </Col>
 
               <Col sm="12" lg="6" className="">
@@ -78,8 +80,18 @@ function LandingPage() {
                   wellbeing.
                   </h5>
               </Col>
-              <Col sm="12" md="6" lg="3" className="ml-auto mr-auto text-center bulk-billed-image" >
+              <Col sm="12" md="6" lg="3" className="ml-auto mr-auto text-center bulk-billed-image align-self-center" >
                 <img className="img-fluid pb-2 " width={"80%"} src={require(`../../assets/img/${bulkBilled}`)} alt={bulkBilled} />
+              </Col>
+            </Row>
+            <Row>
+              <Col sm="12" md="8" lg="6" className="ml-auto mr-auto text-center" >
+                <h2 className="title text-muted">TeleHEALTH</h2>
+              </Col>
+            </Row>
+            <Row >
+              <Col sm="12" md="8" lg="6" className={"ml-auto mr-auto"}>
+                <TeleHealth />
               </Col>
             </Row>
             <Row>
@@ -95,11 +107,7 @@ function LandingPage() {
                 <Announcement />
               </Col>
             </Row>
-            <Row >
-              <Col sm="12" md="8" lg="6" className={"ml-auto mr-auto"}>
-                <TeleHealth />
-              </Col>
-            </Row>
+            
           </Container>
         </div>
 

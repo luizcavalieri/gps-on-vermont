@@ -105,13 +105,16 @@ https://stackoverflow.com/questions/41574776/what-is-class-mb-0-in-bootstrap-4
     color: #ffa579;
   }
   .telehealth-header{
+    font-size: medium;
     margin-top: -1.25rem;
     color: #ffffff;
   }
   .telehealth-footer{
     margin-top: 16.1rem !important;
   }
-
+  .telehealth-shield{
+    margin-bottom: 25px;
+  }
 }
 
 /* Small devices (landscape phones, 320px and up) */
@@ -144,12 +147,13 @@ https://stackoverflow.com/questions/41574776/what-is-class-mb-0-in-bootstrap-4
   .ad-card-title{
     font-size: 1.5rem;
   }
-  .telehealth-footer{
-    margin-top: 14.7rem !important;
+  .telehealth-header{
+    font-size: large;
+    margin-top: -1.4rem;
   }
 
   .telehealth-footer{
-    margin-top: 15.9rem !important;
+    margin-top: 16.6rem !important;
   }
 }
 
@@ -175,11 +179,11 @@ https://stackoverflow.com/questions/41574776/what-is-class-mb-0-in-bootstrap-4
     margin-top: 14.3rem !important;
   }
   .telehealth-header{
-    margin-top: -1.5rem;
+    margin-top: -1.6rem;
     color: #ffffff;
   }
   .telehealth-footer{
-    margin-top: 15.8rem !important;
+    margin-top: 16.4rem !important;
   }
 }
 
@@ -288,13 +292,15 @@ https://stackoverflow.com/questions/41574776/what-is-class-mb-0-in-bootstrap-4
     font-size: 2.0rem;
   }
   .telehealth-header{
-    margin-top: -1.6rem;
+    margin-top: -1.7rem;
     color: #ffffff;
   }
   .telehealth-footer{
     margin-top: 16.1rem !important;
   }
-
+  .telehealth-shield{
+    margin-bottom: 0px;
+  }
 }
 
 @media screen and (min-width: 992px) and (orientation: landscape) {
@@ -341,6 +347,7 @@ https://stackoverflow.com/questions/41574776/what-is-class-mb-0-in-bootstrap-4
   .ad-card-title{
     font-size: 2.0rem;
   }
+
 }
 
 
