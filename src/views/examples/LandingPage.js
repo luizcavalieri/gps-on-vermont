@@ -90,7 +90,7 @@ function LandingPage() {
               </Col>
             </Row>
             <Row >
-              <Col sm="12" md="8" lg="6" className={"ml-auto mr-auto"}>
+              <Col sm="12" md="8" lg="8" className={"ml-auto mr-auto"}>
                 <TeleHealth />
               </Col>
             </Row>
