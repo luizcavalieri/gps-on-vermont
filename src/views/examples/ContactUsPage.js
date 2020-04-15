@@ -107,7 +107,7 @@ const ContactUsPage = () => {
                     </div>
                     <hr></hr>
                     <div className="d-flex flex-row justify-content-center phone-badge">
-                      <div className="text-justified">
+                      {/* <div className="text-justified">
                         <i
                           className="fa fa-mobile-alt fa-lg "
                           style={{ marginRight: 2 }}
@@ -117,7 +117,7 @@ const ContactUsPage = () => {
                           {"Mob : 0477 413 700"}
                         </Badge>
                       </div>
-                      <div className="ml-3"></div>
+                      <div className="ml-3"></div> */}
                       <div className="text-justified">
                         <i
                           className="fa fa-fax fa-lg "

@@ -54,7 +54,7 @@ const BarButtonsLandPageHeader = () => {
           Call Us: 0260252189
         </UncontrolledTooltip>
 
-        <IconSocialMediaItem
+        {/* <IconSocialMediaItem
           id="tooltip515203354"
           mediaId={"mobile"}
           link={"tel: 0477413700"}
@@ -65,7 +65,7 @@ const BarButtonsLandPageHeader = () => {
         />
         <UncontrolledTooltip delay={0} target="tooltip515203354">
           Call Us: 0477413700
-        </UncontrolledTooltip>
+        </UncontrolledTooltip> */}
 
         <Button
           id="tooltip515203355"
