@@ -42,6 +42,32 @@ const BarButtonsLandPageHeader = () => {
         </UncontrolledTooltip>
 
         <IconSocialMediaItem
+          id="tooltip515203356"
+          mediaId={"mobile"}
+          link={"tel: 0407224579"}
+          target={"_blank"}
+          rel={"noopener noreferrer"}
+          color={"info"}
+          size={"lg"}
+        />
+        <UncontrolledTooltip delay={0} target="tooltip515203356">
+          Call Us: 0407224579
+        </UncontrolledTooltip>
+
+        <IconSocialMediaItem
+          id="tooltip515203357"
+          mediaId={"mobile"}
+          link={"tel: 0407157194"}
+          target={"_blank"}
+          rel={"noopener noreferrer"}
+          color={"info"}
+          size={"lg"}
+        />
+        <UncontrolledTooltip delay={0} target="tooltip515203357">
+          Call Us: 0407157194
+        </UncontrolledTooltip>
+
+        <IconSocialMediaItem
           id="tooltip515203353"
           mediaId={"landline"}
           link={"tel: 0260252189"}
