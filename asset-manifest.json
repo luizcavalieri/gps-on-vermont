@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.0fe46cef.chunk.css",
-    "main.js": "/static/js/main.55311656.chunk.js",
-    "main.js.map": "/static/js/main.55311656.chunk.js.map",
+    "main.js": "/static/js/main.16da43db.chunk.js",
+    "main.js.map": "/static/js/main.16da43db.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.43447da6.js",
     "runtime-main.js.map": "/static/js/runtime-main.43447da6.js.map",
     "static/css/2.37c00e0b.chunk.css": "/static/css/2.37c00e0b.chunk.css",
-    "static/js/2.72cd8974.chunk.js": "/static/js/2.72cd8974.chunk.js",
-    "static/js/2.72cd8974.chunk.js.map": "/static/js/2.72cd8974.chunk.js.map",
+    "static/js/2.6039aa6c.chunk.js": "/static/js/2.6039aa6c.chunk.js",
+    "static/js/2.6039aa6c.chunk.js.map": "/static/js/2.6039aa6c.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.c6a3b286bee5da5468feb3e9e0ab7f54.js": "/precache-manifest.c6a3b286bee5da5468feb3e9e0ab7f54.js",
+    "precache-manifest.a63613270db9b8fdff59ce1531034f42.js": "/precache-manifest.a63613270db9b8fdff59ce1531034f42.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.37c00e0b.chunk.css.map": "/static/css/2.37c00e0b.chunk.css.map",
     "static/css/main.0fe46cef.chunk.css.map": "/static/css/main.0fe46cef.chunk.css.map",
-    "static/js/2.72cd8974.chunk.js.LICENSE.txt": "/static/js/2.72cd8974.chunk.js.LICENSE.txt",
+    "static/js/2.6039aa6c.chunk.js.LICENSE.txt": "/static/js/2.6039aa6c.chunk.js.LICENSE.txt",
     "static/media/Annette-Baumgarten.jpg": "/static/media/Annette-Baumgarten.4a291657.jpg",
     "static/media/Jen-Walker.jpg": "/static/media/Jen-Walker.88124177.jpg",
     "static/media/Lara-Hopkins.jpg": "/static/media/Lara-Hopkins.48761592.jpg",
@@ -34,6 +34,7 @@
     "static/media/career-large.jpg": "/static/media/career-large.536b87dd.jpg",
     "static/media/career.jpg": "/static/media/career.c8df1340.jpg",
     "static/media/child.svg": "/static/media/child.1f381aa4.svg",
+    "static/media/covid-19-covidsafe.jpg": "/static/media/covid-19-covidsafe.6658c2f9.jpg",
     "static/media/covid-19-isolation-tips-news.jpg": "/static/media/covid-19-isolation-tips-news.693ab421.jpg",
     "static/media/covid-19-news.jpg": "/static/media/covid-19-news.8f41a733.jpg",
     "static/media/covid-19-protect-yourself-news.jpg": "/static/media/covid-19-protect-yourself-news.a3e29e83.jpg",
@@ -86,8 +87,8 @@
   "entrypoints": [
     "static/js/runtime-main.43447da6.js",
     "static/css/2.37c00e0b.chunk.css",
-    "static/js/2.72cd8974.chunk.js",
+    "static/js/2.6039aa6c.chunk.js",
     "static/css/main.0fe46cef.chunk.css",
-    "static/js/main.55311656.chunk.js"
+    "static/js/main.16da43db.chunk.js"
   ]
 }
