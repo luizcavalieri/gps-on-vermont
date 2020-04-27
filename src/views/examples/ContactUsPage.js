@@ -120,6 +120,17 @@ const ContactUsPage = () => {
                       <div className="ml-3"></div> */}
                       <div className="text-justified">
                         <i
+                          className="fa fa-mobile-alt fa-lg "
+                          style={{ marginRight: 2 }}
+                        ></i>
+
+                        <Badge className="language-pill" pill>
+                          {"Mob : 0407224579"}
+                        </Badge>
+                      </div>
+                      <div className="ml-3"></div>
+                      <div className="text-justified">
+                        <i
                           className="fa fa-fax fa-lg "
                           style={{ marginRight: 2 }}
                         ></i>

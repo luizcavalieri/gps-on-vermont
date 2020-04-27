@@ -25,7 +25,7 @@ function LandingPage() {
 
   const messageTitle = "GPs On Vermont Medical Centre";
   const bulkBilled = "gpv-bulk-billed-medical-centre.png";
-  const telehealth = "gpv-telehealth.jpg"
+  const telehealth = "gpv-telehealth.png"
   useEffect(() => {
     headerScrolling();
   });

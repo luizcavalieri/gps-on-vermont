@@ -123,7 +123,7 @@ const news = [
     pageLink: "gpv-telehealth-news",
     title: "TeleHEALTH is Available!!!",
     contents: [
-      "We are pleased to announce that some consultations are now available using regular calls, whatsapp video or skype. Please don't forget to call us after your booking has been arranged to have everything set up for you.",
+      "We are pleased to announce that some consultations are now available using regular calls or skype. Please don't forget to call us after your booking has been arranged to have everything set up for you.",
       "1.- Consultations will now be conducted over the phone, or video call for patients and includes:",
       " •	All Australians",
       " •	Mental Health",
