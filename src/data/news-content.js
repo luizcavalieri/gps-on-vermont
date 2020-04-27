@@ -208,7 +208,7 @@ const news = [
     id: "13",
     img: "covid-19-covidsafe.jpg",
     pageLink: "covid-safe-app-released-news",
-    title: "DCOVIDSafe app realeased!",
+    title: "COVIDSafe app realeased!",
     contents: [
       "The COVIDSafe app is part of the government work to slow the spread of COVID-19. Having confidence we can find and contain outbreaks quickly will mean governments can ease restrictions while still keeping Australians safe.",
       "The new COVIDSafe app is completely voluntary. Downloading the app is something you can do to protect you, your family and friends and save the lives of other Australians. The more Australians connect to the COVIDSafe app, the quicker we can find the virus.",      
