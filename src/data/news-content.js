@@ -203,6 +203,40 @@ const news = [
       "We thank you for your cooperation and apologise for any inconvenience."
     ],
     date: "2020-03-26"
+  },
+  {
+    id: "13",
+    img: "covid-19-covidsafe.jpg",
+    pageLink: "covid-safe-app-released-news",
+    title: "DCOVIDSafe app realeased!",
+    contents: [
+      "The COVIDSafe app is part of the government work to slow the spread of COVID-19. Having confidence we can find and contain outbreaks quickly will mean governments can ease restrictions while still keeping Australians safe.",
+      "The new COVIDSafe app is completely voluntary. Downloading the app is something you can do to protect you, your family and friends and save the lives of other Australians. The more Australians connect to the COVIDSafe app, the quicker we can find the virus.",      
+      "The COVIDSafe app is the only contact trace app approved by the Australian Government.",
+      " - ",
+      "How COVIDSafe works?",
+      "When you download the app you provide your name, mobile number, and postcode and select your age range (see Privacy). You will receive a confirmation SMS text message to complete installation. The system then creates a unique encrypted reference code just for you.",
+      "COVIDSafe recognises other devices with the COVIDSafe app installed and Bluetooth enabled. When the app recognises another user, it notes the date, time, distance and duration of the contact and the other user’s reference code. The COVIDSafe app does not collect your location.",
+      "To be effective, you should have the COVIDSafe app running as you go about your daily business and come into contact with people. Users will receive daily notifications to ensure the COVIDSafe app is running. The information is encrypted and that encrypted identifier is stored securely on your phone. Not even you can access it. The contact information stored in people’s mobiles is deleted on a 21-day rolling cycle. This period takes into account the COVID-19 incubation period and the time it takes to get tested. For more, see Privacy.",
+      "Watch the following video made by ABC news to better understand how the app tracing works: https://abcmedia.akamaized.net/news/video/202004/NOLs_AppPKG_2604_1000k.mp4",
+      " - ",
+      "When someone is diagnosed with COVID-19, state and territory health officials will ask them or their parent/guardian who they have been in contact with. If they have the COVIDSafe app and provide their permission, the encrypted contact information from the app will be uploaded to a highly secure information storage system. State and territory health officials will then:",
+      "use the contacts captured by the app to support their usual contact tracing",
+      " •	call people to let them or their parent/guardian know they may have been exposed",
+      " •	offer advice on next steps, including:",
+      " • •	what to look out for",
+      " • •	when, how and where to get tested",
+      " • •	what to do to protect friends and family from exposure",
+      "Health officials will not name the person who was infected.",
+      "-",
+      "After the pandemic",
+      "At the end of the Australian COVID-19 pandemic, users will be prompted to delete the COVIDSafe app from their phone. This will delete all app information on a person’s phone. The information contained in the information storage system will also be destroyed at the end of the pandemic.",
+      "-",
+      "Download the app from:",
+      "Google Play: https://play.google.com/store/apps/details?id=au.gov.health.covidsafe",
+      "App Store: https://apps.apple.com/au/app/covidsafe/id1509242894"
+    ],
+    date: "2020-04-27"
   }
 ];
 
