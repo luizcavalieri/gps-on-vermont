@@ -29,7 +29,7 @@ const staff = [
     title: "Doctor",
     name: "Angela Ramsay",
     image: "avatar.jpg",
-    accreditations: ["Diploma of Obstetric", "Diploma Anaesthetic", "MBChB(Bristol)"],
+    accreditations: ["MBChB(Bristol)", "Diploma of Obstetric", "Diploma Anaesthetic"],
     descriptions: [
       "Dr Ramsay has been a General Practitioner in the Albury Wodonga area since 1988.",
       "She is working at GPs on Vermont Medical Centre as a Locum Doctor.",
@@ -45,7 +45,7 @@ const staff = [
     ],
     speaks: ["English"],
     booking: true,
-    bookingDoctorId: "dr-carmen-padilla-1",
+    bookingDoctorId: "dr-angela-ramsay",
     socialMedia: [],
     enabled: true
   },
