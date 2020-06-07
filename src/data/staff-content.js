@@ -25,6 +25,31 @@ const staff = [
     enabled: true
   },
   {
+    titleAbr: "Dr",
+    title: "Doctor",
+    name: "Angela Ramsay",
+    image: "avatar.jpg",
+    accreditations: ["Diploma of Obstetric", "Diploma Anaesthetic", "MBChB(Bristol)"],
+    descriptions: [
+      "Dr Ramsay has been a General Practitioner in the Albury Wodonga area since 1988.",
+      "She is working at GPs on Vermont Medical Centre as a Locum Doctor.",
+      "Dr Ramsay has a special interest in Women Health, Family Planning and Antenatal Care."
+    ],
+    availability: [
+      { day: "Mon", desc: "Monday", from: "8:30", to: "5:20", notes: "" },
+      { day: "Tue", desc: "Tuesday", from: "8:30", to: "5:20", notes: "" },
+      { day: "Wed", desc: "Wednesday", from: "8:30", to: "5:20", notes: "" },
+      { day: "Thu", desc: "Thursday", from: "8:30", to: "5:20", notes: "" },
+      { day: "Fri", desc: "Friday", from: "8:30", to: "5:20", notes: "" },
+      { day: "Sat", desc: "Saturday", from: "9:00", to: "4:20", notes: "" }
+    ],
+    speaks: ["English"],
+    booking: true,
+    bookingDoctorId: "dr-carmen-padilla-1",
+    socialMedia: [],
+    enabled: true
+  },
+  {
     titleAbr: "Pm",
     title: "Practice Manager",
     name: "Annette Baumgarten",

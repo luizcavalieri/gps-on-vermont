@@ -237,6 +237,20 @@ const news = [
       "App Store: https://apps.apple.com/au/app/covidsafe/id1509242894"
     ],
     date: "2020-04-27"
+  },
+  {
+    id: "14",
+    img: "gps-on-vermont-medical-centre-news.jpg",
+    pageLink: "welcome-dr-angela-ramsay-news",
+    title: "Welcome to GPs on Vermont Dr Angela Ramsay",
+    contents: [
+      "We are very pleased to announce that our team of doctors is growing.",
+      "Dr Angela Ramsay will be joining us as our new Locum Doctor, Dr Ramsay has a Bachelor of Medicine and Bachelor of Surgery degrees MBChB (Bristol), Diploma of Obstetric, Diploma Anaesthetic.", 
+      "She has been a General Practitioner in the Albury Wodonga area since 1988, and has a special interest in Women Health, Family Planning and Antenatal Care.",
+      "In behalf of GPs on Vermont, we would like to welcome Dr Ramsay as a new Locum Doctor. All of us here are excited to get to know you and look forward to working with you!",
+      "Welcome Dr Ramsay to our team."
+    ],
+    date: "2020-06-07"
   }
 ];
 
