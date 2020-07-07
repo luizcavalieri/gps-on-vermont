@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1d28b0077b8a45d43e8a6a798681bbf7",
+    "revision": "740c141dd8426c634968a132ec3098ac",
     "url": "/index.html"
   },
   {
-    "revision": "d1ff1834aecfdf274cb4",
+    "revision": "d961d0d8abec674be29e",
     "url": "/static/css/2.37c00e0b.chunk.css"
   },
   {
-    "revision": "645e2e50b2512e87e221",
+    "revision": "48ac6547ec6da437d780",
     "url": "/static/css/main.0fe46cef.chunk.css"
   },
   {
-    "revision": "d1ff1834aecfdf274cb4",
-    "url": "/static/js/2.d567b03b.chunk.js"
+    "revision": "d961d0d8abec674be29e",
+    "url": "/static/js/2.59d22bb7.chunk.js"
   },
   {
     "revision": "36dbd122dcbe5288896614706202be22",
-    "url": "/static/js/2.d567b03b.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.59d22bb7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "645e2e50b2512e87e221",
-    "url": "/static/js/main.2c9aa937.chunk.js"
+    "revision": "48ac6547ec6da437d780",
+    "url": "/static/js/main.bf5b4f15.chunk.js"
   },
   {
     "revision": "fadfef73e2c8cd0cb924",
@@ -92,6 +92,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/book-your-flu-shot-news.e1812d58.jpg"
   },
   {
+    "revision": "d65b9399bc2dea25ca707549804f3f1c",
+    "url": "/static/media/cancer-and-covid-19-news.d65b9399.jpg"
+  },
+  {
     "revision": "ba147accb532a1e1ef8707390396fab7",
     "url": "/static/media/care.ba147acc.svg"
   },
@@ -109,7 +113,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "6658c2f9df2bb57736bf4d88ede68569",
-    "url": "/static/media/covid-19-covidsafe.6658c2f9.jpg"
+    "url": "/static/media/covid-19-covidsafe-news.6658c2f9.jpg"
   },
   {
     "revision": "693ab4219623518342e8adfa39c63c94",
@@ -192,6 +196,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/header.ffcc99c4.jpg"
   },
   {
+    "revision": "fea910372a59977d9b04826f80c7daa2",
+    "url": "/static/media/heart-attack-symptoms-news.fea91037.jpg"
+  },
+  {
     "revision": "a76c7b4ce725bb07b1572699a5a78c62",
     "url": "/static/media/hero-image-1.a76c7b4c.png"
   },
@@ -242,6 +250,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "6fa76661d1388fa53819f27a078f3dab",
     "url": "/static/media/not-found.6fa76661.jpg"
+  },
+  {
+    "revision": "fe5e42776cba7f19a3e630303786ed8b",
+    "url": "/static/media/nsw-vic-border-closure-news.fe5e4277.jpg"
   },
   {
     "revision": "87ac3bb51e1a29921458760fa9afd24c",
