@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "740c141dd8426c634968a132ec3098ac",
+    "revision": "b3f1966ef319ef11ca9e3886d40cd635",
     "url": "/index.html"
   },
   {
-    "revision": "d961d0d8abec674be29e",
+    "revision": "3671099f4395c21012f3",
     "url": "/static/css/2.37c00e0b.chunk.css"
   },
   {
-    "revision": "48ac6547ec6da437d780",
+    "revision": "ed21a559930231f1720e",
     "url": "/static/css/main.0fe46cef.chunk.css"
   },
   {
-    "revision": "d961d0d8abec674be29e",
-    "url": "/static/js/2.59d22bb7.chunk.js"
+    "revision": "3671099f4395c21012f3",
+    "url": "/static/js/2.0530abb7.chunk.js"
   },
   {
     "revision": "36dbd122dcbe5288896614706202be22",
-    "url": "/static/js/2.59d22bb7.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.0530abb7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "48ac6547ec6da437d780",
-    "url": "/static/js/main.bf5b4f15.chunk.js"
+    "revision": "ed21a559930231f1720e",
+    "url": "/static/js/main.5140a7f3.chunk.js"
   },
   {
     "revision": "fadfef73e2c8cd0cb924",
@@ -286,6 +286,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ac7712980a58c06b0a2876b93965b129",
     "url": "/static/media/pneumonia-vaccine-news.ac771298.jpg"
+  },
+  {
+    "revision": "f673e19e3c1cd2065d0bc30015a739df",
+    "url": "/static/media/prevent-hpv-cancer-news.f673e19e.jpg"
   },
   {
     "revision": "225653f9f4dacef3e81bcc52f5ef547d",
