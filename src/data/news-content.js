@@ -206,7 +206,7 @@ const news = [
   },
   {
     id: "13",
-    img: "covid-19-covidsafe.jpg",
+    img: "covid-19-covidsafe-news.jpg",
     pageLink: "covid-safe-app-released-news",
     title: "COVIDSafe app realeased!",
     contents: [
@@ -251,6 +251,61 @@ const news = [
       "Welcome Dr Ramsay to our team."
     ],
     date: "2020-06-07"
+  },
+  {
+    id: "15",
+    img: "heart-attack-symptoms-news.jpg",
+    pageLink: "recognising-heart-attack-symptoms-news",
+    title: "Recognising heart attack symptoms could save yours or another’s life",
+    contents: [
+      "A heart attack strikes someone about every 43 seconds. How many symptoms do you know?",
+      "The most well known heart attack symptoms are:", 
+      " 1. Uncomfortable pressure, squeezing, fullness or pain in the center of your chest, that some describe feeling like an elephant is sitting on it. It lasts more than a few minutes, or goes away and comes back.",
+      " 2. Pain or discomfort in one or both arms, the neck, jaw, stomach or back.",
+      " 3. Shortness of breath with or without chest discomfort.",
+      " 4. Other signs such as breaking out in a cold sweat, nausea or lightheadedness.",
+      " 5. Women can experience a heart attack without chest pressure, Instead they may experience shortness of breath, pressure or pain in the lower chest or upper abdomen, dizziness, lightheadedness or fainting, nausea/vomiting, upper back pressure, jaw pain or extreme fatigue.",
+      "-",
+      "If you think you or someone else may be having a heart attack, call Triple Zero (000) immediately!",
+      "Schedule an appointment with us today for a health check and to see what your personal risk for heart disease is."
+    ],
+    date: "2020-07-07"
+  },
+  {
+    id: "16",
+    img: "cancer-and-covid-19-news.jpg",
+    pageLink: "cancer-and-covid-19-news",
+    title: "Cancer and COVID-19",
+    contents: [
+      "Living with cancer is not easy at anytime let alone during a pandemic. Here are some of good preventative measures the cancer council recommends:",
+      "Maintain good hygiene especially keep up the 20 second regular hand washing habit.",
+      "Maintain social distancing and wear a face mask if you’re out in public.", 
+      "Talk to us about getting the influenza vaccination if you haven’t already had it. Make sure you have a one month supply of your medications, stay home as much as possible, avoid non-essential travel and avoid public transport if you can.",
+      "If possible use Telehealth to have a remote consultation with us rather than come to the clinic.",
+      "Clean and disinfect frequently touched surfaces such as kitchen benches, tables, light switches, doorknobs, sinks, toilets, remotes, such as your mobile phone. Clean them with soap and water, a 70% alcohol solution or a mix of 4 teaspoons of bleach per litre of water.",
+      "If you’re feeling anxious, have questions or need support, please make an appointment with our therapist Jen Walker.",
+      "If you are currently experiencing symptoms of infection (e.g. fever, cough, sore throat, shortness of breath) or are aware you have been in contact with someone who has tested positive for coronavirus please contact us via the phone to discuss your options",
+      "-",
+      "For additional recommendations please look on at the cancer council website: https://www.cancer.org.au/cancer-and-covid-19"
+    ],
+    date: "2020-07-07"
+  },
+  {
+    id: "17",
+    img: "nsw-vic-border-closure-news.jpg",
+    pageLink: "nsw-vic-border-closure-news",
+    title: "NSW - VIC : Border Closure, but it is open to patients who have scheduled appointments with us!",
+    contents: [
+      "From 8 July, you’ll need a border entry permit to travel from Victoria to NSW.",
+      "Once the travel exemption permit system is up and running you can apply online for one of those. To visit us the eligibility criteria(exemption category) applies for medical or hospital care.",
+      "You need to show your authorised appointment letter, drivers licence and any other supporting material.",
+      "We are still doing Telehealth appointments if you would prefer that to coming into the clinic or if you are part of a vulnerable patient group.",
+      "If possible use Telehealth to have a remote consultation with us rather than come to the clinic.",
+      "If you need additional information please click on the following link to the government website:",
+      "https://www.service.nsw.gov.au/transaction/apply-covid-19-nsw-border-entry-permit",
+      "or call us for orientation."
+    ],
+    date: "2020-07-08"
   }
 ];
 
