@@ -254,6 +254,29 @@ const news = [
   },
   {
     id: "15",
+    img: "prevent-hpv-cancer-news.jpg",
+    pageLink: "prevent-hpv-cancer-news",
+    title: "If you could prevent cancer would you?",
+    contents: [
+      "Help Australia eradicate HPV. Make sure your children have had all of their HPV vaccine shots!",
+      "HPV causes 99 percent of all cervical cancer cases.", 
+      "HPV is thought to cause 70% of oropharyngeal cancers. A cancer which disproportionately affects men.",
+      "HPV can also precede oral, anal, or penile cancer.",
+      "It can take years after being infected with HPV for a cancer to show up. Therefore immunisation is the most effective method to prevent HPV and its related cancers.",
+      "Regardless of whether a teen or young adult engages in risky behaviour, every child has an 80 percent chance of getting HPV in their lifetime.",
+      "Boys and girls around age 11 or 12 should receive their first dose of the HPV vaccine. Only one booster is needed, six months after the initial vaccine.",
+      "If you wait to vaccinate until age 15 or 20, you will require two boosters for full protection. You will need to pay for one of these doses because only 2 free doses are covered under the NIP.",
+      "Come in and see us if your child needs a dose.",
+      "The vaccine is most effective if you make sure you have completed all the recommended vaccine doses.",
+      "You can find out more about the governments HPV program and why Australia has one of the lowest cervical cancer mortality rates in the world, here..",
+      "https://www.health.gov.au/health-topics/immunisation/immunisation-services/human-papillomavirus-hpv-immunisation-service",
+      "For a man’s HPV caused Oropharyngeal cancer perspective read Jay Middleton’s story here..",
+      "https://www.thedenverchannel.com/lifestyle/health/englewood-bicyclist-with-hpv-linked-cancer-using-bicycling-to-encourage-others-to-be-vaccinated"
+    ],
+    date: "2020-07-05"
+  },
+  {
+    id: "16",
     img: "heart-attack-symptoms-news.jpg",
     pageLink: "recognising-heart-attack-symptoms-news",
     title: "Recognising heart attack symptoms could save yours or another’s life",
@@ -272,7 +295,7 @@ const news = [
     date: "2020-07-07"
   },
   {
-    id: "16",
+    id: "17",
     img: "cancer-and-covid-19-news.jpg",
     pageLink: "cancer-and-covid-19-news",
     title: "Cancer and COVID-19",
@@ -291,19 +314,18 @@ const news = [
     date: "2020-07-07"
   },
   {
-    id: "17",
+    id: "18",
     img: "nsw-vic-border-closure-news.jpg",
     pageLink: "nsw-vic-border-closure-news",
     title: "NSW - VIC : Border Closure, but it is open to patients who have scheduled appointments with us!",
     contents: [
       "From 8 July, you’ll need a border entry permit to travel from Victoria to NSW.",
-      "Once the travel exemption permit system is up and running you can apply online for one of those. To visit us the eligibility criteria(exemption category) applies for medical or hospital care.",
+      "Once the travel exemption permit system is up and running you can apply online for one of those, under the medical or hospital care exemption category.",
       "You need to show your authorised appointment letter, drivers licence and any other supporting material.",
       "We are still doing Telehealth appointments if you would prefer that to coming into the clinic or if you are part of a vulnerable patient group.",
       "If possible use Telehealth to have a remote consultation with us rather than come to the clinic.",
-      "If you need additional information please click on the following link to the government website:",
-      "https://www.service.nsw.gov.au/transaction/apply-covid-19-nsw-border-entry-permit",
-      "or call us for orientation."
+      "Contact us for additional info or look at the gov site link here:",
+      "https://www.service.nsw.gov.au/transaction/apply-covid-19-nsw-border-entry-permit"
     ],
     date: "2020-07-08"
   }
