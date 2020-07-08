@@ -99,19 +99,19 @@ function LandingPage() {
                 <h2 className="title text-muted">Opening Hours</h2>
               </Col>
             </Row>
-            <Row >
+            {/* <Row >
               <Col sm="12" md="8" lg="8" className={"ml-auto mr-auto"}>
                 <OpeningHours2 />
               </Col>
-            </Row>
-            {/* <Row >
+            </Row> */}
+            <Row >
               <Col sm="12" md="6" lg="6" >
                 <OpeningHours2 />
               </Col>
               <Col sm="12" md="6" lg="6" >
                 <Announcement />
               </Col>
-            </Row> */}
+            </Row>
             
           </Container>
         </div>

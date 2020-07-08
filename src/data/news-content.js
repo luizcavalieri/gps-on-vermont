@@ -320,12 +320,36 @@ const news = [
     title: "NSW - VIC : Border Closure, but it is open to patients who have scheduled appointments with us!",
     contents: [
       "From 8 July, you’ll need a border entry permit to travel from Victoria to NSW.",
-      "Once the travel exemption permit system is up and running you can apply online for one of those, under the medical or hospital care exemption category.",
+      "The travel exemption permit system is up and running, you can apply online for one of those, under the medical or hospital care exemption category.",
       "You need to show your authorised appointment letter, drivers licence and any other supporting material.",
       "We are still doing Telehealth appointments if you would prefer that to coming into the clinic or if you are part of a vulnerable patient group.",
       "If possible use Telehealth to have a remote consultation with us rather than come to the clinic.",
       "Contact us for additional info or look at the gov site link here:",
-      "https://www.service.nsw.gov.au/transaction/apply-covid-19-nsw-border-entry-permit"
+      "https://www.service.nsw.gov.au/transaction/apply-covid-19-nsw-border-entry-permit",
+      "Apply here: ",
+      "https://disasterassistance.service.nsw.gov.au/bcpermit"
+    ],
+    date: "2020-07-08"
+  },
+  {
+    id: "19",
+    img: "gps-on-vermont-medical-centre-news.jpg",
+    pageLink: "border-closure-gpv-clinic-updates-news",
+    title: "Clinic update - Border Closure Arrangements",
+    contents: [
+      "GPs on Vermont Medical Centre want to reassure patients that we are doing everything we can to ensure you can still get the treatment you require following the upcoming closure of the NSW/VIC state border.",
+      "Our hygiene protocol has remained extremely vigilant throughout this process and we continue to provide a clean and safe environment for your treatment. As such we ask all patients to adhere to the following requirements:",
+      "1. Advise the receptionist if you have a sore throat, runny nose, flu like symptoms, shortness of breath, been to Melbourne or been in contact with people from Melbourne in the past 14 days. If you have one symptom, we strongly recommend you attend a Covid 19 clinic and be tested.",
+      "2. On arrival for your appointment you will be asked to call reception and they will advise when it is appropriate for you to come into the waiting room.",
+      "3. Your temperature will be taken before entering the clinic. If your temperature is 38 or above, you will be ask to wait in the car and have a telephone appointment.",
+      "4. Please attend your appointment on your own were possible. If you require a support person please advise the receptionist.",
+      "-",
+      "Medical appointments are classed as essential health service and, as such, you will be free to cross the border to attend your appointment with a permit. Advise our reception staff if you need assistance with this permit application.",
+      "https://www.service.nsw.gov.au/transaction/apply-covid-19-nsw-border-entry-permit",
+      "We look forward to supporting you and your families’ health during this time either by a telephone or face to face appointment. If you have any questions, please don’t hesitate to call our helpful reception staff on 02 60252189.",
+      "-",
+      "Doctors and staff",
+      "GPs on Vermont Medical centre"
     ],
     date: "2020-07-08"
   }
