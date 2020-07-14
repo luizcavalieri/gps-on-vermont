@@ -1,6 +1,7 @@
 const news = [
   {
     id: "1",
+    type: "img",
     img: "gps-on-vermont-medical-centre-news.jpg",
     pageLink: "gps-on-vermont-opening-soon",
     title: "GPs on Vermont is Opening Soon",
@@ -13,6 +14,7 @@ const news = [
   },
   {
     id: "2",
+    type: "img",
     img: "flu-vaccines-news.jpg",
     pageLink: "flu-vaccination",
     title: "Flu Vaccination",
@@ -24,6 +26,7 @@ const news = [
   },
   {
     id: "3",
+    type: "img",
     img: "covid-19-news.jpg",
     pageLink: "coronavirus-information",
     title: "Coronavirus",
@@ -37,6 +40,7 @@ const news = [
   },
   {
     id: "4",
+    type: "img",
     img: "covid-19-protect-yourself-news.jpg",
     pageLink: "coronavirus-covid-19-protect-yourself",
     title: "Coronavirus COVID-19 - How can you best protect yourself and your loved ones?",
@@ -51,6 +55,7 @@ const news = [
   },
   {
     id: "5",
+    type: "img",
     img: "covid-19-wearing-masks-news.jpg",
     pageLink: "how-to-use-surgical-face-masks",
     title: "When and how to use surgical face masks",
@@ -68,6 +73,7 @@ const news = [
   },
   {
     id: "6",
+    type: "img",
     img: "covid-19-symptoms-news.jpg",
     pageLink: "coronavirus-symptoms",
     title: "Coronavirus - Local Update",
@@ -85,6 +91,7 @@ const news = [
   },
   {
     id: "7",
+    type: "img",
     img: "covid-19-isolation-tips-news.jpg",
     pageLink: "covid-19-self-isolation-tips",
     title: "Self Isolation Tips",
@@ -106,6 +113,7 @@ const news = [
   },
   {
     id: "8",
+    type: "img",
     img: "yes-we-are-open-news.jpg",
     pageLink: "gps-on-vermont-we-are-open",
     title: "Gwambunna and Welcome",
@@ -119,6 +127,7 @@ const news = [
   },
   {
     id: "9",
+    type: "img",
     img: "telehealth-news.jpg",
     pageLink: "gpv-telehealth-news",
     title: "TeleHEALTH is Available!!!",
@@ -141,6 +150,7 @@ const news = [
   },
   {
     id: "10",
+    type: "img",
     img: "book-your-flu-shot-news.jpg",
     pageLink: "book-your-flu-shot",
     title: "We've got you covered this winter - Get your Flu vaccine",
@@ -161,6 +171,7 @@ const news = [
   },
   {
     id: "11",
+    type: "img",
     img: "pneumonia-vaccine-news.jpg",
     pageLink: "book-your-pneumonia-vaccine-news",
     title: "Get your Pneumonia vaccine",
@@ -185,6 +196,7 @@ const news = [
   },
   {
     id: "12",
+    type: "img",
     img: "gps-on-vermont-medical-centre-news.jpg",
     pageLink: "covid-19-clinic-process-news",
     title: "COVID-19 Clinic Process",
@@ -206,6 +218,7 @@ const news = [
   },
   {
     id: "13",
+    type: "img",
     img: "covid-19-covidsafe-news.jpg",
     pageLink: "covid-safe-app-released-news",
     title: "COVIDSafe app realeased!",
@@ -240,6 +253,7 @@ const news = [
   },
   {
     id: "14",
+    type: "img",
     img: "gps-on-vermont-medical-centre-news.jpg",
     pageLink: "welcome-dr-angela-ramsay-news",
     title: "Welcome to GPs on Vermont Dr Angela Ramsay",
@@ -254,6 +268,7 @@ const news = [
   },
   {
     id: "15",
+    type: "img",
     img: "prevent-hpv-cancer-news.jpg",
     pageLink: "prevent-hpv-cancer-news",
     title: "If you could prevent cancer would you?",
@@ -277,6 +292,7 @@ const news = [
   },
   {
     id: "16",
+    type: "img",
     img: "heart-attack-symptoms-news.jpg",
     pageLink: "recognising-heart-attack-symptoms-news",
     title: "Recognising heart attack symptoms could save yours or another’s life",
@@ -296,6 +312,7 @@ const news = [
   },
   {
     id: "17",
+    type: "img",
     img: "cancer-and-covid-19-news.jpg",
     pageLink: "cancer-and-covid-19-news",
     title: "Cancer and COVID-19",
@@ -315,6 +332,7 @@ const news = [
   },
   {
     id: "18",
+    type: "img",
     img: "nsw-vic-border-closure-news.jpg",
     pageLink: "nsw-vic-border-closure-news",
     title: "NSW - VIC : Border Closure, but it is open to patients who have scheduled appointments with us!",
@@ -333,6 +351,7 @@ const news = [
   },
   {
     id: "19",
+    type: "img",
     img: "gps-on-vermont-medical-centre-news.jpg",
     pageLink: "border-closure-gpv-clinic-updates-news",
     title: "Clinic update - Border Closure Arrangements",
@@ -352,6 +371,29 @@ const news = [
       "GPs on Vermont Medical centre"
     ],
     date: "2020-07-08"
+  },
+  {
+    id: "20",
+    type: "vid",
+    img: "https://youtu.be/eVJbenwzR1s",
+    pageLink: "dos-and-donts-wearing-masks-globes-news",
+    title: "The Do's and Don'ts of wearing masks and gloves",
+    contents: [
+      "Learn tips and tricks for safely wearing masks and gloves when you’re out in the public.",
+      "Our hygiene protocol has remained extremely vigilant throughout this process and we continue to provide a clean and safe environment for your treatment. As such we ask all patients to adhere to the following requirements:",
+      "1. Advise the receptionist if you have a sore throat, runny nose, flu like symptoms, shortness of breath, been to Melbourne or been in contact with people from Melbourne in the past 14 days. If you have one symptom, we strongly recommend you attend a Covid 19 clinic and be tested.",
+      "2. On arrival for your appointment you will be asked to call reception and they will advise when it is appropriate for you to come into the waiting room.",
+      "3. Your temperature will be taken before entering the clinic. If your temperature is 38 or above, you will be ask to wait in the car and have a telephone appointment.",
+      "4. Please attend your appointment on your own were possible. If you require a support person please advise the receptionist.",
+      "-",
+      "Medical appointments are classed as essential health service and, as such, you will be free to cross the border to attend your appointment with a permit. Advise our reception staff if you need assistance with this permit application.",
+      "https://www.service.nsw.gov.au/transaction/apply-covid-19-nsw-border-entry-permit",
+      "We look forward to supporting you and your families’ health during this time either by a telephone or face to face appointment. If you have any questions, please don’t hesitate to call our helpful reception staff on 02 60252189.",
+      "-",
+      "Doctors and staff",
+      "GPs on Vermont Medical centre"
+    ],
+    date: "2020-07-14"
   }
 ];
 
