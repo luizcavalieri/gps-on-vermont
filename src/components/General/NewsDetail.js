@@ -2,6 +2,7 @@ import React from 'react'
 import { Row, Col } from 'reactstrap';
 import ReactLinkify from "react-linkify";
 import SocialMediaShareBar from './SocialMediaShareBar';
+import Iframe from "react-iframe";
 
 const NewsDetail = ({ article }) => {
     
@@ -19,9 +20,23 @@ const NewsDetail = ({ article }) => {
             <div className="article">
                 <Row>
                     <Col md="4" xl="4">
-                        <div className="justify-content-center">
-                            <img className="img-fluid" width={"150%"} src={require(`../../assets/img/news/${article.img}`)} alt={article.title} />
-                        </div>
+                        {article.type==='img'
+                            ?
+                                <div className="justify-content-center">
+                                    <img className="img-fluid" width={"150%"} src={require(`../../assets/img/news/${article.img}`)} alt={article.title} />
+                                </div>
+                            :
+                                <div >
+                                    <Iframe
+                                        url={article.img}
+                                        width="100%"
+                                        height="200"
+                                        // id="myId23423423222"
+                                        title={article.title}
+                                        allowFullScreen
+                                    />
+                                </div> 
+                        }
                     </Col>
                     <Col className="d-flex flex-column" md="8" xl="8">
                         <h3 className=" text-capitalize sub-title">

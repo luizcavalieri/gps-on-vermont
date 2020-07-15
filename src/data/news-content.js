@@ -375,23 +375,19 @@ const news = [
   {
     id: "20",
     type: "vid",
-    img: "https://youtu.be/eVJbenwzR1s",
+    img: "https://www.youtube.com/embed/eVJbenwzR1s",
     pageLink: "dos-and-donts-wearing-masks-globes-news",
-    title: "The Do's and Don'ts of wearing masks and gloves",
+    title: "Tips and tricks for wearing masks and gloves safely",
     contents: [
-      "Learn tips and tricks for safely wearing masks and gloves when you’re out in the public.",
-      "Our hygiene protocol has remained extremely vigilant throughout this process and we continue to provide a clean and safe environment for your treatment. As such we ask all patients to adhere to the following requirements:",
-      "1. Advise the receptionist if you have a sore throat, runny nose, flu like symptoms, shortness of breath, been to Melbourne or been in contact with people from Melbourne in the past 14 days. If you have one symptom, we strongly recommend you attend a Covid 19 clinic and be tested.",
-      "2. On arrival for your appointment you will be asked to call reception and they will advise when it is appropriate for you to come into the waiting room.",
-      "3. Your temperature will be taken before entering the clinic. If your temperature is 38 or above, you will be ask to wait in the car and have a telephone appointment.",
-      "4. Please attend your appointment on your own were possible. If you require a support person please advise the receptionist.",
-      "-",
-      "Medical appointments are classed as essential health service and, as such, you will be free to cross the border to attend your appointment with a permit. Advise our reception staff if you need assistance with this permit application.",
-      "https://www.service.nsw.gov.au/transaction/apply-covid-19-nsw-border-entry-permit",
-      "We look forward to supporting you and your families’ health during this time either by a telephone or face to face appointment. If you have any questions, please don’t hesitate to call our helpful reception staff on 02 60252189.",
-      "-",
-      "Doctors and staff",
-      "GPs on Vermont Medical centre"
+      "We are here today to do a fun experiment where we show how easy it is to spread germs. We are going to demonstrate this using a powder that glows underneath the blacklight.",
+      "As you can see the only item in our experiment that has been contaminated with powder is the water bottle.",
+      "In this experiment the powder represents our bacteria our germs and viruses so we can demonstrate how easy it is to spread this even if we're running into the grocery store with proper protective equipment (Mask & Gloves).",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
     ],
     date: "2020-07-14"
   }
