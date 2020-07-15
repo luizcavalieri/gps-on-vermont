@@ -58,7 +58,16 @@ const CareerPage = () => {
                           </cite>
                         ))}
                       </div>
-
+                      
+                      <div className="p-1 text-center font-paragraph ">
+                      email us :
+                        <a
+                          className="text-info"
+                          href={`mailto: ${job.email}`}
+                        >
+                           {job.email}
+                        </a>
+                      </div>
                       <footer>
                         <br></br>
                         <h5>{job.footer}</h5>

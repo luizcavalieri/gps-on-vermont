@@ -15,6 +15,7 @@ const jobOffers = [
     ribbonText: "Job Offer",
     ribbonTextBkgColor: "#0088ff",
     ribbonTextColor: "#f0f0f0",
+    email: "manager@gpsonvermont.com.au",
     footer: "GPs on Vermont",
     enabled: true
   }
