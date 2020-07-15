@@ -326,7 +326,7 @@ const news = [
       "If you’re feeling anxious, have questions or need support, please make an appointment with our therapist Jen Walker.",
       "If you are currently experiencing symptoms of infection (e.g. fever, cough, sore throat, shortness of breath) or are aware you have been in contact with someone who has tested positive for coronavirus please contact us via the phone to discuss your options",
       "-",
-      "For additional recommendations please look on at the cancer council website: https://www.cancer.org.au/cancer-and-covid-19"
+      "For additional recommendations please look visit the cancer council website at: https://www.cancer.org.au/cancer-and-covid-19"
     ],
     date: "2020-07-07"
   },
