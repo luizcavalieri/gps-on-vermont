@@ -28,11 +28,11 @@ const staff = [
     titleAbr: "Dr",
     title: "Doctor",
     name: "Angela Ramsay",
-    image: "avatar.jpg",
+    image: "dr-ramsay.jpg",
     accreditations: ["MBChB(Bristol)", "Diploma of Obstetric", "Diploma Anaesthetic"],
     descriptions: [
       "Dr Ramsay has been a General Practitioner in the Albury Wodonga area since 1988.",
-      "She is working at GPs on Vermont Medical Centre as a Locum Doctor.",
+      "She is working at GPs on Vermont Medical Centre as a Doctor.",
       "Dr Ramsay has a special interest in Women Health, Family Planning and Antenatal Care."
     ],
     availability: [
@@ -94,7 +94,7 @@ const staff = [
     titleAbr: "Pm",
     title: "Nursing Manager",
     name: "Megan Chick",
-    image: "avatar.jpg",
+    image: "Megan-Chick.jpg",
     accreditations: [
       "Registered nurse Division 1",
       "Clinical Nurse Specialist",
@@ -159,6 +159,54 @@ const staff = [
       "My passion is working with trauma affected people as trauma can and does underpin many mental health problems and I see this often in my practice.",
       "I use Cognitive Behaviour Therapy, Narrative Therapy and Acceptance Commitment Therapy and have trained in Cognitive Processing Therapy.",
       "I like to stay up to date with new emerging ways to support those with mental health issues and undertake training and academic study on a regular basis."
+    ],
+    booking: false,
+    bookingDoctorId: "",
+    socialMedia: [
+      {
+        id: "phone",
+        link: "tel: 0260252189"
+      }
+    ],
+    enabled: true
+  },
+  {
+    titleAbr: "Ms",
+    title: "Receptionist",
+    name: "Evie Frawley",
+    image: "Evie-Frawley.jpg",
+    accreditations: [],
+    availability: [
+      { day: "Call", desc: "call for an appointment", from: "", to: "", notes: "" }
+    ],
+    speaks: ["English"],
+    descriptions: [
+      "",
+      ""
+    ],
+    booking: false,
+    bookingDoctorId: "",
+    socialMedia: [
+      {
+        id: "phone",
+        link: "tel: 0260252189"
+      }
+    ],
+    enabled: true
+  },
+  {
+    titleAbr: "Ms",
+    title: "Receptionist",
+    name: "Rebecca Smith",
+    image: "Rebecca-Smith.jpg",
+    accreditations: [],
+    availability: [
+      { day: "Call", desc: "call for an appointment", from: "", to: "", notes: "" }
+    ],
+    speaks: ["English"],
+    descriptions: [
+      "",
+      ""    
     ],
     booking: false,
     bookingDoctorId: "",
