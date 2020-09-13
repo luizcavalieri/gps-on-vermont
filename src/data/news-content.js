@@ -431,6 +431,42 @@ const news = [
       "If you would like more information please visit:  https://www.canceraustralia.gov.au/affected-cancer/cancer-types/prostate-cancer/ or https://www.prostate.org.au/"
     ],
     date: "2020-09-03"
+  },
+  {
+    id: "23",
+    type: "img",
+    img: "how-are-you-managing-your-mental-health.jpg",
+    pageLink: "how-are-you-managing-your-mental-health-news",
+    title: "How are you managing your mental health? Are you looking after yourself",
+    contents: [
+      "If you are struggling to cope, sleep, feeling anxious, depressed or very stressed please make an appointment to visit us for a chat we take mental health seriously.",
+      "You don’t have to go through this time of uncertainty alone.",
+      "Remember that we have Jen Walker, our wonderful therapist, here and available to help.",
+      "We acknowledge that the Covid19 pandemic has added to the already existing anxiety around climate change, the economy and the future and decreased people’s optimism.",
+      "Some strategies people have found to help include:",
+      "1. Connecting with friends and loved ones regardless if it’s online over the phone etc.",
+      "2. Finding a support group.",
+      "3. Joining a interest group, there are now lots of groups online, Laughter is a great way to get more feel good hormones into your system, whether it be with a standup comedy, sitcom, funny animal clips, a movie or an online laughing yoga group or sharing jokes with a friend. Whatever the form we encourage lots of it!. Play some music you can always dance as if no one is watching.",
+      "4. Sunshine and vitamin D",
+      "5. Exercise helps with a sense of self care, routine and purpose and those happy hormones again.",
+      "6. A varied and balanced diet helps fuel our body and its hormones. Are you eating a rainbow of foods?.",
+      "7. Treat yourself to some me time and do something special just for you.",
+      "8. And giving yourself permission and know that it’s ok to experience and acknowledge the emotions that arise during these uncertain times.",
+      "9. Giving back to the community gives a sense of connection, satisfaction, purpose and empowerment.",
+      "",
+      "For more ideas and information on how to manage your mental health please visit: https://www.health.gov.au/news/health-alerts/novel-coronavirus-2019-ncov-health-alert/ongoing-support-during-coronavirus-covid-19/looking-after-your-mental-health-during-coronavirus-covid-19-restrictions",
+      "Please don’t hesitate to reach out to us for help.",
+      "If you need help right now, acute and crisis mental health care is available 24 hours a day, 7 days a week, anywhere in Australia please call",   
+      "*  Beyond Blue.                            Phone: 1800 512 348",
+      "*  Kids Helpline.                          Phone: 1800 551 800",
+      "*  Lifeline 24-hour crisis line.           Phone: 131 114",
+      "*  Health Direct (Aboriginal and Torres Strait)    Phone: 1800 011 511  ... and ask for the local crisis team",
+      "*  National Relay Service (Hearing or speech impairment).    Phone: 1800 555 677 ... and ask to be transferred to healthdirect ... and ask for the local crisis team",
+      "*  Suicide Call Back Service.              Phone: 1300 659 467",
+      "*  Translating and Interpreting Service (TIS National).    Phone:  131 450",
+      "If it is an emergency please dial 000"
+    ],
+    date: "2020-09-05"
   }
 ];
 
