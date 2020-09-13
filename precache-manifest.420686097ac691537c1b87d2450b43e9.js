@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "06fab71ed2290a358673ebdb6049ce4e",
+    "revision": "a72f1c3fd348eefb3267f2945d3d94b3",
     "url": "/index.html"
   },
   {
-    "revision": "6bebe6b3aaa9263918c9",
+    "revision": "58cf9f45538f7fb0163a",
     "url": "/static/css/2.37c00e0b.chunk.css"
   },
   {
-    "revision": "128a8a3ca5b9f76a7f17",
+    "revision": "a8a9e8e7097934b988f1",
     "url": "/static/css/main.be9816ee.chunk.css"
   },
   {
-    "revision": "6bebe6b3aaa9263918c9",
-    "url": "/static/js/2.eee8eabb.chunk.js"
+    "revision": "58cf9f45538f7fb0163a",
+    "url": "/static/js/2.fcef4a64.chunk.js"
   },
   {
     "revision": "74b24ba8720a33a9d89bced05de1a801",
-    "url": "/static/js/2.eee8eabb.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.fcef4a64.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "128a8a3ca5b9f76a7f17",
-    "url": "/static/js/main.710b8d93.chunk.js"
+    "revision": "a8a9e8e7097934b988f1",
+    "url": "/static/js/main.3d1b7edc.chunk.js"
   },
   {
     "revision": "6c8c6f284ff807139f13",
@@ -242,6 +242,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "7c9b58c3207205d9369fe5c93f38175d",
     "url": "/static/media/hotdoc1.7c9b58c3.png"
+  },
+  {
+    "revision": "431f095d8cc22bdd2b455a96f68e8323",
+    "url": "/static/media/how-are-you-managing-your-mental-health.431f095d.jpg"
   },
   {
     "revision": "300494e9857b8d865ead79a62b09dd88",
