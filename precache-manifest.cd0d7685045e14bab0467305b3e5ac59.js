@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e7b5fe2e9c37eb9db76e4dc607338de6",
+    "revision": "06fab71ed2290a358673ebdb6049ce4e",
     "url": "/index.html"
   },
   {
-    "revision": "9a4c2530103ed36e7091",
+    "revision": "6bebe6b3aaa9263918c9",
     "url": "/static/css/2.37c00e0b.chunk.css"
   },
   {
-    "revision": "cb919172a8827d9ed75c",
+    "revision": "128a8a3ca5b9f76a7f17",
     "url": "/static/css/main.be9816ee.chunk.css"
   },
   {
-    "revision": "9a4c2530103ed36e7091",
-    "url": "/static/js/2.425a891d.chunk.js"
+    "revision": "6bebe6b3aaa9263918c9",
+    "url": "/static/js/2.eee8eabb.chunk.js"
   },
   {
     "revision": "74b24ba8720a33a9d89bced05de1a801",
-    "url": "/static/js/2.425a891d.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.eee8eabb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "cb919172a8827d9ed75c",
-    "url": "/static/js/main.6b448afb.chunk.js"
+    "revision": "128a8a3ca5b9f76a7f17",
+    "url": "/static/js/main.710b8d93.chunk.js"
   },
   {
     "revision": "6c8c6f284ff807139f13",
@@ -96,6 +96,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/bg8.6737ce3b.jpg"
   },
   {
+    "revision": "a354129c32a0d37ec189d80a907b3727",
+    "url": "/static/media/blue-september-prostate-cancer.a354129c.jpg"
+  },
+  {
     "revision": "0e3525dc0ebf60365c013c84cee51855",
     "url": "/static/media/blurred-image-1.0e3525dc.jpg"
   },
@@ -106,6 +110,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d65b9399bc2dea25ca707549804f3f1c",
     "url": "/static/media/cancer-and-covid-19-news.d65b9399.jpg"
+  },
+  {
+    "revision": "fd68865e7df6d6d100f6561eb7db3b24",
+    "url": "/static/media/cancer-symptoms-trials.fd68865e.jpg"
   },
   {
     "revision": "ba147accb532a1e1ef8707390396fab7",
