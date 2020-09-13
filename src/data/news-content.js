@@ -390,6 +390,47 @@ const news = [
       ""
     ],
     date: "2020-07-14"
+  },
+  {
+    id: "21",
+    type: "img",
+    img: "cancer-symptoms-trials.jpg",
+    pageLink: "cancer-symptomps-trials-news",
+    title: "Cancer Symptoms Trials (CST)",
+    contents: [
+      "A team of investigators from the Cancer Symptoms Trials (CST) unit at The University of Technology Sydney (UTS) are currently conducting a survey regarding: Defining Research Priorities and needs in Cancer Symptoms for adults who are living with or have had cancer.",
+      "They are hoping to address the unmet symptom management needs of Australians living with cancer.",
+      "If you want more information, and or to begin the survey, please click on this link: www.uts.edu.au/cst/cstprojects.",
+      "If you want to know about clinical trials available specific to your type of cancer please ask us about it at your next appointment."
+    ],
+    date: "2020-08-03"
+  },
+  {
+    id: "22",
+    type: "img",
+    img: "blue-september-prostate-cancer.jpg",
+    pageLink: "blue-september-aka-prostate-cancer-awareness-month-news",
+    title: "Blue September aka Prostate Cancer(PCa) Awareness Month",
+    contents: [
+      "This month we are highlighting Prostate Cancer (PCa) awareness and this is a good time to reflect on and discuss Australian men’s health.",
+      "Prostate Cancer is actually the most common cancer in Australian men!",
+      "It kills approximately 3500 Australian men each year!.",
+      "And many more are having their quality of life affected by its symptoms and complications.",
+      "It occurs when abnormal cells in the prostate grow in an uncontrolled way.",
+      "It is most treatable when detected early before it has had a chance to spread to other parts of the body.",
+      "Please be aware that in the early stages, there may be no symptoms that’s why we strongly encourage regular checkups.",
+      "Symptoms usually show up in later stages and often start to occur as the prostate enlarges and presses on the urethra.",
+      "Prostate Cancer symptoms include:",
+      "1. Feeling the frequent or sudden need to urinate",
+      "2. Finding it difficult to urinate (for example, trouble starting or not being able to urinate when the feeling is there or having poor urine flow)",
+      "3. Discomfort when urinating",
+      "4. Finding blood in urine or semen",
+      "5. Pain in the lower back, upper thighs or hips.",
+      "6. Sexual dysfunction",
+      "If you or the men in your life have experience any of these symptoms or have noticed unusual changes make an appointment with us as the earlier it’s detected the better the outcome.",
+      "If you would like more information please visit:  https://www.canceraustralia.gov.au/affected-cancer/cancer-types/prostate-cancer/ or https://www.prostate.org.au/"
+    ],
+    date: "2020-09-03"
   }
 ];
 
