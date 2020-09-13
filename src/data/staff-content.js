@@ -181,8 +181,10 @@ const staff = [
     ],
     speaks: ["English"],
     descriptions: [
-      "",
-      ""
+      "Evie is one of our two very friendly and caring receptionists who will either greet you over the phone or from behind the front desk upon entering into the clinic.",
+      "She will assist you in scheduling your appointments and try her best to answer your questions.",
+      "She may also send a text or call with a reminder of an upcoming appointment.",
+      "She enjoys helping people and interacting with our patients and their loved ones. She can’t wait to meet you!"
     ],
     booking: false,
     bookingDoctorId: "",
@@ -205,8 +207,10 @@ const staff = [
     ],
     speaks: ["English"],
     descriptions: [
-      "",
-      ""    
+      "Rebecca is one of our two very friendly and professional receptionists.",
+      "She will either greet you from behind the front desk upon entering into the clinic or on the phone when you call us.",
+      "She is also available to answer your queries and help with your check out once your appointment is completed.",
+      "She enjoys helping people and giving support and guidance as needed. Come in and say hello!"   
     ],
     booking: false,
     bookingDoctorId: "",
