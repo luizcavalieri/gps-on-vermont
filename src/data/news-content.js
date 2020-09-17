@@ -457,24 +457,6 @@ const news = [
   {
     id: "23",
     type: "img",
-    img: "prostate-check-up.jpg",
-    pageLink: "what-is-the-prostate-where-is-located-news",
-    title: "What is the Prostate? Where is it located? And how is Prostate health checked?",
-    contents: [
-      "What is the Prostate along with the testicles and seminal vesicles comprise the male sex glands",
-      "These glands are instructed by the sex hormones like testosterone to secrete the fluids which make up semen.",
-      "A normal prostate is about the size of a walnut and lies just below the bladder and surrounds the beginning of the urethra (the tube that allows urine and semen to be released)",
-      "The state of your prostates health can be indicated by a Prostate Specific Antigen (PSA) blood test.",
-      "We recommend our male patients include a PSA blood test as part of their regular health check up routine.",
-      "A high PSA test result can indicate if we need to refer you to a specialist for further investigations into prostate diseases and or cancer.",
-      "You can find out more about the prostate here: https://www.prostate.org.au/"
-    ],
-    date: "2020-08-04",
-    enabled: true
-  },
-  {
-    id: "24",
-    type: "img",
     img: "how-are-you-managing-your-mental-health.jpg",
     pageLink: "how-are-you-managing-your-mental-health-news",
     title: "How are you managing your mental health? Are you looking after yourself",
@@ -508,6 +490,24 @@ const news = [
       "If it is an emergency please dial 000"
     ],
     date: "2020-09-05",
+    enabled: true
+  },
+  {
+    id: "24",
+    type: "img",
+    img: "prostate-check-up.jpg",
+    pageLink: "what-is-the-prostate-where-is-located-news",
+    title: "What is the Prostate? Where is it located? And how is Prostate health checked?",
+    contents: [
+      "What is the Prostate along with the testicles and seminal vesicles comprise the male sex glands",
+      "These glands are instructed by the sex hormones like testosterone to secrete the fluids which make up semen.",
+      "A normal prostate is about the size of a walnut and lies just below the bladder and surrounds the beginning of the urethra (the tube that allows urine and semen to be released)",
+      "The state of your prostates health can be indicated by a Prostate Specific Antigen (PSA) blood test.",
+      "We recommend our male patients include a PSA blood test as part of their regular health check up routine.",
+      "A high PSA test result can indicate if we need to refer you to a specialist for further investigations into prostate diseases and or cancer.",
+      "You can find out more about the prostate here: https://www.prostate.org.au/"
+    ],
+    date: "2020-09-17",
     enabled: true
   }
 ];
