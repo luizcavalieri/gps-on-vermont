@@ -32,7 +32,7 @@ const staff = [
     accreditations: ["MBChB(Bristol)", "Diploma of Obstetric", "Diploma Anaesthetic"],
     descriptions: [
       "Dr Ramsay has been a General Practitioner in the Albury Wodonga area since 1988.",
-      "She is working at GPs on Vermont Medical Centre as a Doctor.",
+      "She is one of our Doctors at GPs on Vermont Medical Centre",
       "Dr Ramsay has a special interest in Women Health, Family Planning and Antenatal Care."
     ],
     availability: [

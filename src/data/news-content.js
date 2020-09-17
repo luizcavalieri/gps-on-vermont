@@ -10,7 +10,8 @@ const news = [
       "Come and discuss your healthcare needs or concerns with us we are ready and willing to assist you.",
       "Make sure you come visit us and like our page for more updates."
     ],
-    date: "2020-02-01"
+    date: "2020-02-01",
+    enabled: true
   },
   {
     id: "2",
@@ -22,7 +23,8 @@ const news = [
       "Flu vaccines will be in stock in late March, but we are recommending that you wait until May before being vaccinated. Our flu vaccination clinic will be run by our practice nurses. You can receive a flu vaccine during the course of your consultation with your doctor if you prefer.",
       "People eligible for free influenza vaccine: All children aged six months to less than five years - Victorian government funded. All Aboriginal and Torres Strait Islander people aged from six months. All adults aged ≥65 years"
     ],
-    date: "2020-02-10"
+    date: "2020-02-10",
+    enabled: true
   },
   {
     id: "3",
@@ -36,7 +38,8 @@ const news = [
       "Coronaviruses are a large family of viruses which may cause illness in animals or humans. In humans, several coronaviruses are known to cause respiratory infections ranging from the common cold to more severe diseases. COVID-19 is the most recently discovered coronavirus.",
       "If you suspect you may have the coronavirus disease (COVID-19), please call the dedicated hotline on 1800 675 398. Please keep Triple Zero (000) for emergencies only."
     ],
-    date: "2020-02-12"
+    date: "2020-02-12",
+    enabled: true
   },
   {
     id: "4",
@@ -51,7 +54,8 @@ const news = [
       "Or use a alcohol-based hand sanitizer, that contains at least 60% alcohol, if you don’t have immediate access to soap and water.",
       "To watch the World Health Organization (WHO) hand washing video please click - https://youtu.be/3PmVJQUCm4E"
     ],
-    date: "2020-02-19"
+    date: "2020-02-19",
+    enabled: true
   },
   {
     id: "5",
@@ -69,7 +73,8 @@ const news = [
       "Masks are effective only when used in combination with frequent hand-cleaning with alcohol-based hand rub or soap and water. If you wear a mask, then you must know how to use it and dispose of it properly.",
       "Please watch the following face mask video on how to correctly wear a face mask - https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/when-and-how-to-use-masks"
     ],
-    date: "2020-03-04"
+    date: "2020-03-04",
+    enabled: true
   },
   {
     id: "6",
@@ -87,7 +92,8 @@ const news = [
       "If you have serious symptoms such as difficulty breathing, call 000 for urgent medical help.",
       "Find more information here: https://www.health.gov.au/news/health-alerts/novel-coronavirus-2019-ncov-health-alert"
     ],
-    date: "2020-03-25"
+    date: "2020-03-25",
+    enabled: true
   },
   {
     id: "7",
@@ -109,7 +115,8 @@ const news = [
       "  • If you must leave home, such as to seek medical care, wear a surgical mask. If you don’t have a mask, take care to not cough or sneeze on others.",
       "Read more advice about staying at home on https://www.health.gov.au/sites/default/files/documents/2020/03/coronavirus-covid-19-isolation-guidance_2.pdf."
     ],
-    date: "2020-03-19"
+    date: "2020-03-19",
+    enabled: true
   },
   {
     id: "8",
@@ -123,7 +130,8 @@ const news = [
       "Call one of our friendly staff on (02) 6025 2189 to make an appointment or pop into the clinic during opening hours. We are located at 80 Vermont St, Wodonga VIC 3690",
       "We look forward to meeting you :) "
     ],
-    date: "2020-03-18"
+    date: "2020-03-18",
+    enabled: true
   },
   {
     id: "9",
@@ -146,7 +154,8 @@ const news = [
       "These changes represent the fourth stage of a series of primary care measures and will commence from 8am Monday 30 March. ",
       "More information can be found here: https://www.health.gov.au/ministers/the-hon-greg-hunt-mp/media/covid-19-whole-of-population-telehealth-for-patients-general-practice-primary-care-and-other-medical-services"
     ],
-    date: "2020-03-26"
+    date: "2020-03-26",
+    enabled: true
   },
   {
     id: "10",
@@ -167,7 +176,8 @@ const news = [
       " •	are a healthcare worker who may be exposed to people who are sick",
       "Also remember If you are over 65, you might need your PNEUMONIA Vaccine."
     ],
-    date: "2020-03-27"
+    date: "2020-03-27",
+    enabled: true
   },
   {
     id: "11",
@@ -192,7 +202,8 @@ const news = [
       " -•	are immuno-compromised",
       " -•	are heavy drinkers or smokers."
     ],
-    date: "2020-03-26"
+    date: "2020-03-26",
+    enabled: true
   },
   {
     id: "12",
@@ -214,7 +225,8 @@ const news = [
       ".",
       "We thank you for your cooperation and apologise for any inconvenience."
     ],
-    date: "2020-03-26"
+    date: "2020-03-26",
+    enabled: true
   },
   {
     id: "13",
@@ -249,7 +261,8 @@ const news = [
       "Google Play: https://play.google.com/store/apps/details?id=au.gov.health.covidsafe",
       "App Store: https://apps.apple.com/au/app/covidsafe/id1509242894"
     ],
-    date: "2020-04-27"
+    date: "2020-04-27",
+    enabled: true
   },
   {
     id: "14",
@@ -264,7 +277,8 @@ const news = [
       "In behalf of GPs on Vermont, we would like to welcome Dr Ramsay as a new Locum Doctor. All of us here are excited to get to know you and look forward to working with you!",
       "Welcome Dr Ramsay to our team."
     ],
-    date: "2020-06-07"
+    date: "2020-06-07",
+    enabled: true
   },
   {
     id: "15",
@@ -288,7 +302,8 @@ const news = [
       "For a man’s HPV caused Oropharyngeal cancer perspective read Jay Middleton’s story here..",
       "https://www.thedenverchannel.com/lifestyle/health/englewood-bicyclist-with-hpv-linked-cancer-using-bicycling-to-encourage-others-to-be-vaccinated"
     ],
-    date: "2020-07-05"
+    date: "2020-07-05",
+    enabled: true
   },
   {
     id: "16",
@@ -308,7 +323,8 @@ const news = [
       "If you think you or someone else may be having a heart attack, call Triple Zero (000) immediately!",
       "Schedule an appointment with us today for a health check and to see what your personal risk for heart disease is."
     ],
-    date: "2020-07-07"
+    date: "2020-07-07",
+    enabled: true
   },
   {
     id: "17",
@@ -328,7 +344,8 @@ const news = [
       "-",
       "For additional recommendations please look visit the cancer council website at: https://www.cancer.org.au/cancer-and-covid-19"
     ],
-    date: "2020-07-07"
+    date: "2020-07-07",
+    enabled: true
   },
   {
     id: "18",
@@ -347,7 +364,8 @@ const news = [
       "Apply here: ",
       "https://disasterassistance.service.nsw.gov.au/bcpermit"
     ],
-    date: "2020-07-08"
+    date: "2020-07-08",
+    enabled: true
   },
   {
     id: "19",
@@ -370,7 +388,8 @@ const news = [
       "Doctors and staff",
       "GPs on Vermont Medical centre"
     ],
-    date: "2020-07-08"
+    date: "2020-07-08",
+    enabled: true
   },
   {
     id: "20",
@@ -389,7 +408,8 @@ const news = [
       "",
       ""
     ],
-    date: "2020-07-14"
+    date: "2020-07-14",
+    enabled: true
   },
   {
     id: "21",
@@ -403,7 +423,8 @@ const news = [
       "If you want more information, and or to begin the survey, please click on this link: www.uts.edu.au/cst/cstprojects.",
       "If you want to know about clinical trials available specific to your type of cancer please ask us about it at your next appointment."
     ],
-    date: "2020-08-03"
+    date: "2020-08-03",
+    enabled: false
   },
   {
     id: "22",
@@ -430,10 +451,29 @@ const news = [
       "If you or the men in your life have experience any of these symptoms or have noticed unusual changes make an appointment with us as the earlier it’s detected the better the outcome.",
       "If you would like more information please visit:  https://www.canceraustralia.gov.au/affected-cancer/cancer-types/prostate-cancer/ or https://www.prostate.org.au/"
     ],
-    date: "2020-09-03"
+    date: "2020-09-03",
+    enabled: true
   },
   {
     id: "23",
+    type: "img",
+    img: "prostate-check-up.jpg",
+    pageLink: "what-is-the-prostate-where-is-located-news",
+    title: "What is the Prostate? Where is it located? And how is Prostate health checked?",
+    contents: [
+      "What is the Prostate along with the testicles and seminal vesicles comprise the male sex glands",
+      "These glands are instructed by the sex hormones like testosterone to secrete the fluids which make up semen.",
+      "A normal prostate is about the size of a walnut and lies just below the bladder and surrounds the beginning of the urethra (the tube that allows urine and semen to be released)",
+      "The state of your prostates health can be indicated by a Prostate Specific Antigen (PSA) blood test.",
+      "We recommend our male patients include a PSA blood test as part of their regular health check up routine.",
+      "A high PSA test result can indicate if we need to refer you to a specialist for further investigations into prostate diseases and or cancer.",
+      "You can find out more about the prostate here: https://www.prostate.org.au/"
+    ],
+    date: "2020-08-04",
+    enabled: true
+  },
+  {
+    id: "24",
     type: "img",
     img: "how-are-you-managing-your-mental-health.jpg",
     pageLink: "how-are-you-managing-your-mental-health-news",
@@ -446,13 +486,14 @@ const news = [
       "Some strategies people have found to help include:",
       "1. Connecting with friends and loved ones regardless if it’s online over the phone etc.",
       "2. Finding a support group.",
-      "3. Joining a interest group, there are now lots of groups online, Laughter is a great way to get more feel good hormones into your system, whether it be with a standup comedy, sitcom, funny animal clips, a movie or an online laughing yoga group or sharing jokes with a friend. Whatever the form we encourage lots of it!. Play some music you can always dance as if no one is watching.",
-      "4. Sunshine and vitamin D",
-      "5. Exercise helps with a sense of self care, routine and purpose and those happy hormones again.",
-      "6. A varied and balanced diet helps fuel our body and its hormones. Are you eating a rainbow of foods?.",
-      "7. Treat yourself to some me time and do something special just for you.",
-      "8. And giving yourself permission and know that it’s ok to experience and acknowledge the emotions that arise during these uncertain times.",
-      "9. Giving back to the community gives a sense of connection, satisfaction, purpose and empowerment.",
+      "3. Joining a interest group, there are now lots of groups online", 
+      "4. Laughter is a great way to get more feel good hormones into your system, whether it be with a standup comedy, sitcom, funny animal clips, a movie or an online laughing yoga group or sharing jokes with a friend. Whatever the form we encourage lots of it!. Play some music you can always dance as if no one is watching.",
+      "5. Sunshine and vitamin D",
+      "6. Exercise helps with a sense of self care, routine and purpose and those happy hormones again.",
+      "7. A varied and balanced diet helps fuel our body and its hormones. Are you eating a rainbow of foods?.",
+      "8. Treat yourself to some me time and do something special just for you.",
+      "9. And giving yourself permission and know that it’s ok to experience and acknowledge the emotions that arise during these uncertain times.",
+      "10.Giving back to the community gives a sense of connection, satisfaction, purpose and empowerment.",
       "",
       "For more ideas and information on how to manage your mental health please visit: https://www.health.gov.au/news/health-alerts/novel-coronavirus-2019-ncov-health-alert/ongoing-support-during-coronavirus-covid-19/looking-after-your-mental-health-during-coronavirus-covid-19-restrictions",
       "Please don’t hesitate to reach out to us for help.",
@@ -462,11 +503,12 @@ const news = [
       "*  Lifeline 24-hour crisis line.           Phone: 131 114",
       "*  Health Direct (Aboriginal and Torres Strait)    Phone: 1800 011 511  ... and ask for the local crisis team",
       "*  National Relay Service (Hearing or speech impairment).    Phone: 1800 555 677 ... and ask to be transferred to healthdirect ... and ask for the local crisis team",
-      "*  Suicide Call Back Service.              Phone: 1300 659 467",
+      "*  Suicide Call Back Service.            Phone: 1300 659 467",
       "*  Translating and Interpreting Service (TIS National).    Phone:  131 450",
       "If it is an emergency please dial 000"
     ],
-    date: "2020-09-05"
+    date: "2020-09-05",
+    enabled: true
   }
 ];
 

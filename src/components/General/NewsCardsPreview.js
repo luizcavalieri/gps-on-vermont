@@ -6,6 +6,7 @@ import Iframe from "react-iframe";
 const NewsCardsPreview = ({ news, start, quantity, bottomComponenet }) => {
     const TEXT_SIZE = 120;
 
+    const enabledNews = news.filter( emp => emp.enabled );
 
     function compare(a, b) {
         const dateA = a.date;
@@ -20,15 +21,15 @@ const NewsCardsPreview = ({ news, start, quantity, bottomComponenet }) => {
         return comparison * -1;
     }
     let end;
-    if (start + quantity > news.length)
+    if (start + quantity > enabledNews.length)
         end = undefined;  //important for slice to work
     else
         end = start + quantity;
-
+//.filter( emp => emp.enabled )
     return (
         <>
             <Row >
-                {news.sort(compare).slice(start, end).map((item, index) => (
+                {enabledNews.sort(compare).slice(start, end).map((item, index) => (
 
                     <Col key={index} lg={"4"} md="6" className={"ml-auto mr-auto"}>
                         <Card >
