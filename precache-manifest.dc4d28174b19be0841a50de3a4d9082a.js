@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7ff93bc685e7a54ece31fcb0c892bb91",
+    "revision": "36e8296b5366bce66856463cb0822a9b",
     "url": "/index.html"
   },
   {
-    "revision": "9beb4f5a1d0ba3a2a223",
+    "revision": "238a54e77b96afc14927",
     "url": "/static/css/2.37c00e0b.chunk.css"
   },
   {
-    "revision": "152589d4346d0a66e761",
+    "revision": "5b25a0f50e3da462f168",
     "url": "/static/css/main.e68d198b.chunk.css"
   },
   {
-    "revision": "9beb4f5a1d0ba3a2a223",
-    "url": "/static/js/2.aef2ba84.chunk.js"
+    "revision": "238a54e77b96afc14927",
+    "url": "/static/js/2.e0e1c51e.chunk.js"
   },
   {
-    "revision": "b89a1b0583da4b8dad59c2141dedde6c",
-    "url": "/static/js/2.aef2ba84.chunk.js.LICENSE.txt"
+    "revision": "b2f06720cf899633ae4030ad23234877",
+    "url": "/static/js/2.e0e1c51e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "152589d4346d0a66e761",
-    "url": "/static/js/main.7e854f81.chunk.js"
+    "revision": "5b25a0f50e3da462f168",
+    "url": "/static/js/main.3ed97e58.chunk.js"
   },
   {
     "revision": "6c8c6f284ff807139f13",
@@ -58,6 +58,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ecf46a1ea79d9ff4a1460cea9adb7468",
     "url": "/static/media/after-hours.ecf46a1e.jpg"
+  },
+  {
+    "revision": "53f29299e8ba5f28263644bd50aeb275",
+    "url": "/static/media/alzheimers-dementia-news.53f29299.jpg"
   },
   {
     "revision": "ce54dd202ed5ad1aac4d780cde301337",
@@ -97,7 +101,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "a354129c32a0d37ec189d80a907b3727",
-    "url": "/static/media/blue-september-prostate-cancer.a354129c.jpg"
+    "url": "/static/media/blue-september-prostate-cancer-news.a354129c.jpg"
   },
   {
     "revision": "0e3525dc0ebf60365c013c84cee51855",
@@ -113,7 +117,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "fd68865e7df6d6d100f6561eb7db3b24",
-    "url": "/static/media/cancer-symptoms-trials.fd68865e.jpg"
+    "url": "/static/media/cancer-symptoms-trials-news.fd68865e.jpg"
   },
   {
     "revision": "ba147accb532a1e1ef8707390396fab7",
@@ -245,7 +249,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "431f095d8cc22bdd2b455a96f68e8323",
-    "url": "/static/media/how-are-you-managing-your-mental-health.431f095d.jpg"
+    "url": "/static/media/how-are-you-managing-your-mental-health-news.431f095d.jpg"
   },
   {
     "revision": "300494e9857b8d865ead79a62b09dd88",
