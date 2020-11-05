@@ -414,7 +414,7 @@ const news = [
   {
     id: "21",
     type: "img",
-    img: "cancer-symptoms-trials.jpg",
+    img: "cancer-symptoms-trials-news.jpg",
     pageLink: "cancer-symptomps-trials-news",
     title: "Cancer Symptoms Trials (CST)",
     contents: [
@@ -429,7 +429,7 @@ const news = [
   {
     id: "22",
     type: "img",
-    img: "blue-september-prostate-cancer.jpg",
+    img: "blue-september-prostate-cancer-news.jpg",
     pageLink: "blue-september-aka-prostate-cancer-awareness-month-news",
     title: "Blue September aka Prostate Cancer(PCa) Awareness Month",
     contents: [
@@ -457,7 +457,7 @@ const news = [
   {
     id: "23",
     type: "img",
-    img: "how-are-you-managing-your-mental-health.jpg",
+    img: "how-are-you-managing-your-mental-health-news.jpg",
     pageLink: "how-are-you-managing-your-mental-health-news",
     title: "How are you managing your mental health? Are you looking after yourself",
     contents: [
@@ -495,7 +495,7 @@ const news = [
   {
     id: "24",
     type: "img",
-    img: "prostate-check-up.jpg",
+    img: "prostate-check-up-news.jpg",
     pageLink: "what-is-the-prostate-where-is-located-news",
     title: "What is the Prostate? Where is it located? And how is Prostate health checked?",
     contents: [
@@ -508,6 +508,42 @@ const news = [
       "You can find out more about the prostate here: https://www.prostate.org.au/"
     ],
     date: "2020-09-17",
+    enabled: true
+  },
+  {
+    id: "25",
+    type: "img",
+    img: "alzheimers-dementia-news.jpg",
+    pageLink: "how-much-do-you-understand-about-alzheimers-and-dementia-news",
+    title: "How much do you understand about Alzheimers & Dementia?",
+    contents: [
+      "Are you aware it’s the third leading cause of death among all Australians, behind heart disease and Cerebrovascular diseases?",
+      "And as our population ages Dementia diagnoses will continue to increase.",
+      "Dementia is actually a term used for a number of different progressive degenerative brain syndromes.",
+      "These syndromes affect memory, thinking, behaviour and emotion.",
+      "Alzheimers and Vascular Dementia are the most common types of dementia.",
+      "Every person with dementia will experience it in their own way but will eventually be unable to care for themselves and will need help with daily life activities.",
+      "Though we cannot change getting older, genetics or our family histories.",
+      "Some things you can do to lower your individual are:",
+      "",
+      "1)  Have a regular heart health check-up eg. blood pressure and cholesterol",
+      "2)  Stop smoking",
+      "3)  Follow Australian dietary guidelines for a healthy diet",
+      "4)  Engage in regular exercise",
+      "5)  Practice good sleep habits",
+      "6)  Look after your hearing and get your hearing checked",
+      "7)  Protect your head",
+      "8)  Challenge your brain with mental exercises",
+      "9)  Look after your psychological wellbeing",
+      "10) Stay social and connected with others.",
+      "",
+      "If you or someone you know is concerned about memory problems or how to manage with Dementia during the COVID-19 pandemic then make an appointment with us to discuss your treatment, advice, and support options.",
+      "You can find out more on how to manage with Dementia during the COVID-19 pandemic here: https://www.dementia.org.au/an-update-from-dementia-australia ",
+      "For additional advice and information contact the free National Dementia Helpline provides information and advice to people living with dementia as well as to family, friends and carers of people living with dementia. Free call: 1800 100 500 they operate Monday to Friday, 8:00am - 8:00pm (except public holidays).",
+      "If you require the assistance of an interpreter, please call the Translating and Interpreting Service on 131 450.",
+      "If you are deaf or have a hearing or speech impairment, please call the National Relay Service on 133 677."
+    ],
+    date: "2020-11-05",
     enabled: true
   }
 ];
