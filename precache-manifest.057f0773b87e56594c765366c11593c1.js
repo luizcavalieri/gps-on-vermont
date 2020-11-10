@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "36e8296b5366bce66856463cb0822a9b",
+    "revision": "c47ee85924a8b0da55fb38f2b49a8517",
     "url": "/index.html"
   },
   {
-    "revision": "238a54e77b96afc14927",
+    "revision": "78664c208ad7bec80d8b",
     "url": "/static/css/2.37c00e0b.chunk.css"
   },
   {
-    "revision": "5b25a0f50e3da462f168",
+    "revision": "d69c24064b92a49d8a4c",
     "url": "/static/css/main.e68d198b.chunk.css"
   },
   {
-    "revision": "238a54e77b96afc14927",
-    "url": "/static/js/2.e0e1c51e.chunk.js"
+    "revision": "78664c208ad7bec80d8b",
+    "url": "/static/js/2.29c23f4c.chunk.js"
   },
   {
     "revision": "b2f06720cf899633ae4030ad23234877",
-    "url": "/static/js/2.e0e1c51e.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.29c23f4c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5b25a0f50e3da462f168",
-    "url": "/static/js/main.3ed97e58.chunk.js"
+    "revision": "d69c24064b92a49d8a4c",
+    "url": "/static/js/main.acafe9c6.chunk.js"
   },
   {
     "revision": "6c8c6f284ff807139f13",
@@ -110,6 +110,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e1812d58758238de4afb922c04ad2777",
     "url": "/static/media/book-your-flu-shot-news.e1812d58.jpg"
+  },
+  {
+    "revision": "d0efadf2e37da70ef79c3c23a95b5c40",
+    "url": "/static/media/breast-cancer-news.d0efadf2.jpg"
   },
   {
     "revision": "d65b9399bc2dea25ca707549804f3f1c",
