@@ -499,9 +499,9 @@ const news = [
     pageLink: "what-is-the-prostate-where-is-located-news",
     title: "What is the Prostate? Where is it located? And how is Prostate health checked?",
     contents: [
-      "What is the Prostate along with the testicles and seminal vesicles comprise the male sex glands",
+      "The Prostate along with the testicles and seminal vesicles comprise the male sex glands",
       "These glands are instructed by the sex hormones like testosterone to secrete the fluids which make up semen.",
-      "A normal prostate is about the size of a walnut and lies just below the bladder and surrounds the beginning of the urethra (the tube that allows urine and semen to be released)",
+      "A normal prostate is about the size of a walnut and lies just below the bladder and surrounds the beginning of the urethra (the tube that allows urine and semen to be released).",
       "The state of your prostates health can be indicated by a Prostate Specific Antigen (PSA) blood test.",
       "We recommend our male patients include a PSA blood test as part of their regular health check up routine.",
       "A high PSA test result can indicate if we need to refer you to a specialist for further investigations into prostate diseases and or cancer.",
