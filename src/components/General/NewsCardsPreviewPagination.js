@@ -7,6 +7,8 @@ const NewsCardsPreviewPagination = ({ itemsPerPage }) => {
     const [activePage, setActivePage] = useState(1);
     if (!itemsPerPage) itemsPerPage = 9;
 
+    const enabledNews = newsContent.filter( emp => emp.enabled );
+
     return (
         <>
             <NewsCardsPreview news={newsContent} start={(activePage - 1) * itemsPerPage} quantity={itemsPerPage} />
@@ -16,7 +18,7 @@ const NewsCardsPreviewPagination = ({ itemsPerPage }) => {
                     hideNavigation={false}
                     activePage={activePage}
                     itemsCountPerPage={itemsPerPage}
-                    totalItemsCount={newsContent.length}
+                    totalItemsCount={enabledNews.length}
                     pageRangeDisplayed={itemsPerPage}
                     onChange={(pageNum => setActivePage(pageNum))}
                     prevPageText='prev'
