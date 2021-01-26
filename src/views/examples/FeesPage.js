@@ -29,6 +29,16 @@ const FeesPage = () => {
           <Container className=" text-muted">
             <TableData
               feeData={feeContent}
+              index={0}
+              headerRightContent={
+                <BookingButton className="btn-weight" size="sm" />
+              }
+            />
+          </Container>
+          <Container className=" text-muted">
+            <TableData
+              feeData={feeContent}
+              index={1}
               headerRightContent={
                 <BookingButton className="btn-weight" size="sm" />
               }

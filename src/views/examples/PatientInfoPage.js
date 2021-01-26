@@ -1,11 +1,10 @@
 import React, { useEffect } from "react";
-import { Container, Row, Col } from "reactstrap";
+import { Container, Row, Col, Button } from "reactstrap";
+import { Link } from "react-router-dom";
 import OtherNavbar from "../../components/NavBars/OtherNavbar";
 import { headerScrolling } from "./commons";
 import patientsInfo from "../../data/patientsInfo-content";
 import InfoCard from "../../components/General/InfoCard";
-import TableData from "../../components/General/TableData";
-import feeContent from "../../data/fees-content";
 import BookingButton from "../../components/General/BookingButton";
 import DarkFooter from "../../components/Footers/DarkFooter";
 import LandingPageHeader from "../../components/Headers/LandingPageHeader";
@@ -77,10 +76,13 @@ const PatientInfoPage = () => {
               </Col>
             </Row>
             <Row>
-              <Col>
-                <TableData feeData={feeContent} />
+              <Col className="d-flex justify-content-center">
+                <Link className="text-info" to="/fees-page">
+                  <Button color="info" className=" font-paragraph" >See Fees</Button>
+                </Link>
               </Col>
             </Row>
+
           </Container>
         </div>
       </div>

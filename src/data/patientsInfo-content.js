@@ -11,7 +11,7 @@ const patientsInfo = [
     {
         title: "Cancellations and Non Attendance",
         descriptions: [
-            "GPs on Vermont Medical Centre requires 3 hours notification of a cancellation or a Failure to Attend Fee of $30 will be incurred and payment will be required before another appointment can be booked. Appointments prior to 11am cannot be cancelled, please consider this before booking."
+            "GPs on Vermont Medical Centre requires 2 hours notification of a cancellation or a Failure to Attend Fee of $30 will be incurred and payment will be required before another appointment can be booked. Appointments prior to 11am cannot be cancelled, please consider this before booking."
         ],
         items: [
         ]

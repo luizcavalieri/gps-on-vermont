@@ -1,5 +1,6 @@
 const fees = [
     {
+        title: "Dr Padilla and Dr Barkas Fees",
         header: [
             [""],
             ["Amount Payable", "on the day"],
@@ -51,6 +52,67 @@ const fees = [
                 rownum: 5,
                 data: [
                     ["Long Consultation 20 minutes"],
+                    "Bulk Billed",
+                    "Not Applicable",
+                    "Not Applicable"
+                ]
+
+            }
+        ]
+    },
+    {
+        title: "Dr Ramsay: Private Billing Fees",
+        header: [
+            [""],
+            ["Amount Payable", "on the day"],
+            ["Medicare Rebate", "on the day"],
+            ["Out of pocket", "cost"]
+        ],
+        row: [
+            {
+                rownum: 1,
+                data: [
+                    ["Standard Consult", "(less than 20 minutes)"],
+                    "$73.75",
+                    "$38.75",
+                    "$35.00"
+                ]
+
+            },
+            {
+                rownum: 2,
+                data: [
+                    ["Long Consult", "(more than 20 minutes)"],
+                    "$110.05",
+                    "$75.05",
+                    "$35.00"
+                ]
+
+            },
+            {
+                rownum: 3,
+                data: [
+                    ["Pensioner Standard Consult", "(less than 20 minutes)"],
+                    "$58.75",
+                    "$38.75",
+                    "$20.00"
+                ]
+
+            },
+            {
+                rownum: 4,
+                data: [
+                    ["Pensioner Long Consult", "(more than 20 minutes)"],
+                    "$95.05",
+                    "$75.05",
+                    "$20.00"
+                ]
+
+            },
+            {
+                rownum: 5,
+                data: [
+                    ["DVA Patients"],
                     "Bulk Billed",
                     "Not Applicable",
                     "Not Applicable"

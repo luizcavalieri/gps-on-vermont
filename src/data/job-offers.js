@@ -9,7 +9,7 @@ const jobOffers = [
     ],
     note: "",
     links: [
-      { display: "Mobile: 0477 413 100", value: "0477413100" },
+      { display: "Mobile: 0477 413 700", value: "0477413700" },
       { display: "Ph: 02 6025 2189", value: "0260252189" }
     ],
     ribbonText: "Job Offer",

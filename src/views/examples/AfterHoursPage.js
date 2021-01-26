@@ -26,7 +26,11 @@ const AfterHoursPage = () => {
         <div className="section text-center">
           <Container className=" text-muted">
             <h3>
-              Wodonga Regional Hospital (Emergency Dept) – <b>02 6051 7111</b>
+              Nurse on call (Free Health advice 24 hours a day from anywhere in Victoria) – <b><a href={`tel: 1300 606 024`}>1300 606 024</a></b>
+            </h3>
+
+            <h3>
+              Wodonga Regional Hospital (Emergency Dept) – <b><a href={`tel: 02 6051 7111`}>02 6051 7111</a></b>
             </h3>
           </Container>
         </div>

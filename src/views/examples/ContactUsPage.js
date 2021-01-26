@@ -70,7 +70,7 @@ const ContactUsPage = () => {
                         {"02 6025 2189"}
                       </Badge>
                     </div>
-                    <div className="">
+                    <div className="p-3 ">
                       <div className="d-flex flex-row align-items-center font-paragraph ">
                         <div className="p-2">Press</div>
                         <IconNumber
@@ -82,7 +82,7 @@ const ContactUsPage = () => {
                         />
                         <div className="p-2 text-left">for Appointments</div>
                       </div>
-                      <div className="d-flex flex-row align-items-center font-paragraph">
+                      {/* <div className="d-flex flex-row align-items-center font-paragraph">
                         <div className="p-2">Press</div>
                         <IconNumber
                           className="p-2"
@@ -91,12 +91,12 @@ const ContactUsPage = () => {
                           foregroundIconClassName="fas fa-stack-1x fa-inverse "
                         />
                         <div className="p-2 text-left">for Nurse</div>
-                      </div>
+                      </div> */}
                       <div className="d-flex flex-row align-items-center font-paragraph">
                         <div className="p-2 ">Press</div>
                         <IconNumber
                           className="p-2"
-                          number="3"
+                          number="2"
                           backgroundIconClassName="fas fa-circle fa-stack-2x fa-icon-card-header"
                           foregroundIconClassName="fas fa-stack-1x fa-inverse "
                         />
@@ -105,8 +105,12 @@ const ContactUsPage = () => {
                         </div>
                       </div>
                     </div>
-                    <hr></hr>
-                    <div className="d-flex flex-row justify-content-center phone-badge">
+                    {/* <hr></hr> */}
+                    
+                  </CardBody>
+                  <CardFooter>
+                    {/* phone-badge */}
+                  <div className="d-flex flex-row justify-content-center ">
                       {/* <div className="text-justified">
                         <i
                           className="fa fa-mobile-alt fa-lg "
@@ -118,7 +122,7 @@ const ContactUsPage = () => {
                         </Badge>
                       </div>
                       <div className="ml-3"></div> */}
-                      <div className="text-justified">
+                      {/* <div className="text-justified">
                         <i
                           className="fa fa-mobile-alt fa-lg "
                           style={{ marginRight: 2 }}
@@ -127,8 +131,8 @@ const ContactUsPage = () => {
                         <Badge className="language-pill" pill>
                           {"Mob : 0407224579"}
                         </Badge>
-                      </div>
-                      <div className="ml-3"></div>
+                      </div> */}
+                      {/* <div className="ml-3"></div> */}
                       <div className="text-justified">
                         <i
                           className="fa fa-fax fa-lg "
@@ -139,7 +143,7 @@ const ContactUsPage = () => {
                         </Badge>
                       </div>
                     </div>
-                  </CardBody>
+                  </CardFooter>
                 </Card>
               </Col>
               <Col sm="12" md="6">
@@ -163,19 +167,23 @@ const ContactUsPage = () => {
                         manager@gpsonvermont.com.au
                       </a>
                     </div>
-                    <hr className="mt-4"></hr>
+                    {/* <hr className="mt-4"></hr> */}
 
-                    <div className="d-flex flex-row justify-content-center align-items-center p-1">
+                    
+                  </CardBody>
+                  <CardFooter  >
+                    {/* align-items-center  */}
+                  <div className="d-flex flex-row justify-content-center ">
                       <i
                         className="fa fa-keyboard fa-lg "
                         style={{ marginRight: 2 }}
                       ></i>
 
-                      <div className="ml-3">
+                      <div className="ml-3 ">
                         We will reply to you as soon as possible
                       </div>
                     </div>
-                  </CardBody>
+                  </CardFooter>
                 </Card>
               </Col>
             </Row>
@@ -194,11 +202,11 @@ const ContactUsPage = () => {
                   </CardBody>
                   <CardFooter className="card-footer-padding">
                     <div className="text-justified">
-                      <i
+                      {/* <i
                         className="fa fa-info-circle fa-lg "
                         style={{ marginRight: 10 }}
                       ></i>
-                      HotDoc
+                      HotDoc */}
                     </div>
                   </CardFooter>
                 </Card>
