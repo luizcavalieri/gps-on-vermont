@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.702f37fe.chunk.css",
-    "main.js": "/static/js/main.56f7b585.chunk.js",
-    "main.js.map": "/static/js/main.56f7b585.chunk.js.map",
+    "main.js": "/static/js/main.c48fa675.chunk.js",
+    "main.js.map": "/static/js/main.c48fa675.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.effb0ce6.js",
     "runtime-main.js.map": "/static/js/runtime-main.effb0ce6.js.map",
     "static/css/2.37c00e0b.chunk.css": "/static/css/2.37c00e0b.chunk.css",
-    "static/js/2.29c23f4c.chunk.js": "/static/js/2.29c23f4c.chunk.js",
-    "static/js/2.29c23f4c.chunk.js.map": "/static/js/2.29c23f4c.chunk.js.map",
+    "static/js/2.e002ec52.chunk.js": "/static/js/2.e002ec52.chunk.js",
+    "static/js/2.e002ec52.chunk.js.map": "/static/js/2.e002ec52.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.0cdda7eaab0e20fc2f457551f6ddfac6.js": "/precache-manifest.0cdda7eaab0e20fc2f457551f6ddfac6.js",
+    "precache-manifest.f105ff886993a6632fd77205a2581f1b.js": "/precache-manifest.f105ff886993a6632fd77205a2581f1b.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.37c00e0b.chunk.css.map": "/static/css/2.37c00e0b.chunk.css.map",
     "static/css/main.702f37fe.chunk.css.map": "/static/css/main.702f37fe.chunk.css.map",
-    "static/js/2.29c23f4c.chunk.js.LICENSE.txt": "/static/js/2.29c23f4c.chunk.js.LICENSE.txt",
+    "static/js/2.e002ec52.chunk.js.LICENSE.txt": "/static/js/2.e002ec52.chunk.js.LICENSE.txt",
     "static/media/Annette-Baumgarten.jpg": "/static/media/Annette-Baumgarten.4a291657.jpg",
     "static/media/Evie-Frawley.jpg": "/static/media/Evie-Frawley.60d7a159.jpg",
     "static/media/Jen-Walker.jpg": "/static/media/Jen-Walker.88124177.jpg",
@@ -65,6 +65,7 @@
     "static/media/headbrain.svg": "/static/media/headbrain.3e3e067a.svg",
     "static/media/header.jpg": "/static/media/header.ffcc99c4.jpg",
     "static/media/heart-attack-symptoms-news.jpg": "/static/media/heart-attack-symptoms-news.fea91037.jpg",
+    "static/media/heat-stress-news.jpg": "/static/media/heat-stress-news.68f05099.jpg",
     "static/media/hero-image-1.png": "/static/media/hero-image-1.a76c7b4c.png",
     "static/media/hero-image-2.png": "/static/media/hero-image-2.9616730d.png",
     "static/media/hero-image-3.png": "/static/media/hero-image-3.02cd0e2d.png",
@@ -100,8 +101,8 @@
   "entrypoints": [
     "static/js/runtime-main.effb0ce6.js",
     "static/css/2.37c00e0b.chunk.css",
-    "static/js/2.29c23f4c.chunk.js",
+    "static/js/2.e002ec52.chunk.js",
     "static/css/main.702f37fe.chunk.css",
-    "static/js/main.56f7b585.chunk.js"
+    "static/js/main.c48fa675.chunk.js"
   ]
 }

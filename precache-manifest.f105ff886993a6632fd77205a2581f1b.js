@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "74a6482d6dec40e47c2759571bfa9b35",
+    "revision": "c6cfdaf85cf20895fb06a26502ff906e",
     "url": "/index.html"
   },
   {
-    "revision": "78664c208ad7bec80d8b",
+    "revision": "4858022176aeede53b00",
     "url": "/static/css/2.37c00e0b.chunk.css"
   },
   {
-    "revision": "52c33a37bc564e94e9d2",
+    "revision": "7a8b8539fe26a7cc52d5",
     "url": "/static/css/main.702f37fe.chunk.css"
   },
   {
-    "revision": "78664c208ad7bec80d8b",
-    "url": "/static/js/2.29c23f4c.chunk.js"
+    "revision": "4858022176aeede53b00",
+    "url": "/static/js/2.e002ec52.chunk.js"
   },
   {
     "revision": "b2f06720cf899633ae4030ad23234877",
-    "url": "/static/js/2.29c23f4c.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.e002ec52.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "52c33a37bc564e94e9d2",
-    "url": "/static/js/main.56f7b585.chunk.js"
+    "revision": "7a8b8539fe26a7cc52d5",
+    "url": "/static/js/main.c48fa675.chunk.js"
   },
   {
     "revision": "6c8c6f284ff807139f13",
@@ -230,6 +230,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "fea910372a59977d9b04826f80c7daa2",
     "url": "/static/media/heart-attack-symptoms-news.fea91037.jpg"
+  },
+  {
+    "revision": "68f05099b84d1489b8649bacaa12a40d",
+    "url": "/static/media/heat-stress-news.68f05099.jpg"
   },
   {
     "revision": "a76c7b4ce725bb07b1572699a5a78c62",
