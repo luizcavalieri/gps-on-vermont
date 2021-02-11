@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.702f37fe.chunk.css",
-    "main.js": "/static/js/main.c48fa675.chunk.js",
-    "main.js.map": "/static/js/main.c48fa675.chunk.js.map",
+    "main.js": "/static/js/main.5a79f132.chunk.js",
+    "main.js.map": "/static/js/main.5a79f132.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.effb0ce6.js",
     "runtime-main.js.map": "/static/js/runtime-main.effb0ce6.js.map",
     "static/css/2.37c00e0b.chunk.css": "/static/css/2.37c00e0b.chunk.css",
-    "static/js/2.e002ec52.chunk.js": "/static/js/2.e002ec52.chunk.js",
-    "static/js/2.e002ec52.chunk.js.map": "/static/js/2.e002ec52.chunk.js.map",
+    "static/js/2.eb9a218c.chunk.js": "/static/js/2.eb9a218c.chunk.js",
+    "static/js/2.eb9a218c.chunk.js.map": "/static/js/2.eb9a218c.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.f105ff886993a6632fd77205a2581f1b.js": "/precache-manifest.f105ff886993a6632fd77205a2581f1b.js",
+    "precache-manifest.7fe4779eef22ce8f9445a69065890a2d.js": "/precache-manifest.7fe4779eef22ce8f9445a69065890a2d.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.37c00e0b.chunk.css.map": "/static/css/2.37c00e0b.chunk.css.map",
     "static/css/main.702f37fe.chunk.css.map": "/static/css/main.702f37fe.chunk.css.map",
-    "static/js/2.e002ec52.chunk.js.LICENSE.txt": "/static/js/2.e002ec52.chunk.js.LICENSE.txt",
+    "static/js/2.eb9a218c.chunk.js.LICENSE.txt": "/static/js/2.eb9a218c.chunk.js.LICENSE.txt",
     "static/media/Annette-Baumgarten.jpg": "/static/media/Annette-Baumgarten.4a291657.jpg",
     "static/media/Evie-Frawley.jpg": "/static/media/Evie-Frawley.60d7a159.jpg",
     "static/media/Jen-Walker.jpg": "/static/media/Jen-Walker.88124177.jpg",
@@ -59,6 +59,7 @@
     "static/media/gpv-bulk-billed-medical-centre.png": "/static/media/gpv-bulk-billed-medical-centre.b6d67a99.png",
     "static/media/gpv-news.jpg": "/static/media/gpv-news.fd536e3e.jpg",
     "static/media/gpv-opening-hours.jpg": "/static/media/gpv-opening-hours.98c51ef6.jpg",
+    "static/media/gpv-private-billed-medical-centre.png": "/static/media/gpv-private-billed-medical-centre.3f998dcd.png",
     "static/media/gpv-telehealth-service.jpg": "/static/media/gpv-telehealth-service.9d2c7c2e.jpg",
     "static/media/gpv-telehealth.png": "/static/media/gpv-telehealth.2be9ba8d.png",
     "static/media/gpv.png": "/static/media/gpv.d7142055.png",
@@ -91,6 +92,7 @@
     "static/media/rainbow.svg": "/static/media/rainbow.fa2fbab8.svg",
     "static/media/styles.css": "/static/media/revicons.2feb69cc.eot",
     "static/media/ryan.jpg": "/static/media/ryan.f217f346.jpg",
+    "static/media/sleep-deprivation-news.jpg": "/static/media/sleep-deprivation-news.e25c2db4.jpg",
     "static/media/stethoscope.svg": "/static/media/stethoscope.028c3ab5.svg",
     "static/media/telehealth-news.jpg": "/static/media/telehealth-news.62a3d1a7.jpg",
     "static/media/travel.svg": "/static/media/travel.7772f83e.svg",
@@ -101,8 +103,8 @@
   "entrypoints": [
     "static/js/runtime-main.effb0ce6.js",
     "static/css/2.37c00e0b.chunk.css",
-    "static/js/2.e002ec52.chunk.js",
+    "static/js/2.eb9a218c.chunk.js",
     "static/css/main.702f37fe.chunk.css",
-    "static/js/main.c48fa675.chunk.js"
+    "static/js/main.5a79f132.chunk.js"
   ]
 }

@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c6cfdaf85cf20895fb06a26502ff906e",
+    "revision": "14c88e011268f88844c476cbf08d1f5b",
     "url": "/index.html"
   },
   {
-    "revision": "4858022176aeede53b00",
+    "revision": "efa196db96bc08b78dc7",
     "url": "/static/css/2.37c00e0b.chunk.css"
   },
   {
-    "revision": "7a8b8539fe26a7cc52d5",
+    "revision": "e9ba4f07df9bc8a848ba",
     "url": "/static/css/main.702f37fe.chunk.css"
   },
   {
-    "revision": "4858022176aeede53b00",
-    "url": "/static/js/2.e002ec52.chunk.js"
+    "revision": "efa196db96bc08b78dc7",
+    "url": "/static/js/2.eb9a218c.chunk.js"
   },
   {
     "revision": "b2f06720cf899633ae4030ad23234877",
-    "url": "/static/js/2.e002ec52.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.eb9a218c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7a8b8539fe26a7cc52d5",
-    "url": "/static/js/main.c48fa675.chunk.js"
+    "revision": "e9ba4f07df9bc8a848ba",
+    "url": "/static/js/main.5a79f132.chunk.js"
   },
   {
     "revision": "6c8c6f284ff807139f13",
@@ -208,6 +208,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/gpv-opening-hours.98c51ef6.jpg"
   },
   {
+    "revision": "3f998dcd5af1ba77604e5dd00e29b387",
+    "url": "/static/media/gpv-private-billed-medical-centre.3f998dcd.png"
+  },
+  {
     "revision": "9d2c7c2efd5191076fd7f7611bf51362",
     "url": "/static/media/gpv-telehealth-service.9d2c7c2e.jpg"
   },
@@ -354,6 +358,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f217f346c88e5fb2720ca7c28827ff72",
     "url": "/static/media/ryan.f217f346.jpg"
+  },
+  {
+    "revision": "e25c2db485b739905c08bf4da22bbc3e",
+    "url": "/static/media/sleep-deprivation-news.e25c2db4.jpg"
   },
   {
     "revision": "028c3ab5c1b29e7ffdaca22289f496bf",
