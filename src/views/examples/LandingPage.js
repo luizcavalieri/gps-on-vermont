@@ -25,6 +25,7 @@ function LandingPage() {
 
   const messageTitle = "GPs On Vermont Medical Centre";
   const bulkBilled = "gpv-bulk-billed-medical-centre.png";
+  const privateBilled = "gpv-private-billed-medical-centre.png"
   const telehealth = "gpv-telehealth.png"
   useEffect(() => {
     headerScrolling();
@@ -63,12 +64,14 @@ function LandingPage() {
               </Col>
             </Row>
             <Row >
-              <Col sm="12" md="6" lg="3" className="ml-auto mr-auto text-center align-self-center telehealth-shield" >
+              {/* <Col sm="12" md="6" lg="3" className="ml-auto mr-auto text-center align-self-center telehealth-shield" >
                 <Link style={{ fontSize: 18 }} className="text-info font-weight-bolder" to="/news/gpv-telehealth-news">
                   <img className="rounded-circle img-raised img-fluid " width={"70%"} height={"70%"} src={require(`../../assets/img/${telehealth}`)} alt={telehealth} />
                 </Link>
+              </Col> */}
+              <Col sm="12" md="6" lg="3" className="ml-auto mr-auto text-center bulk-billed-image align-self-center" >
+                <img className="img-fluid pb-2 " width={"80%"} src={require(`../../assets/img/${bulkBilled}`)} alt={bulkBilled} />
               </Col>
-
               <Col sm="12" lg="6" className="">
                 <h5 className="description text-center">
                   At GPs on Vermont Medical Centre we are passionate about
@@ -81,7 +84,7 @@ function LandingPage() {
                   </h5>
               </Col>
               <Col sm="12" md="6" lg="3" className="ml-auto mr-auto text-center bulk-billed-image align-self-center" >
-                <img className="img-fluid pb-2 " width={"80%"} src={require(`../../assets/img/${bulkBilled}`)} alt={bulkBilled} />
+                <img className="img-fluid pb-2 " width={"80%"} src={require(`../../assets/img/${privateBilled}`)} alt={privateBilled} />
               </Col>
             </Row>
             <Row>

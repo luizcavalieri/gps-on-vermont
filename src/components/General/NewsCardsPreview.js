@@ -4,7 +4,8 @@ import { Card, CardBody, CardFooter, CardImg, CardText, CardTitle, Col, Row } fr
 import Iframe from "react-iframe";
 
 const NewsCardsPreview = ({ news, start, quantity, bottomComponenet }) => {
-    const TEXT_SIZE = 120;
+    const TEXT_SIZE = 100;
+    const TITLE_SIZE = 90;
 
     const enabledNews = news.filter( emp => emp.enabled );
 
@@ -49,7 +50,14 @@ const NewsCardsPreview = ({ news, start, quantity, bottomComponenet }) => {
                                     </div> 
                             }
                             <CardBody style={{ height: 200 }}>
-                                <CardTitle tag="h4" className="text-muted text-left business-card-title service-preview-card-body-title" >{item.title}</CardTitle>
+                                <CardTitle tag="h4" className="text-muted text-left business-card-title service-preview-card-body-title" >
+                                    {item.title.length > TITLE_SIZE
+                                        ? item.title
+                                            .substring(0, TITLE_SIZE)
+                                            .concat("...")
+                                        : item.title
+                                    }
+                                </CardTitle>
                                 <hr></hr>
                                 <CardText tag="h5" className="description text-left text-wrap text-truncate" style={{ height: 125 }}>
                                     {item.contents[0].length > TEXT_SIZE
