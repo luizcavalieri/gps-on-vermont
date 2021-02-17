@@ -630,7 +630,7 @@ const services = [
   },
   {
     id: "12",
-    title: "LGBTQI community",
+    title: "LGBTQI+ community",
     icon: "fa fa-genderless fa-lg",
     image: "rainbow.svg",
     shortIntro:
@@ -651,7 +651,7 @@ const services = [
     icon: "fa fa-search fa-lg",
     image: "skincheck.svg",
     shortIntro:
-      "Early detection and regular skin examination are your best chances at preventing, identifying and treating skin cancers.",
+      "Early detection and regular skin examinations are your best chances at preventing, identifying and treating skin cancers.",
     introDescriptions: [
       "Skin cancer is by far the most common cancer in Australia, killing 5 people every day.",
       "Australia has the highest incidence of skin cancer in the world. Not all of them are melanoma’s. In fact nonmelanoma skin cancers in Australia are now nearly seven times more common than all other cancers combined; approximately half of these are removed by general practitioners.",
