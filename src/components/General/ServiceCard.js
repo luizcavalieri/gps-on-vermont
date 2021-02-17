@@ -22,7 +22,7 @@ const ServiceCard = ({ service, className: passedClasses }) => {
             <CardImg
               className=" img-fluid "
               alt={service.title}
-              src={require(`../../assets/img/${path}`)}
+              src={require(`../../assets/img/services/${path}`)}
               top
             >
             </CardImg>

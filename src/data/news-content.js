@@ -720,7 +720,7 @@ const news = [
       "1 ) Heart disease",
       "2 ) Diabetes",
       "3 ) Worsened immune function",
-      "4 ) Distribution to hormone production and regulation",
+      "4 ) Disruption to hormone production and regulation",
       "5 ) Depression, anxiety and other impacts on mental health",
       "6 ) Make pain conditions worse",
       "7 ) Increased risk of accidents",

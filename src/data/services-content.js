@@ -5,7 +5,7 @@ const services = [
     icon: "fa fa-stethoscope fa-lg",
     image: "stethoscope.svg",
     shortIntro:
-      "We provide health assessment with the view of preventing, detecting different medical conditions.",
+      "We provide health assessments with the view of preventing or detecting different medical conditions.",
     introDescriptions: [
       "Medicare subsides a number of Health Assessments that you can take advantage of at our clinic:"
     ],
@@ -39,7 +39,8 @@ const services = [
           }
         ]
       }
-    ]
+    ],
+    enabled: true
   },
   {
     id: "2",
@@ -54,7 +55,8 @@ const services = [
       "Remember it’s important to get re-vaccinated every year to protect yourself against the flu viruses circulating that year. Your doctor will be able to advise you on the most adequate vaccine for you and your family, based on your age, vaccine availability and eligibility to receive vaccination free of charge."
     ],
     items: [],
-    sections: []
+    sections: [],
+    enabled: true
   },
   {
     id: "3",
@@ -162,7 +164,8 @@ const services = [
           }
         ]
       }
-    ]
+    ],
+    enabled: true
   },
   {
     id: "4",
@@ -177,7 +180,8 @@ const services = [
       "A counsellor will demonstrate unconditional acceptance, genuineness and empathy and will try to understand things from your perspective."
     ],
     items: [],
-    sections: []
+    sections: [],
+    enabled: true
   },
   {
     id: "5",
@@ -330,7 +334,8 @@ const services = [
           }
         ]
       }
-    ]
+    ],
+    enabled: true
   },
   {
     id: "6",
@@ -345,7 +350,8 @@ const services = [
       "The Australian Government's commitment to the delivery of efficient and effective mental health services. DVA provides suicide awareness and prevention support for current and ex-serving Australian Defense Force personnel and their families who are experiencing or have been affected by the thoughts or actions of suicide."
     ],
     items: [],
-    sections: []
+    sections: [],
+    enabled: true
   },
   {
     id: "7",
@@ -359,7 +365,8 @@ const services = [
       "We ask that you book a 20-minute appointment for a sexual health check. To arrange an appointment with one of our Doctors, please phone (02) 6025 2189 or book online."
     ],
     items: [],
-    sections: []
+    sections: [],
+    enabled: true
   },
   {
     id: "8",
@@ -432,7 +439,8 @@ const services = [
           }
         ]
       }
-    ]
+    ],
+    enabled: true
   },
   {
     id: "9",
@@ -533,7 +541,8 @@ const services = [
           }
         ]
       }
-    ]
+    ],
+    enabled: true
   },
   {
     id: "10",
@@ -573,7 +582,8 @@ const services = [
           }
         ]
       }
-    ]
+    ],
+    enabled: true
   },
   {
     id: "11",
@@ -615,7 +625,8 @@ const services = [
           }
         ]
       }
-    ]
+    ],
+    enabled: true
   },
   {
     id: "12",
@@ -631,7 +642,24 @@ const services = [
       "Lesbian women are susceptible to many of the same sexually transmitted infections as heterosexual people and gay men. Thinking that this population isn’t at risk for these STIs can result in lack of appropriate screening and treatment. In addition to HIV infection, gay men may be at higher risk for anal cancer and can be particularly susceptible to body image issues in the desire to be attractive to other men. They may also experience a variety of cancers resulting from increased obesity and use of tobacco and alcohol."
     ],
     items: [],
-    sections: []
+    sections: [],
+    enabled: true
+  },
+  {
+    id: "13",
+    title: "skin checks",
+    icon: "fa fa-search fa-lg",
+    image: "skincheck.svg",
+    shortIntro:
+      "Early detection and regular skin examination are your best chances at preventing, identifying and treating skin cancers.",
+    introDescriptions: [
+      "Skin cancer is by far the most common cancer in Australia, killing 5 people every day.",
+      "Australia has the highest incidence of skin cancer in the world. Not all of them are melanoma’s. In fact nonmelanoma skin cancers in Australia are now nearly seven times more common than all other cancers combined; approximately half of these are removed by general practitioners.",
+      "As part of our patients continuity of care we recommend regular skin checks with us to be able to detect any changes as soon as possible."
+    ],
+    items: [],
+    sections: [],
+    enabled: true
   }
 ];
 
