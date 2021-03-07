@@ -3,6 +3,7 @@ import React from "react";
 
 // reactstrap components
 import { Container } from "reactstrap";
+import { Link } from "react-router-dom";
 
 function DarkFooter() {
   return (
@@ -12,8 +13,7 @@ function DarkFooter() {
           <ul>
             <li>
               <a
-                href="https://www.creative-tim.com?ref=nukr-dark-footer"
-                target="_blank"
+                href=""
               >
                 Gps on Vermont
               </a>
@@ -26,14 +26,13 @@ function DarkFooter() {
                 About Us
               </a> */}
             </li>
-            <li>
-              {/* <a
-                href="http://blog.creative-tim.com?ref=nukr-dark-footer"
-                target="_blank"
-              >
-                Blog
-              </a> */}
-            </li>
+
+            {/* <li>
+              <Link to={`/policy-page`}>  
+                Privacy Policy
+              </Link>
+            </li> */}
+
           </ul>
         </nav>
         <div className="copyright" id="copyright">

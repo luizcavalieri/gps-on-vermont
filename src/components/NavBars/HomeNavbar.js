@@ -174,7 +174,13 @@ function HomeNavbar() {
                   Career
                 </NavLink>
               </NavItem>
-              {/* <NavItem>
+              {/* 
+              <NavItem>
+                <NavLink to="/policy-page" tag={Link}>
+                  Privacy Policy
+                </NavLink>
+              </NavItem>
+              <NavItem>
                 <NavLink
                   href="https://twitter.com/CreativeTim?ref=creativetim"
                   target="_blank"
