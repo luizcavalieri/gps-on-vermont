@@ -3,7 +3,7 @@ const patientsInfo = [
         title: "Appointments",
         descriptions: [
             "If your appointment is other than a standard consultation, please tell the receptionist when you make an appointment so that extra time can be allowed. Longer consultation is required for e.g. women’s health, pap smear, medical assessment, or an initial visit for a work-related injury or motor vehicle accident, medical report, pre-employment examination or a procedure.",
-            "We have “Quick Clinics” for repeat script and update referrals from 8am to 8.30am and these appointments are 5 minutes only Monday to Friday. Patients unable to attend these appointments can request repeat scripts or update referrals over the phone, (Press 3 for nurse and leave a message if not answered) but these will be completed at the discretion of the treating doctor. A fee of $15 will be charged for this service."
+            "We have “Quick Clinics” for repeat scripts and update referrals from 12 midday to 12.30pm and these appointment are 5 minutes only appointments Monday to Friday.  These appointments can be over the telephone or in person. If you have any other issues to discuss please book a standard appointment with the GP."
         ],
         items: [
         ]
