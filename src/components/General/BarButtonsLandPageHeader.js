@@ -9,17 +9,19 @@ const BarButtonsLandPageHeader = () => {
     <>
       <Row className="row justify-content-center">
         <Col xs="11" sm="11" md="6" lg="6" xl="3">
-          <BookingButton
-            className="btn-block button-online-appointments btn-font btn-weight"
-            doctorId="https://www.hotdoc.com.au/medical-centres/wodonga-VIC-3690/gps-on-vermont/doctors"
-            size="md"
-          />
-          {/* <CardImg
-            className={"rounded-circle img-fluid career-card-image img-raised ml-auto"}
-            alt="career image"
-            src={require(`../../assets/img/${path}`)}
-            
-          ></CardImg> */}
+          <div className="button-online-appointments">
+            <BookingButton
+              className="btn-block  btn-font btn-weight"
+              doctorId=""
+              size="large"
+            />
+            {/* <CardImg
+              className={"rounded-circle img-fluid career-card-image img-raised ml-auto"}
+              alt="career image"
+              src={require(`../../assets/img/${path}`)}
+              
+            ></CardImg> */}
+          </div>
         </Col>
       </Row>
       {/* <Row> */}

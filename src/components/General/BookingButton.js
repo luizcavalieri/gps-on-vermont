@@ -6,7 +6,7 @@ const BookingButton = ({ doctorId, size, className:passedClasses }) => {
   if(!passedClasses) passedClasses = "btn-font btn-weight";
   return (
     <>
-      <Button
+      {/* <Button
         className={passedClasses}
         size={size}
         color="primary"
@@ -14,7 +14,14 @@ const BookingButton = ({ doctorId, size, className:passedClasses }) => {
         // onClick={e => e.preventDefault()}
       >
         Book Appointment
-      </Button>
+      </Button> */}
+      
+      <a href={`https://www.hotdoc.com.au/medical-centres/wodonga-VIC-3690/gps-on-vermont/doctors/${doctorId}`}
+          title="Book medical appointments with Dr Carmen Padilla at GPs On Vermont Medical Centre in Wodonga VIC 3690, through HotDoc" 
+          target="_blank" 
+          data-hotdoc-widget="lightbox" 
+          data-hotdoc-button class={`${size} icon-calendar`}
+          >Book Appointment</a>
     </>
   );
 };

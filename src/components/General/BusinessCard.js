@@ -69,7 +69,9 @@ const BusinessCard = ({ emp, cardClassName, headerClassName, cardImageClassName,
         <div>
           <IconSocialMediaList list={emp.socialMedia} size="lg" color="info" target="_blank" rel="noopener noreferrer" />
           {emp.booking ? (
-            <BookingButton doctorId={emp.bookingDoctorId} size="lg" />
+            <div >
+              <BookingButton doctorId={emp.bookingDoctorId} size="large" />
+            </div>
           ) : null}
         </div>
 

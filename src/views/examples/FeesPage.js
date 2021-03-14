@@ -31,7 +31,7 @@ const FeesPage = () => {
               feeData={feeContent}
               index={0}
               headerRightContent={
-                <BookingButton className="btn-weight" size="sm" />
+                <BookingButton className="btn-weight" size="large" />
               }
             />
           </Container>
@@ -40,7 +40,7 @@ const FeesPage = () => {
               feeData={feeContent}
               index={1}
               headerRightContent={
-                <BookingButton className="btn-weight" size="sm" />
+                <BookingButton className="btn-weight" size="large" />
               }
             />
           </Container>

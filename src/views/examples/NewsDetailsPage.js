@@ -28,7 +28,7 @@ const NewsDetailsPage = ({ match }) => {
       <OtherNavbar />
       <div className="wrapper">
         <LandingPageHeader
-          title={<BookingButton className="btn-weight" size="sm" />}
+          title={<BookingButton className="btn-weight" size="large" />}
           imageClassName={"page-header page-header-xsmall"}
           contentClassName={"content-center-other-pages"}
           titleClassName={"title-small-header"}

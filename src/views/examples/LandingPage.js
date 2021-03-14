@@ -52,10 +52,20 @@ function LandingPage() {
           imageClassName={"page-header page-header-small"}
           contentClassName={"content-center"}
           titleClassName={"title-landing-page"}
+          
         />
-
+{/* <a href={`https://www.hotdoc.com.au/medical-centres/wodonga-VIC-3690/gps-on-vermont/doctors/`}
+          title="Book medical appointments with Dr Carmen Padilla at GPs On Vermont Medical Centre in Wodonga VIC 3690, through HotDoc" 
+          target="_blank" 
+          data-hotdoc-widget="lightbox" 
+          data-hotdoc-button class={` icon-calendar`}
+          // data-hotdoc-button class={`large icon-calendar`}
+          >Book Appointment</a> */}
         <div className="section section-about-us" >
           <Container >
+          {/* ${doctorId}   ${size}*/}
+          
+
             <BarButtonsLandPageHeader />
             <Row>
               <Col className="ml-auto mr-auto text-center align-content-center" md="12" >

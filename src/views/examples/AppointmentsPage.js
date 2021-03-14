@@ -36,7 +36,7 @@ const AppointmentsPage = () => {
               iconClassName="far fa-calendar-alt fa-lg"
               headerClassName="text-left"
               headerRightContent={
-                <BookingButton className="btn-weight" size="sm" />
+                <BookingButton className="btn-weight" size="large" />
               }
             ></InfoCard>
           </Container>

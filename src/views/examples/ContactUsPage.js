@@ -198,7 +198,7 @@ const ContactUsPage = () => {
                     <div className="p-3 text-center  font-paragraph ">
                       Schedule yours now
                     </div>
-                    <BookingButton doctorId="" size="md" />
+                    <BookingButton doctorId="" size="large" />
                   </CardBody>
                   <CardFooter className="card-footer-padding">
                     <div className="text-justified">

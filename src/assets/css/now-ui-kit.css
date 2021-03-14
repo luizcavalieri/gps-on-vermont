@@ -2643,6 +2643,14 @@ p {
     .blockquote.blockquote-white small {
       color: rgba(255, 255, 255, 0.8); }
 
+.line-segment {
+  border-color: #f96332; }
+
+.sub-title {
+  font-weight: 700;
+  color: #4085F4;
+  border-color: #4085F4; }
+
 body {
   color: #2c2c2c;
   font-size: 14px;
@@ -2802,7 +2810,8 @@ Created using IcoMoon - icomoon.io
   src: url("../../fonts/nucleo-outline.eot");
   src: url("../../fonts/nucleo-outline.eot") format("embedded-opentype"), url("../../fonts/nucleo-outline.woff2") format("woff2"), url("../../fonts/nucleo-outline.woff") format("woff"), url("../../fonts/nucleo-outline.ttf") format("truetype");
   font-weight: normal;
-  font-style: normal; }
+  font-style: normal;
+  font-display: swap; }
 
 /*------------------------
 	base class definition
@@ -4238,6 +4247,10 @@ img {
 .section-navbars {
   padding-bottom: 0; }
 
+.section-about-us {
+  padding: 50px 0;
+  padding-bottom: 0; }
+
 .section-full-screen {
   height: 100vh; }
 
@@ -4273,7 +4286,7 @@ img {
     z-index: -1; }
   .page-header .content-center {
     position: absolute;
-    top: 50%;
+    top: 42%;
     left: 50%;
     z-index: 2;
     -ms-transform: translate(-50%, -50%);
@@ -4342,10 +4355,8 @@ img {
       margin-top: 420px;
       margin-left: -105px; }
   .section-story-overview p.blockquote {
-    width: 220px;
     min-height: 180px;
     text-align: left;
-    position: absolute;
     top: 376px;
     right: 155px;
     z-index: 0; }
@@ -5203,7 +5214,7 @@ img {
     margin-left: 0;
     margin-right: 0; }
   .footer .copyright {
-    text-align: center; }
+    text-align: right; }
   .section-nucleo-icons .icons-container i {
     font-size: 30px; }
     .section-nucleo-icons .icons-container i:nth-child(6) {
@@ -5975,10 +5986,6 @@ td.rdtYear:hover {
   min-height: 60vh;
   max-height: 640px; }
 
-.page-header.page-header-xsmall {
-  min-height: 17vh;
-  max-height: 640px; }
-
 @media screen and (max-width: 991px) {
   .sidebar-collapse .navbar-collapse:before {
     background: #4085F4;
@@ -5991,16 +5998,29 @@ td.rdtYear:hover {
     padding-left: 10px;
     padding-right: 10px; } }
 
-.business-card-body {
+.busines-card {
+  margin-top: 0.875rem;
+  margin-right: 0.4375rem;
+  box-shadow: none; }
+
+.business-card-body-with-header {
   padding-top: 0;
   padding-bottom: 0;
-  margin-top: 110px; }
+  margin-top: 6.875rem; }
+
+.business-card-body {
+  padding-top: 0;
+  padding-bottom: 0; }
   .business-card-body:last-child {
     border-radius: 0 0 calc(0.25rem - 1px) calc(0.25rem - 1px); }
 
+.business-card-image-size {
+  max-width: 12.5rem; }
+
 .business-card-image {
+  max-width: 12.5rem;
   margin-top: 4.7rem;
-  margin-bottom: -6.0rem;
+  margin-bottom: -6rem;
   border-color: #FFFFFF;
   border-style: solid;
   border-width: 5px; }
@@ -6013,14 +6033,31 @@ td.rdtYear:hover {
   .business-card-header:first-child {
     border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0; }
 
+.business-card-name {
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 1.5rem; }
+
 .business-card-title {
-  font-weight: 700; }
+  text-transform: capitalize;
+  font-weight: 700;
+  margin-top: -0.625rem; }
 
 .business-card-footer {
   padding-top: 0.4rem;
   padding-bottom: 0.4rem;
   padding: 0.75rem 1.25rem;
   margin-top: 0; }
+
+.spoken-languages {
+  margin-top: -0.625rem;
+  font-size: 1.2em; }
+
+.language-pill {
+  background-color: #9A9A9A; }
+
+.availability {
+  font-size: 1.2em; }
 
 .fa {
   color: #f96332; }
@@ -6149,10 +6186,474 @@ td.rdtYear:hover {
 .font-paragraph {
   font-size: 1.2em; }
 
+.phone-badge, .phone-badge-title {
+  font-size: 1.3em; }
+
+.phone-badge-title {
+  margin-top: -5.3rem;
+  margin-bottom: 3.6rem;
+  margin-right: 0.4rem; }
+
 .fees-table-row tr {
   font-size: 1.3em;
   font-weight: 300; }
 
 .button-container {
   text-align: center;
-  margin-top: -90px; }
+  margin-top: -90px;
+  font-size: 1.2em; }
+
+.custom-dot-list-style .react-multi-carousel-dot button {
+  width: 30px;
+  height: 30px; }
+
+.bootstrap-switch {
+  width: 65px !important;
+  height: 26px;
+  margin-bottom: 0px; }
+
+.bootstrap-switch-large {
+  margin-top: -1px;
+  margin-left: -1px;
+  height: 27px !important;
+  width: 100%; }
+  .bootstrap-switch-large .bootstrap-switch-label {
+    margin-left: -12px;
+    height: 1.6875rem !important; }
+  .bootstrap-switch-large .bootstrap-switch-handle-off {
+    font-size: small !important;
+    line-height: 1.33 !important;
+    width: 52% !important; }
+  .bootstrap-switch-large .bootstrap-switch-handle-on {
+    font-size: small !important;
+    line-height: 1.33 !important;
+    margin-left: -3px; }
+
+.bootstrap-switch-off {
+  background: #888888; }
+
+.bootstrap-switch-on {
+  background: #4085F4; }
+
+/*
+For device sizes
+https://stackoverflow.com/questions/41574776/what-is-class-mb-0-in-bootstrap-4
+
+*/
+.content-center-other-pages {
+  position: absolute;
+  top: 58%;
+  left: 50%;
+  z-index: 2;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #ffffff;
+  padding: 0 15px;
+  width: 100%;
+  max-width: 880px; }
+
+@media screen and (min-width: 280px) {
+  h1 {
+    font-size: 2.2em; }
+  .button-online-appointments {
+    margin-top: -11.5rem;
+    text-align: center; } }
+
+/* Small devices (landscape phones, 320px and up) */
+@media screen and (min-width: 320px) {
+  h1 {
+    font-size: 2.3em; }
+  .button-online-appointments {
+    margin-top: -10.5rem;
+    text-align: center; }
+  .title-landing-page {
+    font-weight: 700;
+    padding-top: 30px; }
+  .page-header.page-header-xsmall {
+    min-height: 6vh; }
+  .title-small-header {
+    font-weight: 300;
+    font-size: 1.5em;
+    padding-top: 5.1rem; }
+  .our-services-go-back-button {
+    margin-top: -0.2rem; }
+  .opening-hours {
+    font-weight: bold;
+    font-size: medium; }
+  .ad-card-title {
+    font-size: 1.2rem;
+    color: #ffa579; }
+  .telehealth-header {
+    font-size: medium;
+    margin-top: -1.25rem;
+    color: #ffffff; }
+  .telehealth-footer {
+    margin-top: 16.1rem !important; }
+  .telehealth-shield {
+    margin-bottom: 25px; } }
+
+/* Small devices (landscape phones, 320px and up) */
+@media (min-width: 320px) and (orientation: landscape) {
+  .opening-hours {
+    font-weight: bold;
+    font-size: large; } }
+
+/* Small devices (landscape phones, 360px and up) */
+@media screen and (min-width: 360px) {
+  h1 {
+    font-size: 2.6em; }
+  .button-online-appointments {
+    margin-top: -11.5rem;
+    text-align: center; }
+  .title-small-header {
+    padding-top: 5rem; }
+  .our-services-go-back-button {
+    margin-top: -0.5rem; }
+  .opening-hours {
+    font-weight: bold;
+    font-size: large; }
+  .ad-card-title {
+    font-size: 1.5rem; }
+  .telehealth-header {
+    font-size: large;
+    margin-top: -1.4rem; }
+  .telehealth-footer {
+    margin-top: 16.6rem !important; } }
+
+/* Small devices (landscape phones, 411px and up) */
+@media screen and (min-width: 411px) {
+  h1 {
+    font-size: 2.6em; }
+  .button-online-appointments {
+    margin-top: -13rem;
+    text-align: center; }
+  .title-small-header {
+    font-size: 1.825em;
+    padding-top: 4.9rem; }
+  .our-services-go-back-button {
+    margin-top: -0.6rem; }
+  .ad-card-title {
+    font-size: 1.8rem; }
+  .telehealth-footer {
+    margin-top: 14.3rem !important; }
+  .telehealth-header {
+    margin-top: -1.6rem;
+    color: #ffffff; }
+  .telehealth-footer {
+    margin-top: 16.4rem !important; } }
+
+@media screen and (min-width: 411px) and (orientation: landscape) {
+  h1 {
+    margin-top: 1rem;
+    font-size: 2em; }
+  .button-online-appointments {
+    margin-top: -8.5rem;
+    text-align: center; }
+  .page-header.page-header-xsmall {
+    min-height: 10vh; } }
+
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (min-width: 576px) {
+  h1 {
+    font-size: 3.2em; }
+  .telehealth-footer {
+    margin-top: 15rem !important; } }
+
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (min-width: 576px) and (orientation: landscape) {
+  h1 {
+    font-size: 2.2em; }
+  .button-online-appointments {
+    margin-top: -9rem;
+    text-align: center; } }
+
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (min-width: 640px) and (orientation: landscape) {
+  h1 {
+    font-size: 2.2em; }
+  .button-online-appointments {
+    margin-top: -9rem;
+    text-align: center; } }
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 3.5em; }
+  .button-online-appointments {
+    margin-top: -15.5rem;
+    text-align: center; }
+  .page-header.page-header-xsmall {
+    min-height: 17vh;
+    max-height: 640px; }
+  .title-small-header {
+    font-weight: 700;
+    font-size: 2.5em;
+    padding-top: 70px; }
+  .our-services-go-back-button {
+    margin-top: -2.6rem; }
+  .ad-card-title {
+    font-size: 1.6rem; }
+  .telehealth-header {
+    margin-top: -1.3rem;
+    color: #ffffff; }
+  .telehealth-footer {
+    margin-top: 16.5rem !important; } }
+
+@media screen and (min-width: 768px) and (orientation: landscape) {
+  h1 {
+    font-size: 2.2em; }
+  .button-online-appointments {
+    margin-top: -9.2rem;
+    text-align: center; } }
+
+/* Large devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+  h1 {
+    font-size: 58px; }
+  .button-online-appointments {
+    margin-top: -18rem;
+    text-align: center; }
+  .title-small-header {
+    font-size: 3.5em;
+    padding-top: 80px; }
+  .ad-card-title {
+    font-size: 2.0rem; }
+  .telehealth-header {
+    margin-top: -1.7rem;
+    color: #ffffff; }
+  .telehealth-footer {
+    margin-top: 16.1rem !important; }
+  .telehealth-shield {
+    margin-bottom: 0px; } }
+
+@media screen and (min-width: 992px) and (orientation: landscape) {
+  h1 {
+    font-size: 3em; }
+  .button-online-appointments {
+    margin-top: -12rem;
+    text-align: center; }
+  .page-header.page-header-xsmall {
+    min-height: 20vh;
+    max-height: 640px; }
+  .title-small-header {
+    font-size: 3.5em;
+    padding-top: 80px; } }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+  h1 {
+    font-size: 3.5em; }
+  .button-online-appointments {
+    margin-top: -14rem;
+    text-align: center; }
+  .page-header.page-header-xsmall {
+    min-height: 17vh;
+    max-height: 640px; }
+  .title-small-header {
+    padding-top: 60px; }
+  .bulk-billed-image {
+    margin-top: -1.6rem; }
+  .ad-card-title {
+    font-size: 2.0rem; } }
+
+.service-preview-card {
+  box-shadow: none; }
+
+.service-preview-card-body-title {
+  margin-top: 0rem; }
+
+.service-preview-card-col {
+  margin-bottom: 1rem; }
+
+@keyframes fa-blink {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0.7; }
+  100% {
+    opacity: 1; } }
+
+.fa-blink {
+  -webkit-animation: fa-blink .75s linear infinite;
+  -moz-animation: fa-blink .75s linear infinite;
+  -ms-animation: fa-blink .75s linear infinite;
+  -o-animation: fa-blink .75s linear infinite;
+  animation: fa-blink 3.5s linear infinite; }
+
+.maps-icon {
+  padding: 13px 3px;
+  color: #ff833b; }
+
+.capitalize {
+  text-transform: capitalize; }
+
+@media (min-width: 320px) {
+  .not-found-title {
+    margin-top: 2rem;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: 300; }
+  .go-back-home-button {
+    margin-top: -2rem; } }
+
+/* Small devices (landscape phones, 360px and up) */
+@media (min-width: 360px) {
+  .go-back-home-button {
+    margin-top: -1.5rem; } }
+
+/* Small devices (landscape phones, 411px and up) */
+@media (min-width: 411px) {
+  .not-found-title {
+    margin-top: 3.5rem;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: 300; } }
+
+/* Small devices (landscape phones, 576px and up) */
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .not-found-title {
+    margin-top: 6rem;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    font-weight: 300; }
+  .go-back-home-button {
+    margin-top: 0rem; } }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .not-found-title {
+    margin-top: 10rem;
+    font-size: 3em;
+    text-transform: uppercase;
+    font-weight: 300; } }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .not-found-title {
+    margin-top: 5rem;
+    font-size: 3em;
+    text-transform: uppercase;
+    font-weight: 300; }
+  .go-back-home-button {
+    margin-top: -1rem; } }
+
+.news-content {
+  margin: 1.1rem;
+  margin-bottom: 1.0rem; }
+
+.image-details {
+  width: 19.5625rem;
+  height: 175px; }
+
+.media-title {
+  margin-top: 0rem; }
+
+.preview-content {
+  margin-bottom: 0.4rem; }
+
+.read-more {
+  text-align: right;
+  color: #4085F4; }
+
+.article {
+  padding: 1rem;
+  border-style: dashed; }
+
+.news-ribbon {
+  min-height: 0rem !important; }
+
+.section-career-overview {
+  padding: 0.1rem 0;
+  /* Small devices (landscape phones, 411px and up) */
+  /* Small devices (landscape phones, 576px and up) */
+  /* Small devices (landscape phones, 576px and up) */
+  /* Small devices (landscape phones, 576px and up) */
+  /* Medium devices (tablets, 768px and up) */
+  /* Large devices (desktops, 992px and up) */
+  /* Extra large devices (large desktops, 1200px and up) */ }
+  .section-career-overview .ribbon-container {
+    margin-left: 1.6rem;
+    margin-right: 1.6rem;
+    margin-bottom: 1rem; }
+    .section-career-overview .ribbon-container article {
+      display: flex;
+      border-color: #4085F4;
+      border-style: double;
+      color: #4085F4;
+      border-top-left-radius: 0.25rem;
+      border-bottom-left-radius: 0.25rem; }
+    .section-career-overview .ribbon-container img {
+      width: 35rem;
+      box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.3);
+      border-top-left-radius: 0.25rem;
+      border-bottom-left-radius: 0.25rem; }
+    .section-career-overview .ribbon-container section {
+      padding: 0rem;
+      padding-bottom: 1rem;
+      background-color: #F5F5F5;
+      text-align: left; }
+      .section-career-overview .ribbon-container section h3 {
+        padding-top: 2rem;
+        text-align: center; }
+      .section-career-overview .ribbon-container section p {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        color: #6c757d; }
+      .section-career-overview .ribbon-container section div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 0.5rem; }
+        .section-career-overview .ribbon-container section div cite {
+          font-size: 1.2em; }
+      .section-career-overview .ribbon-container section footer {
+        text-align: right;
+        margin-right: 2rem; }
+  @media screen and (min-width: 320px) {
+    .section-career-overview article {
+      flex-direction: column; }
+    .section-career-overview .ribbon-container section div {
+      flex-direction: column; }
+      .section-career-overview .ribbon-container section div cite {
+        justify-content: space-around; } }
+  @media screen and (min-width: 768px) {
+    .section-career-overview .ribbon-container img {
+      width: 100%; }
+    .section-career-overview .ribbon-container section div {
+      flex-direction: row; }
+      .section-career-overview .ribbon-container section div cite {
+        justify-content: space-around; } }
+  @media screen and (min-width: 992px) {
+    .section-career-overview article {
+      flex-direction: row; }
+    .section-career-overview .ribbon-container img {
+      width: 30rem; } }
+  @media screen and (min-width: 1200px) {
+    .section-career-overview .ribbon-container img {
+      width: 32srem; } }
+
+.Demo__some-network {
+  vertical-align: top;
+  display: inline-block;
+  margin-right: 10px;
+  text-align: center; }
+
+.Demo__some-network__share-count {
+  display: inline-flex;
+  justify-content: center;
+  white-space: nowrap;
+  overflow: visible;
+  width: 0;
+  margin-top: 3px;
+  font-size: 12px; }
+
+.Demo__some-network__share-button {
+  cursor: pointer; }
+
+.Demo__some-network__share-button:hover:not(:active) {
+  opacity: 0.75; }
+
+.Demo__some-network__custom-icon {
+  width: 32px;
+  height: 32px; }
