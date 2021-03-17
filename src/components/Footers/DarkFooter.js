@@ -27,11 +27,11 @@ function DarkFooter() {
               </a> */}
             </li>
 
-            {/* <li>
+            <li>
               <Link to={`/policy-page`}>  
                 Privacy Policy
               </Link>
-            </li> */}
+            </li>
 
           </ul>
         </nav>
