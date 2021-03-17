@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a68a764c4c19aebc550590fdd5e19f26",
+    "revision": "aa7ac002ca0ea3c8c9f4c564ffcff212",
     "url": "/index.html"
   },
   {
-    "revision": "38acb6872c1ab29fa545",
+    "revision": "c7e6b2ad169ff1f8688a",
     "url": "/static/css/2.37c00e0b.chunk.css"
   },
   {
-    "revision": "fb32c1e2464dd6628e32",
+    "revision": "bca54c79ea077cdeaaf0",
     "url": "/static/css/main.bf323abc.chunk.css"
   },
   {
-    "revision": "38acb6872c1ab29fa545",
-    "url": "/static/js/2.25f394ae.chunk.js"
+    "revision": "c7e6b2ad169ff1f8688a",
+    "url": "/static/js/2.25e45883.chunk.js"
   },
   {
     "revision": "8d7125c4930dd9466bca86895943099e",
-    "url": "/static/js/2.25f394ae.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.25e45883.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fb32c1e2464dd6628e32",
-    "url": "/static/js/main.ebc6be12.chunk.js"
+    "revision": "bca54c79ea077cdeaaf0",
+    "url": "/static/js/main.c3887f61.chunk.js"
   },
   {
     "revision": "6c8c6f284ff807139f13",
@@ -222,6 +222,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d71420556fcc7a1d685912ba3ef91c7f",
     "url": "/static/media/gpv.d7142055.png"
+  },
+  {
+    "revision": "2df1bf249ac078e49dfcf80d067d2180",
+    "url": "/static/media/happy-Anniversary-news.2df1bf24.jpg"
   },
   {
     "revision": "3e3e067a26abfd113bf9690843c3ff41",
