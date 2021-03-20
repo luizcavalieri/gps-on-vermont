@@ -69,7 +69,7 @@ const NewsCardsPreview = ({ news, start, quantity, bottomComponenet }) => {
                                 </CardText>
                             </CardBody>
 
-                            <CardFooter className="d-flex mt-5" tag="h6">
+                            <CardFooter className="d-flex pt-5" tag="h6">
                                 {item.contents[0].length > TEXT_SIZE ||
                                     item.contents.length > 1 ?
                                     (
