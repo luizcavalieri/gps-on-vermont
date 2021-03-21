@@ -1,7 +1,7 @@
 import React from "react";
 import IconCheckList from "./IconCheckList";
 import IconSocialMediaList from "./IconSocialMediaList";
-import DescriptionList from "./DescriptionList";
+import { Link } from 'react-router-dom';
 import BookingButton from "./BookingButton";
 import {
   Card,
@@ -10,12 +10,13 @@ import {
   CardHeader,
   CardTitle,
   CardText,
-  Badge
+  Badge,
+  CardFooter
 } from "reactstrap";
 // import Availability from "./Availability";
 
-const BusinessCard = ({ emp, cardClassName, headerClassName, cardImageClassName, cardBodyClassName }) => {
-  
+const BusinessCardPreview = ({ emp, cardClassName, headerClassName, cardImageClassName, cardBodyClassName }) => {
+  const TEXT_SIZE = 60;
   let path = emp.image;
 
   if (!cardImageClassName)
@@ -52,11 +53,29 @@ const BusinessCard = ({ emp, cardClassName, headerClassName, cardImageClassName,
           {/* <hr /> */}
           {/* <Availability label={"Availability: "} values={emp.availability} /> */}
           <hr />
-          <DescriptionList
-            list={emp.descriptions}
-            includeNewLine={false}
-            className="text-justified font-paragraph text-muted"
-          />
+
+            {emp.descriptions[0].length > TEXT_SIZE ||
+                emp.descriptions.length > 1 ?
+                (
+                    <>
+                        <section className="font-paragraph mr-auto text-muted text-left">
+                            {emp.descriptions[0].length > TEXT_SIZE
+                                        ? emp.descriptions[0]
+                                            .substring(0, TEXT_SIZE)
+                                            .concat("...")
+                                        : emp.descriptions[0]}
+                        </section>
+                        <section className="font-paragraph read-more mr-3 mb-2">
+                            <Link to={`/staff-page`} >
+                                Read more
+                                <i className="ml-2 fa fa-angle-double-right"></i>
+                            </Link>
+                        </section>
+                    </>
+                ) :
+                null
+            }
+
           <dir className="new-line"></dir>
           <IconCheckList
             list={emp.accreditations}
@@ -66,19 +85,19 @@ const BusinessCard = ({ emp, cardClassName, headerClassName, cardImageClassName,
             iconClassName="fa fa-check-circle fa-lg"
           />
         </CardBody>
-        <div>
+
+        <CardFooter>
           <IconSocialMediaList list={emp.socialMedia} size="lg" color="info" target="_blank" rel="noopener noreferrer" />
           {emp.booking ? (
-            <div >
+            <div className="pt-4">
               <BookingButton doctorId={emp.bookingDoctorId} size="large" />
             </div>
           ) : null}
-        </div>
+        </CardFooter>
 
-        {/* </div> */}
       </Card>
     </>
   );
 };
 
-export default BusinessCard;
+export default BusinessCardPreview;

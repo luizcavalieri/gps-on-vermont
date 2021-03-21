@@ -6,6 +6,7 @@ import { deviceType } from "react-device-detect";
 import Switch from "react-bootstrap-switch";
 import { Button } from "reactstrap";
 import { Link } from "react-router-dom";
+import BusinessCardPreview from "./BusinessCardPreview";
 
 // https://www.npmjs.com/package/react-multi-carousel
 const OurTeam = ({ staffData }) => {
@@ -107,8 +108,8 @@ const OurTeam = ({ staffData }) => {
         // renderDotsOutside={true}
       >
         {staffData.filter( emp => emp.enabled ).map((employee, index) => (
-          <div key={index}>
-            <BusinessCard
+          <div key={index} style={{ height: "100%" }}>
+            <BusinessCardPreview
               emp={employee}
               cardClassName={"busines-card"}
               cardImageClassName={
