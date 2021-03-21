@@ -3,7 +3,7 @@ import { headerScrolling } from "./commons";
 import OtherNavbar from "../../components/NavBars/OtherNavbar";
 import DarkFooter from "../../components/Footers/DarkFooter";
 import { Container } from "reactstrap";
-import { UncontrolledCollapse, Button, CardBody, Card } from 'reactstrap';
+import { UncontrolledCollapse, Button, Table, CardBody, Card } from 'reactstrap';
 import LandingPageHeader from "../../components/Headers/LandingPageHeader";
 // import {Document, Page} from 'react-pdf';
 // import privacyPolicyPdf from '../../assets/docs/GPS-001-PrivacyPolicy.pdf';
@@ -36,7 +36,10 @@ const PrivacyPolicyPage = () => {
                     This privacy policy is to provide information to you, our patient, on how your personal information (which includes your health information) is collected and used within our practice, and the circumstances in which we may share it with third parties. 
                 </div>
             
-          
+
+
+
+                
 
 
                 <div>
@@ -128,11 +131,131 @@ const PrivacyPolicyPage = () => {
                     </UncontrolledCollapse>
                 </div>
 
+                <div>
+                    <btn style={styles.btn} id="Question6">
+                    When, why and with whom do we share your personal information?
+                    </btn>
+                    <UncontrolledCollapse toggler="#Question6">
+                        <Card>
+                            <CardBody>
+                                <ul style={styles.LineStyle}>
+                                    <p>We sometimes share your personal information:</p>
+                                    <p>•    with third parties who work with our practice for business purposes, such as accreditation agencies or information technology providers – these third parties are required to comply with APPs and this policy</p>
+                                    <p>•    with other healthcare providers</p>
+                                    <p>•    when it is required or authorised by law (e.g. court subpoenas)</p>
+                                    <p>•    when it is necessary to lessen or prevent a serious threat to a patient’s life, health or safety or public health or safety, or it is impractical to obtain the patient’s consent</p>
+                                    <p>•    to assist in locating a missing person</p>
+                                    <p>•    to establish, exercise or defend an equitable claim</p>
+                                    <p>•    for the purpose of confidential dispute resolution process</p>
+                                    <p>•    when there is a statutory requirement to share certain personal information (e.g. some diseases require mandatory notification)</p>
+                                    <p>•    during the course of providing medical services, through eTP, My Health Record (e.g. via Shared Health Summary, Event Summary) or through Medical Objects secure messaging.</p>
+                                    <p>Only people who need to access your information will be able to do so. Other than in the course of providing medical services or as otherwise described in this policy, our practice will not share personal information with any third party without your consent.</p>
+                                    <p>We will not share your personal information with anyone outside Australia (unless under exceptional circumstances that are permitted by law) without your consent.    </p>
+                                    <p>Our practice will not use your personal information for marketing any of our goods or services directly to you without your express consent. If you do consent, you may opt out of direct marketing at any time by notifying our practice in writing.    </p>
+                                    <p>Our practice may use your personal information to improve the quality of the services we offer to our patients through research and analysis of our patient data.    </p>
+                                    <p>We may provide de-identified data to other organisations to improve population health outcomes. The information is secure, patients cannot be identified and the information is stored within Australia. You can let our reception staff know if you do not want your information included.    </p>
+                                 </ul>
+                            </CardBody>
+                        </Card>
+                    </UncontrolledCollapse>
+                </div>
+
+                <div>
+                    <btn style={styles.btn} id="Question7">
+                    How do we store and protect your personal information?
+                    </btn>
+                    <UncontrolledCollapse toggler="#Question7">
+                        <Card>
+                            <CardBody>
+                                <ul style={styles.LineStyle}>
+                                    <p>Your personal information may be stored at our practice in various forms. This includes paper records if required and electronic records.</p>
+                                    <p>Our practice stores all personal information securely using current and up to date computer security systems with password protection. The clinic is secured using an onsite alarm system and secure locks. All staff members and contractors are also required to sign confidentiality agreements prior to commencing work.</p>
+                                </ul>
+                            </CardBody>
+                        </Card>
+                    </UncontrolledCollapse>
+                </div>
+
+                <div>
+                    <btn style={styles.btn} id="Question8">
+                    How can you access and correct your personal information at our practice?
+                    </btn>
+                    <UncontrolledCollapse toggler="#Question8">
+                        <Card>
+                            <CardBody>
+                                <ul style={styles.LineStyle}>
+                                    <p>You have the right to request access to, and correction of, your personal information.</p> 
+                                    <p>Our practice acknowledges patients may request access to their medical records. We require you to put this request in writing and our practice will respond within 30 days or another reasonable time discussed with the practice manager. To transfer your records to another practice we charge $22.00 for pensioners and $33.00 for all other patients. This covers the cost of staff time, equipment used and postage to the chosen clinic or practitioner.</p> 
+                                    <p>Individuals have an enforceable right of access to their health information under the Victorian Health Records Act 2001. The act enables an individual to request health information collected on or after 1 July 2002 in a number of ways. Access can be way of:</p>
+                                    <p>•    A printout of information for inspection and opportunity to take notes</p>
+                                    <p>•    A provision of a copy of the health information</p>
+                                    <p>•    The provision of an accurate summary, instead of a copy, if the organisation and the individual agree that a summary is appropriate</p>
+                                    <p>The Health Records Regulations 2002 are the regulations thar currently apply to the fees that can be charged for an individual to access their medical information.</p>
+                                    <p><Table bordered responsive style={{ marginBottom: 0}}>
+                                            <thead >
+                                                <tr>
+                                                    <th style={{width:'50%' }}>{['For an organisation to…']}</th>
+                                                    <th>{['The maximum fee is…']}</th>
+                                                </tr>
+                                            </thead>
+                                            
+                                            <thead>
+                                                <tr>
+                                                    <td >{['Provide a copy of health records to the person (under schedule 1, item 3, a &amp; b)']}</td>
+                                                    <td >{['20 cents per page for A4 black &amp; white. Reasonable costs otherwise, including for electronic copies.']}</td>
+                                                </tr>
+                                            </thead>
+
+                                            <thead>
+                                                <tr>
+                                                    <td >{['Assess and collate health records to provide the person a copy (under schedule 1, item 3 c)']}</td>
+                                                    <td >{['$37.00 (2.5 fee units)']}</td>
+                                                </tr>
+                                            </thead>
+
+                                            <thead>
+                                                <tr>
+                                                    <td>{['Post records (under schedule 1, item 3 e)']}</td>
+                                                    <td>{['Actual postage cost.']}</td>
+                                                </tr>
+                                            </thead>
+
+                                        </Table></p>
+                                    <p>Our practice will take reasonable steps to correct your personal information where the information is not accurate or up to date. From time to time, we will ask you to verify that your personal information held by our practice is correct and current. You may also request that we correct or update your information, and you should make such requests in writing to the manager at Manager@gpsonvermont.com.au or complete “Update Patient Details Form” which can be provided by reception.</p>
+                                </ul>
+                            </CardBody>
+                        </Card>
+                    </UncontrolledCollapse>
+                </div>
+                
+                <div>
+                    <btn style={styles.btn} id="Question9">
+                    How can you lodge a privacy-related complaint, and how will the complaint be handled at our practice?
+                    </btn>
+                    <UncontrolledCollapse toggler="#Question9">
+                        <Card>
+                            <CardBody>
+                                <ul style={styles.LineStyle}>
+                                    <p>We take complaints and concerns regarding privacy seriously. You should express any privacy concerns you may have in writing. We will then attempt to resolve it in accordance with our resolution procedure. You can make a complaint to the practice manager by email at Manager@gpsonvermont.com.au, via post to 80 Vermont Street, Wodonga VIC, 3690 or by filling out a “Patient Feedback Form” which can be provided by reception.</p>
+                                    <p>You may also contact the OAIC. Generally, the OAIC will require you to give them time to respond before they will investigate. For further information visit www.oaic.gov.au or call the OAIC on 1300 363 992. Alternatively, you can contact the Health Complaints Commissioner on 1300 582 113 or at 26/570 Bourke St, Melbourne VIC 3000.</p>
+                                </ul>
+                            </CardBody>
+                        </Card>
+                    </UncontrolledCollapse>
+                </div>
 
 
-                {/* <div style={styles.SignStyle}>
-                    Prepared by 
-                </div> */}
+                <div style={{marginTop: 40, fontWeight: 'bold', textAlign: 'center', marginBottom: 20}}>Policy review statement</div>
+                <div style={styles.IntroductionStyle}>
+                    This privacy policy will be reviewed regularly to ensure it is in accordance with any changes that may occur. We will notify patients of the change of this information through advertisement on our electronic visual notice board in the waiting room and by writing on our patient consent form.
+                </div>
+
+                <div style={styles.SignStyle}>
+                    <p style={styles.SignStyleLine}><h style={{fontWeight: 'bold'}}>Document title:</h> GPS 001 Privacy Policy</p>
+                    <p style={styles.SignStyleLine}><h style={{fontWeight: 'bold'}}>Reviewed by:</h> Annette Baumgarten – Practice Manager</p>
+                    <p style={styles.SignStyleLine}><h style={{fontWeight: 'bold'}}>Version:</h> 2020/001 Effective Date: 16 th January 2020</p>
+                    <p style={styles.SignStyleLine}><h style={{fontWeight: 'bold'}}>Next Review Date:</h> 16 th January 2021</p> 
+                </div>
             
             </div>
           </div>
@@ -187,8 +310,8 @@ IntroductionTitleStyle:{
 
 IntroductionStyle:{
 
-    fontSize: 20,
-    textAlign: 'justify',
+    //fontSize: 20,
+    //textAlign: 'justify',
     marginBottom: 50,
     marginLeft:10,
     marginRight:10,    
@@ -200,12 +323,17 @@ LineStyle:{
 },
 
 SignStyle:{
-    marginTop: 20,
-    marginRight:20,
+    marginTop: 120,
+    marginLeft:10,
     textAlign: 'right',
-    fontSize: 15,
+   
 },
 
+SignStyleLine:{
+    marginTop: -18,
+    textAlign: 'left',
+    fontSize: 10,
+},
 }
 
 export default PrivacyPolicyPage;
