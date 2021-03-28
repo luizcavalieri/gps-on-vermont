@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.bf323abc.chunk.css",
-    "main.js": "/static/js/main.df4898a2.chunk.js",
-    "main.js.map": "/static/js/main.df4898a2.chunk.js.map",
+    "main.js": "/static/js/main.b3cfe4b2.chunk.js",
+    "main.js.map": "/static/js/main.b3cfe4b2.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.effb0ce6.js",
     "runtime-main.js.map": "/static/js/runtime-main.effb0ce6.js.map",
     "static/css/2.37c00e0b.chunk.css": "/static/css/2.37c00e0b.chunk.css",
-    "static/js/2.6cbcac44.chunk.js": "/static/js/2.6cbcac44.chunk.js",
-    "static/js/2.6cbcac44.chunk.js.map": "/static/js/2.6cbcac44.chunk.js.map",
+    "static/js/2.52b733af.chunk.js": "/static/js/2.52b733af.chunk.js",
+    "static/js/2.52b733af.chunk.js.map": "/static/js/2.52b733af.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.d8518d5db5589335ff6eb70d22fa4ba4.js": "/precache-manifest.d8518d5db5589335ff6eb70d22fa4ba4.js",
+    "precache-manifest.148836c694ae99f7eb9f85a68f4b42b0.js": "/precache-manifest.148836c694ae99f7eb9f85a68f4b42b0.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.37c00e0b.chunk.css.map": "/static/css/2.37c00e0b.chunk.css.map",
     "static/css/main.bf323abc.chunk.css.map": "/static/css/main.bf323abc.chunk.css.map",
-    "static/js/2.6cbcac44.chunk.js.LICENSE.txt": "/static/js/2.6cbcac44.chunk.js.LICENSE.txt",
+    "static/js/2.52b733af.chunk.js.LICENSE.txt": "/static/js/2.52b733af.chunk.js.LICENSE.txt",
     "static/media/Annette-Baumgarten.jpg": "/static/media/Annette-Baumgarten.4a291657.jpg",
     "static/media/Evie-Frawley.jpg": "/static/media/Evie-Frawley.60d7a159.jpg",
     "static/media/Jen-Walker.jpg": "/static/media/Jen-Walker.88124177.jpg",
@@ -94,6 +94,7 @@
     "static/media/styles.css": "/static/media/revicons.2feb69cc.eot",
     "static/media/ryan.jpg": "/static/media/ryan.f217f346.jpg",
     "static/media/skincheck.svg": "/static/media/skincheck.d593232d.svg",
+    "static/media/sleep-apnoea-news.jpg": "/static/media/sleep-apnoea-news.7e07d589.jpg",
     "static/media/sleep-deprivation-news.jpg": "/static/media/sleep-deprivation-news.e25c2db4.jpg",
     "static/media/stethoscope.svg": "/static/media/stethoscope.028c3ab5.svg",
     "static/media/telehealth-news.jpg": "/static/media/telehealth-news.62a3d1a7.jpg",
@@ -105,8 +106,8 @@
   "entrypoints": [
     "static/js/runtime-main.effb0ce6.js",
     "static/css/2.37c00e0b.chunk.css",
-    "static/js/2.6cbcac44.chunk.js",
+    "static/js/2.52b733af.chunk.js",
     "static/css/main.bf323abc.chunk.css",
-    "static/js/main.df4898a2.chunk.js"
+    "static/js/main.b3cfe4b2.chunk.js"
   ]
 }

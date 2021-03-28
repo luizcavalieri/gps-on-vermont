@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2b48654a45f7b629a9bc2e0cb30a835f",
+    "revision": "fd7f272204dc77b1caedf0a0373dfec5",
     "url": "/index.html"
   },
   {
-    "revision": "e89e6d56d3847ba4404f",
+    "revision": "d340604ff22b1a44443a",
     "url": "/static/css/2.37c00e0b.chunk.css"
   },
   {
-    "revision": "ba367117515fd4690494",
+    "revision": "eaf0a68ab528293aeb6f",
     "url": "/static/css/main.bf323abc.chunk.css"
   },
   {
-    "revision": "e89e6d56d3847ba4404f",
-    "url": "/static/js/2.6cbcac44.chunk.js"
+    "revision": "d340604ff22b1a44443a",
+    "url": "/static/js/2.52b733af.chunk.js"
   },
   {
     "revision": "8d7125c4930dd9466bca86895943099e",
-    "url": "/static/js/2.6cbcac44.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.52b733af.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ba367117515fd4690494",
-    "url": "/static/js/main.df4898a2.chunk.js"
+    "revision": "eaf0a68ab528293aeb6f",
+    "url": "/static/js/main.b3cfe4b2.chunk.js"
   },
   {
     "revision": "6c8c6f284ff807139f13",
@@ -366,6 +366,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d593232df097af3492ca44f2261d65e4",
     "url": "/static/media/skincheck.d593232d.svg"
+  },
+  {
+    "revision": "7e07d589f75efce3d37ff3dd22e1bc5a",
+    "url": "/static/media/sleep-apnoea-news.7e07d589.jpg"
   },
   {
     "revision": "e25c2db485b739905c08bf4da22bbc3e",
