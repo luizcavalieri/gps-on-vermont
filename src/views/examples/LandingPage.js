@@ -16,7 +16,7 @@ import HomeNavbar from "../../components/NavBars/HomeNavbar";
 import newsContent from "../../data/news-content";
 import staffContent from "../../data/staff-content";
 import { headerScrolling } from "./commons";
-import Announcement from "../../components/General/Announcement";
+// import Announcement from "../../components/General/Announcement";
 import TeleHealth from "../../components/General/TeleHealth";
 
 function LandingPage() {
@@ -26,7 +26,7 @@ function LandingPage() {
   const messageTitle = "GPs On Vermont Medical Centre";
   const bulkBilled = "gpv-bulk-billed-medical-centre.png";
   const privateBilled = "gpv-private-billed-medical-centre.png"
-  const telehealth = "gpv-telehealth.png"
+  // const telehealth = "gpv-telehealth.png"
   useEffect(() => {
     headerScrolling();
   });

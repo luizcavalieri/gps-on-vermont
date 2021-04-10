@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import BusinessCard from "./BusinessCard";
+// import BusinessCard from "./BusinessCard";
 import "react-multi-carousel/lib/styles.css";
 import Carousel from "react-multi-carousel";
 import { deviceType } from "react-device-detect";

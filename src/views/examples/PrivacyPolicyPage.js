@@ -1,14 +1,15 @@
-import React, { useEffect, useState, StyleSheet } from "react";
+// import React, { useEffect, useState, StyleSheet } from "react";
+import React, { useEffect } from "react";
 import { headerScrolling } from "./commons";
 import OtherNavbar from "../../components/NavBars/OtherNavbar";
 import DarkFooter from "../../components/Footers/DarkFooter";
-import { Container } from "reactstrap";
-import { UncontrolledCollapse, Button, Table, CardBody, Card } from 'reactstrap';
+// import { Container } from "reactstrap";
+import { UncontrolledCollapse, Table, CardBody, Card } from 'reactstrap';
 import LandingPageHeader from "../../components/Headers/LandingPageHeader";
 // import {Document, Page} from 'react-pdf';
 // import privacyPolicyPdf from '../../assets/docs/GPS-001-PrivacyPolicy.pdf';
 // import privacyPolicypdf from '../../assets/img/test.pdf';
-import { getByPlaceholderText } from "@testing-library/react";
+// import { getByPlaceholderText } from "@testing-library/react";
 
 const PrivacyPolicyPage = () => {
     const message = "Privacy Policy";
