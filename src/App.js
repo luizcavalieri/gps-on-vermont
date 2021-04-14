@@ -30,7 +30,8 @@ import ScrollToTop from "./components/General/ScrollToTop";
 import NewsDetailsPage from "./views/examples/NewsDetailsPage";
 import CareerPage from "./views/examples/CareerPage";
 import NewsNavigationPage from "./views/examples/NewsNavigationPage";
-import PrivacyPolicyPage from "./views/examples/PrivacyPolicyPage"
+import PrivacyPolicyPage from "./views/examples/PrivacyPolicyPage";
+import NewsSearchNavigationPage from "./views/examples/NewsSearchNavigationPage";
 
 // This is to avoid the refresh problems when refreshing the page on github
 // https://github.com/rafrex/spa-github-pages
@@ -61,6 +62,7 @@ const App = () => {
         <Route path="/news-nav/:range" component={NewsNavigationPage} />
         <Route path="/career-page" component={CareerPage} />
         <Route path="/policy-page" component={PrivacyPolicyPage} />
+        {/* <Route path="/news-nav/search" component={NewsSearchNavigationPage} /> */}
         <Route component={NotFoundPage} />
       </Switch>
     </Router>

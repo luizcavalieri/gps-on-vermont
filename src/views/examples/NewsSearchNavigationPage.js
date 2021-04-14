@@ -7,16 +7,17 @@ import NewsCardsPreviewPagination from '../../components/General/NewsCardsPrevie
 import { headerScrolling } from './commons';
 import DarkFooter from '../../components/Footers/DarkFooter';
 import BackButton from '../../components/General/BackButton';
+import SearchNewsPanel from '../../components/General/SearchNewsPanel';
 
-const NewsNavigationPage = ({ match }) => {
-    const idFound = match.params.range;
+const NewsSearchNavigationPage = () => {
+
     useEffect(() => {
         headerScrolling();
     });
 
     return (
         <>
-            <OtherNavbar />
+            <OtherNavbar />        
             <div className="wrapper">
                 <LandingPageHeader
                     title={<BookingButton className="btn-weight" size="large" />}
@@ -27,7 +28,7 @@ const NewsNavigationPage = ({ match }) => {
                 <div className="section text-center" >
                     <BackButton children={"Go Back"} className="btn-round our-services-go-back-button" />
                     <Container className="text-muted">
-                        {idFound}
+                        <SearchNewsPanel/>
                         <NewsCardsPreviewPagination itemsPerPage={9} />
                     </Container>
                 </div>
@@ -38,4 +39,4 @@ const NewsNavigationPage = ({ match }) => {
 
 };
 
-export default NewsNavigationPage;
+export default NewsSearchNavigationPage;
