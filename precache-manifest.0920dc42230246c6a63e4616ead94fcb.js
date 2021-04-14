@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fd7f272204dc77b1caedf0a0373dfec5",
+    "revision": "734711613842e5f36a826f1755fa1e75",
     "url": "/index.html"
   },
   {
-    "revision": "d340604ff22b1a44443a",
+    "revision": "80e7890213782d5b47cd",
     "url": "/static/css/2.37c00e0b.chunk.css"
   },
   {
-    "revision": "eaf0a68ab528293aeb6f",
+    "revision": "c73ee58a9255e6f7aa98",
     "url": "/static/css/main.bf323abc.chunk.css"
   },
   {
-    "revision": "d340604ff22b1a44443a",
-    "url": "/static/js/2.52b733af.chunk.js"
+    "revision": "80e7890213782d5b47cd",
+    "url": "/static/js/2.12678e64.chunk.js"
   },
   {
-    "revision": "8d7125c4930dd9466bca86895943099e",
-    "url": "/static/js/2.52b733af.chunk.js.LICENSE.txt"
+    "revision": "b2f06720cf899633ae4030ad23234877",
+    "url": "/static/js/2.12678e64.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "eaf0a68ab528293aeb6f",
-    "url": "/static/js/main.b3cfe4b2.chunk.js"
+    "revision": "c73ee58a9255e6f7aa98",
+    "url": "/static/js/main.381b90bd.chunk.js"
   },
   {
     "revision": "6c8c6f284ff807139f13",
@@ -386,6 +386,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "7772f83e21008d6eca1bd05a77cb64a7",
     "url": "/static/media/travel.7772f83e.svg"
+  },
+  {
+    "revision": "c6ac0500f5d874d4ebe87b7579ed34a1",
+    "url": "/static/media/vaccine-shot-1-news.c6ac0500.jpg"
   },
   {
     "revision": "cb55a56132a6b2fa343180e17db8302b",
