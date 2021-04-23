@@ -18,6 +18,7 @@ import staffContent from "../../data/staff-content";
 import { headerScrolling } from "./commons";
 // import Announcement from "../../components/General/Announcement";
 import TeleHealth from "../../components/General/TeleHealth";
+import SearchNews from "../../components/General/SearchNews";
 
 function LandingPage() {
   // const [firstFocus, setFirstFocus] = useState(false);
@@ -27,6 +28,10 @@ function LandingPage() {
   const bulkBilled = "gpv-bulk-billed-medical-centre.png";
   const privateBilled = "gpv-private-billed-medical-centre.png"
   // const telehealth = "gpv-telehealth.png"
+  const landingPagePreviewNews = newsContent.filter( news => news.enabled );
+  //const enabledNews = newsContent.filter( emp => emp.enabled );
+
+
   useEffect(() => {
     headerScrolling();
   });
@@ -34,7 +39,7 @@ function LandingPage() {
   let seeMoreComponent = (
     <Row>
       <Col className="d-flex justify-content-center">
-        <Link className="text-info" to="/news-nav/all">
+        <Link className="text-info" to="/news-nav">
           <Button color="info" className=" font-paragraph" >See More News</Button>
         </Link>
       </Col>
@@ -131,8 +136,20 @@ function LandingPage() {
 
         <div className="section section-team text-center" style={{ padding: 0 }}>
           <Container>
-            <h2 className="title text-muted">Latest News</h2>
-            <NewsCardsPreview news={newsContent} start={0} quantity={6} bottomComponenet={seeMoreComponent} />
+            <Row>
+              <Col sm="12" md="6" lg="3" className="ml-auto mr-auto text-center align-self-center" >
+                {/* <img className="img-fluid pb-2 " width={"80%"} src={require(`../../assets/img/${bulkBilled}`)} alt={bulkBilled} /> */}
+              </Col>
+              <Col sm="12" lg="6" className="">
+                <h2 className="title text-muted">Latest News</h2>
+              </Col>
+              <Col sm="12" md="6" lg="3" className="ml-auto mr-auto text-center align-self-center" >
+                <SearchNews />
+              </Col>
+              
+            </Row>
+            
+            <NewsCardsPreview news={landingPagePreviewNews} start={0} quantity={6} bottomComponent={seeMoreComponent} />
           </Container>
         </div>
 

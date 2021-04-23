@@ -3,11 +3,11 @@ import { Link } from 'react-router-dom';
 import { Card, CardBody, CardFooter, CardImg, CardText, CardTitle, Col, Row } from 'reactstrap';
 import Iframe from "react-iframe";
 
-const NewsCardsPreview = ({ news, start, quantity, bottomComponenet }) => {
+const NewsCardsPreview = ({ news, start, quantity, bottomComponent }) => {
     const TEXT_SIZE = 100;
     const TITLE_SIZE = 90;
 
-    const enabledNews = news.filter( emp => emp.enabled );
+    // const enabledNews = news.filter( emp => emp.enabled );
 
     function compare(a, b) {
         const dateA = a.date;
@@ -22,7 +22,7 @@ const NewsCardsPreview = ({ news, start, quantity, bottomComponenet }) => {
         return comparison * -1;
     }
     let end;
-    if (start + quantity > enabledNews.length)
+    if (start + quantity > news.length)
         end = undefined;  //important for slice to work
     else
         end = start + quantity;
@@ -30,7 +30,7 @@ const NewsCardsPreview = ({ news, start, quantity, bottomComponenet }) => {
     return (
         <>
             <Row >
-                {enabledNews.sort(compare).slice(start, end).map((item, index) => (
+                {news.sort(compare).slice(start, end).map((item, index) => (
 
                     <Col key={index} lg={"4"} md="6" className={"ml-auto mr-auto"}>
                         <Card >
@@ -79,7 +79,7 @@ const NewsCardsPreview = ({ news, start, quantity, bottomComponenet }) => {
                                                 {item.date}
                                             </section>
                                             <section className=" read-more mr-3 mb-2">
-                                                <Link to={`/news/${item.pageLink}`} >
+                                                <Link to={`/news/id/${item.pageLink}`} >
                                                     Read more
                                                     <i className="ml-2 fa fa-angle-double-right"></i>
                                                 </Link>
@@ -93,7 +93,7 @@ const NewsCardsPreview = ({ news, start, quantity, bottomComponenet }) => {
                     </Col>
                 ))}
             </Row>
-            {bottomComponenet}
+            {bottomComponent}
 
         </>
     )

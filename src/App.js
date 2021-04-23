@@ -30,7 +30,8 @@ import ScrollToTop from "./components/General/ScrollToTop";
 import NewsDetailsPage from "./views/examples/NewsDetailsPage";
 import CareerPage from "./views/examples/CareerPage";
 import NewsNavigationPage from "./views/examples/NewsNavigationPage";
-import PrivacyPolicyPage from "./views/examples/PrivacyPolicyPage"
+import PrivacyPolicyPage from "./views/examples/PrivacyPolicyPage";
+import NewsSearchNavigationPage from  "./views/examples/NewsSearchNavigationPage";
 
 // This is to avoid the refresh problems when refreshing the page on github
 // https://github.com/rafrex/spa-github-pages
@@ -57,12 +58,12 @@ const App = () => {
         <Route path="/appointments-page" component={AppointmentsPage} />
         <Route path="/formlinks-page" component={FormLinksPage} />
         <Route path="/service-details/:id" component={ServiceDetailsPage} />
-        <Route path="/news/:pageLink" component={NewsDetailsPage} />
-        <Route path="/news-nav/:range" component={NewsNavigationPage} />
+        <Route path="/news/id/:pageLink" component={NewsDetailsPage} />
+        <Route path="/news-nav" component={NewsNavigationPage} />
+        <Route path="/news-search/:range" component={NewsSearchNavigationPage} />
         <Route path="/career-page" component={CareerPage} />
         <Route path="/policy-page" component={PrivacyPolicyPage} />
-        <Route component={NotFoundPage} />
-      </Switch>
+        <Route component={NotFoundPage} />      </Switch>
     </Router>
   );
 };

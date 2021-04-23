@@ -73,7 +73,7 @@ const News = ({ news }) => {
                       </p>
                       {item.contents[0].length > TEXT_SIZE ||
                         item.contents.length > 1 ? (
-                          <Link to={`/news/${item.pageLink}`}>
+                          <Link to={`/news/is/${item.pageLink}`}>
                             <div className="read-more">Read more</div>
                           </Link>
                         ) : null}
