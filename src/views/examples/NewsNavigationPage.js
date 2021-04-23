@@ -8,8 +8,9 @@ import { headerScrolling } from './commons';
 import DarkFooter from '../../components/Footers/DarkFooter';
 import BackButton from '../../components/General/BackButton';
 
-const NewsNavigationPage = ({ match }) => {
-    const idFound = match.params.range;
+
+const NewsNavigationPage = ( ) => {
+    // const idFound = match.params.range;
     useEffect(() => {
         headerScrolling();
     });
@@ -27,9 +28,9 @@ const NewsNavigationPage = ({ match }) => {
                 <div className="section text-center" >
                     <BackButton children={"Go Back"} className="btn-round our-services-go-back-button" />
                     <Container className="text-muted">
-                        {idFound}
-                        <NewsCardsPreviewPagination itemsPerPage={9} />
-                    </Container>
+                        
+                        <NewsCardsPreviewPagination itemsPerPage={9}  />
+                    </Container> 
                 </div>
             </div>
             <DarkFooter />

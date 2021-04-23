@@ -6,7 +6,7 @@ import Iframe from "react-iframe";
 
 const NewsDetail = ({ article }) => {
     
-    let link = "news/" + article.pageLink;
+    let link = "id/" + article.pageLink;
     const mediaList = ["facebook","twitter","whatsapp","reddit","linkedin","email"];
 
     const componentDecorator = (href, text, key) => (
