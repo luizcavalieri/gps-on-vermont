@@ -34,9 +34,9 @@ const CareerPage = () => {
             <Container >
               <Row >
                   <Col sm="12" lg="12" className="">
-                      <h5 className="description text-left">
+                      <h3 className="title text-muted ml-auto">
                       Welcome to our careers section. Here you can view our current available positions.
-                      </h5>
+                      </h3>
                   </Col>
               </Row>
               <Row>
