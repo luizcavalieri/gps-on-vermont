@@ -8,7 +8,7 @@ const jobOffers = [
       "We offer excellent rates and prestigious rooms.",
       "You are welcome to look through the premises by appointment.",
       "We are interested in someone willing to relocate to the area permanently.",
-      "Located in Vermont street Wodonga, in the heart of Wodonga's medical precinct. For expressions of interest and enquires, please contact us at: manager@gpsonvermont.com.au"
+      "For expressions of interest and enquires, please contact us at: manager@gpsonvermont.com.au"
     ],
     note: "",
     links: [

@@ -56,7 +56,7 @@ const CareerPage = () => {
               <Row>
                   <Col sm="12" lg="12" className="">
                       <h5 className="description text-left">
-                      We are proud of being able to provide the best service and care to our patients. Whilst additionally providing a work environment where our employees are making a difference while continuing to learn, develop and thrive in their specific career interests.
+                      We are proud of being able to provide the best service and care to our patients. Whilst additionally providing a work environment where our employees make a difference and continue to learn, develop and thrive in their specific career interests.
                       </h5>
                   </Col>
               </Row>
