@@ -43,7 +43,7 @@ const BarButtonsLandPageHeader = () => {
           Follow me on facebook
         </UncontrolledTooltip>
 
-        <IconSocialMediaItem
+        {/* <IconSocialMediaItem
           id="tooltip515203356"
           mediaId={"mobile"}
           link={"tel: 0407224579"}
@@ -67,7 +67,7 @@ const BarButtonsLandPageHeader = () => {
         />
         <UncontrolledTooltip delay={0} target="tooltip515203357">
           Call Us: 0407157194
-        </UncontrolledTooltip>
+        </UncontrolledTooltip> */}
 
         <IconSocialMediaItem
           id="tooltip515203353"

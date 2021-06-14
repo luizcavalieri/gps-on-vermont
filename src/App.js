@@ -32,6 +32,7 @@ import CareerPage from "./views/examples/CareerPage";
 import NewsNavigationPage from "./views/examples/NewsNavigationPage";
 import PrivacyPolicyPage from "./views/examples/PrivacyPolicyPage";
 import NewsSearchNavigationPage from  "./views/examples/NewsSearchNavigationPage";
+import DisclaimerPage from "./views/examples/DisclaimerPage";
 
 // This is to avoid the refresh problems when refreshing the page on github
 // https://github.com/rafrex/spa-github-pages
@@ -63,6 +64,8 @@ const App = () => {
         <Route path="/news-search/:range" component={NewsSearchNavigationPage} />
         <Route path="/career-page" component={CareerPage} />
         <Route path="/policy-page" component={PrivacyPolicyPage} />
+        <Route path="/disclaimer-page" component={DisclaimerPage} />
+        
         <Route component={NotFoundPage} />      </Switch>
     </Router>
   );

@@ -27,6 +27,7 @@ function DarkFooter() {
           <ul style={styles.ul}>
               <li><h5><a href=''>Resources</a></h5></li>
               <li ><Link to={`/policy-page`}> Privacy Policy</Link></li>
+              <li ><Link to={`/disclaimer-page`}>Disclaimer</Link></li>
               {/* <li ><Link to={`/sitemap-page`}>SiteMap</Link></li> */}
               {/* <li ><Link to={`/faq-page`}>FAQ</Link></li> */}
           </ul>  
@@ -36,8 +37,8 @@ function DarkFooter() {
           <ul style={styles.ul}>
               <li><h5><a href=''>Call Us</a></h5></li>
               <li><a>02 6025 2189</a></li>
-              <li><a>0407 157 194</a></li>
-              <li><a>0407 224 579</a></li>
+              {/* <li><a>0407 157 194</a></li> */}
+              {/* <li><a>0407 224 579</a></li> */}
               
           </ul>  
         </div>
