@@ -883,14 +883,14 @@ const news = [
       "If you have any queries about the information mentioned above, are experiencing symptoms, have concerns about your fertility or any other health concerns make an appointment to see us. It could be endometriosis or something else behind your symptoms. The sooner we can help you get a diagnosis, the sooner we can help with treatment and management and you can return to having a good quality of life.",
       "If you would like to learn more about endometriosis please visit: https://www.healthdirect.gov.au/endometriosis or visit The World Endometriosis Society for more information, research and useful resources: http://endometriosis.ca/.",
     ],
-    date: "28-04-2021",
+    date: "2021-04-28",
     enabled: true
   },
   {
     id: "29",
     type: "img",
     img: "gps-on-vermont-medical-centre-news.jpg",
-    pageLink: "corona-virus-update-29-05-2021-news",
+    pageLink: "corona-virus-update-2021-05-29-news",
     title: "A Coronavirus (COVID-19) Update: Yes! We are open!",
     contents: [
       "You can either have your appointment in person at GP's on Vermont Medical Centre or via Telehealth.",
@@ -916,7 +916,23 @@ const news = [
        "The latest VIC government updates on COVID-19 can be found here: https://www.coronavirus.vic.gov.au/coronavirus-covidsafe-settings.",
           
     ],
-    date: "29-05-2021",
+    date: "2021-05-29",
+    enabled: true
+  },
+  {
+    id: "30",
+    type: "img",
+    img: "gps-on-vermont-medical-centre-news.jpg",
+    pageLink: "gp-position-available-2021-06-14-news",
+    title: "YAY! We Are Hiring!",
+    contents: [
+      "We are happy to announce a full-time GP position is available for a Vocationally or Non-Vocationally Registered General Practitioner.",
+      "We offer excellent rates and prestigious rooms.",
+      "You are welcome to look through the premises by appointment.",
+      "We are interested in someone willing to relocate to the area permanently.",
+      "For expressions of interest and enquires, please contact us at: manager@gpsonvermont.com.au"
+    ],
+    date: "2021-06-14",
     enabled: true
   },
   {

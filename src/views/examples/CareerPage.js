@@ -100,7 +100,7 @@ const CareerPage = () => {
                     />
                     <section>
                       <ReactLinkify >
-                        <h3>{job.title}</h3>
+                        <h3>Position: {job.title}</h3>
 
                         {job.descriptions.map((par, index) => (
                           <p key={index}>{par}</p>
