@@ -38,7 +38,7 @@ const SearchNews = () => {
                         ) :
                         (
                             <>
-                                <Link onClick ={(e)=> {e.preventDefault()}}>
+                                <Link to="/#" onClick ={(e)=> {e.preventDefault()}}>
                                 <i className=" mr-auto ml-3 pr-1 fa fa-search"></i>
                                 </Link>
                             </>

@@ -53,7 +53,7 @@ const staff = [
     titleAbr: "Dr",
     title: "Doctor",
     name: "Richard Barkas",
-    image: "avatar.jpg",
+    image: "dr-barkas.jpg",
     accreditations: ["MBBS", "FRACGP", "DRANZCOG(Adv)"],
     descriptions: [
       "Dr Barkas has been working as a General Practitioner across the border communities for many years and will be working at GPs on Vermont on a part-time basis.",
