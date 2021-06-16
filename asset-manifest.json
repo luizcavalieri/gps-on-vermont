@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.02c6d039.chunk.css",
-    "main.js": "/static/js/main.e1b24f01.chunk.js",
-    "main.js.map": "/static/js/main.e1b24f01.chunk.js.map",
+    "main.js": "/static/js/main.dfecf6b6.chunk.js",
+    "main.js.map": "/static/js/main.dfecf6b6.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.effb0ce6.js",
     "runtime-main.js.map": "/static/js/runtime-main.effb0ce6.js.map",
     "static/css/2.4da80e7d.chunk.css": "/static/css/2.4da80e7d.chunk.css",
-    "static/js/2.b9d0ad1b.chunk.js": "/static/js/2.b9d0ad1b.chunk.js",
-    "static/js/2.b9d0ad1b.chunk.js.map": "/static/js/2.b9d0ad1b.chunk.js.map",
+    "static/js/2.45a9a7fb.chunk.js": "/static/js/2.45a9a7fb.chunk.js",
+    "static/js/2.45a9a7fb.chunk.js.map": "/static/js/2.45a9a7fb.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.ecb7992435941afaba5cf504f916c6c0.js": "/precache-manifest.ecb7992435941afaba5cf504f916c6c0.js",
+    "precache-manifest.21a21c8020715d141053c9dfe9b92327.js": "/precache-manifest.21a21c8020715d141053c9dfe9b92327.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.4da80e7d.chunk.css.map": "/static/css/2.4da80e7d.chunk.css.map",
     "static/css/main.02c6d039.chunk.css.map": "/static/css/main.02c6d039.chunk.css.map",
-    "static/js/2.b9d0ad1b.chunk.js.LICENSE.txt": "/static/js/2.b9d0ad1b.chunk.js.LICENSE.txt",
+    "static/js/2.45a9a7fb.chunk.js.LICENSE.txt": "/static/js/2.45a9a7fb.chunk.js.LICENSE.txt",
     "static/media/Annette-Baumgarten.jpg": "/static/media/Annette-Baumgarten.4a291657.jpg",
     "static/media/Evie-Frawley.jpg": "/static/media/Evie-Frawley.60d7a159.jpg",
     "static/media/Jen-Walker.jpg": "/static/media/Jen-Walker.88124177.jpg",
@@ -52,6 +52,7 @@
     "static/media/creative-tim-white-slim2.png": "/static/media/creative-tim-white-slim2.f7cb2d39.png",
     "static/media/doc-patient-stethoscope.jpg": "/static/media/doc-patient-stethoscope.1da755bb.jpg",
     "static/media/doctor-patient-consultation.jpg": "/static/media/doctor-patient-consultation.eec75de2.jpg",
+    "static/media/dr-barkas.jpg": "/static/media/dr-barkas.adb4c7ae.jpg",
     "static/media/dr-carmen-padilla.jpg": "/static/media/dr-carmen-padilla.f8e7701d.jpg",
     "static/media/dr-ramsay.jpg": "/static/media/dr-ramsay.7f25e656.jpg",
     "static/media/endometriosis-concern-news.jpg": "/static/media/endometriosis-concern-news.4c095be4.jpg",
@@ -109,8 +110,8 @@
   "entrypoints": [
     "static/js/runtime-main.effb0ce6.js",
     "static/css/2.4da80e7d.chunk.css",
-    "static/js/2.b9d0ad1b.chunk.js",
+    "static/js/2.45a9a7fb.chunk.js",
     "static/css/main.02c6d039.chunk.css",
-    "static/js/main.e1b24f01.chunk.js"
+    "static/js/main.dfecf6b6.chunk.js"
   ]
 }
