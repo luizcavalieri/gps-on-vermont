@@ -74,6 +74,30 @@ const staff = [
     enabled: true
   },
   {
+    titleAbr: "Dr",
+    title: "Doctor",
+    name: "Joyce Manthi",
+    image: "dr-manthi.jpg",
+    accreditations: ["MBChB (Nairobi) ", "Dip. Emergency Med (Rome, Italy)", "MPH (Liverpool, UK)"],
+    descriptions: [
+      "Dr. Joyce Manthi graduated with a medical degree from the University of Nairobi, Kenya. Before recently relocating to Australia, Dr. Joyce had been practising as a medical doctor in Kenya for over 8 years.",
+      "Joyce has special interests in women’s health, infectious diseases, lifestyle and preventive medicine."
+    ],
+    availability: [
+      { day: "Mon", desc: "Monday", from: "8:30", to: "5:20", notes: "" },
+      { day: "Tue", desc: "Tuesday", from: "8:30", to: "5:20", notes: "" },
+      { day: "Wed", desc: "Wednesday", from: "8:30", to: "5:20", notes: "" },
+      { day: "Thu", desc: "Thursday", from: "8:30", to: "5:20", notes: "" },
+      { day: "Fri", desc: "Friday", from: "8:30", to: "5:20", notes: "" },
+      { day: "Sat", desc: "Saturday", from: "9:00", to: "4:20", notes: "" }
+    ],
+    speaks: ["English", "Swahili"],
+    booking: true,
+    bookingDoctorId: "dr-joyce-manthi",
+    socialMedia: [],
+    enabled: true
+  },
+  {
     titleAbr: "Pm",
     title: "Practice Manager",
     name: "Annette Baumgarten",
@@ -218,7 +242,7 @@ const staff = [
         link: "tel: 0260252189"
       }
     ],
-    enabled: true
+    enabled: false
   },
   {
     titleAbr: "Ms",
@@ -232,6 +256,32 @@ const staff = [
     speaks: ["English"],
     descriptions: [
       "Rebecca is one of our two very friendly and professional receptionists.",
+      "She will either greet you from behind the front desk upon entering into the clinic or on the phone when you call us.",
+      "She is also available to answer your queries and help with your check out once your appointment is completed.",
+      "She enjoys helping people and giving support and guidance as needed. Come in and say hello!"   
+    ],
+    booking: false,
+    bookingDoctorId: "",
+    socialMedia: [
+      {
+        id: "phone",
+        link: "tel: 0260252189"
+      }
+    ],
+    enabled: false
+  },
+  {
+    titleAbr: "Ms",
+    title: "Receptionist",
+    name: "Bayleigh Reedy",
+    image: "Bayleigh-Reedy.jpg",
+    accreditations: [],
+    availability: [
+      { day: "Call", desc: "call for an appointment", from: "", to: "", notes: "" }
+    ],
+    speaks: ["English"],
+    descriptions: [
+      "Rebecca is one of our friendly and professional receptionists.",
       "She will either greet you from behind the front desk upon entering into the clinic or on the phone when you call us.",
       "She is also available to answer your queries and help with your check out once your appointment is completed.",
       "She enjoys helping people and giving support and guidance as needed. Come in and say hello!"   
