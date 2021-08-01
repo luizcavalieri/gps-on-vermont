@@ -73,8 +73,8 @@ const fees = [
                 rownum: 1,
                 data: [
                     ["Standard Consult", "(less than 20 minutes)"],
-                    "$73.75",
-                    "$38.75",
+                    "$74.10",
+                    "$39.10",
                     "$35.00"
                 ]
 
@@ -83,8 +83,8 @@ const fees = [
                 rownum: 2,
                 data: [
                     ["Long Consult", "(more than 20 minutes)"],
-                    "$110.05",
-                    "$75.05",
+                    "$110.75",
+                    "$75.75",
                     "$35.00"
                 ]
 
@@ -93,8 +93,8 @@ const fees = [
                 rownum: 3,
                 data: [
                     ["Pensioner Standard Consult", "(less than 20 minutes)"],
-                    "$58.75",
-                    "$38.75",
+                    "$59.10",
+                    "$39.10",
                     "$20.00"
                 ]
 
@@ -103,8 +103,8 @@ const fees = [
                 rownum: 4,
                 data: [
                     ["Pensioner Long Consult", "(more than 20 minutes)"],
-                    "$95.05",
-                    "$75.05",
+                    "$95.75",
+                    "$75.75",
                     "$20.00"
                 ]
 

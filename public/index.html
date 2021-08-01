@@ -85,6 +85,15 @@
 </script>
 <!-- End Single Page Apps for GitHub Pages -->
 
+
+ <!-- Issue workaround for React v16. But at some point we need to upgrade react version to v17.0.2-->
+ <!-- https://github.com/facebook/create-react-app/issues/10474 -->
+ <script>
+  // See https://github.com/facebook/react/issues/20829#issuecomment-802088260
+  if (!crossOriginIsolated) SharedArrayBuffer = ArrayBuffer;
+</script>
+
+
 <!-- Start script to embed hotdocs bookings -->
 <script async src="https://cdn.hotdoc.com.au/static/assets/js/hotdoc-widgets.min.js" charset="utf-8"></script>
 <!-- End embed hotdocs bookings -->    
