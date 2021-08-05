@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.02c6d039.chunk.css",
-    "main.js": "/static/js/main.e97e5051.chunk.js",
-    "main.js.map": "/static/js/main.e97e5051.chunk.js.map",
+    "main.js": "/static/js/main.37a79b94.chunk.js",
+    "main.js.map": "/static/js/main.37a79b94.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.effb0ce6.js",
     "runtime-main.js.map": "/static/js/runtime-main.effb0ce6.js.map",
     "static/css/2.4da80e7d.chunk.css": "/static/css/2.4da80e7d.chunk.css",
-    "static/js/2.ed63d853.chunk.js": "/static/js/2.ed63d853.chunk.js",
-    "static/js/2.ed63d853.chunk.js.map": "/static/js/2.ed63d853.chunk.js.map",
+    "static/js/2.e5ca6acb.chunk.js": "/static/js/2.e5ca6acb.chunk.js",
+    "static/js/2.e5ca6acb.chunk.js.map": "/static/js/2.e5ca6acb.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.d6fec80c18ea84a587fb160644644d4c.js": "/precache-manifest.d6fec80c18ea84a587fb160644644d4c.js",
+    "precache-manifest.98a54e6f97e7923d2c3f4c72d0f37981.js": "/precache-manifest.98a54e6f97e7923d2c3f4c72d0f37981.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.4da80e7d.chunk.css.map": "/static/css/2.4da80e7d.chunk.css.map",
     "static/css/main.02c6d039.chunk.css.map": "/static/css/main.02c6d039.chunk.css.map",
-    "static/js/2.ed63d853.chunk.js.LICENSE.txt": "/static/js/2.ed63d853.chunk.js.LICENSE.txt",
+    "static/js/2.e5ca6acb.chunk.js.LICENSE.txt": "/static/js/2.e5ca6acb.chunk.js.LICENSE.txt",
     "static/media/Annette-Baumgarten.jpg": "/static/media/Annette-Baumgarten.4a291657.jpg",
     "static/media/Bayleigh-Reedy.jpg": "/static/media/Bayleigh-Reedy.666e5f58.jpg",
     "static/media/Evie-Frawley.jpg": "/static/media/Evie-Frawley.60d7a159.jpg",
@@ -36,6 +36,7 @@
     "static/media/blue-september-prostate-cancer-news.jpg": "/static/media/blue-september-prostate-cancer-news.a354129c.jpg",
     "static/media/blurred-image-1.jpg": "/static/media/blurred-image-1.0e3525dc.jpg",
     "static/media/book-your-flu-shot-news.jpg": "/static/media/book-your-flu-shot-news.e1812d58.jpg",
+    "static/media/bowel-cancer-news.jpg": "/static/media/bowel-cancer-news.d9485d41.jpg",
     "static/media/breast-cancer-news.jpg": "/static/media/breast-cancer-news.d0efadf2.jpg",
     "static/media/cancer-and-covid-19-news.jpg": "/static/media/cancer-and-covid-19-news.d65b9399.jpg",
     "static/media/cancer-symptoms-trials-news.jpg": "/static/media/cancer-symptoms-trials-news.fd68865e.jpg",
@@ -112,8 +113,8 @@
   "entrypoints": [
     "static/js/runtime-main.effb0ce6.js",
     "static/css/2.4da80e7d.chunk.css",
-    "static/js/2.ed63d853.chunk.js",
+    "static/js/2.e5ca6acb.chunk.js",
     "static/css/main.02c6d039.chunk.css",
-    "static/js/main.e97e5051.chunk.js"
+    "static/js/main.37a79b94.chunk.js"
   ]
 }
