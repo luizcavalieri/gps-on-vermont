@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.02c6d039.chunk.css",
-    "main.js": "/static/js/main.37a79b94.chunk.js",
-    "main.js.map": "/static/js/main.37a79b94.chunk.js.map",
+    "main.js": "/static/js/main.47477cbd.chunk.js",
+    "main.js.map": "/static/js/main.47477cbd.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.effb0ce6.js",
     "runtime-main.js.map": "/static/js/runtime-main.effb0ce6.js.map",
     "static/css/2.4da80e7d.chunk.css": "/static/css/2.4da80e7d.chunk.css",
-    "static/js/2.e5ca6acb.chunk.js": "/static/js/2.e5ca6acb.chunk.js",
-    "static/js/2.e5ca6acb.chunk.js.map": "/static/js/2.e5ca6acb.chunk.js.map",
+    "static/js/2.da434cab.chunk.js": "/static/js/2.da434cab.chunk.js",
+    "static/js/2.da434cab.chunk.js.map": "/static/js/2.da434cab.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.98a54e6f97e7923d2c3f4c72d0f37981.js": "/precache-manifest.98a54e6f97e7923d2c3f4c72d0f37981.js",
+    "precache-manifest.06f0665f7144f5b550f1e2a70b57cdaf.js": "/precache-manifest.06f0665f7144f5b550f1e2a70b57cdaf.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.4da80e7d.chunk.css.map": "/static/css/2.4da80e7d.chunk.css.map",
     "static/css/main.02c6d039.chunk.css.map": "/static/css/main.02c6d039.chunk.css.map",
-    "static/js/2.e5ca6acb.chunk.js.LICENSE.txt": "/static/js/2.e5ca6acb.chunk.js.LICENSE.txt",
+    "static/js/2.da434cab.chunk.js.LICENSE.txt": "/static/js/2.da434cab.chunk.js.LICENSE.txt",
     "static/media/Annette-Baumgarten.jpg": "/static/media/Annette-Baumgarten.4a291657.jpg",
     "static/media/Bayleigh-Reedy.jpg": "/static/media/Bayleigh-Reedy.666e5f58.jpg",
     "static/media/Evie-Frawley.jpg": "/static/media/Evie-Frawley.60d7a159.jpg",
@@ -87,6 +87,7 @@
     "static/media/logo-square.jpg": "/static/media/logo-square.00ac6ca2.jpg",
     "static/media/medal.svg": "/static/media/medal.668a22e5.svg",
     "static/media/medication.svg": "/static/media/medication.012b8877.svg",
+    "static/media/mental-health-news.jpg": "/static/media/mental-health-news.c005d505.jpg",
     "static/media/not-found.jpg": "/static/media/not-found.6fa76661.jpg",
     "static/media/nsw-vic-border-closure-news.jpg": "/static/media/nsw-vic-border-closure-news.fe5e4277.jpg",
     "static/media/nucleo-logo.svg": "/static/media/nucleo-logo.87ac3bb5.svg",
@@ -113,8 +114,8 @@
   "entrypoints": [
     "static/js/runtime-main.effb0ce6.js",
     "static/css/2.4da80e7d.chunk.css",
-    "static/js/2.e5ca6acb.chunk.js",
+    "static/js/2.da434cab.chunk.js",
     "static/css/main.02c6d039.chunk.css",
-    "static/js/main.37a79b94.chunk.js"
+    "static/js/main.47477cbd.chunk.js"
   ]
 }
