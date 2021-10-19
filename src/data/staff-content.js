@@ -136,6 +136,47 @@ const staff = [
         link: "tel: 0477413700"
       }
     ],
+    enabled: false
+  },
+  {
+    titleAbr: "Pm",
+    title: "Practice Manager",
+    name: "Liz Caunt",
+    image: "avatar.jpg",
+    accreditations: [
+      "Advanced Diploma in Business Management ",
+      "Justice of the Peace."
+    ],
+    descriptions: [
+      "Our administration Team is managed by our Practice Manager Liz.",
+      "Liz has extensive experience working in health management, and believes that patient care is a priority of the practice.",
+      "She is very passionate about maintaining a high level of Customer Service for the patients of the practice and will maintain open lines of communication."
+    ],
+    availability: [
+      { day: "Mon", desc: "Monday", from: "8:30", to: "5:20", notes: "" },
+      { day: "Tue", desc: "Tuesday", from: "8:30", to: "5:20", notes: "" },
+      { day: "Wed", desc: "Wednesday", from: "8:30", to: "5:20", notes: "" },
+      { day: "Thu", desc: "Thursday", from: "8:30", to: "5:20", notes: "" },
+      { day: "Fri", desc: "Friday", from: "8:30", to: "5:20", notes: "" },
+      { day: "Sat", desc: "Saturday", from: "9:00", to: "12:30", notes: "" }
+    ],
+    speaks: ["English"],
+    booking: false,
+    bookingDoctorId: "",
+    socialMedia: [
+      {
+        id: "facebook",
+        link: "https://www.facebook.com/gpsonvermont/"
+      },
+      {
+        id: "landline",
+        link: "tel: 0260252189"
+      },
+      {
+        id: "mobile",
+        link: "tel: 0477413700"
+      }
+    ],
     enabled: true
   },
   {
@@ -285,6 +326,32 @@ const staff = [
       "She will either greet you from behind the front desk upon entering into the clinic or on the phone when you call us.",
       "She is also available to answer your queries and help with your check out once your appointment is completed.",
       "She enjoys helping people and giving support and guidance as needed. Come in and say hello!"   
+    ],
+    booking: false,
+    bookingDoctorId: "",
+    socialMedia: [
+      {
+        id: "phone",
+        link: "tel: 0260252189"
+      }
+    ],
+    enabled: false
+  },
+  {
+    titleAbr: "Ms",
+    title: "Receptionist",
+    name: "Summer Matthews",
+    image: "Summer-Matthews.jpg",
+    accreditations: [],
+    availability: [
+      { day: "Call", desc: "call for an appointment", from: "", to: "", notes: "" }
+    ],
+    speaks: ["English"],
+    descriptions: [
+      "Summer is one of our friendly and professional receptionists.",
+      "She will assist you in scheduling your appointments and try her best to answer your questions.",
+      "She is also available to answer your queries and help with your check out once your appointment is completed.",
+      "She can’t wait to meet you!"   
     ],
     booking: false,
     bookingDoctorId: "",
