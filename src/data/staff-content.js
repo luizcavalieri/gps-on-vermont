@@ -142,7 +142,7 @@ const staff = [
     titleAbr: "Pm",
     title: "Practice Manager",
     name: "Liz Caunt",
-    image: "avatar.jpg",
+    image: "Liz-Caunt.jpg",
     accreditations: [
       "Advanced Diploma in Business Management ",
       "Justice of the Peace."
@@ -171,10 +171,6 @@ const staff = [
       {
         id: "landline",
         link: "tel: 0260252189"
-      },
-      {
-        id: "mobile",
-        link: "tel: 0477413700"
       }
     ],
     enabled: true
