@@ -16,7 +16,7 @@ import HomeNavbar from "../../components/NavBars/HomeNavbar";
 import newsContent from "../../data/news-content";
 import staffContent from "../../data/staff-content";
 import { headerScrolling } from "./commons";
-// import Announcement from "../../components/General/Announcement";
+import Announcement from "../../components/General/Announcement";
 import TeleHealth from "../../components/General/TeleHealth";
 import SearchNews from "../../components/General/SearchNews";
 
@@ -116,21 +116,33 @@ function LandingPage() {
               <Col sm="12" md="8" lg="6" className="ml-auto mr-auto text-center" >
                 <h2 className="title text-muted">Opening Hours</h2>
               </Col>
-            </Row>
-            <Row >
-              <Col sm="12" md="8" lg="8" className={"ml-auto mr-auto"}>
-                <OpeningHours2 />
+              <Col sm="12" md="8" lg="6" className="ml-auto mr-auto text-center" >
+                <h2 className="title text-muted">Holiday Hours</h2>
               </Col>
             </Row>
             {/* <Row >
+              <Col sm="12" md="8" lg="8" className={"ml-auto mr-auto"}>
+                <OpeningHours />
+              </Col>
+            </Row> */}
+            <Row >
               <Col sm="12" md="6" lg="6" >
                 <OpeningHours2 />
               </Col>
               <Col sm="12" md="6" lg="6" >
                 <Announcement />
               </Col>
-            </Row> */}
-            
+            </Row>
+            <Row >
+              <Col sm="12" md="8" lg="8" className={"ml-auto mr-auto"}>
+              <h5 className="description text-center">
+                  <b>Christmas Opening Hours GPs on Vermont</b> will be operating at reduced hours over the holiday period.
+                  We recommend checking your prescriptions and certificates etc. to ensure you are adequately covered for this time.
+                  If there if there is an emergency during this time please dial 000 or go to the emergency department across the road.
+                  On behalf of the GPs on Vermont team, we thank you for your support, patience and understanding throughout 2021, and we wish you a healthy, safe and merry festive season and a happy new year!
+              </h5>
+              </Col>
+            </Row>
           </Container>
         </div>
 

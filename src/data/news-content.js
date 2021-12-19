@@ -1155,6 +1155,23 @@ const news = [
     enabled: true
   },
   {
+    id: "42",
+    type: "img",
+    img: "gps-on-vermont-medical-centre-news.jpg",
+    pageLink: "covid-19-vaccine-update-1-news",
+    title: "COVID-19 Vaccine Update",
+    contents: [
+      "From the 12th of January 2022, GPs on Vermont will have Pfizer Vaccine Booster shots available",
+      "We will also be offering Pfizer vaccinations for children aged 5-11 years from this date.",
+      "So why not start the year with some peace of mind by making sure you and your loved ones have bolstered protection against COVID-19?",
+      "If you would like to receive your free vaccine shot please call our reception to book an appointment.",
+      "If you need anything clarified in relation to the vaccinations please speak to your Doctor.",
+      "We are looking forward to seeing you in January!"
+    ],
+    date: "2021-12-19",
+    enabled: true
+  },
+  {
     id: "29",
     type: "img",
     img: "alzheimers-dementia-news.jpg",
@@ -1187,7 +1204,7 @@ const news = [
       "",
       ""
     ],
-    date: "2020-11-05",
+    date: "2021-11-05",
     enabled: false
   }
 ];

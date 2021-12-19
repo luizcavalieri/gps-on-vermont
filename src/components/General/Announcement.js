@@ -13,15 +13,15 @@ const Announcement = () => {
                 <CardImg height="350" src={require(`../../assets/img/${backImage}`)} alt={backImage} />
                 <CardImgOverlay style={{ backgroundColor: "#3f4144a6" }}>
 
-                    <CardTitle tag="h2" className=" text-center ad-card-title">
+                    {/* <CardTitle tag="h2" className=" text-center ad-card-title">
                         <div className=" font-weight-bolder " >
                             Holiday Hours
                         </div>
-                    </CardTitle>
+                    </CardTitle> */}
 
                     <CardTitle tag="h5" className=" clearfix opening-hours">
                         <div className="float-left">Christmas Eve</div>
-                        <div className="float-right">8:00 am to 4:00 pm</div>
+                        <div className="float-right">8:00 am to 12:00 pm</div>
                     </CardTitle>
                     <CardTitle tag="h5" className=" clearfix opening-hours">
                         <div className="float-left">Christmas Day</div>
@@ -32,20 +32,24 @@ const Announcement = () => {
                         <div className="float-right">CLOSED</div>
                     </CardTitle>
                     <CardTitle tag="h5" className=" clearfix opening-hours">
-                        <div className="float-left">27, 28 Dec</div>
+                        <div className="float-left">27 Dec</div>
+                        <div className="float-right">CLOSED</div>
+                    </CardTitle>
+                    <CardTitle tag="h5" className=" clearfix opening-hours">
+                        <div className="float-left">28 Dec</div>
                         <div className="float-right">CLOSED</div>
                     </CardTitle>
                     <CardTitle tag="h5" className=" clearfix opening-hours">
                         <div className="float-left">29 Dec</div>
-                        <div className="float-right">8:00 am to 5:20 pm</div>
+                        <div className="float-right">8:00 am to 6:00 pm</div>
                     </CardTitle>
                     <CardTitle tag="h5" className=" clearfix opening-hours">
                         <div className="float-left">30 Dec</div>
-                        <div className="float-right">8:00 am to 5:20 pm</div>
+                        <div className="float-right">8:00 am to 6:00 pm</div>
                     </CardTitle>
                     <CardTitle tag="h5" className=" clearfix opening-hours">
                         <div className="float-left">New Year's Eve</div>
-                        <div className="float-right">8:00 am to 4:00 pm</div>
+                        <div className="float-right">9:00 am to 1:00 pm</div>
                     </CardTitle><CardTitle tag="h5" className=" clearfix opening-hours">
                         <div className="float-left">New Year's Day</div>
                         <div className="float-right">CLOSED</div>
