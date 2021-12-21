@@ -138,7 +138,7 @@ function LandingPage() {
               <h5 className="description text-center">
                   <b>Christmas Opening Hours GPs on Vermont</b> will be operating at reduced hours over the holiday period.
                   We recommend checking your prescriptions and certificates etc. to ensure you are adequately covered for this time.
-                  If there if there is an emergency during this time please dial 000 or go to the emergency department across the road.
+                  If there is an emergency during this time please dial 000 or go to the emergency department across the road.
                   On behalf of the GPs on Vermont team, we thank you for your support, patience and understanding throughout 2021, and we wish you a healthy, safe and merry festive season and a happy new year!
               </h5>
               </Col>

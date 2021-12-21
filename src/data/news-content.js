@@ -1172,6 +1172,26 @@ const news = [
     enabled: true
   },
   {
+    id: "43",
+    type: "img",
+    img: "xmas-tree-news.jpg",
+    pageLink: "merry-festive-season-2021-news",
+    title: "Wishing You A Very Merry Festive Season And A Happy New Year!",
+    contents: [
+      "Wow, it’s been another interesting year! One full of challenges, changes, adaptability and resilience.",
+      "Despite the challenges this past year seems to have flown by, especially in these last few months, but we couldn’t have gotten here without your support. Thank you for your patience and for bearing with us.",
+      "We are looking forward to this coming year and seeing what it will bring. We are hoping and have our fingers crossed for a much smoother and peaceful year.",
+      "Thank you for allowing us to be a part of your health team and to serve the wonderful Albury Wodonga community.",
+      "We are looking forward to continuing to be a part of your healthcare journey in 2022.",
+      "We wish you and your loved ones good health and happiness this holiday season, new year and beyond!.",
+      "Stay well, stay safe and have fun!.",
+      "-",
+      "Best wishes and sincere thanks from the team at GPs on Vermont!."
+    ],
+    date: "2021-12-21",
+    enabled: true
+  },
+  {
     id: "29",
     type: "img",
     img: "alzheimers-dementia-news.jpg",
