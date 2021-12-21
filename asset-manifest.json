@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.02c6d039.chunk.css",
-    "main.js": "/static/js/main.c6642d58.chunk.js",
-    "main.js.map": "/static/js/main.c6642d58.chunk.js.map",
+    "main.js": "/static/js/main.ec4b30f2.chunk.js",
+    "main.js.map": "/static/js/main.ec4b30f2.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.effb0ce6.js",
     "runtime-main.js.map": "/static/js/runtime-main.effb0ce6.js.map",
     "static/css/2.4da80e7d.chunk.css": "/static/css/2.4da80e7d.chunk.css",
-    "static/js/2.1917294d.chunk.js": "/static/js/2.1917294d.chunk.js",
-    "static/js/2.1917294d.chunk.js.map": "/static/js/2.1917294d.chunk.js.map",
+    "static/js/2.a9d31792.chunk.js": "/static/js/2.a9d31792.chunk.js",
+    "static/js/2.a9d31792.chunk.js.map": "/static/js/2.a9d31792.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.ea3c972b633e88f3910b6ca8ce2427a8.js": "/precache-manifest.ea3c972b633e88f3910b6ca8ce2427a8.js",
+    "precache-manifest.21c5b7356f4502f14600125a73ce4741.js": "/precache-manifest.21c5b7356f4502f14600125a73ce4741.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.4da80e7d.chunk.css.map": "/static/css/2.4da80e7d.chunk.css.map",
     "static/css/main.02c6d039.chunk.css.map": "/static/css/main.02c6d039.chunk.css.map",
-    "static/js/2.1917294d.chunk.js.LICENSE.txt": "/static/js/2.1917294d.chunk.js.LICENSE.txt",
+    "static/js/2.a9d31792.chunk.js.LICENSE.txt": "/static/js/2.a9d31792.chunk.js.LICENSE.txt",
     "static/media/Annette-Baumgarten.jpg": "/static/media/Annette-Baumgarten.4a291657.jpg",
     "static/media/Bayleigh-Reedy.jpg": "/static/media/Bayleigh-Reedy.666e5f58.jpg",
     "static/media/Evie-Frawley.jpg": "/static/media/Evie-Frawley.60d7a159.jpg",
@@ -111,13 +111,14 @@
     "static/media/vaccine-shot-1-news.jpg": "/static/media/vaccine-shot-1-news.c6ac0500.jpg",
     "static/media/vaccine.svg": "/static/media/vaccine.cb55a561.svg",
     "static/media/worker.svg": "/static/media/worker.a75c2391.svg",
+    "static/media/xmas-tree-news.jpg": "/static/media/xmas-tree-news.6950c4d4.jpg",
     "static/media/yes-we-are-open-news.jpg": "/static/media/yes-we-are-open-news.9786d011.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.effb0ce6.js",
     "static/css/2.4da80e7d.chunk.css",
-    "static/js/2.1917294d.chunk.js",
+    "static/js/2.a9d31792.chunk.js",
     "static/css/main.02c6d039.chunk.css",
-    "static/js/main.c6642d58.chunk.js"
+    "static/js/main.ec4b30f2.chunk.js"
   ]
 }
