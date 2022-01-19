@@ -57,7 +57,7 @@ const staff = [
     accreditations: ["MBBS", "FRACGP", "DRANZCOG(Adv)"],
     descriptions: [
       "Dr Barkas has been working as a General Practitioner across the border communities for many years and will be working at GPs on Vermont on a part-time basis.",
-      "Dr Barkas has a special interest in Men’s Health Family Health and Skin Checks."
+      "Dr Barkas has a special interest in Men’s Health Family Health."
     ],
     availability: [
       { day: "Mon", desc: "Monday", from: "8:30", to: "5:20", notes: "" },
