@@ -1,6 +1,7 @@
 import React from 'react';
-import { Card, CardFooter, CardImg, CardImgOverlay, CardTitle, Button } from 'reactstrap';
-import BookingButton from './BookingButton';
+import { Card, CardImg, CardImgOverlay, CardTitle } from 'reactstrap';
+// import { Card, CardFooter, CardImg, CardImgOverlay, CardTitle, Button } from 'reactstrap';
+// import BookingButton from './BookingButton';
 // import SocialMediaShareBar from './SocialMediaShareBar';
 
 
