@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.02c6d039.chunk.css",
-    "main.js": "/static/js/main.10ccd993.chunk.js",
-    "main.js.map": "/static/js/main.10ccd993.chunk.js.map",
+    "main.js": "/static/js/main.4dd5a1b0.chunk.js",
+    "main.js.map": "/static/js/main.4dd5a1b0.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.effb0ce6.js",
     "runtime-main.js.map": "/static/js/runtime-main.effb0ce6.js.map",
     "static/css/2.4da80e7d.chunk.css": "/static/css/2.4da80e7d.chunk.css",
-    "static/js/2.7a5abeff.chunk.js": "/static/js/2.7a5abeff.chunk.js",
-    "static/js/2.7a5abeff.chunk.js.map": "/static/js/2.7a5abeff.chunk.js.map",
+    "static/js/2.226e6931.chunk.js": "/static/js/2.226e6931.chunk.js",
+    "static/js/2.226e6931.chunk.js.map": "/static/js/2.226e6931.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.cada54c23e572c07d1604705ca88b964.js": "/precache-manifest.cada54c23e572c07d1604705ca88b964.js",
+    "precache-manifest.30ab43d0df49bdf765c7bde604d4c8c9.js": "/precache-manifest.30ab43d0df49bdf765c7bde604d4c8c9.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.4da80e7d.chunk.css.map": "/static/css/2.4da80e7d.chunk.css.map",
     "static/css/main.02c6d039.chunk.css.map": "/static/css/main.02c6d039.chunk.css.map",
-    "static/js/2.7a5abeff.chunk.js.LICENSE.txt": "/static/js/2.7a5abeff.chunk.js.LICENSE.txt",
+    "static/js/2.226e6931.chunk.js.LICENSE.txt": "/static/js/2.226e6931.chunk.js.LICENSE.txt",
     "static/media/Annette-Baumgarten.jpg": "/static/media/Annette-Baumgarten.4a291657.jpg",
     "static/media/Bayleigh-Reedy.jpg": "/static/media/Bayleigh-Reedy.666e5f58.jpg",
     "static/media/Evie-Frawley.jpg": "/static/media/Evie-Frawley.60d7a159.jpg",
@@ -102,6 +102,7 @@
     "static/media/rainbow.svg": "/static/media/rainbow.fa2fbab8.svg",
     "static/media/styles.css": "/static/media/revicons.2feb69cc.eot",
     "static/media/ryan.jpg": "/static/media/ryan.f217f346.jpg",
+    "static/media/skin-cancer-news.jpg": "/static/media/skin-cancer-news.efe09a37.jpg",
     "static/media/skincheck.svg": "/static/media/skincheck.d593232d.svg",
     "static/media/sleep-apnoea-news.jpg": "/static/media/sleep-apnoea-news.7e07d589.jpg",
     "static/media/sleep-deprivation-news.jpg": "/static/media/sleep-deprivation-news.e25c2db4.jpg",
@@ -117,8 +118,8 @@
   "entrypoints": [
     "static/js/runtime-main.effb0ce6.js",
     "static/css/2.4da80e7d.chunk.css",
-    "static/js/2.7a5abeff.chunk.js",
+    "static/js/2.226e6931.chunk.js",
     "static/css/main.02c6d039.chunk.css",
-    "static/js/main.10ccd993.chunk.js"
+    "static/js/main.4dd5a1b0.chunk.js"
   ]
 }
