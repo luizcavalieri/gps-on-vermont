@@ -121,7 +121,7 @@ const fees = [
             {
                 rownum: 12,
                 data: [
-                    ["Pentioner Telehealth"],
+                    ["Pensioner Telehealth"],
                     "59.10",
                     "39.10",
                     "20.00"
