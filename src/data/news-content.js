@@ -1192,6 +1192,95 @@ const news = [
     enabled: true
   },
   {
+    id: "44",
+    type: "img",
+    img: "gps-on-vermont-medical-centre-news.jpg",
+    pageLink: "important-notice-1-news",
+    title: "Dr Carmen Padilla will be moving from Bulk Billing to Private Billing",
+    contents: [
+      "As from 1st July 2022, Dr Carmen Padilla will be moving to Private Billing",
+      "",
+      "For any additional information about fees please check the fees page at https://www.gpsonvermont.com.au/fees-page",
+      "New Patients Welcome.",
+      "."
+    ],
+    date: "2022-05-18",
+    enabled: true
+  },
+  {
+    id: "45",
+    type: "img",
+    img: "skin-cancer-news.jpg",
+    pageLink: "how-healthy-is-your-sking-news",
+    title: "How healthy is your skin? When was your last skin check? Do you know your level of risk?",
+    contents: [
+      "Skin Cancer is the most common human malignancy and Australia unfortunately holds the title of being the skin cancer capital of the world!",
+      "The good news is that most skin cancers can be treatable if detected early and in a lot of cases they can be cured, often with just a simple surgical excision.",
+      "This is why we recommend a thorough and regular skin check so we can assess your level of risk and look for any signs of skin cancer. As we always say prevention and early detection are your best protection from complications and serious disease.",
+  
+      "What is skin cancer?",
+      "Skin Cancer arises when there is an uncontrolled growth of cells in the skin. These cells act abnormally and can invade or spread to other parts of the body. Most common skin cancers develop in the skins epidermis layer. In one of its three types of cells. Either in the squamous, basal or melanocyte cells. The squamous cells form the flat outer layer of skin. Then the round basal cells form the padding layer underneath. With the melanocytes sitting in the base layer pumping out melanin pigments. These pigments are important as they help protect against ultraviolet (UV) radiation induced DNA damage and against the transformation of skin cells into abnormal cancerous ones. For a good illustration and some more information of the skins layers and components visit here: https://www.cdc.gov/cancer/skin/basic_info/what-is-skin-cancer.htm)",
+  
+      "What are the most common types of skin cancers?",
+      "1. Non Melanoma's (NMSC): are the most common types of skin cancers. They develop in the basal and squamous cells of the epidermis. They have a lower mortality rate than Melanoma's, are often cure-able and if low grade can be removed by general practitioners. Basal cell carcinomas (BCCs) - are the most common type of skin cancer and they make up approximately two thirds of all skin cancers. Squamous cell carcinomas (SCCs) - are the second most common type. They account for approximately 30% of skin cancers.",
+      "2. Melanomas:  are the third most common, but deadliest type of skin cancer. They form in the skins melanocytes. Melanoma's cause the most skin cancer deaths as they easily spread (metastasise) into other body areas and organs. Melanoma's in situ (melanoma cells that haven't spread) account for 1.5% of skin cancers and the more dangerous invasive melanomas (melanoma cells that have invaded other areas of the body) make up about 1%.",
+      "3. Rare Conditions: are the least common types of skin cancer. However, Australia leads the world in having some of the highest rates of these cancers despite them making up only approximately 1% of all skin cancers. Merkel Cell Carcinoma (MCC) in particular should be mentioned. Merkel Cell Carcinoma (MCC) also known as Neuroendocrine Carcinoma of the skin - Is one of the most aggressive types of skin cancer, with an unfortunately increasing incidence worldwide. It most commonly develops on sun-exposed skin such as on the face, neck or arms. Though it can occur anywhere on the body including sun protected areas such as inside the nose or oesophagus. It usually develops in later life, affects lighter skin types and affects men more than women. Australia has some of the highest incidences of it in the world.",
+          
+      "What are some known causes of skin cancer?",
+      "Skin cancers like all cancers can arise due to many causes; including from genetics, age, random cell division mutations, environmental factors, radiation exposure and to other currently unknown causes. We are still learning and gaining more knowledge everyday about cancers. However with regards to skin cancer there are some known factors that greatly increase your chances of developing it.",
+      "These include ageing, having low levels of melanin in your skin such as in the case of those within the lighter skin types, as well as overexposure to ultraviolet (UV) radiation whether from tanning beds, sun lamps or from the suns rays.",
+      "We have a culture that loves being outdoors which is great! Especially for the fresh air, increasing our vitamin D levels, improving our mental health and for raising general fitness, however due to several factors including having a large percentage of the population within the fair skinned types, as well as our geographical positioning and having clear not heavily polluted air. This means our skies are less ultraviolet (UV) radiation protected than other regions of the world, such as those in the northern hemisphere. We have higher peak UV times with some of the highest levels of UV radiation in the world.",
+      "It also doesn't help that our senses cannot feel, see or otherwise detect UV radiation, as it is the UV that causes the skin cell damage not the suns heat. That's why you can still be burnt on cloudy and overcast days. As The Bureau of Meteorology (BOM) suggests we need to get into the habit of thinking UV not heat when it comes to thinking about skin protection.",
+      "The BOM have a great website and weather app. which tells you the current days UV levels as well as giving some tips on how to protect yourself. Click here to visit their site: http://www.bom.gov.au/uv/index.shtml.",
+  
+      "Please note: even though the risk of skin cancer is far lower in the darker skin types, some people within the darker skin types can and do develop skin cancer, so please still do self skin checks regardless of your skin type and if you notice any unusual changes or growths come in and see us.",
+  
+      "Some steps to protect yourself:", 
+      "Whether it's winter or summertime before you go outside remember to check the UV levels such as via the free BOM or SunSmart apps. (https://www.sunsmart.com.au/resources/sunsmart-app).",
+      "The BOM recommends five ways to protect yourself. These include slipping on sun-protective clothing, sloping on SPF+ sunscreen, slapping on a broad brimmed hat, seeking shade and sliding on wrap-around sunglasses to protect your retinas.",
+      "Yes, retinas can be damaged from exposure to UV radiation and short blue visible light.",
+      "If interested some information regarding UV retina damage can be found here: https://pubmed.ncbi.nlm.nih.gov/21617534/", 
+      "The BOM also recommends putting on sunscreen about 20 minutes before you go outside and re-applying it every two hours, or more frequently if it's being rubbed off by sand, dirt, clothes, water or sweat etc.",
+      "They also recommend using a SPF30 (or higher) broad spectrum, water-resistant sunscreen for maximum protection. The SPF part of the sunscreen protects from redness, the Broad spectrum part protects from long term damage. They explain the SPF factor in more detail here: http://www.bom.gov.au/uv/index.shtml.",
+  
+      "What to expect when having a skin check?",
+      "To ensure it is as quick and easy as possible we would ask you not to wear makeup and to wear clothing and footwear that is easy to remove.",
+      "A skin check is fairly quick and usually only takes about 10 minutes or so. The check will begin with being given a gown and being asked to undress, including the removal of shoes and socks.",
+      "This is because your doctor needs to be able to see all of the skin that has possibly been exposed to the sun, including your scalp, ears, hands, between your fingers, the soles of your feet and between your toes. People often forget to check their soles. However, when sitting on the sand or grass with bare feet and your legs outstretched you're often exposing the soles of your feet to the sun.",
+      "Your doctor will then often confirm your skin cancer history. They may decide if you have a history of previous skin cancer(s) to take a look at those areas first. They will also want to know if you have experienced blistering sun burns or used tanning beds etc. If you have any areas of concern that you want your doctor to check please point them out.",
+      "Your doctor will then proceed to assess your skin from the top of your head down to your toes.",
+      "If they find something that can be easily treated with liquid nitrogen it may be treated at the time of examination. Or if it is something that may need more investigation, as it could potentially be of concern, then a biopsy may be taken. The biopsy will then be sent away to a pathology lab for analysis and to confirm the diagnosis.",
+      "If you feel discomfort at any stage please let your doctor know.",
+  
+      "Please note:",
+      "We want your skin check to be as thorough and as straight forward as possible. If you have any special requirements such as disabilities or other reason that may make having a skin check a bit challenging, please let us know. Especially when you make your appointment and also on the day of your skin check so that we can better cater to your needs. Thank you!",
+  
+      "Biopsy Results", 
+      "Regarding any biopsy's taken on the day of your skin check, we will let you know once we have received your results from the lab. If you haven't heard from us after two weeks, please contact us so we can follow up.",
+  
+      "If your result is abnormal, we will discuss the next steps with you.",
+  
+      "We generally recommend yearly checks, however as everyone is unique this can vary depending on your risk factors. For example you may be required to have more frequent monitoring such as six monthly checks.",
+  
+      "When doing a self skin check take a note of any new spots. Look for any that have grown or changed rapidly especially in the last three months. If you notice any changes, new growths, bleeding, unusual spots, unusual moles or changes in the shape, colour or an expansion of existing lesions or have other skin condition queries, please make an appointment to come in and see us.",
+  
+      "Having a skin check isn't just about looking for cancer. Your doctor will also notice the overall condition of your skin and can identify other skin conditions. Including any thinning, bruising, inflammation, rashes, swelling or ulcers. Your doctor can also identify common conditions like cold sore (herpes simplex), psoriasis, shingles (herpes zoster), ringworm, eczema and Rosacea to name a few.",
+  
+      "So if you want to minimise the risks of UV damage such as premature ageing and some skin cancers. Then get into the habit, especially if it's a UV Index day of 3+. or if you're going to be outside for an extended period of time (even if overcast and/or cloudy), of protecting yourself by slip, slop, slapping, seeking and sliding, in addition to having regular self skin checks and skin checks with your doctor. If these habits are maintained then hopefully our rates of skin cancer and related mortalities will drop for the following generations.",
+  
+      "Some additional useful and or interesting website links:",
+      "If you would like additional information please visit: https://www.healthdirect.gov.au/skin-cancer-and-melanomas",
+      "The cancer council offers support and has lots of useful skin cancer information and resources they be found here:  https://www.cancercouncil.com.au/skin-cancer/",
+      "Some more information on what to look for when self checking for skin cancer can be found here: https://www.cancer.org.au/cancer-information/causes-and-prevention/sun-safety/check-for-signs-of-skin-cancer",
+      "If you're someone who enjoys data and reports you may find this link to the governments 2016 skin cancer report useful: https://www.aihw.gov.au/reports/cancer/skin-cancer-in-australia/summary-1",
+      "For additional information on Merkel Cell Carcinoma's The Neuroendocrine Organisation's has some good information: https://neuroendocrine.org.au/wp-content/uploads/2020/1",
+      "An interesting 2022 article about the ambivalent effects of ultraviolet radiation can be read here: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8960955/pdf/fonc-12-866733.pdf",
+      "As well.as at the websites mentioned above you can also find your UV forecast here: myUV.com.au"
+    ],
+    date: "2022-05-18",
+    enabled: true
+  },
+  {
     id: "29",
     type: "img",
     img: "alzheimers-dementia-news.jpg",
